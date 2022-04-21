@@ -1,0 +1,81 @@
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    font-family: goudy;
+    margin: 25px;
+    background-color: aliceblue;
+}
+.resume-container > div {
+    width:50%;
+}
+.button-header, .name-header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.btn {
+    font-family: goudy;
+    font-size: 18pt;
+    margin: 5px;
+    margin-top: 10px;
+}
+.name-header {
+    flex-direction: column;
+}
+.name-header > h1, .name-header > p {
+    margin: 5px;
+}
+.name-header > h1 {
+    margin-top: 15px;
+}
+div > h2 {
+    margin: 0;
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24pt;
+}
+.job > h3, .job > h4 {
+    font-weight: bold;
+    margin: 0;
+}
+.job > p {
+    margin:0;
+    margin-top: 5px;
+}
+.education > h4 {
+    font-weight: bold;
+    margin: 0;
+}
+.education > h4 > em {
+    font-weight: normal;
+}
+#other-link {
+    text-decoration: underline;
+}
+#other-link:hover {
+    color: black;
+}
+.other > div > h4 {
+    font-weight: bold;
+    margin: 0;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .resume-container > div {
+        width:65%;
+    }
+}
+@media screen and (max-width: 750px) {
+    .resume-container > div {
+        width:80%;
+    }
+}

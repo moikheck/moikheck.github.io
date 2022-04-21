@@ -1,0 +1,462 @@
+.display {
+    height:65vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.display > img {
+    width:600px;
+}
+
+.scrolldown {
+    text-align: center;
+    font-size: 16pt;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+.book {
+    background-image: url("section 1.png");
+    background-color: rgb(48,48,48);
+    background-repeat: no-repeat;
+    background-size: fill;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    grid-template-rows: 15fr 5fr 5fr 40fr 5fr;
+    grid-template-areas:
+    "cover availablenow"
+    "cover secrets"
+    "cover social"
+    "cover description"
+    "cover button";
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    height: 400px;
+    font-family: goudy;
+    padding-top: 475px;
+}
+#book {
+    width: 55%;
+    grid-area: cover;
+    margin:0;
+}
+#available-now {
+    grid-area: availablenow;
+    color: white;
+    text-align: center;
+    font-size: 30pt;
+    margin-bottom: 0;
+}
+#secrets {
+    grid-area: secrets;
+    color: #E6AF87;
+    text-align: left;
+    font-size: 16pt;
+    margin:0;
+}
+#book-description {
+    width:70%;
+    grid-area: description;
+    color: #E6AF87;
+    font-size: 16pt;
+    margin:0;
+    text-align: justify;
+    text-justify: inter-word;
+}
+#book-button {
+    grid-area: button;
+    margin:0;
+    margin-top: 30px;
+    background-color:transparent;
+    border:1px solid white;
+    color:white;
+    font-family: goudy;
+    font-size:16pt;
+    transition: all .5s;
+    width:70%;
+    height:100%;
+}
+#book-button:hover {
+    background-color: gray;
+}
+.book-socials {
+    display: flex;
+    height: 100%;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    grid-area: social;
+    margin:0;
+}
+.book-socials > a {
+    width: 75px;
+}
+.book-socials > a > img {
+    height:24px;
+}
+
+
+.about-the-author {
+    background-image: url("section 2.png");
+    background-repeat: no-repeat;
+    background-size: fill;
+    display: grid;
+    grid-template-columns: 2fr 6fr 6fr 2fr;
+    grid-template-rows: 1fr .5fr 7fr;
+    grid-template-areas:
+    "empty author about-title empty2"
+    "empty author underlinegrid empty2"
+    "empty author aboutabout empty2";
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: justify;
+    text-justify: inter-word;
+    column-gap: 5%;
+    height: 300px;
+    font-family: goudy;
+    padding-top: 500px;
+}
+#about-title {
+    grid-area: about-title;
+    border-bottom: 1px solid black;
+}
+#about {
+    grid-area: aboutabout;
+    line-height: 20pt;
+}
+#about-the-author {
+    grid-area: author;
+    width: 350px;
+    border: 11px solid gray;
+}
+
+
+
+.reviews {
+    background-image: url("section 3.png");
+    background-repeat: no-repeat;
+    background-size: fill;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 6vh 30vh;
+    grid-template-areas:
+    "empty reviews-title empty2"
+    "empty carousel empty2";
+    align-items: center;
+    justify-items: center;
+    text-align: justify;
+    text-justify: inter-word;
+    column-gap: 5%;
+    height: 450px;
+    font-family: goudy;
+    padding-top: 400px;
+    row-gap: 20%;
+}
+#reviews {
+    padding-top: 30px;
+    grid-area: reviews-title;
+    text-align: center;
+    color: white;
+    font-size: 36pt;
+    letter-spacing: 3px;
+    width:100%;
+}
+.carousel {
+    grid-area: carousel;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+}
+.slide-outer {
+    display: grid;
+    border: 1px solid white;
+    height: 250px;
+    width: 250px;
+    align-items: center;
+    justify-items: center;
+    background-color: #596C4C;
+    border-radius: 6px;
+    transition: all .5s;
+}
+.slide {
+    color: white;
+    text-align: center;
+    width:95%;
+    height: 95%;
+    border: 1px solid white;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: .3fr 1.7fr .4fr;
+    border-radius: 9px;
+}
+.slide > a {
+    color: inherit;
+    text-decoration: underline;
+}
+.slide-outer:hover {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    transform: scale(1.5);
+    z-index: 30;
+}
+#center {
+    position: relative;
+    left: -25%;
+}
+#left {
+    position: relative;
+    left:0%;
+    transform: rotate(-5deg);
+}
+#left:hover {
+    transform: rotate(5deg) scale(1.5);
+}
+
+
+
+.newsletter {
+    background-color: rgb(32,32,32);
+    background-repeat: no-repeat;
+    background-size: fill;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 6vh 6vh 10vh;
+    grid-template-areas:
+    "empty newsletter-title empty2"
+    "empty newsletter-offer empty2"
+    "empty form empty2";
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    column-gap: 5%;
+    height: 40vh;
+    font-family: goudy;
+    row-gap: 5%;
+    padding-top: 10vh;
+}
+#newsletter-title {
+    grid-area: newsletter-title;
+    color:lightgray;
+    border-bottom:1px solid lightgray;
+    font-family: goudy;
+    font-size:26pt;
+}
+#newsletter-offer {
+    grid-area: newsletter-offer;
+    color:lightgray;
+    font-family: goudy;
+    font-size:16pt;
+}
+.newsletter-form {
+    grid-area: form;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    column-gap:5%;
+    align-items: center;
+    justify-content: center;
+}
+#name-textbox, #email-textbox {
+    display: grid;
+    background-color: #E6AF87;
+    color:white;
+    height:50px;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+#name-textbox::placeholder, #email-textbox::placeholder {
+    color:white;
+}
+#subscribe {
+    border-radius: 9px;
+    background-color: #373B4D;
+    border: none;
+    color: white;
+    font-family: goudy;
+    font-size: 12pt;
+    height: 100%;
+    transition: all .5s;
+}
+#subscribe:hover {
+    background-color: gray;
+}
+
+.emphasis {
+    padding: 0;
+    margin: 0;
+    
+    text-decoration: none;
+    font-family: goudy;
+    text-shadow:
+    -1px -1px 0 #000,
+     0   -1px 0 #000,
+     1px -1px 0 #000,
+     1px  0   0 #000,
+     1px  1px 0 #000,
+     0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000;
+}
+
+@media screen and (max-width: 1250px) {
+
+    #about {
+        padding-right: 5%;
+        line-height: 14pt;
+        width:90%;
+    }
+    #about-the-author {
+        width: 275px;
+    }
+
+    #book {
+        width: 65%;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    
+    #about-the-author {
+        width: 200px;
+    }
+
+    .book {
+        display: grid;
+        grid-template-columns: 43vw 57vw;
+        grid-template-rows: 15fr 5fr 5fr 40fr;
+        grid-template-areas:
+        "cover availablenow"
+        "cover social"
+        "cover button"
+        "secrets secrets"
+        "description description";
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        height: 500px;
+        font-family: goudy;
+        padding-top: 475px;
+        column-gap: 0%;
+    }
+    #book {
+        width: 190px;
+    }
+    #available-now {
+        font-size: 24pt;
+        width: 90%;
+    }
+    #secrets {
+        margin-top: 60px;
+    }
+    #book-description {
+        width:90vw;
+        margin-top: 30px;
+    }
+    #book-button {
+        width:90%;
+        height:100%;
+    }
+    .book-socials {
+        width: 90%;
+    }
+    .emphasis {
+        font-size: 20pt;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .display > img {
+        width:450px;
+    }
+    
+
+
+    .about-the-author {
+        background-image: url("section 2.png");
+        background-repeat: no-repeat;
+        background-size: fill;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: 1fr .5fr 7fr;
+        grid-template-areas:
+        "author author about-title about-title"
+        "author author underlinegrid underlinegrid"
+        "author author aboutabout aboutabout";
+        align-items: center;
+        justify-items: center;
+        text-align: justify;
+        text-justify: inter-word;
+        column-gap: 5%;
+        font-family: goudy;
+        padding-top: 450px;
+    }
+    #about-title {
+        text-align: left;
+        align-self: left;
+        justify-self: left;
+    }
+    #about {
+        padding-right: 5%;
+        line-height: 14pt;
+    }
+    #about-the-author {
+        width: 150px;
+        margin-left: 10%;
+    }
+
+
+    #reviews {
+        row-gap: 0%;
+    }
+    .slide-outer {
+        height: 200px;
+        width: 200px;
+        margin-top: 10%;
+    }
+    .slide > h2 {
+        margin: 0;
+    }
+    .slide > p {
+        font-size: 11pt;
+    }
+    .slide-outer:hover {
+        transform: scale(1.15);
+    }
+    #left:hover {
+        transform: rotate(5deg) scale(1.15);
+    }
+
+    .newsletter {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 6vh 6vh 10vh;
+        grid-template-areas:
+        "newsletter-title newsletter-title newsletter-title"
+        "newsletter-offer newsletter-offer newsletter-offer"
+        "form form form";
+    }
+
+    #newsletter-offer {
+        width: 90%;
+    }
+
+    .newsletter-form {
+        width: 90%;
+        column-gap:2.5%;
+    }
+
+}

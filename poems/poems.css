@@ -1,0 +1,35 @@
+.poem-header {
+    font-family: goudy;
+    font-size:30pt;
+    text-align: center;
+    padding-top:20px;
+}
+.display {
+    padding: 0 30px 60px 30px;
+    display: flex;
+    font-family: goudy;
+    row-gap: 5%;
+}
+.poem > h3 {
+    font-size:24pt;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.poem > p {
+    font-size:13pt;
+    margin:0;
+    padding:3px;
+}
+.poem {
+    padding-left:30px;
+    padding-right: 30px;
+}
+#stanza-end {
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 750px) {
+    .display {
+        flex-direction:column;
+    }
+}

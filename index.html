@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="universal.css">
+<link rel="stylesheet" href="index.css">
+<link rel="icon" type="image/x-icon" href="favicon.png">
+
+<title>Home | Michael Heckman</title>
+<body>
+    <header class="universal-header">
+        <a id="unhighlight" class="header-home">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn" onclick="window.location='the-steam-war/index.html'">The Steam War</button>
+            <div class="dropdown-content">
+              <a href="the-steam-war/index.html#book">Book</a>
+              <a href="the-steam-war/index.html#about-the-author">About the Author</a>
+              <a href="the-steam-war/index.html#reviews">Reviews</a>
+              <a href="the-steam-war/index.html#newsletter">Newsletter</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn" onclick="window.location='luna/index.html'">Luna on the Run</button>
+            <div class="dropdown-content">
+              <a href="luna/index.html#about">About</a>
+              <a href="luna/index.html#reader">Read</a>
+              <a href="luna/index.html#carmsborough">Carmsborough</a>
+              <a href="luna/index.html#support">Support</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn" onclick="window.location='portfolio/index.html'">Portfolio</button>
+            <div class="dropdown-content">
+              <a href="computer-science/index.html">Computer Science</a>
+              <a href="music/index.html">Music</a>
+              <a href="books/index.html">Books</a>
+              <a href="poems/index.html">Poems</a>
+              <a href="coming-soon/index.html">Coming Soon</a>
+            </div>
+        </div>
+        <a href="resume/index.html" class="header-resume">Résumé</a>
+        <a href="blog/index.html" class="header-blog">Blog</a>
+        <div class="header-socials">
+            <a href="https://amazon.com/dp/B09K21NWNM" target="_blank"><img src="social-icons/amazon.png"></a>
+            <a href="https://instagram.com/thesteamwar" target="_blank"><img src="social-icons/instagram.png"></a>
+            <a href="https://tiktok.com/@thesteamwar" target="_blank"><img src="social-icons/tiktok.png"></a>
+            <a href="https://moikheck.redbubble.com" target="_blank"><img src="social-icons/redbubble.png"></a>
+            <a href="https://twitter.com/thesteamwar" target="_blank"><img src="social-icons/twitter.png"></a>
+            <a href="https://facebook.com/TheSteamWar" target="_blank"><img src="social-icons/facebook.png"></a>
+            <a href="https://thesteamwar.tumblr.com" target="_blank"><img src="social-icons/tumblr.png"></a>
+        </div>
+    </header>
+    <div class="menu-wrap">
+        <input type="checkbox" class="toggler">
+        <div class="hamburger">
+            <div></div>
+        </div>
+        <!-- There's probably a better way to duplicate this, but for now, this is probably easiest -->
+        <div class="hamburger-menu">
+            <div>
+                <div>
+                    <ul>
+                        <li class="header-home"><a id="unhighlight">Home</a></li>
+                        <li class="dropdown"><a href="the-steam-war/index.html">The Steam War</a>
+                            <div class="dropdown-content-hamburger">
+                                <a href="the-steam-war/index.html#book">Book</a>
+                                <a href="the-steam-war/index.html#about-the-author">About the Author</a>
+                                <a href="the-steam-war/index.html#reviews">Reviews</a>
+                                <a href="the-steam-war/index.html#newsletter">Newsletter</a>
+                            </div>
+                        </li>
+                        <li class="dropdown"><a href="luna/index.html">Luna on the Run</a>
+                            <div class="dropdown-content-hamburger">
+                                <a href="luna/index.html#about">About</a>
+                                <a href="luna/index.html#reader">Read</a>
+                                <a href="luna/index.html#carmsborough">Carmsborough</a>
+                                <a href="luna/index.html#support">Support</a>
+                            </div>
+                        </li>
+                        <li class="dropdown"><a href="portfolio/index.html">Portfolio</a>
+                            <div class="dropdown-content-hamburger">
+                                <a href="computer-science/index.html">Computer Science</a>
+                                <a href="music/index.html">Music</a>
+                                <a href="books/index.html">Books</a>
+                                <a href="poems/index.html">Poems</a>
+                                <a href="coming-soon/index.html">Coming Soon</a>
+                            </div>
+                        </li>
+                        <li class="header-home"><a href="resume/index.html">Resume</a></li>
+                        <li class="header-home"><a href="blog/index.html">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="display">
+        <div class="book1">
+            <h1><a class='title' href="the-steam-war/index.html">THE STEAM WAR</a></h1>
+            <a href="the-steam-war/index.html"><img src="index/steamwarcover.png"></a>
+            <h2>Available Now</h2>
+            <button onclick="window.location='the-steam-war/index.html#book'">VIEW</button>
+        </div>
+        <div class="book2">
+            <h1><a class='title' href="luna/index.html">LUNA On the Run</a></h1>
+            <a href="luna/index.html"><img src="index/lunacover.png"></a>
+            <h2>Available Now</h2>
+            <button onclick="window.location='luna/index.html#about'">VIEW</button>
+        </div>
+        
+    </div>
+    <div class="scrolldown">Scroll down for more</div>
+
+
+    <div class="strips">
+        <div class="dark-strip">
+            <h1>Portfolio</h1>
+            <p>Visit my portfolio of projects, including coding projects, books, and more.</p>
+            <img src="index/atompm-thumb.png">
+            <button onclick="window.location='portfolio/index.html'">VIEW</button>
+        </div>
+        <div class="light-strip">
+            <h1>Résumé</h1>
+            <p>Read or download my résumé.</p>
+            <img src="index/good me.webp">
+            <button onclick="window.location='resume/index.html'">VIEW</button>
+        </div>
+        <div class="dark-strip">
+            <h1>Blog</h1>
+            <p>Visit the blog, where you can stay updated on projects of all sorts.</p>
+            <img src="index/blog-thumbnail.png">
+            <button onclick="window.location='blog/index.html'">VIEW</button>
+        </div>
+        <div class="light-strip">
+            <h1>Coming Soon</h1>
+            <p>View all upcoming projects, including coding projects, books, and more.</p>
+            <img src="index/comingsoon.png">
+            <button onclick="window.location='coming-soon/index.html'">VIEW</button>
+        </div>
+    </div>
+
+    <footer class="universal-footer">
+        <div class="footer-copyright">© 2022 Michael Heckman</div>
+        <div class="footer-socials">
+            <a href="https://amazon.com/dp/B09K21NWNM" target="_blank"><img src="social-icons/amazon-white.png"></a>
+            <a href="https://instagram.com/thesteamwar" target="_blank"><img src="social-icons/instagram-white.png"></a>
+            <a href="https://tiktok.com/@thesteamwar" target="_blank"><img src="social-icons/tiktok-white.png"></a>
+            <a href="https://moikheck.redbubble.com" target="_blank"><img src="social-icons/redbubble-white.png"></a>
+            <a href="https://twitter.com/thesteamwar" target="_blank"><img src="social-icons/twitter-white.png"></a>
+            <a href="https://facebook.com/TheSteamWar" target="_blank"><img src="social-icons/facebook-white.png"></a>
+            <a href="https://thesteamwar.tumblr.com" target="_blank"><img src="social-icons/tumblr-white.png"></a>
+        </div>
+    </footer>
+</body>

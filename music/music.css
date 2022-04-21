@@ -1,0 +1,53 @@
+.display {
+    height:80vh;
+    display: grid;
+    grid-template-columns: 2.5fr 1fr 3.5fr 1fr 2.5fr;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    grid-template-areas:
+    "empty song1 spotify song2 empty2";
+}
+
+iframe {
+    border: 6px solid black;
+    margin:35px;
+}
+
+#song1 {
+    grid-area: song1;
+}
+#song2 {
+    grid-area: song2;
+}
+#spotify {
+    grid-area: spotify;
+}
+
+@media screen and (max-width: 750px) {
+    .display {
+        padding:60px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+        "song1"
+        "spotify"
+        "song2";
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        column-gap: 5%;
+        row-gap: 2%;
+        margin:60px;
+    }
+
+    iframe {
+        margin: 10px;
+    }
+    #song2 {
+        margin-bottom: 60px;
+    }
+}

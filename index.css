@@ -1,0 +1,432 @@
+body {
+    font-family: goudy;
+}
+
+.title {
+    text-decoration: none;
+    color: black;
+}
+.book1 > h1 > a,
+.book1 > h2 {
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+     0   -1px 0 #000,
+     1px -1px 0 #000,
+     1px  0   0 #000,
+     1px  1px 0 #000,
+     0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000;
+}
+.book2 > h1 > a,
+.book2 > h2 {
+    color: #FF8E24;
+    text-shadow:
+    -1px -1px 0 #000,
+     0   -1px 0 #000,
+     1px -1px 0 #000,
+     1px  0   0 #000,
+     1px  1px 0 #000,
+     0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000;
+}
+
+.header-home:hover {
+    color: black;
+}
+
+
+.display {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: .5fr 1fr 1fr .5fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "empty book1 book2 empty2";
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.display > div > button {
+    width: 60%;
+    border-radius: 30px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid gray;
+    transition: all .5s;
+    letter-spacing: 5px;
+    height: 50px;
+}
+
+.display > div > button:hover {
+    background-color: gray;
+}
+
+.display > div > a > img {
+    width:75%;
+
+}
+
+.book1 {
+    grid-area: book1;
+}
+
+.book2 {
+    grid-area: book2;
+}
+
+.book1 > h1 {
+    font-family: goudy;
+    font-size: 37pt;
+    margin: 0;
+    padding: 5px;
+    height:54.39px;
+    padding-bottom:26px;
+}
+
+.book1 > h2 {
+    font-size: 36pt;
+    margin: 0;
+    padding: 5px;
+    height:75px;
+}
+
+.book2 > h1 {
+    position: relative;
+    top: -12px;
+    font-family: cecep;
+    font-size: 48pt;
+    margin: 0;
+    padding: 5px;
+    height:75px;
+}
+
+.book2 > h2 {
+    font-family: cecep;
+    font-size: 36pt;
+    margin: 0;
+    padding: 5px;
+    height:75px;
+}
+
+
+
+.scrolldown {
+    text-align: center;
+    font-size: 24pt;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+
+.strips {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.strips > div > h1 {
+    grid-area: title;
+    font-size: 48pt;
+}
+
+.strips > div > img {
+    height: 375px;
+    grid-area: picture;
+}
+
+.strips > div > p {
+    grid-area: description;
+    font-size: 20pt;
+    width: 325px;
+    position: relative;
+    top: -30px;
+
+}
+
+.strips > div > button {
+    grid-area: button;
+    width: 200px;
+    border-radius: 30px;
+    height: 50px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid gray;
+    transition: all .5s;
+    letter-spacing: 5px;
+}
+
+.strips > div > button:hover {
+    background-color: gray;
+}
+
+.dark-strip {
+    background-color: rgb(48,48,48);
+    height: 450px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas:
+    "title picture"
+    "description picture"
+    "button picture";
+    align-items: center;
+    justify-items: center;
+    text-align: right;
+    column-gap: 5%;
+}
+
+.dark-strip > h1, .dark-strip > p {
+    color: rgb(160,160,160);
+}
+
+.light-strip {
+    background-color: rgb(160,160,160);
+    height: 450px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas:
+    "picture title" 
+    "picture description" 
+    "picture button";
+    align-items: center;
+    justify-items: center;
+    text-align: left;
+    column-gap: 5%;
+}
+
+.light-strip > h1, .light-strip > p {
+    color: rgb(48,48,48);
+}
+
+.dark-strip > h1, .dark-strip > p, 
+.light-strip > img {
+    text-align: right;
+    align-self: right;
+    justify-self: right;
+}
+
+.light-strip > h1, .light-strip > p, 
+.dark-strip > img{
+    text-align: left;
+    align-self: left;
+    justify-self: left;
+}
+
+.light-strip > button {
+    align-self: left;
+    justify-self: left;
+}
+
+.dark-strip > button {
+    align-self: right;
+    justify-self: right;
+}
+
+@media screen and (max-width: 1225px) {
+    .book1 h1 {
+        font-size: 30pt;
+    }
+    .book2 h1 {
+        font-size: 36pt;
+        top: -7px;
+    }
+    .book1 h2 {
+        font-size: 24pt;
+    }
+    .book2 h2 {
+        font-size: 30pt;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .book1 h1 {
+        font-size: 24pt;
+    }
+    .book2 h1 {
+        font-size: 30pt;
+    }
+    .book1 h2 {
+        font-size: 18pt;
+    }
+    .book2 h2 {
+        font-size: 24pt;
+    }
+    .strips > div > h1 {
+        font-size: 36pt;
+    }
+    .strips > div > img {
+        height: 325px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .strips > div > img {
+        height: 200px;
+        padding-top: 6%;
+    }
+
+    .strips > div > h1 {
+        font-size: 24pt;
+    }
+
+
+    .dark-strip {
+        background-color: rgb(48,48,48);
+        height: 300px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+        "title picture"
+        "description picture"
+        "button button";
+        align-items: center;
+        justify-items: center;
+        text-align: right;
+    }
+
+    .light-strip {
+        background-color: rgb(160,160,160);
+        height: 300px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+        "picture title" 
+        "picture description" 
+        "button button";
+        align-items: center;
+        justify-items: center;
+        text-align: left;
+    }
+
+    .strips > div > p {
+        grid-area: description;
+        font-size: 13pt;
+        width: 80%;
+    
+    }
+
+    .dark-strip > h1, .dark-strip > p {
+        text-align: right;
+        align-self: right;
+        justify-self: right;
+    }
+
+    .light-strip > h1, .light-strip > p {
+        text-align: left;
+        align-self: left;
+        justify-self: left;
+    }
+
+    .light-strip > button, .dark-strip > button {
+        align-self: center;
+        justify-self: center;
+    }
+
+    
+
+    .display {
+        padding-top: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+        "book1 book2";
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+    }
+    
+    .display > div > button:hover {
+        background-color: gray;
+    }
+    
+    .display > div > a > img {
+        height: 300px;
+        width: auto;
+    }
+    
+    .book1 {
+        padding-top:0;
+    }
+    
+    .book2 {
+        grid-area: book2;
+    }
+    
+    .book1 > h1 {
+        font-family: goudy;
+        font-size: 20pt;
+        margin: 0;
+        padding: 5px;
+        height: 50px;
+    }
+    
+    .book1 > h2 {
+        font-size: 16pt;
+        margin: 0;
+        padding: 5px;
+    }
+    
+    .book2 > h1 {
+        font-family: cecep;
+        font-size: 21pt;
+        margin: 0;
+        padding: 5px;
+        top: 0;
+        height: 50px;
+    }
+    
+    .book2 > h2 {
+        font-family: cecep;
+        font-size: 16pt;
+        margin: 0;
+        padding: 5px;
+    }
+    
+    
+    
+    .scrolldown {
+        visibility: hidden;
+    }
+
+
+    .book1 > h1 > a,
+    .book1 > h2 {
+        color: white;
+        text-shadow:
+        -.5px -.5px 0 #000,
+        0   -.5px 0 #000,
+        .5px -.5px 0 #000,
+        .5px  0   0 #000,
+        .5px  .5px 0 #000,
+        0    .5px 0 #000,
+        -.5px  .5px 0 #000,
+        -.5px  0   0 #000;
+    }
+    .book2 > h1 > a,
+    .book2 > h2 {
+        color: #FF8E24;
+        text-shadow:
+        -.5px -.5px 0 #000,
+        0   -.5px 0 #000,
+        .5px -.5px 0 #000,
+        .5px  0   0 #000,
+        .5px  .5px 0 #000,
+        0    .5px 0 #000,
+        -.5px  .5px 0 #000,
+        -.5px  0   0 #000;
+    }
+
+}

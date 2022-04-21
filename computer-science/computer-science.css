@@ -1,0 +1,290 @@
+.page-header {
+    font-family: goudy;
+    font-size:42pt;
+    text-align:center;
+    margin-top: 5%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+#title {
+    text-align: center;
+    font-size:36pt;
+    margin-bottom:0;
+    grid-area: title;
+}
+
+#subtitle {
+    text-align: center;
+    font-size:20pt;
+    margin-top: 0;
+    grid-area: subtitle;
+}
+
+#introduction, #client-description, #problem-description, #solution-description {
+    font-size: 16pt;
+    width: 90%;
+}
+
+#client-description, #solution-description {
+    text-align: right;
+}
+
+#client-title, #problem, #solution {
+    font-size: 24pt;
+    justify-self: center;
+    align-self: center;
+}
+
+#introduction {
+    grid-area: introduction;
+    width: 60%;
+    justify-self: center;
+    text-justify: inter-word;
+    text-align: justify;
+}
+
+#client-description {
+    grid-area: clientdescription;;
+}
+
+#client-title {
+    grid-area: clienttitle;
+}
+
+#client-image {
+    grid-area: clientimage;
+    height: 300px;
+}
+
+#problem {
+    grid-area: problem;
+}
+
+#problem-description {
+    grid-area: problemdescription;
+}
+
+#problem-image {
+    grid-area: problemimage;
+    width: 100%;
+    justify-self: center;
+}
+
+#solution {
+    grid-area: solution;
+}
+
+#solution-description {
+    grid-area: solutiondescription;
+}
+
+#solution-image {
+    grid-area: solutionimage;
+    width: 95%;
+    margin-bottom: 2.5%;
+    justify-self: center;
+    border: 2px solid black;
+}
+
+#solution-link {
+    grid-area: solutionlink;
+    justify-self: center;
+    font-size: 24pt;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 40px;
+    background-color:lightgray;
+    transition: all 0.5s;
+}
+#solution-link:hover {
+    color: black;
+    border: 1px solid black;
+    background-color: rgb(163, 163, 163);
+}
+
+.atompm {
+    margin-top: 2.5%;
+    border: 3px solid lightgray;
+    width: 90%;
+    background-image: url("atompm-background.png");
+    font-family: goudy;
+    display: grid;
+    grid-template-areas:
+    "empty title title empty2"
+    "empty subtitle subtitle empty2"
+    "empty introduction introduction empty2"
+    "empty clienttitle clientimage empty2"
+    "empty clientdescription clientimage empty2"
+    "empty problem problemdescription empty2"
+    "empty solutiondescription solution empty2"
+    "empty solutionlink solutionlink empty2"
+    "solutionimage solutionimage solutionimage solutionimage";
+    grid-template-columns: .5fr 1fr 1fr .5fr;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto;
+    row-gap: 2vw;
+}
+
+
+
+.friday-calendar {
+    margin-top: 5%;
+    border: 3px solid lightgray;
+    width: 90%;
+    background-color: white;
+    font-family: goudy;
+    display: grid;
+    grid-template-areas:
+    "empty title title empty2"
+    "empty subtitle subtitle empty2"
+    "empty introduction introduction empty2"
+    "empty clienttitle clientimage empty2"
+    "empty clientdescription clientimage empty2"
+    "empty problem problemdescription empty2"
+    "empty problemimage problemimage empty2"
+    "empty solutiondescription solution empty2"
+    "empty solutionlink solutionlink empty2"
+    "empty downloads downloads empty2";
+    grid-template-columns: .5fr 1fr 1fr .5fr;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto;
+    row-gap: 2vw;
+}
+
+.downloads {
+    grid-area: downloads;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 2.5%;
+}
+.btn {
+    font-family: goudy;
+    font-size: 18pt;
+    margin: 5px;
+}
+
+
+
+.personal-website {
+    margin-top: 5%;
+    border: 3px solid lightgray;
+    width: 90%;
+    background-color: aliceblue;
+    font-family: goudy;
+    display: grid;
+    grid-template-areas:
+    "empty title title empty2"
+    "empty subtitle subtitle empty2"
+    "empty introduction introduction empty2"
+    "empty clienttitle clientimage empty2"
+    "empty clientdescription clientimage empty2"
+    "empty problem problemdescription empty2"
+    "empty solutiondescription solution empty2"
+    "empty solutionlink solutionlink empty2";
+    grid-template-columns: .5fr 1fr 1fr .5fr;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto;
+    row-gap: 2vw;
+    margin-bottom: 5%;
+}
+
+
+
+@media screen and (max-width: 1225px) {
+    #introduction {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .page-header {
+        font-size:28pt;
+    }
+
+    .atompm {
+        display: grid;
+        grid-template-areas:
+        "empty title title empty2"
+        "empty subtitle subtitle empty2"
+        "empty introduction introduction empty2"
+        "empty clienttitle clienttitle empty2"
+        "empty clientimage clientimage empty2"
+        "empty clientdescription clientdescription empty2"
+        "empty problem problem empty2"
+        "empty problemdescription problemdescription empty2"
+        "empty solution solution empty2"
+        "empty solutiondescription solutiondescription empty2"
+        "empty solutionlink solutionlink empty2"
+        "solutionimage solutionimage solutionimage solutionimage";
+        grid-template-columns: .5fr 1fr 1fr .5fr;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto;
+        row-gap: 2vw;
+    }
+
+    .friday-calendar {
+        display: grid;
+        grid-template-areas:
+        "empty title title empty2"
+        "empty subtitle subtitle empty2"
+        "empty introduction introduction empty2"
+        "empty clienttitle clienttitle empty2"
+        "empty clientimage clientimage empty2"
+        "empty clientdescription clientdescription empty2"
+        "empty problem problem empty2"
+        "empty problemdescription problemdescription empty2"
+        "empty problemimage problemimage empty2"
+        "empty solution solution empty2"
+        "empty solutiondescription solutiondescription empty2"
+        "empty solutionlink solutionlink empty2"
+        "downloads downloads downloads downloads";
+        grid-template-columns: .5fr 1fr 1fr .5fr;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto;
+        row-gap: 2vw;
+    }
+
+    .personal-website {
+        display: grid;
+        grid-template-areas:
+        "empty title title empty2"
+        "empty subtitle subtitle empty2"
+        "empty introduction introduction empty2"
+        "empty clienttitle clienttitle empty2"
+        "empty clientimage clientimage empty2"
+        "empty clientdescription clientdescription empty2"
+        "empty problem problem empty2"
+        "empty problemdescription problemdescription empty2"
+        "empty solution solution empty2"
+        "empty solutiondescription solutiondescription empty2"
+        "empty solutionlink solutionlink empty2";
+        grid-template-columns: .5fr 1fr 1fr .5fr;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto;
+        row-gap: 2vw;
+        margin-bottom: 5%;
+    }
+
+    #client-description, #solution-description, #problem-description {
+        text-align: justify;
+        text-justify: inter-word;
+        justify-self: center;
+        width: 450px;
+    }
+    #solution-link {
+        margin-bottom: 5%;
+    }
+    #client-image {
+        justify-self: center;
+    }
+    #problem-image {
+        width: 450px;
+    }
+}

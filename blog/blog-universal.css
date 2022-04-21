@@ -1,0 +1,75 @@
+.container {
+    background-color: rgb(173,131,101);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    font-family: goudy;
+    padding: 5% 0%;
+}
+
+.all-posts {
+    width: 60%;
+    text-align: left;
+    font-size: 16pt;
+}
+.all-posts:hover {
+    color:white;
+}
+
+.post {
+    width: 60%;
+    border: 3px double lightgray;
+    background-color: aliceblue;
+}
+
+.title {
+    padding: 7% 10% 0%;
+    font-size: 36pt;
+    margin: 0;
+
+}
+
+.published {
+    padding: 0% 10% 5%;
+    margin: 0;
+}
+
+#indent {
+    text-indent: 2.5%;
+}
+#underline {
+    text-decoration: underline;
+}
+#underline:hover {
+    color:rgb(173,131,101);;
+}
+
+.post p {
+    padding: 0% 10%;
+    margin:0;
+    font-size: 16pt;
+}
+
+.post img {
+    padding: 5% 10% 7%;
+    width: 80%;
+    align-self: center;
+    justify-self: center;
+}
+
+
+@media screen and (max-width: 750px) {
+    .post, .all-posts {
+        width:80%;
+    }
+    .title {
+        font-size: 28pt;
+    }
+    #indent {
+        text-indent: 5%;
+    }
+}

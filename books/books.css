@@ -1,0 +1,75 @@
+.display {
+    padding:60px;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 3fr;
+    grid-template-areas:
+    "empty cover1 cover2 empty2"
+    "empty cover3 cover4 empty2";
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    column-gap: 5%;
+    row-gap: 2%;
+
+
+}
+
+.steam, .luna, .dove, .orion {
+    display: flex;
+    flex-direction: column;
+    width:350px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+#cover {
+    width:350px;
+}
+#shadow {
+    width:355px;
+}
+#display-a {
+    width:350px;
+    height:525px;
+}
+.steam {
+    grid-area:cover1;
+}
+
+.luna {
+    grid-area:cover2;
+}
+
+.dove {
+    grid-area:cover3;
+}
+
+.orion {
+    grid-area:cover4;
+}
+
+@media screen and (max-width: 750px) {
+    .display {
+        padding:60px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "cover1"
+        "cover2"
+        "cover3"
+        "cover4";
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        column-gap: 5%;
+        row-gap: 2%;
+        margin:60px;
+    
+    
+    }
+}
