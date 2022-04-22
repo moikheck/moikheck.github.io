@@ -11,6 +11,8 @@ p {
     align-items: center;
     align-content: center;
     justify-items: center;
+    overflow: hidden;
+    height: 120vh;
 
 }
 .reader {
@@ -19,20 +21,21 @@ p {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
     "left book right";
-    height: 100vh;
+    height: 90vh;
+    width:60vh;
     justify-content: center;
     align-items: center;
     align-content: center;
     justify-items: center;
+    column-gap:5vw;
 
     font-family: sans-serif;
-    background-color: #AD8365;
 }
 .book {
     grid-area: book;
     position: relative;
-    width: 480px;
-    height: 720px;
+    width: 60vh;
+    height: 90vh;
     transition: transform 0.5s;
 }
 
@@ -100,17 +103,23 @@ p {
 #indent{
     font-family: Garamond;
     text-indent: 5%;
-    font-size: 11pt;
+    font-size: 1.825vh;
+    line-height: 2.9vh;
+    letter-spacing: -.024vh;
 }
 #no-indent {
     font-family: Garamond;
-    font-size: 11pt;
+    font-size: 1.825vh;
+    line-height: 2.9vh;
+    letter-spacing: -.024vh;
 }
 #story-break, #page-end {
     font-family: Garamond;
     text-align: center;
     padding-bottom: 10pt;
-    font-size: 11pt;
+    font-size: 1.825vh;
+    line-height: 2.9vh;
+    letter-spacing: -.024vh;
 }
 
 .back-content > #no-indent, .back-content > #indent {
@@ -135,7 +144,7 @@ p {
 
 .back-content {
     transform: rotateY(180deg);
-    border-right: 1px solid black;
+    border-right: 1px solid gray;
 }
 
 .front-content > img, .back-content > img {
@@ -244,7 +253,7 @@ i {
     background: rgba(12,6,2);
     top: 45%;
     left: 25%;
-    width: 250px;
+    width: 50%;
     height: 10%;
     font-size: 36px;
 }
@@ -262,7 +271,7 @@ i {
     position: absolute;
     width: 15%;
     height: 100%;
-    left: -480px;
+    left: -100%;
     z-index: 40;
 }
 
@@ -276,12 +285,12 @@ i {
 }
 
 
-@media screen and (max-width: 1330px) {
+@media screen and (max-width: 800px) {
     .reader {
         overflow: visible;
         display: grid;
         grid-template-columns: 1fr 1.5fr 1fr;
-        grid-template-rows: 52px 660px;
+        grid-template-rows: 52px auto;
         grid-row:auto;
         grid-template-areas: 
         "prev chapter next"
@@ -293,7 +302,6 @@ i {
         justify-items: center;
 
         font-family: sans-serif;
-        background-color: #AD8365;
     }
 
     #chapter-mobile {
@@ -311,8 +319,6 @@ i {
 
     .book {
         grid-area: book;
-        width: 430px;
-        height:660px;
         transition: transform 0.5s;
     }
     .button {
@@ -353,8 +359,6 @@ i {
     #indent, #no-indent, #page-end {
         margin-left: 4%;
         margin-right: 2%;
-        font-size: 10px;
-        line-height: 1.15;
     }
     .back-mobile {
         display: inherit;
@@ -697,6 +701,9 @@ i {
         "map map"
         "flag context";
     }
+    .reader {
+        transform: scale(.95);
+    }
 }
 
 
@@ -751,7 +758,17 @@ i {
         top: -450px;
         right:-230px;
     }
+
+    .reader {
+        transform: scale(.9);
+    }
     
+}
+
+@media screen and (max-width: 800px) {
+    .reader {
+        transform: scale(1);
+    }
 }
 
 @media screen and (max-width: 675px) {
