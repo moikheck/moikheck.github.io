@@ -775,8 +775,8 @@ i {
     }
 
     #indent, #no-indent, #story-break, #page-end {
-        font-size: 10.5pt;
-        line-height: 20px;
+        font-size: 10.4pt;
+        line-height: 23px;
         letter-spacing: 0;
     }
 }
