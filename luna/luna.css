@@ -770,6 +770,10 @@ i {
         height: 720px;
         width: 480px;
     }
+    .book {
+        height: 720px;
+        width: 480px;
+    }
 }
 
 @media screen and (max-width: 675px) {

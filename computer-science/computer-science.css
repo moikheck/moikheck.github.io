@@ -305,6 +305,7 @@
 
     #introduction, #client-description, #problem-description, #solution-description {
         font-size: 12pt;
+        width: 80%;
     }
 
     #client-title, #problem, #solution {
@@ -320,46 +321,46 @@
     }
 
     .atompm {
-        display: grid;
+        padding-left: 7.5%;
         grid-template-areas:
-        "empty title title empty2"
-        "empty subtitle subtitle empty2"
-        "empty introduction introduction empty2"
-        "empty clienttitle clienttitle empty2"
-        "empty clientimage clientimage empty2"
-        "empty clientdescription clientdescription empty2"
-        "empty problem problem empty2"
-        "empty problemdescription problemdescription empty2"
-        "empty solution solution empty2"
-        "empty solutiondescription solutiondescription empty2"
-        "empty solutionlink solutionlink empty2"
-        "solutionimage solutionimage solutionimage solutionimage";
-        grid-template-columns: .5fr 1fr 1fr .5fr;
-        grid-template-rows: auto auto auto auto auto auto auto auto auto;
-        row-gap: 2vw;
+        "title title"
+        "subtitle subtitle"
+        "introduction introduction"
+        "clienttitle clienttitle"
+        "clientimage clientimage"
+        "clientdescription clientdescription"
+        "problem problem"
+        "problemdescription problemdescription"
+        "solution solution"
+        "solutiondescription solutiondescription"
+        "solutionlink solutionlink"
+        "solutionimage solutionimage";
+        grid-template-columns: 45% 45%;
+        row-gap: 0;
     }
 
     .friday-calendar {
-        display: grid;
+        padding-left: 7.5%;
         grid-template-areas:
-        "empty title title empty2"
-        "empty subtitle subtitle empty2"
-        "empty introduction introduction empty2"
-        "empty clienttitle clienttitle empty2"
-        "empty clientimage clientimage empty2"
-        "empty clientdescription clientdescription empty2"
-        "empty problem problem empty2"
-        "empty problemdescription problemdescription empty2"
-        "empty problemimage problemimage empty2"
-        "empty solution solution empty2"
-        "empty solutiondescription solutiondescription empty2"
-        "empty solutionlink solutionlink empty2"
-        "downloads downloads downloads downloads";
-        grid-template-columns: .5fr 1fr 1fr .5fr;
+        "title title"
+        "subtitle subtitle"
+        "introduction introduction"
+        "clienttitle clienttitle"
+        "clientimage clientimage"
+        "clientdescription clientdescription"
+        "problem problem"
+        "problemdescription problemdescription"
+        "problemimage problemimage"
+        "solution solution"
+        "solutiondescription solutiondescription"
+        "solutionlink solutionlink"
+        "downloads downloads";
+        grid-template-columns: 45% 45%;
         row-gap: 0;
     }
 
     .personal-website {
+        padding-left: 7.5%;
         grid-template-areas:
         "title title"
         "subtitle subtitle"
@@ -374,5 +375,9 @@
         "solutionlink solutionlink";
         grid-template-columns: 45% 45%;
         row-gap: 0;
+    }
+
+    img {
+        transform: scale(.95);
     }
 }
