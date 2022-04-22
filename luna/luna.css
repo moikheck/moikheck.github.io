@@ -770,8 +770,9 @@ i {
         width: 480px;
     }
     .book {
-        height: 135vw;
-        width: 90vw;
+        height: 720px;
+        width: 480px;
+        transform: scale(.9);
     }
 
     #indent, #no-indent, #story-break, #page-end {
