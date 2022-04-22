@@ -13,7 +13,6 @@ p {
     justify-items: center;
     overflow: hidden;
     height: 900px;
-
 }
 .reader {
     overflow: visible;
@@ -255,7 +254,7 @@ i {
     left: 25%;
     width: 50%;
     height: 10%;
-    font-size: 36px;
+    font-size: 4vh;
 }
 
 #chapter-mobile {
@@ -767,7 +766,9 @@ i {
 
 @media screen and (max-width: 800px) {
     .reader {
-        transform: scale(1);
+        transform: scale(.95);
+        height: 720px;
+        width: 480px;
     }
 }
 
@@ -776,7 +777,7 @@ i {
         height:110px;
     }
     .support-strip {
-        padding-left: 10%;
+        padding-left: 7.5%;
         grid-template-columns: 45% 45%;
         grid-template-areas:
         "support support"

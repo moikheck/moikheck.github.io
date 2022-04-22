@@ -146,7 +146,7 @@
     background-size: fill;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 6vh 30vh;
+    grid-template-rows: 40px 250px;
     grid-template-areas:
     "empty reviews-title empty2"
     "empty carousel empty2";
@@ -229,7 +229,7 @@
     background-size: fill;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 6vh 6vh 10vh;
+    grid-template-rows: 60px 60px 80px;
     grid-template-areas:
     "empty newsletter-title empty2"
     "empty newsletter-offer empty2"
@@ -238,10 +238,10 @@
     justify-items: center;
     text-align: center;
     column-gap: 5%;
-    height: 40vh;
+    height: 300px;
     font-family: goudy;
     row-gap: 5%;
-    padding-top: 10vh;
+    padding-top: 50px;
 }
 #newsletter-title {
     grid-area: newsletter-title;
@@ -431,7 +431,7 @@
         margin: 0;
     }
     .slide > p {
-        font-size: 11pt;
+        font-size: 10pt;
     }
     .slide-outer:hover {
         transform: scale(1.15);
@@ -443,7 +443,6 @@
     .newsletter {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 6vh 6vh 10vh;
         grid-template-areas:
         "newsletter-title newsletter-title newsletter-title"
         "newsletter-offer newsletter-offer newsletter-offer"
@@ -455,8 +454,11 @@
     }
 
     .newsletter-form {
-        width: 90%;
+        width: 80vw;
         column-gap:2.5%;
+    }
+    #email-textbox, #name-textbox {
+        width: 95%;
     }
 
 }
