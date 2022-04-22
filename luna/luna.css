@@ -774,6 +774,12 @@ i {
         height: 720px;
         width: 480px;
     }
+
+    #indent, #no-indent, #story-break, #page-end {
+        font-size: 8pt;
+        line-height: 8pt;
+        letter-spacing: 0;
+    }
 }
 
 @media screen and (max-width: 675px) {
