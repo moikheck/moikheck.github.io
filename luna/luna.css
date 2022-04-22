@@ -766,7 +766,6 @@ i {
 
 @media screen and (max-width: 800px) {
     .reader {
-        transform: scale(.95);
         height: 720px;
         width: 480px;
     }
@@ -776,8 +775,8 @@ i {
     }
 
     #indent, #no-indent, #story-break, #page-end {
-        font-size: 8pt;
-        line-height: 8pt;
+        font-size: 10.5pt;
+        line-height: 20px;
         letter-spacing: 0;
     }
 }
