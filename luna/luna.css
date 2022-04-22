@@ -12,7 +12,7 @@ p {
     align-content: center;
     justify-items: center;
     overflow: hidden;
-    height: 120vh;
+    height: 900px;
 
 }
 .reader {
@@ -775,11 +775,22 @@ i {
     #gray1 > a > img, #blue > a > img, #gray2 > a > img {
         height:110px;
     }
-    .support-strip { 
-        grid-template-columns: auto auto;
+    .support-strip {
+        padding-left: 10%;
+        grid-template-columns: 45% 45%;
+        grid-template-areas:
+        "support support"
+        "subtitle subtitle"
+        "gray1 empty1"
+        "empty2 blueitem"
+        "gray2 empty3 "
+        "disclaimer disclaimer";
+    }
+    .support-strip #subtitle {
+        font-size:16pt;
     }
     #support {
-        font-size: 24pt;
+        font-size: 20pt;
     }
     #gray1 > a > p {
         top: -82px;
@@ -789,5 +800,8 @@ i {
     }
     #gray2 > a > p {
         top: -90px;
+    }
+    #map {
+        transform: scale(.85);
     }
 }

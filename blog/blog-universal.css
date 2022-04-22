@@ -64,7 +64,7 @@
 
 @media screen and (max-width: 750px) {
     .post, .all-posts {
-        width:80%;
+        width:95%;
     }
     .title {
         font-size: 28pt;

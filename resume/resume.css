@@ -75,7 +75,13 @@ div > h2 {
     }
 }
 @media screen and (max-width: 750px) {
+    .resume-container {
+        margin: 15px;
+    }
     .resume-container > div {
-        width:80%;
+        width:90%;
+    }
+    .name-header > h1 {
+        font-size: 20pt;
     }
 }

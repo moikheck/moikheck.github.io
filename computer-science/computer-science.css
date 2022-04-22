@@ -288,3 +288,34 @@
         width: 450px;
     }
 }
+
+@media screen and (max-width: 1000px) {
+
+    .page-header {
+        font-size:24pt;
+    }
+
+    #title {
+        font-size:24pt;
+    }
+
+    #subtitle {
+        font-size:16pt;
+    }
+
+    #introduction, #client-description, #problem-description, #solution-description {
+        font-size: 12pt;
+    }
+
+    #client-title, #problem, #solution {
+        font-size: 16pt;
+    }
+
+    #solution-link {
+        font-size: 16pt;
+    }
+
+    .btn {
+        font-size: 12pt;
+    }
+}

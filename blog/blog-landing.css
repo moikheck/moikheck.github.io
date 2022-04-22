@@ -98,6 +98,9 @@
 
 
 @media screen and (max-width: 750px) {
+    .featured, .list {
+        width: 95%;
+    }
     .post-thumbnail {
         width:85%;
         display:grid;
