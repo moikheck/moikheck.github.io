@@ -1,52 +1,57 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="universal.css">
-<link rel="stylesheet" href="index.css">
-<link rel="icon" type="image/x-icon" href="favicon.png">
+<link rel="stylesheet" href="../universal.css">
+<link rel="stylesheet" href="luna.css">
+<link rel="icon" type="image/x-icon" href="../favicon.png">
 
-<title>Home | Michael Heckman</title>
+<title>Luna on the Run | Michael Heckman</title>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://kit.fontawesome.com/b0f29e9bfe.js" crossorigin="anonymous"></script>
+<script src="luna.js"></script>
+
+
 <body>
     <header class="universal-header">
-        <a id="unhighlight" class="header-home">Home</a>
+        <a href="../index.html" class="header-home">Home</a>
         <div class="dropdown">
-            <button class="dropbtn" onclick="window.location='the-steam-war/index.html'">The Steam War</button>
+            <button class="dropbtn" onclick="window.location='../the-steam-war/index.html'">The Steam War</button>
             <div class="dropdown-content">
-              <a href="the-steam-war/index.html#book">Book</a>
-              <a href="the-steam-war/index.html#about-the-author">About the Author</a>
-              <a href="the-steam-war/index.html#reviews">Reviews</a>
-              <a href="the-steam-war/index.html#newsletter">Newsletter</a>
+              <a href="../the-steam-war/index.html#book">Book</a>
+              <a href="../the-steam-war/index.html#about-the-author">About the Author</a>
+              <a href="../the-steam-war/index.html#reviews">Reviews</a>
+              <a href="../the-steam-war/index.html#newsletter">Newsletter</a>
             </div>
         </div>
         <div class="dropdown">
-            <button class="dropbtn" onclick="window.location='luna/index.html'">Luna on the Run</button>
+            <button class="dropbtn" id="unhighlight">Luna on the Run</button>
             <div class="dropdown-content">
-              <a href="luna/index.html#about">About</a>
-              <a href="luna/index.html#reader">Read</a>
-              <a href="luna/index.html#carmsborough">Carmsborough</a>
-              <a href="luna/index.html#support">Support</a>
+              <a href="#about">About</a>
+              <a href="#reader">Read</a>
+              <a href="#carmsborough">Carmsborough</a>
+              <a href="#support">Support</a>
             </div>
         </div>
         <div class="dropdown">
-            <button class="dropbtn" onclick="window.location='portfolio/index.html'">Portfolio</button>
+            <button class="dropbtn" onclick="window.location='../portfolio/index.html'">Portfolio</button>
             <div class="dropdown-content">
-              <a href="computer-science/index.html">Computer Science</a>
-              <a href="music/index.html">Music</a>
-              <a href="books/index.html">Books</a>
-              <a href="poems/index.html">Poems</a>
-              <a href="coming-soon/index.html">Coming Soon</a>
+              <a href="../computer-science/index.html">Computer Science</a>
+              <a href="../music/index.html">Music</a>
+              <a href="../books/index.html">Books</a>
+              <a href="../poems/index.html">Poems</a>
+              <a href="../coming-soon/index.html">Coming Soon</a>
             </div>
         </div>
-        <a href="resume/index.html" class="header-resume">Résumé</a>
-        <a href="blog/index.html" class="header-blog">Blog</a>
+        <a href="../resume/index.html" class="header-resume">Résumé</a>
+        <a href="../blog/index.html" class="header-blog">Blog</a>
         <div class="header-socials">
-            <a href="https://amazon.com/dp/B09K21NWNM" target="_blank"><img src="social-icons/amazon.png"></a>
-            <a href="https://instagram.com/thesteamwar" target="_blank"><img src="social-icons/instagram.png"></a>
-            <a href="https://tiktok.com/@thesteamwar" target="_blank"><img src="social-icons/tiktok.png"></a>
-            <a href="https://moikheck.redbubble.com" target="_blank"><img src="social-icons/redbubble.png"></a>
-            <a href="https://twitter.com/thesteamwar" target="_blank"><img src="social-icons/twitter.png"></a>
-            <a href="https://facebook.com/TheSteamWar" target="_blank"><img src="social-icons/facebook.png"></a>
-            <a href="https://thesteamwar.tumblr.com" target="_blank"><img src="social-icons/tumblr.png"></a>
+            <a href="https://amazon.com/dp/B09K21NWNM" target="_blank"><img src="../social-icons/amazon.png"></a>
+            <a href="https://instagram.com/thesteamwar" target="_blank"><img src="../social-icons/instagram.png"></a>
+            <a href="https://tiktok.com/@thesteamwar" target="_blank"><img src="../social-icons/tiktok.png"></a>
+            <a href="https://moikheck.redbubble.com" target="_blank"><img src="../social-icons/redbubble.png"></a>
+            <a href="https://twitter.com/thesteamwar" target="_blank"><img src="../social-icons/twitter.png"></a>
+            <a href="https://facebook.com/TheSteamWar" target="_blank"><img src="../social-icons/facebook.png"></a>
+            <a href="https://thesteamwar.tumblr.com" target="_blank"><img src="../social-icons/tumblr.png"></a>
         </div>
     </header>
     <div class="menu-wrap">
@@ -59,95 +64,265 @@
             <div>
                 <div>
                     <ul>
-                        <li class="header-home"><a id="unhighlight">Home</a></li>
-                        <li class="dropdown"><a href="the-steam-war/index.html">The Steam War</a>
+                        <li class="header-home"><a href="../index.html">Home</a></li>
+                        <li class="dropdown"><a href="../the-steam-war/index.html">The Steam War</a>
                             <div class="dropdown-content-hamburger">
-                                <a href="the-steam-war/index.html#book">Book</a>
-                                <a href="the-steam-war/index.html#about-the-author">About the Author</a>
-                                <a href="the-steam-war/index.html#reviews">Reviews</a>
-                                <a href="the-steam-war/index.html#newsletter">Newsletter</a>
+                                <a href="../the-steam-war/index.html#book">Book</a>
+                                <a href="../the-steam-war/index.html#about-the-author">About the Author</a>
+                                <a href="../the-steam-war/index.html#reviews">Reviews</a>
+                                <a href="../the-steam-war/index.html#newsletter">Newsletter</a>
                             </div>
                         </li>
-                        <li class="dropdown"><a href="luna/index.html">Luna on the Run</a>
+                        <li class="dropdown"><a id="unhighlight">Luna on the Run</a>
                             <div class="dropdown-content-hamburger">
-                                <a href="luna/index.html#about">About</a>
-                                <a href="luna/index.html#reader">Read</a>
-                                <a href="luna/index.html#carmsborough">Carmsborough</a>
-                                <a href="luna/index.html#support">Support</a>
+                                <a href="#about">About</a>
+                                <a href="#reader">Read</a>
+                                <a href="#carmsborough">Carmsborough</a>
+                                <a href="#support">Support</a>
                             </div>
                         </li>
-                        <li class="dropdown"><a href="portfolio/index.html">Portfolio</a>
+                        <li class="dropdown"><a href="../portfolio/index.html">Portfolio</a>
                             <div class="dropdown-content-hamburger">
-                                <a href="computer-science/index.html">Computer Science</a>
-                                <a href="music/index.html">Music</a>
-                                <a href="books/index.html">Books</a>
-                                <a href="poems/index.html">Poems</a>
-                                <a href="coming-soon/index.html">Coming Soon</a>
+                                <a href="../computer-science/index.html">Computer Science</a>
+                                <a href="../music/index.html">Music</a>
+                                <a href="../books/index.html">Books</a>
+                                <a href="../poems/index.html">Poems</a>
+                                <a href="../coming-soon/index.html">Coming Soon</a>   
                             </div>
                         </li>
-                        <li class="header-home"><a href="resume/index.html">Resume</a></li>
-                        <li class="header-home"><a href="blog/index.html">Blog</a></li>
+                        <li class="header-home"><a href="../resume/index.html">Resume</a></li>
+                        <li class="header-home"><a href="../blog/index.html">Blog</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="display">
-        <div class="book1">
-            <h1><a class='title' href="the-steam-war/index.html">THE STEAM WAR</a></h1>
-            <a href="the-steam-war/index.html"><img src="index/steamwarcover.png"></a>
-            <h2>Available Now</h2>
-            <button onclick="window.location='the-steam-war/index.html#book'">VIEW</button>
+
+    <div class="reader-container">
+        <div class="reader" id="reader">
+            <!-- Previous Button -->
+            <button id="prev-btn">
+                <i class="fas fa-arrow-circle-left"></i>
+            </button>
+
+
+            <!-- Book -->
+            <div id="book" class="book">
+                <!-- Paper 1 -->
+                <div class="back-mobile" onclick="goPrevPage()"></div>
+                <div class="forward-mobile" onclick="goNextPage()"></div>
+                <div id="p1" class="paper">
+                    <div class="front">
+                        <select id="chapter-cover" onchange="changeChapter()">
+                        </select>
+                        <div id="f1" class="front-content">
+                            <img src="front-cover.png"/>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div id="page1" class="back-content">
+                        </div>
+                        <div class="loadbearing">loadbearing</div>
+                    </div>
+                </div>
+                <!-- Paper 2 -->
+                <div id="p2" class="paper">
+                    <div class="front">
+                        <div id="page2" class="front-content">
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div id="page3" class="back-content">
+                        </div>
+                        <div class="loadbearing">loadbearing</div>
+                    </div>
+                </div>
+                <!-- Paper 3 -->
+                <div id="p3" class="paper">
+                    <div class="front">
+                        <div id="page4" class="front-content">
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div id="page5" class="back-content">
+                        </div>
+                        <div class="loadbearing">loadbearing</div>
+                    </div>
+                </div>
+                <!-- Paper 4 -->
+                <div id="p4" class="paper">
+                    <div class="front">
+                        <div id="page6" class="front-content">
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div id="page7" class="back-content">
+                        </div>
+                        <div class="loadbearing">loadbearing</div>
+                    </div>
+                </div>
+                <!-- Paper 5 -->
+                <div id="p5" class="paper">
+                    <div class="front">
+                        <div id="page8" class="front-content">
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div id="page9" class="back-content">
+                        </div>
+                        <div class="loadbearing">loadbearing</div>
+                    </div>
+                </div>
+                <!-- Paper 6 -->
+                <div id="p6" class="paper">
+                    <div class="front">
+                        <div id="page10" class="front-content">
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div id="page11" class="back-content">
+                        </div>
+                        <div class="loadbearing">loadbearing</div>
+                    </div>
+                </div>
+                <!-- Paper 7 -->
+                <div id="p7" class="paper">
+                    <div class="front">
+                        <div id="page12" class="front-content">
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div id="page13" class="back-content">
+                        </div>
+                        <div class="loadbearing">loadbearing</div>
+                    </div>
+                </div>
+                <!-- Paper 8 -->
+                <div id="p8" class="paper">
+                    <div class="front">
+                        <div id="page14" class="front-content">
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div id="page15" class="back-content">
+                        </div>
+                        <div class="loadbearing">loadbearing</div>
+                    </div>
+                </div>
+                <!-- Paper 9 -->
+                <div id="p9" class="paper">
+                    <div class="front">
+                        <div id="page16" class="front-content">
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div id="page17" class="back-content">
+                        </div>
+                        <div class="loadbearing">loadbearing</div>
+                    </div>
+                </div>
+                <!-- Paper 10 -->
+                <div id="p10" class="paper">
+                    <div class="front">
+                        <div id="page18" class="front-content">
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div id="page19" class="back-content">
+                            <select id="chapter-back" onchange="changeChapter()">
+                            </select>
+                            <img src="back-cover.png"/>
+                        </div>
+                        <div class="loadbearing">loadbearing</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Next Button -->
+            <button id="next-btn">
+                <i class="fas fa-arrow-circle-right"></i>
+            </button>
+
+            <select id="chapter-mobile" onchange="changeChapter()">
+                <option value="1">Chapter 1</option>
+                <option value="2">Chapter 2</option>
+            </select>
         </div>
-        <div class="book2">
-            <h1><a class='title' href="luna/index.html">LUNA On the Run</a></h1>
-            <a href="luna/index.html"><img src="index/lunacover.png"></a>
-            <h2>Available Now</h2>
-            <button onclick="window.location='luna/index.html#about'">VIEW</button>
-        </div>
-        
     </div>
-    <div class="scrolldown">Scroll down for more</div>
+
+    <div class="alternate-readers">
+        <a href="https://www.royalroad.com/fiction/52684/luna-on-the-run"><img src="royal.png"></a>
+        <a href="https://www.wattpad.com/1208367438"><img src="watt.png"></a>
+    </div>
+    <div class="tip-desktop">Tip: you can click the margin of a page to flip back and forth!</div>
+    <div class="tip-mobile">Tip: you can click the two halves of a page to flip back and forth!</div>
 
 
     <div class="strips">
-        <div class="dark-strip">
-            <h1>Portfolio</h1>
-            <p>Visit my portfolio of projects, including coding projects, books, and more.</p>
-            <img src="index/atompm-thumb.png">
-            <button onclick="window.location='portfolio/index.html'">VIEW</button>
+        <div class="carmsborough-strip" id="carmsborough">
+            <div class="carmsborough-grid">
+                <div id="map">
+                    <img id="map-item" src="map of carmsborough.svg">
+                    <img class="tack" id="red-1" src="red-tack.webp">
+                    <img class="tack" id="red-2" src="red-tack.webp">
+                </div>
+                <div id="flag">
+                    <img id="map-item" src="carmsborough flag.png">
+                    <img class="tack" id="blue-tack" src="blue-tack.webp">
+                </div>
+                <div id="context">
+                    <img id="map-item" src="carmsborough in context.png">
+                    <img class="tape" id="tape" src="tape.png">
+                </div>
+            </div>
+            
+            
+            
+            
         </div>
-        <div class="light-strip">
-            <h1>Résumé</h1>
-            <p>Read or download my résumé.</p>
-            <img src="index/good me.webp">
-            <button onclick="window.location='resume/index.html'">VIEW</button>
+        <div class="about-strip">
+            <img id="cover" src="about-cover.png">
+            <h1 id="about">LUNA On the Run</h1>
+            <p id="details">Follow the story of Luna, a homeless teen with skewed morals, as she and her mechanical cat Freckles struggle to live a normal, problem-free life that keeps getting interrupted by bad men with bad plans. Read #lunaontherun for free, with a new update coming out every Friday.</p>
+            <div class="about-button">
+                <button id="read" onclick="window.location='#reader'">Read Book</button>
+                <button id="learn" onclick="window.open('../blog/luna-on-the-run-announcement/index.html')">Learn More</button>
+            </div>
         </div>
-        <div class="dark-strip">
-            <h1>Blog</h1>
-            <p>Visit the blog, where you can stay updated on projects of all sorts.</p>
-            <img src="index/blog-thumbnail.png">
-            <button onclick="window.location='blog/index.html'">VIEW</button>
-        </div>
-        <div class="light-strip">
-            <h1>Coming Soon</h1>
-            <p>View all upcoming projects, including coding projects, books, and more.</p>
-            <img src="index/comingsoon.png">
-            <button onclick="window.location='coming-soon/index.html'">VIEW</button>
+        <div class="support-strip">
+            <h1 id="support">∙ ◦ ○( Support LUNA On the Run )○ ◦ ∙</h1>
+            <h2 id="subtitle">Want to support <em>Luna on the Run</em> and other projects? </h2>
+            <div id="gray1">
+                <a href="#"><img src="gray-bubble.png"></a>
+                <a href="#"><p>Buy on Amazon*</p></a>
+            </div>
+            <div id="blue">
+                <a href="../books/index.html"><img src="blue-bubble.png"></a>
+                <a href="../books/index.html"><p>Read more by Michael Heckman</p></a>
+            </div>
+            <div id="gray2">
+                <a href="https://instagram.com/msheckman.writes/"><img src="gray-bubble.png"></a>
+                <a href="https://instagram.com/msheckman.writes/"><p>Follow <em>@msheckman.writes</em> on Instagram</p></a>
+            </div>
+
+            <p id="disclaimer">* <em>Luna on the Run</em> will always be available for free online. If you want an e-book or physical copy, that will be available on Amazon at a later date.</p>
         </div>
     </div>
+
+    
+
 
     <footer class="universal-footer">
         <div class="footer-copyright">© 2022 Michael Heckman</div>
         <div class="footer-socials">
-            <a href="https://amazon.com/dp/B09K21NWNM" target="_blank"><img src="social-icons/amazon-white.png"></a>
-            <a href="https://instagram.com/thesteamwar" target="_blank"><img src="social-icons/instagram-white.png"></a>
-            <a href="https://tiktok.com/@thesteamwar" target="_blank"><img src="social-icons/tiktok-white.png"></a>
-            <a href="https://moikheck.redbubble.com" target="_blank"><img src="social-icons/redbubble-white.png"></a>
-            <a href="https://twitter.com/thesteamwar" target="_blank"><img src="social-icons/twitter-white.png"></a>
-            <a href="https://facebook.com/TheSteamWar" target="_blank"><img src="social-icons/facebook-white.png"></a>
-            <a href="https://thesteamwar.tumblr.com" target="_blank"><img src="social-icons/tumblr-white.png"></a>
+            <a href="https://amazon.com/dp/B09K21NWNM" target="_blank"><img src="../social-icons/amazon-white.png"></a>
+            <a href="https://instagram.com/thesteamwar" target="_blank"><img src="../social-icons/instagram-white.png"></a>
+            <a href="https://tiktok.com/@thesteamwar" target="_blank"><img src="../social-icons/tiktok-white.png"></a>
+            <a href="https://moikheck.redbubble.com" target="_blank"><img src="../social-icons/redbubble-white.png"></a>
+            <a href="https://twitter.com/thesteamwar" target="_blank"><img src="../social-icons/twitter-white.png"></a>
+            <a href="https://facebook.com/TheSteamWar" target="_blank"><img src="../social-icons/facebook-white.png"></a>
+            <a href="https://thesteamwar.tumblr.com" target="_blank"><img src="../social-icons/tumblr-white.png"></a>
         </div>
     </footer>
 </body>
