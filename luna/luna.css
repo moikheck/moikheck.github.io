@@ -413,6 +413,8 @@ i {
 .strips {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    overflow: hidden;
 
 }
 
@@ -487,6 +489,7 @@ i {
     width: 100%;
     background-image: url("map\ empty.png");
     background-size: contain;
+    font-family: cecep;
 }
 #flag #map-item {
     border-radius: 20px;
@@ -737,7 +740,8 @@ i {
     }
 
     .carmsborough-grid {
-        padding: 80px 0;
+        row-gap: 0;
+        padding: 40px 0;
         grid-template-columns: auto;
         grid-template-rows: auto auto auto;
         grid-template-areas:
