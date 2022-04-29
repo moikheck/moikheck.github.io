@@ -557,7 +557,8 @@ const chapterSelection = `  <option value="1" class="dropper">Chapter 1</option>
                         <option value="7" class="dropper">Chapter 7</option>
                         <option value="8" class="dropper">Chapter 8</option>
                         <option value="9" class="dropper">Chapter 9</option>
-                        <option value="10" class="dropper">Chapter 10</option>`
+                        <option value="10" class="dropper">Chapter 10</option>
+                        <option value="11" class="dropper">Chapter 11</option>`
 
 var mobileFlip = false
 
@@ -3316,24 +3317,141 @@ const ch10p17 = ``
 const ch10p18 = ``
 const ch10 = [ch10p1, ch10p2, ch10p3, ch10p4, ch10p5, ch10p6, ch10p7, ch10p8, ch10p9, ch10p10, ch10p11, ch10p12, ch10p13, ch10p14, ch10p15, ch10p16, ch10p17, ch10p18]
 
-const ch11p1 = `1`
-const ch11p2 = `2`
-const ch11p3 = `3`
-const ch11p4 = `4`
-const ch11p5 = `5`
-const ch11p6 = `6`
-const ch11p7 = `7`
-const ch11p8 = `8`
-const ch11p9 = `9`
-const ch11p10 = `10`
-const ch11p11 = `11`
-const ch11p12 = `12`
-const ch11p13 = `13`
-const ch11p14 = `14`
-const ch11p15 = `15`
-const ch11p16 = `16`
-const ch11p17 = `17`
-const ch11p18 = `18`
+const ch11p1 = `<p id="page-start"> </p>
+<p id="chapter-header">Chapter 11</p>
+<p id="chapter-bar">____________________</p>
+<p id="no-indent">I walk out into the crisp air of the Golem Mountains, the sun hanging high in the sky. There’s a briskness to the breeze that I didn’t notice earlier, and the tall grass that stretches all the way to the base of the mountains is waving rhythmically with the wind. Though there are no birds in sight, my mind fills the void left in their absence with the sound of chirping.</p>
+<p id="indent">I haven’t felt this carelessly free in a long time.</p>
+<p id="indent">Sure, it won’t last long. We still have some job details to work out, as well as a possible training course that the boss man wants me to do, but for now, a weight is lifted off of my shoulders. I have a guaranteed roof over my head, readily available food that is actually edible, and a </p>
+<p id="page-end">109</p>`
+const ch11p2 = `<p id="page-start"> </p>
+<p id="no-indent">bed to sleep in.</p>
+<p id="indent">It’s strangely calming. Maybe even exciting, despite not having my best friend to share the experience with. Still, I can’t help but feel I’m forgetting something.</p>
+<p id="indent">But what? It’s not like I’ve got any physical possessions. The things that I do own are still up in the abandoned apartment complex I’d taken up residence in, so long as nobody’s looted the place.</p>
+<p id="indent">Not that it matters anymore. Money’s no longer an issue for me. I don’t have to work for Cheapskate Chad at the scrapyard, or bargain for extra change with Shady Shane, or worry about being jumped in an alley by other homeless people.</p>
+<p id="indent">Still, why do I have this looming fear that something’s missing?</p>
+<p id="indent">“Alright, Luna,” S says, stepping out of his building, “let’s get some lunch, do a basic run-through of the mission, hash out some details and information you’ll need, show you to the sleeping quarters, and set up some one-on-one times with your new trainer.”</p>
+<p id="indent">“With all due respect, sir,” I start, joining in next to him as he walks towards what I assume is the cafeteria, “I want to knock Slaphand out right away. I don’t know how much time Freckles has before he’s destroyed by the mob boss.”</p>
+<p id="indent">He seems to ponder the idea for a moment, silently leading me to our first stop of the day: lunch. “I understand. I can’t imagine what it’s like to be missing a friend like that. We could arrange a delayed training course, but it’s not something I’d recommend.”</p>
+<p id="indent">“Why’s that?” We grab trays and load food up. In contrast to the dismal atmosphere on Slaphand’s island, the boss’ base is alive with positive energy. The only other place I’ve seen this many smiles is on a </p>
+<p id="page-end">110</p>`
+const ch11p3 = `<p id="page-start"> </p>
+<p id="no-indent">billboard for a dentist’s office.</p>
+<p id="indent">“To put it bluntly, you’re self-taught and sloppy. Don’t get me wrong, you’re skilled and efficient, but against someone as prominent as Slaphand, unless you can outwit him, you’re as good as dead.”</p>
+<p id="indent">The short man sits at a populated table, making sure to leave an empty spot for me, and is immediately thrown into pleasant conversations with those already seated. </p>
+<p id="indent">“Ladies and gentlemen, allow me to introduce you to Luna, the new assassin who has her sights set on Slaphand.” He motions to me and smiles, and the table erupts into a noisy mixture of clapping, cheering, and laughing.</p>
+<p id="indent">“That’s her, boss?” one asks. “I was expecting, I don’t know, an adult. Not just some kid.”</p>
+<p id="indent">“I think you’ll find she’s more than ‘some kid,’ Dane,” S replies. “Fortunately, she has nothing to prove to you, so I’ll let you be pleasantly surprised when she has the job done within a week.”</p>
+<p id="indent">I nearly choke on the mashed potatoes I’ve loaded my plate with. “You really think I can get this done in a week?”</p>
+<p id="indent">“Oh, for sure. After all, there aren’t many places to hide a man like him in Carmsborough. I’ll honestly be surprised if he doesn’t accidentally reveal himself before you’ve even had the chance to do it yourself.”</p>
+<p id="indent">“Okay, so what’s the plan, then? Realistically, I shouldn’t wait it out like that.”</p>
+<p id="indent">“True. Unfortunately, we don’t know where his base of operations is inside of mainland Carmsborough. We know of some hotspot locations that Bijabers’ team works out of, but for the most part, those have all been scouted and raided for intelligence.”</p>
+<p id="page-end">111</p>`
+const ch11p4 = `<p id="page-start"> </p>
+<p id="indent">“So, not a lot of options on that front, then.”</p>
+<p id="indent">“We’re starting with basically zero information on the ‘where’ portion of the mission. The ‘how’ is another story. You’ll need to gather intel from our informants, although we don’t have very many that are reliable. From there, we may be able to gauge the ‘when’ and the ‘where,’ but also the ‘how many’ for his number of goons.”</p>
+<p id="indent">“Actually, I might have someone I can use as an informant, although reluctantly.” I think back to Shady Shane’s paranoid rant about Bijabers and his goons. He knew about the ‘B’ logo, so what else could he know?</p>
+<p id="indent">“Reluctantly?”</p>
+<p id="indent">“I think he has schizophrenia. He’s a good guy, though.”</p>
+<p id="indent">“Well, if you’re comfortable with the idea, he can be on the list. Otherwise, I’ll get a list of informants rounded up for you to hunt down and get info out of. From there, you’ll plan your entry and attack.”</p>
+<p id="indent">“Sounds all good and smart to me.”</p>
+<p id="indent">“Are you sure you don’t want training? Not even for a day?”</p>
+<p id="indent">“Every day Freckles isn’t by my side is another day I might never see him again. I know it’s a smart idea, but I can’t risk it.”</p>
+<p id="indent">“At least you’ve got your head in the right place. Still, I think it’s best if you wait until early tomorrow morning to head out so that there’s plenty of daylight for you to work with.”</p>
+<p id="indent">“I’m fine with that, I guess. Gives me time to breathe.”</p>
+<p id="indent">“Which you need, no doubt. I imagine the past few days have been pretty nonstop for you.”</p>
+<p id="indent">“Something like that.”</p>
+<p id="indent">We sit in silence for the rest of our lunch, allowing me to soak in as much as I can. Though he seems to be more of a laid-back person, I can </p>
+<p id="page-end">112</p>`
+const ch11p5 = `<p id="page-start"> </p>
+<p id="no-indent">sense much more under the surface of the man known as “S.” He’s got deep layers to him, and so far, the only two he’s been willing to display is outgoing, down-to-earth boss and strategy-oriented schemer. Maybe it’s just me projecting, but I feel like there’s a more sinister side to the man sitting next to me.</p>
+<p id="indent">Even so, he’s giving me food, a bed, and a purpose, as well as the chance to save my cat. Life is all about finding the lesser evil, and I think I’ve finally done it.</p>
+<p id="indent">Wait. Oh my God.</p>
+<p id="indent">“I can’t believe I forgot about Mary!” I stand up suddenly, my heartstrings tugging hard in my chest.</p>
+<p id="indent">“What’s that?”</p>
+<p id="indent">“All morning, I’ve felt like I’ve been forgetting something. But it was a someone, and that someone is Mary. She was an old lady on the island and the one who pretty much got me through everything. I left her to die under a crumbled part of the living quarters and told her I was going to go get help. I lied to her, and now she might be dead.”</p>
+<p id="indent">“That is… a lot to take in,” S says, grimacing. “I can have one of my men still on the island check in and get her status, if you want.”</p>
+<p id="indent">“That’s not enough. I want to go down and see her for myself, if possible.”</p>
+<p id="indent">My first test of his authority. How willing is he to let me get what I want? How important am I really to his plan?</p>
+<p id="indent">Once again, he thinks about my request for a good while, a blank expression on his face. </p>
+<p id="indent">“If you head out within the next hour, you can do a round trip and be back here by three in the morning,” he thinks aloud. “But you’ll need </p>
+<p id="page-end">113</p>`
+const ch11p6 = `<p id="page-start"> </p>
+<p id="no-indent">to get some rest on the way back, and head out almost as soon as you return.”</p>
+<p id="indent">“I can handle that.”</p>
+<p id="indent">The boss lifts his wrist and reveals the same sort of technology that Platoon Leader Cho had. “Cho, get the <em>Lateral</em> prepared for launch again. You’ll be taking Luna back to Blood Moon Island in search of one of her friends, and making a return trip shortly after that.”</p>
+<p id="indent">“Roger that, boss,” Cho’s voice cracks back a few seconds later.</p>
+<p id="indent">S looks up and smiles at me. “Go find your friend. I hope for good news, for Slaphand’s sake.”</p>
+<p id="indent">“Oh, trust me, he’s getting a beatdown either way.”</p>
+<p id="story-break">∙ ◦ ○(        )○ ◦ ∙</p>
+<p id="indent">Within fifteen minutes, I’m back on the <em>Lateral</em>, heading back to Slaphand’s island, appropriately titled Blood Moon Island. </p>
+<p id="indent">The six-hour trip feels doubly as long as I sit in the cockpit, my leg bouncing up and down rapidly. The idea of a relaxing day away from anxiety and near-death experiences evaporated with the relaunching of the airship.</p>
+<p id="indent">In contrast to earlier, Cho is no longer forcing himself to be cordial with me. The two of us sit in silence behind the pilot and copilot for the entire ride, occasionally bringing up a short topic. His demeanor change is off-putting, to say the least.</p>
+<p id="indent">Six grueling hours later, the <em>Lateral</em> finally begins its descent to the war-torn island. The sun is barely peeking over the horizon at this point, but I can still see the damage done. Equal parts exposed dirt and grass litter the ground, all lightly covered in a layer of snow. Four rows of </p>
+<p id="page-end">114</p>`
+const ch11p7 = `<p id="page-start"> </p>
+<p id="no-indent">bodies line the length of the flat expanse, occasionally adjusting around the dormant quarries.</p>
+<p id="indent">There’s a row for each group of people that were on the island–guards, prisoners, Nazis, and S-Platoon members. Though I can’t make out how many are in each category from up here, it’s clear that there are significantly fewer S-Platoon members lined up than any other group, and significantly more prisoners.</p>
+<p id="indent">That doesn’t speak well for Mary’s odds.</p>
+<p id="indent">I push the thought away immediately. Mary’s alive down there. She has to be.</p>
+<p id="indent">The ship comes to a stop on the ground with a thud, and the pilot announces our arrival. </p>
+<p id="indent">“Has your stomach gotten any better than earlier?” Alexander Cho asks, standing next to me at the hull entrance.</p>
+<p id="indent">“I doubt it.” </p>
+<p id="indent">The hull opens up, and the first of my senses to react to the landscape is my nose. The smell of death lingers over the island, and it’s already almost too much to bear. Still, I press on, hunting for one of the remaining S-Platoon soldiers to fill me in on the situation.</p>
+<p id="indent">“Private Donner,” Cho says to a nearby soldier, “can you give us a status report on the survivors of the attack?”</p>
+<p id="indent">“It’s slow-going getting all the rubble cleared out,” the private replies, “but so far, we’ve found two survivors.”</p>
+<p id="indent">“Who were they?” I ask, a heavy feeling of dread weighing down on me. “Were either of them Mary?”</p>
+<p id="indent">“No, not that I know of. They both had yellow jumpsuits on. Said they were Lana and Renet, I think.”</p>
+<p id="page-end">115</p>`
+const ch11p8 = `<p id="page-start"> </p>
+<p id="indent">“What?!” How do those two get to survive?</p>
+<p id="indent">“We’ll keep searching for a Mary if you’d like, but I recommend going to check the group of dead lined up over there.”</p>
+<p id="indent">I almost can’t bring myself to move towards the bodies. How many faces am I gonna recognize? Hopefully none. Maybe Mary still hasn’t been dug out yet. And Arnold, too. He’s somewhere in a corner, hiding under a large pile of rubble, probably able to lift it by himself.</p>
+<p id="indent">Cho leads the way to the rows, but instead of joining me in milling through the prisoners, he approaches the six dead S-Platoon members, all given plenty of space between each other and clearly handled with more respect than anyone else here.</p>
+<p id="indent">I begin the depressing walk down the line of slaves. Does it even matter what I call them anymore? Slaves or prisoners? They’re dead. Lives taken by a cruel mob boss, then ended by a Nazi invasion. My heart hangs every time I pass a woman’s body, but beats again when I don’t recognize it.</p>
+<p id="indent">I could see it coming a mile away, but eventually I reach Arnold’s body, still wearing the yellow Overseer jumpsuit. There were three bullet holes in his chest and stomach region. He no doubt went down fighting. The only other person who was semi-respectable to me on the island died protecting everyone else.</p>
+<p id="indent">The more I travel down the line, the more hopeful I get. </p>
+<p id="indent">Until I’m about two-thirds of the way done.</p>
+<p id="indent">There, lying in front of me, is Mary. On top of what looks like a disfigured lower body, there’s a bullet hole straight through her forehead. </p>
+<p id="indent">I crumple to the ground, speechless. Mary isn’t just dead–Mary was <em>killed</em>. Someone saw the old lady trapped under a pile of concrete and </p>
+<p id="page-end">116</p>`
+const ch11p9 = `<p id="page-start"> </p>
+<p id="no-indent">decided she wasn’t suffering enough.</p>
+<p id="indent">For the first time since my mother died, I start sobbing. It’s loud, it’s ugly, it’s heart wrenching, and it’s real. Mary, who I’d barely met a few days ago, meant a lot more to me than I was willing to mention. I let the one person who’d genuinely cared for me in a long time get killed.</p>
+<p id="indent">Slaphand will pay for this. Bijabers will pay for this. The Nazis will pay for this.</p>
+<p id="indent">Everyone will pay for this.</p>
+<p id="indent">In the middle of my breakdown, Cho approaches me and quietly watches. I feel like a kid.</p>
+<p id="indent">I am a kid. I am only a kid. A kid who shouldn’t have been put through any of this. No homelessness, no war, no slave labor, no traumatic loss, none of it. And yet here I am, suffering from one life-changing event after another.</p>
+<p id="indent">Not anymore. I’m in control of my life now, thanks to S. </p>
+<p id="indent">And I’ll see to it that those responsible get their fair dues.</p>
+<p id="indent">I stand up and wipe the tears from my face, then turn to face Cho. “I’m ready to go back to base. It’s time I got started on getting rid of this bastard once and for all.”</p>
+<p id="indent">He nods solemnly, and we walk back to the <em>Lateral</em>. The six-hour trip back to base proceeds in a different silence than before, and no small talk is exchanged. I don’t have it in me.</p>
+<p id="indent">When we arrive back, the wind is no longer brisk–it’s icy. The grass isn’t moving rhythmically, it’s moving in a violent, disorganized fashion. The mountain range is no longer majestic, it’s imposing. The clear, open sky is a threat and a promise. One that I intend to take to heart.</p>
+<p id="indent">The boss is waiting outside of his building, bundled up in warm </p>
+<p id="page-end">117</p>`
+const ch11p10 = `<p id="page-start"> </p>
+<p id="no-indent">winter clothes, holding a set of keys in his right hand. As we approach, I can see a somber look on his face.</p>
+<p id="indent">“I’ve heard the news. I’m terribly sorry, Luna. Why anyone would do such a thing is beyond me.”</p>
+<p id="indent">“The sick and twisted rarely need an excuse to be so,” I reply.</p>
+<p id="indent">“A wise saying, I’d say. Take whatever time you want to recuperate, but I’m holding the keys to your personal airship here, the A.S. <em>Constellation</em>. It’s nothing more than a rigged-out cloudship, but it’ll get the job done.”</p>
+<p id="indent">I hold my hand out to receive the keys, and he drops them in my hand. We exchange a simple nod, and I make my way over to the gravelly shipyard where the <em>Lateral</em> landed moments ago. There, I spot the <em>Constellation</em>, my new ship, and board the main deck.</p>
+<p id="indent">Without so much as another thought, I head to the lower deck, turn the engine on, and lift off from the ground. Using a built-in compass and the map sprawled across a table behind me, I set my sights for the Commerce District with an estimated arrival time of ten o’clock.</p>
+<p id="indent">I think back to the conversation Freckles and I had aboard our hijacked airship a handful of days ago, where I talked about my dreams and ambitions. How I talked about becoming a pilot and exploring the world, or becoming a pirate that fights for justice.</p>
+<p id="indent">It seems Luna the blood moon pirate will be making an appearance after all.</p>
+<p id="story-break"></p>
+<p id="story-break"></p>
+<p id="story-break"></p>
+<p id="story-break"></p>
+<p id="story-break"></p>
+<p id="page-end">118</p>`
+const ch11p11 = ``
+const ch11p12 = ``
+const ch11p13 = ``
+const ch11p14 = ``
+const ch11p15 = ``
+const ch11p16 = ``
+const ch11p17 = ``
+const ch11p18 = ``
 const ch11 = [ch11p1, ch11p2, ch11p3, ch11p4, ch11p5, ch11p6, ch11p7, ch11p8, ch11p9, ch11p10, ch11p11, ch11p12, ch11p13, ch11p14, ch11p15, ch11p16, ch11p17, ch11p18]
 
 const ch13p1 = `1`
