@@ -3454,6 +3454,116 @@ const ch11p17 = ``
 const ch11p18 = ``
 const ch11 = [ch11p1, ch11p2, ch11p3, ch11p4, ch11p5, ch11p6, ch11p7, ch11p8, ch11p9, ch11p10, ch11p11, ch11p12, ch11p13, ch11p14, ch11p15, ch11p16, ch11p17, ch11p18]
 
+const ch12p1 = `<p id="page-start"> </p>
+<p id="chapter-header">Chapter 12</p>
+<p id="chapter-bar">____________________</p>
+<p id="no-indent">I take an understandably long time to fall asleep on my way to the Commerce District. Too many thoughts swirl around in my head, translating directly into my dreams, which become a catch-all for traumas and memories.</p>
+<p id="indent">While fighting sleep, I look at my stock on board. Aside from the things I need to survive, like food and water, there are other ship supplies, like emergency fuel, ammunition for a cannon situated underneath the cockpit, and some sort of energy shield similar to the one Slaphand’s ship had.</p>
+<p id="indent">I’m still not entirely sure how that works. There’s a shield manual sitting on the dashboard, as well as a button to turn it on and off, but </p>
+<p id="page-end">119</p>`
+const ch12p2 = `<p id="page-start"> </p>
+<p id="no-indent">where did the technology even come from in the first place?</p>
+<p id="indent">Aside from that, I was given a few extra suits, some cash, two knives, and two pistols, as well as a more primitive version of the wrist device that Cho and the boss have. There’s a manual for that as well, but the words were blurring together at three in the morning, so I set it down. That’ll be reading material for another time.</p>
+<p id="indent">A good thirty minutes into the flight, I figured out how to set autopilot up and charted a course for the Commerce District docks closest to Shady Shane’s hideout. For being my second time flying, I’ve picked up on it quite quickly.</p>
+<p id="indent">From there, I hunted down the twin-sized bed that marked my bedroom and wasted no time curling up under the heavy comforter. I couldn’t stop thinking about Mary and Freckles. I felt guilty sleeping in a bed knowing what had happened because I didn’t dig her out of the rubble. Eventually, exhaustion overruled guilt, and I drifted off into a restless slumber.</p>
+<p id="indent">I woke up an hour ago, at eleven. So much for that early morning start the boss wanted. Though the allure to continue lying in bed was strong, I knew I had to get moving. A suit change and a light breakfast later, I’m standing on the deck of my ship, the sun hovering straight above me as I stare out at the coastline of Carmsborough.</p>
+<p id="indent">That feels weird to say. <em>My ship</em>. The <em>Constellation</em> is genuinely one of the first things I’ve owned for myself in a long time, and it’s an entire frickin’ cloudship.</p>
+<p id="indent">There’s a world in front of me to conquer. My first order of business is to find Shady Shane and milk him for all the information on Slaphand and Bijabers that he’s worth.</p>
+<p id="page-end">120</p>`
+const ch12p3 = `<p id="page-start"> </p>
+<p id="indent">Knives and pistols sheathed in various pockets of my coat and pants, I hop off of my ship. My first steps back in urban Carmsborough don’t disappoint. A fierce wind batters my side, setting the mood for the gray winter day.</p>
+<p id="indent">I don’t think I’ve ever been this bundled up in my life. I’m wearing a thick white parka, a white beanie and scarf, black jeans, and the cleats from the <em>Lateral</em>. While I don’t quite fit with the rest of the aristocracy of the Commerce District, I’m certainly not at the bottom of the food chain anymore. </p>
+<p id="indent">I turn heads of the people I pass. It’s strange to think that I’m being noticed because I’m no longer poor and homeless. </p>
+<p id="indent">It doesn’t take long to reach Shady Shane’s hiding place. He lives in a small tent city nestled in between the courtyard of four tall commercial buildings with some of the other homeless of the area, although it’s hardly by choice. This is one of the few safe havens left in the district, and it won’t be long until the police crack down on this one, too.</p>
+<p id="indent">“Is Shane around here?” I call out, swerving through a small crowd of those down on their luck. Anyone else might’ve flinched or recoiled at being so close to them out of fear or disgust, but seeing as I was still in their ranks just a few days ago, I’m completely unaffected by their mannerisms.</p>
+<p id="indent">“Who’s asking?” I hear Shane reply, stepping out of his tent. He’s not wearing any thick winter clothes, which probably means he hasn’t found any this year. At least he has something moderately warm on.</p>
+<p id="indent">“It’s me, Luna,” I answer. “I was looking to get some information from you.”</p>
+<p id="indent">“Luna? Where’d you get fancy new clothes from on such short </p>
+<p id="page-end">121</p>`
+const ch12p4 = `<p id="page-start"> </p>
+<p id="no-indent">notice? Did that machine thing lead you to money? I was getting anxious about not hearing back from you, and I feared the worst. And where’s your cat?”</p>
+<p id="indent">“Well, I hate to say it, Shane, but you were right to fear the worst. I ran into big trouble with Bijabers and Slaphand. They stole Freckles and forced me to do slave labor for a few days, before the war broke out and I was rescued by some militia group. In summary, I’ve been to Hell and back.”</p>
+<p id="indent">“Wait, what war?” He gives me a wide-eyed stare.</p>
+<p id="indent">“What do you mean? Haven’t you checked any of the display televisions in any of the storefronts? There’s a war. Nazis invaded like ten countries, including Carmsborough.”</p>
+<p id="indent">“Oh my God, I knew there was gonna be an invasion soon.” I can see Shane slowly breaking down, his paranoia kicking into overtime. “How do I know you’re not a Nazi, Luna? Why else would they have let you live?”</p>
+<p id="indent">“Calm down, Shane. They didn’t. Like I said, there was a militia group that saved me, and they’ve recruited me to assassinate Slaphand.”</p>
+<p id="indent">He sits on the information for a minute. His mind is clearly racing.</p>
+<p id="indent">“What militia group is it?”</p>
+<p id="indent">“I’m not totally sure what they’re called, but they’re run by some guy named ‘S’ who wants to change things for the better in Carmsborough.”</p>
+<p id="indent">“I’ve heard bad things about S, Luna. According to my sources, he’s not a good man.”</p>
+<p id="indent">“With all due respect, Shane, I’m not sure there’s such a thing as a ‘good man.’ There are men that are less bad than others, but for the most part, the men with power rarely use it for good. Which is why I’m fully </p>
+<p id="page-end">122</p>`
+const ch12p5 = `<p id="page-start"> </p>
+<p id="no-indent">on the S train. He wants to help me take down a dangerous man and get Freckles back in the process. When I’m done, Slaphand will never hurt another soul.”</p>
+<p id="indent">“I can’t trust it, Luna.”</p>
+<p id="indent">“I understand that, Shane. I’m not asking you to join me on my mission. I’m only wondering if you might know anything about where Bijabers or Slaphand are operating in Carmsborough.”</p>
+<p id="indent">“Physical location? No. But stories get around, passed on from both their goons and their victims. It sounds like on top of loan companies and banks, they’re going more and more into real estate. Word is, Bijabers has heavy hands in the northwestern portion of the Housing District.”</p>
+<p id="indent">“What kind of housing? Apartments or actual houses?”</p>
+<p id="indent">“My guess is a little bit of both. You find one of the companies he’s running, you find him. If you’re looking to draw him out, he’s sure to get mad if you do some damage to his prospects.”</p>
+<p id="indent">“Is that really all you have for me to go off of?”</p>
+<p id="indent">“Unlike you, Luna, I like to stay away from the bad men with bad plans. It never does me any favors to get in the way of someone with a lot more power than me.”</p>
+<p id="indent">“Alright. Thanks, Shane. Stay warm.”</p>
+<p id="indent">“You know I won’t.”</p>
+<p id="indent">I step out of the tent city and use my high-tech watch to relay the information back to the boss. </p>
+<p id="indent">“I’ll keep my informants busy trying to get more intel,” S says, his voice crackling through a speaker on the face of the watch-like band. “They might know more about his schemes that will help you.”</p>
+<p id="page-end">123</p>`
+const ch12p6 = `<p id="page-start"> </p>
+<p id="indent">“Roger that. I’ll keep my eyes and ears peeled for anything that might have to do with—”</p>
+<p id="indent">Beside me, on the patchy asphalt roads of the Commerce District, a dark blue box truck with the label “B Realty” drives by, heading due west towards the Housing District.</p>
+<p id="indent">“Hold that thought, Boss. I might have a lead already. I’ll keep you updated.”</p>
+<p id="indent">I don’t wait for his response. With the box truck gaining ground on me, I sprint off in that direction, surprisingly fast considering my extra bundling and four weapons jangling around. It’s traveling on a main road, which is why it’s asphalt and not cobblestone, but that also means it’s pretty much a straight shot to the Housing District.</p>
+<p id="indent">All I have to do is not lose sight of it, and pray there are enough stop lights to slow it down.</p>
+<p id="indent">The first light turns red, but the box truck runs right through it, closely tailing the car in front of it. I’m given the crosswalk right of way and dart across the busy afternoon street of the district. I still have eyes on my target, but since I can’t run at twenty miles an hour, it’s getting some good distance on me.</p>
+<p id="indent">Finally, another stop light turns red, and this time it’s too far back to run it. My lungs are beginning to feel sore, but now’s no time to stop. I know the crosswalk signs stay on for nearly a minute, which means I have one minute to run roughly a third of a mile.</p>
+<p id="indent">That’s possible, right?</p>
+<p id="indent">The answer, unsurprisingly, is no. I barely make it a third of a third of a mile before the light turns back to green, and it’s on its way again. It’s almost hopeless… unless…</p>
+<p id="page-end">124</p>`
+const ch12p7 = `<p id="page-start"> </p>
+<p id="indent">I run up to a taxi and tap the passenger side window. The man inside rolls it down and gives me a nasty look.</p>
+<p id="indent">“Excuse me, sir, I need to get down to the Housing District as fast as possible.”</p>
+<p id="indent">“Why should I help you?”</p>
+<p id="indent">“I’m willing to pay?”</p>
+<p id="indent">“Yeah, but you’re a black kid, too, and one of ‘em trumps the other.”</p>
+<p id="indent">Oh, yeah. The <em>other</em> reason people would stare at me. Pure racism at its finest.</p>
+<p id="indent">Against his wishes, I get into the back passenger seat of his taxi and strap myself in. “Take me to the Housing District.”</p>
+<p id="indent">“Hell no. Get out of my taxi.”</p>
+<p id="indent">I whip one of the two pistols out and point it at the man. “I’m not gonna ask again, you racist old prune. You’re lucky I’m still gonna pay you for it.”</p>
+<p id="indent">Overcome with fear, the man switches into gear. “Where at?”</p>
+<p id="indent">“Just follow that blue box truck ahead of us up there. They’re doing something illegal, and I’m here to stop it.”</p>
+<p id="indent">“<em>They're</em> doing something illegal? You’re the one who has the gun aimed at me!”</p>
+<p id="indent">“Well, that’s because you’re racist. I don’t discriminate with who I classify as evil, and I don’t hesitate to shoot.”</p>
+<p id="indent">It’s a lie, but it’s a lie that keeps him quiet. He doesn’t need to know that I’ve only fired a gun once, at the ground.</p>
+<p id="indent">He picks up speed, swerving to avoid cars when he has the chance, and slowly but surely, we approach the B Realty box truck from behind. After a few minutes, the driver says, “We’ve entered into the Housing </p>
+<p id="page-end">125</p>`
+const ch12p8 = `<p id="page-start"> </p>
+<p id="no-indent">District. How much farther do we need to follow this thing?”</p>
+<p id="indent">“As far as we can go. I’ve gotta see what they’re up to.”</p>
+<p id="indent">He lets out a worried sigh, but keeps his pace. Eventually, when the box truck makes a right turn up ahead onto a quieter cobblestone street, he joins them. If the box truck is suspicious of our taxi following just behind, it doesn’t show any signs. </p>
+<p id="indent">Three minutes and two turns later, the B Realty truck stops in front of a newer looking apartment complex. The taxi driver’s shoulders relax, and he turns to face me. I put the gun back in its holster.</p>
+<p id="indent">“Alright. Fare’s twenty bucks, but I’m adding another twenty for the emotional stress.”</p>
+<p id="indent">“You’re lucky you’re getting twenty, pal. Don’t try to extort me.” I pull a twenty out of my coat and hand it over.</p>
+<p id="indent">“It’s not extortion. You literally held a gun to my head.”</p>
+<p id="indent">“Maybe if you weren’t racist, life would be easier for you, bud.”</p>
+<p id="indent">I step out of his car and stretch inconspicuously on the sidewalk. Out of the box truck comes two men, each dressed exactly like the guards on Blood Moon Island. </p>
+<p id="indent">My hunch paid off. Bijabers is running B Realty, and these two unfortunate souls are my way of getting in.</p>
+<p id="story-break"></p>
+<p id="story-break"></p>
+<p id="story-break"></p>
+<p id="story-break"></p>
+<p id="story-break"></p>
+<p id="page-end">126</p>`
+const ch12p9 = ``
+const ch12p10 = ``
+const ch12p11 = ``
+const ch12p12 = ``
+const ch12p13 = ``
+const ch12p14 = ``
+const ch12p15 = ``
+const ch12p16 = ``
+const ch12p17 = ``
+const ch12p18 = ``
+const ch12 = [ch12p1, ch12p2, ch12p3, ch12p4, ch12p5, ch12p6, ch12p7, ch12p8, ch12p9, ch12p10, ch12p11, ch12p12, ch12p13, ch12p14, ch12p15, ch12p16, ch12p17, ch12p18]
+
 const ch13p1 = `1`
 const ch13p2 = `2`
 const ch13p3 = `3`
@@ -3653,27 +3763,6 @@ const ch22p16 = `16`
 const ch22p17 = `17`
 const ch22p18 = `18`
 const ch22 = [ch22p1, ch22p2, ch22p3, ch22p4, ch22p5, ch22p6, ch22p7, ch22p8, ch22p9, ch22p10, ch22p11, ch22p12, ch22p13, ch22p14, ch22p15, ch22p16, ch22p17, ch22p18]
-
-const ch12p1 = `1`
-const ch12p2 = `2`
-const ch12p3 = `3`
-const ch12p4 = `4`
-const ch12p5 = `5`
-const ch12p6 = `6`
-const ch12p7 = `7`
-const ch12p8 = `8`
-const ch12p9 = `9`
-const ch12p10 = `10`
-const ch12p11 = `11`
-const ch12p12 = `12`
-const ch12p13 = `13`
-const ch12p14 = `14`
-const ch12p15 = `15`
-const ch12p16 = `16`
-const ch12p17 = `17`
-const ch12p18 = `18`
-const ch12 = [ch12p1, ch12p2, ch12p3, ch12p4, ch12p5, ch12p6, ch12p7, ch12p8, ch12p9, ch12p10, ch12p11, ch12p12, ch12p13, ch12p14, ch12p15, ch12p16, ch12p17, ch12p18]
-
 
 
 const chapters = [ch1, ch2, ch3, ch4, ch5, ch6, ch7, ch8, ch9, ch10, ch11, ch12, ch13, ch14, ch15, ch16, ch17, ch18, ch19, ch20, ch21, ch22]
