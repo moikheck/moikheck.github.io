@@ -558,7 +558,8 @@ const chapterSelection = `  <option value="1" class="dropper">Chapter 1</option>
                         <option value="8" class="dropper">Chapter 8</option>
                         <option value="9" class="dropper">Chapter 9</option>
                         <option value="10" class="dropper">Chapter 10</option>
-                        <option value="11" class="dropper">Chapter 11</option>`
+                        <option value="11" class="dropper">Chapter 11</option>
+                        <option value="12" class="dropper">Chapter 12</option>`
 
 var mobileFlip = false
 
