@@ -3567,7 +3567,7 @@ const ch12p18 = ``
 const ch12 = [ch12p1, ch12p2, ch12p3, ch12p4, ch12p5, ch12p6, ch12p7, ch12p8, ch12p9, ch12p10, ch12p11, ch12p12, ch12p13, ch12p14, ch12p15, ch12p16, ch12p17, ch12p18]
 
 const ch13p1 = `<p id="page-start"> </p>
-<p id="chapter-header">Chapter 12</p>
+<p id="chapter-header">Chapter 13</p>
 <p id="chapter-bar">____________________</p>
 <p id="no-indent">Despite driving a moving truck, the two men never open their back storage area, and instead leave it running and make a beeline straight for the apartment complex. I stay back, waiting for them to disappear inside so that they don’t think I’m following them.</p>
 <p id="indent">Now’s as good a time as any to update the boss, I suppose.</p>
