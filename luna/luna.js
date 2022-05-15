@@ -559,7 +559,8 @@ const chapterSelection = `  <option value="1" class="dropper">Chapter 1</option>
                         <option value="9" class="dropper">Chapter 9</option>
                         <option value="10" class="dropper">Chapter 10</option>
                         <option value="11" class="dropper">Chapter 11</option>
-                        <option value="12" class="dropper">Chapter 12</option>`
+                        <option value="12" class="dropper">Chapter 12</option>
+                        <option value="13" class="dropper">Chapter 13</option>`
 
 var mobileFlip = false
 
@@ -3565,24 +3566,194 @@ const ch12p17 = ``
 const ch12p18 = ``
 const ch12 = [ch12p1, ch12p2, ch12p3, ch12p4, ch12p5, ch12p6, ch12p7, ch12p8, ch12p9, ch12p10, ch12p11, ch12p12, ch12p13, ch12p14, ch12p15, ch12p16, ch12p17, ch12p18]
 
-const ch13p1 = `1`
-const ch13p2 = `2`
-const ch13p3 = `3`
-const ch13p4 = `4`
-const ch13p5 = `5`
-const ch13p6 = `6`
-const ch13p7 = `7`
-const ch13p8 = `8`
-const ch13p9 = `9`
-const ch13p10 = `10`
-const ch13p11 = `11`
-const ch13p12 = `12`
-const ch13p13 = `13`
-const ch13p14 = `14`
-const ch13p15 = `15`
-const ch13p16 = `16`
-const ch13p17 = `17`
-const ch13p18 = `18`
+const ch13p1 = `<p id="page-start"> </p>
+<p id="chapter-header">Chapter 12</p>
+<p id="chapter-bar">____________________</p>
+<p id="no-indent">Despite driving a moving truck, the two men never open their back storage area, and instead leave it running and make a beeline straight for the apartment complex. I stay back, waiting for them to disappear inside so that they don’t think I’m following them.</p>
+<p id="indent">Now’s as good a time as any to update the boss, I suppose.</p>
+<p id="indent">“Good news, sir,” I say, speaking into my watch. “I followed a box truck for a company called B Realty, and I’m almost certain they work for Bijabers. I’m gonna handle and interrogate the two men that came out of it to see what they know.”</p>
+<p id="indent">“That’s fantastic, Luna. It hasn’t even been twenty-four hours, and you’re outperforming my expectations. At least, you will, as long as you </p>
+<p id="page-end">127</p>`
+const ch13p2 = `<p id="page-start"> </p>
+<p id="no-indent">actually get information out of them. Chop, chop.”</p>
+<p id="indent">Our connection ends, and I look back up at the entrance of the apartment complex. They’ve already gone inside.</p>
+<p id="indent">I approach the door and try the handle, but it doesn’t budge. To my right, there’s a speaker device with a button. I press it and stand back, waiting for a response on the other end.</p>
+<p id="indent">“Who is it?” A voice asks, deep and surly.</p>
+<p id="indent">“Hey, I’m with the two that just walked in. I was a little bit behind, but I’m here now.”</p>
+<p id="indent">The voice stays silent for an uncomfortable amount of time, but eventually, the man says back, “You’re with Tim and John?”</p>
+<p id="indent">“I don’t remember their names. The boss man only put me on B Realty duty today. I’m really sorry about this.”</p>
+<p id="indent">“And who’s the boss man?”</p>
+<p id="indent">“Slaphand. Wants me to do some field training.”</p>
+<p id="indent">Another long silence passes before the door unlocks with a loud click. “Come on in, rookie. Next time, don’t be late.”</p>
+<p id="indent">“Of course. Thanks, man.”</p>
+<p id="indent">With as naturally as the lies came out, it makes me wonder how practiced I’ve gotten at making things up to get what I need. Cho was right: we don’t even notice the ways we adapt to survive.</p>
+<p id="indent">Once inside, the first thing I notice is the dramatic difference from the outside of the building. While the outside makes it appear pretty and upkept, the inside is in a considerably more dismal state. I don’t know why it surprises me as much as it does, seeing as it’s run by either Slaphand or Bijabers, but the place needs more than a repainting. The walls and stair railings look like they’re one bad day away from </p>
+<p id="page-end">128</p>`
+const ch13p3 = `<p id="page-start"> </p>
+<p id="no-indent">crumbling.</p>
+<p id="indent">My hunt for the two men continues, but it’s not a long one. Above me, on a higher floor, the scream of an old lady is followed by an expensive-sounding smashing noise. I bolt up the stairs as quick as my little legs can take me to the third floor, where I find a door left ajar.</p>
+<p id="indent">A second scream calls out from the open apartment, and without another thought, I jump in through the doorway, fists up and ready. </p>
+<p id="indent">“Come on, you geriatric flumpnugget, it’s eviction day.” The two men approach her aggressively, hands outstretched to grab her. She gives me a brief look, and in that moment, I make my presence known to her assailants.</p>
+<p id="indent">“Why don’t you pick on someone in your own diaper category, you brainless goons?”</p>
+<p id="indent">Yeah. That’s right. I’ll dish out the meaningless insults just as much as they will.</p>
+<p id="indent">They turn to face me, confused by the woman trespassing during their housekeeping.</p>
+<p id="indent">“Who the hell are you?” one asks, squaring up to face me instead of going after the lady.</p>
+<p id="indent">“Hey, isn’t this that Luna kid the boss was talking about?” the other asks, pulling out a knife. “Says she destroyed the Plasmarizer twice.”</p>
+<p id="indent">“And knocked out five of our boys back on the island.”</p>
+<p id="indent">“The guys in your little operation do have a tendency to underestimate me,” I say, leaning against the wooden doorframe. “So, let’s be smart about this. If you leave this woman alone, I won’t knock your heads together and string precious information out of you.”</p>
+<p id="indent">They trade a knowing stare, and the empty-handed one pulls out his </p>
+<p id="page-end">129</p>`
+const ch13p4 = `<p id="page-start"> </p>
+<p id="no-indent">own knife. </p>
+<p id="indent">“That’s alright, I was lying anyway. I wasn’t gonna let either of you walk out of here. Oh, and for one thing, don’t call me a kid.”</p>
+<p id="indent">We charge at the same time, but for now, I don’t pull out either of my own knives. If I can keep them on their toes without using them, they might start making mistakes, and I’ll have the element of surprise when I do grab them.</p>
+<p id="indent">The one to my left, who was the first to pull his blade out, is a smaller and easier target, so I focus my plan on him. I fake right towards the larger goon and dive down into the smaller one’s legs, sending him crashing to the floor. He drops his knife in shocked response, which clatters to the ground next to me. </p>
+<p id="indent">That was easy.</p>
+<p id="indent">Behind me, the other flips his knife to a better backstabbing position, but I roll forwards off of the other man, all of my weight pressing against his head. It’s not pleasant for either of us, but I don’t envy his position.</p>
+<p id="indent">Utilizing the momentum of my roll, I launch back up on my feet and immediately spin to face the still-standing opponent. He clumsily rushes at me, but I dodge out of the way, and he goes gut-first into the woman’s table. I give her a sympathetic look, but she stares at the scene in shock, hardly paying me any attention.</p>
+<p id="indent">Both men are back up and ready to fight, and this time, I’m in between them. They barrel towards me, and I duck underneath at the last second. Then, while still holding the stolen knife, I slash at the closest legs I can, sending the bigger man into a howl.</p>
+<p id="indent">“You guys are hopeless,” I taunt, sweeping the second man’s legs out from under him using my own. With them both distracted, I motion </p>
+<p id="page-end">130</p>`
+const ch13p5 = `<p id="page-start"> </p>
+<p id="no-indent">for the woman to open the window facing out to the front of the building. She does so, and I lob the knife out, which clatters against the cement sidewalk below. </p>
+<p id="indent">The bigger one clenches his fists in a fit. “You’re gonna pay for that.”</p>
+<p id="indent">“You’ve gotta catch me, first.”</p>
+<p id="indent">I run out of the room and down the hallway, pivoting around the corner as if I’m about to go down the stairs. The flimsy railing surrounding the stairs is especially flimsy right now.</p>
+<p id="indent">I hope this plan works.</p>
+<p id="indent">I hear one of the two men stomping down the hall, and right as they get ready to round the corner, I stick my leg out like a cartoon character. They smash into my shin and topple over the railway, which creaks dangerously under the strain.</p>
+<p id="indent">The crummy conditions inside of their own apartment are their undoing. The railing gives way, sending the larger man, whose legs are already cut, plummeting down to the second-floor stairway. He hits the steps with a loud thud, and his smaller friend looks down the broken railing at him.</p>
+<p id="indent">He turns to me, angry, but loses all color in his face when he spots the gun in my hand.</p>
+<p id="indent">“Like I said, don’t underestimate me, and don’t call me a kid.”</p>
+<p id="story-break">∙ ◦ ○(        )○ ◦ ∙</p>
+<p id="indent">Ten minutes later, I have both of them tied up to the woman’s kitchen chairs. She’s cowering in a back corner of her dining room. Her frail little heart probably hasn’t seen this much action in years.</p>
+<p id="indent">“I’m sorry about all this, by the way,” I say. “But these are the bad </p>
+<p id="page-end">131</p>`
+const ch13p6 = `<p id="page-start"> </p>
+<p id="no-indent">guys, as I’m sure you’re aware. I hope you don’t mind me doing this.”</p>
+<p id="indent">“I’m very conflicted right now.”</p>
+<p id="indent">“I’m sure. All I’m doing is getting a little information out of them, and then we’ll call the cops and make sure they’re dealt with properly.”</p>
+<p id="indent">“Yeah, you ain’t getting anywhere with the cops, kid.” The bigger one, fairing far worse than his smaller counterpart, still has a lot of gusto to him, despite being slashed and thrown down a flight of stairs. To prove a point, I wind up my fist and connect with the side of his mouth.</p>
+<p id="indent">“Alright, goony boys, I need to know where Slaphand’s base of operations here in mainland Carmsborough is. I highly recommend you cooperate. I have plenty of fun toys to use if you don’t.”</p>
+<p id="indent">“We won’t tell you anything.” </p>
+<p id="indent">For what it’s worth, the larger man is defiant to the end.</p>
+<p id="indent">His buddy, however, is not. “Please don’t do anything to us. I got a family back home. I gotta provide for them.”</p>
+<p id="indent">“Well, isn’t that awful cute. Maybe you should’ve chosen a better career path, pal. One that doesn’t involve a crime organization and evicting helpless old ladies from their homes. Give me an address. Now.”</p>
+<p id="indent">“Don’t do it, Josh,” the bigger one says.</p>
+<p id="indent">Josh, the smaller one, seems to weigh his options. “You have to promise to let me go if I answer,” he says.</p>
+<p id="indent">“Not a chance, Josh. You’ve done bad, and you’re gonna pay the legal price.”</p>
+<p id="indent">“Hold out a little longer, Josh!”</p>
+<p id="indent">“What’s that mean, big boy?” I level one of my guns at the man’s head. Hopefully he doesn’t notice my shaking.</p>
+<p id="indent">I’m not sure I could shoot someone. Even now, I was shocked I </p>
+<p id="page-end">132</p>`
+const ch13p7 = `<p id="page-start"> </p>
+<p id="no-indent">found the strength to slash at his legs. It’s not like he didn’t deserve it, and they came at me with knives beforehand, but still.</p>
+<p id="indent">“It means you’re in trouble, kid. There are cameras in the hallway. As soon as you took the fight out there, you alerted the base. At this point, they’re almost here.”</p>
+<p id="indent">I walk backwards out to the hallway, not removing my eyes from the two tied-up men, and glance at the ceiling. </p>
+<p id="indent">A camera is pointing directly at me.</p>
+<p id="indent">Foiled by another damn camera.</p>
+<p id="indent">I reenter the room and peer out the window. If the big man’s not bluffing, they haven’t shown up yet.</p>
+<p id="indent">“Fine, I’ll let you go, Josh. Give me the address. Now.”</p>
+<p id="indent">“Josh, don’t you dare!”</p>
+<p id="indent">A bead of sweat runs down his temple. He’s seriously considering it, but he needs to seriously consider it faster.</p>
+<p id="indent">“She’s up on the third floor!” a voice calls out from down below us in the building. Sounds like the person who rang me in through the front door. I look out the window again, but there still aren’t any cars. They must be talking to some in-building guard.</p>
+<p id="indent">Throwing all caution to the wind, I point my gun at Josh instead. “You have three seconds, Josh, or I’ll pull the trigger.”</p>
+<p id="indent">His eyes widen, and he takes a big gulp.</p>
+<p id="indent">“One.”</p>
+<p id="indent">“Josh, if you tell her, I’ll pull the trigger on you myself.”</p>
+<p id="indent">“Two.”</p>
+<p id="indent">“Okay!” Josh yells. “1481 Magnolia Street down in the Commerce District! I don’t know his main location, but I know he comes to work </p>
+<p id="page-end">133</p>`
+const ch13p8 = `<p id="page-start"> </p>
+<p id="no-indent">and visit us at our hub every now and then! It’s a big gray building with a cloudship loading dock hanging off the side!”</p>
+<p id="indent">“Good decision, Josh,” I say, quickly pocketing the gun. I peek my head out of the apartment doorway and spot two guards coming down the hall, guns drawn.</p>
+<p id="indent">“Right there!” one of them shouts, stating the obvious.</p>
+<p id="indent">I’m not risking a gunfight against two people with an innocent bystander in the room. I need to escape somehow.</p>
+<p id="indent">I peer out the still-open window. Just below the frame is a gutter, jutting out the side of the building enough to maybe hang off of. It’s not a solid plan, but it’s still a plan. At least it beats jumping three stories.</p>
+<p id="indent">With careful steps, I get up on top of the windowsill and slowly lower myself off the edge, grabbing tightly onto the gutter. It shakes and creaks under my weight, but otherwise seems strong enough to hold me up. Above me in the apartment, I hear the yelling and voices of the men chasing me down.</p>
+<p id="indent">On top of that, a welcoming party below me shows up in three unmarked black vans, two people each. I shimmy my way along the gutter, hoping to loop out of sight of the men, but there’s no way I’ll be fast enough to escape. There has to be a safer way to get to ground level.</p>
+<p id="indent">To my left, someone’s balcony hangs about eight feet below me. It’s not very large, but it’s enough to land on without breaking a sweat. Or bones. I grapple my way over, hanging on for dear life to the rickety gutter. I can feel the metal threatening to cut into my knuckles, but I can’t let it stop me.</p>
+<p id="indent">Two gunshots fire off, and the bullets land somewhere in my vicinity. I look back at the ground and see the six men out of their cars and </p>
+<p id="page-end">134</p>`
+const ch13p9 = `<p id="page-start"> </p>
+<p id="no-indent">pointing pistols up at me. From above, the two guards are aiming out the window, though they won’t have as good of an angle to shoot at me so long as I keep moving. </p>
+<p id="indent">Ducking and jumping with every blast of a gun, I continue my way over to the balcony, and get close enough that I decide to jump off towards it. I let go of the gutter and realize I vastly miscalculated how far away it is. My arms flail out, and my right hand grabs on to the metal railing of the balcony at the last second.</p>
+<p id="indent">Another volley of gunshots is unleashed, and I can feel a massive percussive force hit my left foot. Or shoe. I’m not sure which. Either way, it sends my lower body careening forward, forcing my grip on the balcony to loosen. I plummet eight feet to the ground, landing square on my back. Somewhat luckily for me, it’s mostly cushioned by a series of smaller, softer bushes, but it doesn’t stop the pain.</p>
+<p id="indent">Now on the ground and hiding behind the shrubbery, I realize how bad of a situation this is. I have no way out, and I’m surrounded by six to eight men with guns, depending on how you define the word “surrounded.” There’s no way out of this without using my own gun.</p>
+<p id="indent">“Come out, kid!” one of them calls, clearly inching closer to my hiding spot. </p>
+<p id="indent">“And what if I don’t?”</p>
+<p id="indent">“I won’t hesitate to shoot.”</p>
+<p id="indent">“You drive a hard bargain, sir.”</p>
+<p id="indent">I slowly reach for the guns in my pockets, coming to terms with my predicament, when I hear the whistle of something flying through the sky towards us.</p>
+<p id="indent">“Fall back, men! It’s Orion and the Clockwork!”</p>
+<p id="page-end">135</p>`
+const ch13p10 = `<p id="page-start"> </p>
+<p id="indent">“What?!” one of them calls out. I pop my eyes out over the bush, and sure enough, the brass mass is soaring in our direction.</p>
+<p id="indent">While they distract themselves by running to their own cars, I use the moment to bound out of the shrubbery and towards the still-idling B Realty box truck I’d followed to the complex. Thank goodness for other people’s irresponsibility.</p>
+<p id="indent">I switch the truck into gear and drive away as best I can, seeing as I’ve never learned how to drive. It’s a jerky situation, to say the least. The unmarked cars follow suit, and behind them is Orion and the Clockwork, rapidly closing their distance from the cars.</p>
+<p id="indent">If I have to fight Orion and the Clockwork, it’s the end of the line for me. Or, even worse, if I have to thank Orion and the Clockwork, I’ll end the line myself.</p>
+<p id="indent">I step on the gas, giving myself a small head start on the posse of black sedans threatening to run me over. There’s a four-way stop sign dead ahead of me, but since I don’t see any cars waiting, I barrel right past it. The other cars do the same, but split off in opposite directions. One continues following me, but the other two turn left and right, probably trying to split Orion and the Clockwork’s attention.</p>
+<p id="indent">Unbothered, the duo keeps pressing forward, directly behind the car currently tailing me.</p>
+<p id="indent">The car takes a few hopeless shots back at Orion and the Clockwork, missing every time, before focusing back on me. They shoot dents into the back of the truck, but with the thick cargo hold attached to the back end, they don’t stand a chance of hurting me. </p>
+<p id="indent">We blow through a second stop sign, as unpopulated as the last one, and quickly realize that the next intersection is a stop light with a busier </p>
+<p id="page-end">136</p>`
+const ch13p11 = `<p id="page-start"> </p>
+<p id="no-indent">street. I hit the brakes a little harder than I mean to, and I feel the black car bump into me. Then, a loud metal scraping fills the air, and when I look back, the Clockwork has landed directly on top of the sedan, weighing it down so much it grinds against the ground and eventually comes to a stop. </p>
+<p id="indent">Using the distraction, I prepare for the worst at this intersection, but the light turns green for me right at the perfect time. I make a hard right, sending the box truck swerving and swinging left and right. Maybe this way I can disappear into the traffic without having to worry about the other two cars or Orion and the Clockwork.</p>
+<p id="indent">On either side of me, one of the two black cars pulls up to my section of the truck, pointing pistols at the window. </p>
+<p id="indent">Spoke too soon on that front.</p>
+<p id="indent">I hit the gas a little harder, lightly bumping the car in front of me. They honk before realizing what’s happening. The two cars unload on the box truck, spraying bullets into the cab, shattering the glass of both doors, but miraculously missing me.</p>
+<p id="indent">The whistle of the Clockwork screams through the air again and they connect with the car on my right, smashing it into the ground without hesitation. </p>
+<p id="indent">My heart is pounding. This is like a horror movie, where the monster picks them off one by one. And I could be next.</p>
+<p id="indent">In yet another rash decision, I hit a hard left at the next street I find, sending random cars screeching to a stop and dodging out of the way. My stolen box truck funnels straight into a tight alleyway, scraping against the sides of the buildings and taking my mirrors clean off. I have no way of looking back to see if the other car is still following until I </p>
+<p id="page-end">137</p>`
+const ch13p12 = `<p id="page-start"> </p>
+<p id="no-indent">emerge from the alley. A short glance shows they are, but it also shows Orion and the Clockwork hovering slightly above us.</p>
+<p id="indent">I don’t know exactly where we are, but I know we’ve hit the Commerce District, and that’s enough for me. I swerve sharply into this road’s flow of traffic, and at the nearest light, go back down into another alleyway. This one’s a little wider than the last, with barely enough space for me to open my door and hop out of the truck.</p>
+<p id="indent">Behind me, the last sedan rushes into the alley and smashes into the back of the box truck. They both lurch forward a bit, and I duck out of the way into an offshoot alley. Two doors slam shut, and I hear the men load their pistols.</p>
+<p id="indent">“We’re in so much trouble, dude. Orion and the Clockwork are onto us, and we can’t even tie up this loose end. If the boss ever sees us again, he’ll kill us.”</p>
+<p id="indent">I hide back behind a dumpster, shakily grabbing one of my guns. This time, I’m fully prepared to go down swinging.</p>
+<p id="indent">A loud engine sound roars down the alley, and the two men start yelling and firing their weapons. The bullets make a metal pinging noise against what I assume is the Clockwork, who smacks them both against the sides of the buildings.</p>
+<p id="indent">“I’m only going to ask once,” Orion says to the two men. “Who do you work for?”</p>
+<p id="indent">“As if we’d tell a kid like you.”</p>
+<p id="indent">“This kid has a lot more manpower and resources than you do. If you simply tell me, this’ll go a lot easier for you. Who are you, and who were you chasing across the city?”</p>
+<p id="indent">“Just some kid,” they reply. “She’s been giving the boss some </p>
+<p id="page-end">138</p>`
+const ch13p13 = `<p id="page-start"> </p>
+<p id="no-indent">trouble.”</p>
+<p id="indent">“And who’s your boss?”</p>
+<p id="indent">“We ain’t spilling.”</p>
+<p id="indent">I get a small glance at Orion from behind the dumpster. He looks about average height and build, if not a little scrawny. His hair is brown and messy, and he’s wearing all black. His partner, the feared and respected Clockwork, is a large brass beast with powerful arms and legs and a furnace with eyes for a head.</p>
+<p id="indent">It’s hard to believe the Gearmaster could create something like this and also something like Freckles. Truly a creative mind, at least.</p>
+<p id="indent">While Orion tries to interrogate the two goons, I slowly and quietly sneak away out the alleyway exit. Then, once I hit the sidewalk, I run in every direction I can. The last thing I want is those two hunting me down. Hopefully they’ll stay busy long enough for me to get a good lead on them.</p>
+<p id="indent">After fifteen minutes of running and adrenaline pumping, I decide I’m safe enough to stop worrying about the protectorate duo of Carmsborough. They have bigger fish to fry with Slaphand’s goons, as long as they don’t get to him before I do.</p>
+<p id="indent">With the sun getting lower in the sky, I begin my hunt for the building Josh the goon was talking about, wandering the streets and intersections of the Commerce District. In an unfortunate turn of events, I find it two streets over from where the tent city Shady Shane lives in. The box truck must’ve been coming from their base here.</p>
+<p id="indent">I walk down the sidewalks, which are now emptier than earlier, and finally spot the big gray building the goon was talking about. Off the left side of the building is a small cloudship loading dock, currently in use. I </p>
+<p id="page-end">139</p>`
+const ch13p14 = `<p id="page-start"> </p>
+<p id="no-indent">head up to the front, hoping to put a name to the fake company Slaphand’s using to terrorize Carmsborough.</p>
+<p id="indent">The sign out front reads “CB Moving Limited.” I drop my jaw in shock. All the strings in my heart snap like the bow of a violin being pressed too hard. My knees turn to jelly.</p>
+<p id="indent">CB Moving Limited. The same company that evicted me out of my apartment when my mom died.</p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="page-end">140</p>`
+const ch13p15 = ``
+const ch13p16 = ``
+const ch13p17 = ``
+const ch13p18 = ``
 const ch13 = [ch13p1, ch13p2, ch13p3, ch13p4, ch13p5, ch13p6, ch13p7, ch13p8, ch13p9, ch13p10, ch13p11, ch13p12, ch13p13, ch13p14, ch13p15, ch13p16, ch13p17, ch13p18]
 
 const ch14p1 = `1`
