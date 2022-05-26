@@ -560,7 +560,9 @@ const chapterSelection = `  <option value="1" class="dropper">Chapter 1</option>
                         <option value="10" class="dropper">Chapter 10</option>
                         <option value="11" class="dropper">Chapter 11</option>
                         <option value="12" class="dropper">Chapter 12</option>
-                        <option value="13" class="dropper">Chapter 13</option>`
+                        <option value="13" class="dropper">Chapter 13</option>
+                        <option value="14" class="dropper">Chapter 14</option>
+                        <option value="15" class="dropper">Chapter 15</option>`
 
 var mobileFlip = false
 
@@ -3758,44 +3760,288 @@ const ch13p17 = ``
 const ch13p18 = ``
 const ch13 = [ch13p1, ch13p2, ch13p3, ch13p4, ch13p5, ch13p6, ch13p7, ch13p8, ch13p9, ch13p10, ch13p11, ch13p12, ch13p13, ch13p14, ch13p15, ch13p16, ch13p17, ch13p18]
 
-const ch14p1 = `1`
-const ch14p2 = `2`
-const ch14p3 = `3`
-const ch14p4 = `4`
-const ch14p5 = `5`
-const ch14p6 = `6`
-const ch14p7 = `7`
-const ch14p8 = `8`
-const ch14p9 = `9`
-const ch14p10 = `10`
-const ch14p11 = `11`
-const ch14p12 = `12`
-const ch14p13 = `13`
-const ch14p14 = `14`
-const ch14p15 = `15`
-const ch14p16 = `16`
-const ch14p17 = `17`
-const ch14p18 = `18`
+const ch14p1 = `<p id="page-start"> </p>
+<p id="chapter-header">Chapter 14</p>
+<p id="chapter-bar">____________________</p>
+<p id="no-indent">I remember the day I found out about Mom’s cancer.</p>
+<p id="indent">My day at school had been good. More than good, actually. I was excited to share the news with her. She was going to be so proud of me for how well I did. How well we did. After all, we’d spent the night working on the project together, finishing all the little details that made it perfect.</p>
+<p id="indent">The walk back to the apartment was serene. Peaceful. Birds were singing their harmonious tunes, breathing life into the cobblestone landscape of inner-city Carmsborough. People young and old were sitting on the cement steps of their houses and apartments, singing, playing, knitting. Living.</p>
+<p id="page-end">141</p>`
+const ch14p2 =`<p id="page-start"> </p>
+<p id="indent">A tune was stuck in my head. It was one of Giraffe’s most popular hits of the year, which the radio on our counter at home played nonstop. It became the background music of my trip home.</p>
+<p id="indent">It was a Wednesday. I only remember that because my last class of the day was gym class, and we’d had a fun round of four-corner dodgeball that ended with the bell. I wouldn’t normally participate, but something was in the air. The spring air, which whistled through the stone alleys and along the tall buildings. Trees were in full bloom, their green hues as dark as ever. Bursting white clouds blanketed the sky, contrasting against the deep blue signature of the time of year. A cloudship here and there soared by.</p>
+<p id="indent">I had a little hop to my step as I climbed the stairs of my apartment complex all the way to the fourth floor. They were tall and creaky, having been made before standardization, but I never minded. It was a healthy workout for my trip home.</p>
+<p id="indent">I opened the door to our apartment and made my presence known. Though she was usually at work, Mom had some sort of appointment with her doctor that day, which meant a much-needed break was in store for her. I entered the living room and spotted her on the couch, using our coffee table as a desk to write on a piece of paper. Not paying her much attention, I moved to the kitchen to dig out an afternoon snack.</p>
+<p id="indent">“You’re never gonna believe it, Mom, but we got the highest score on the project out of the entire class. Mrs. Westernight was impressed. Thanks for staying up all night to work with me on it. You really didn’t have to.”</p>
+<p id="indent">I snagged an apple from our fruit bowl and turned to our small pantry for dinner ideas. “Had fun in gym today, too. We played more </p>
+<p id="page-end">142</p>`
+const ch14p3 =`<p id="page-start"> </p>
+<p id="indent">dodgeball, and I did as good as usual. But I tried today, and honestly, that’s asking a lot. We also read <em>Of Mice and Men</em> in English, which wasn’t as great, but next week we’re beginning our poetry unit.”</p>
+<p id="indent">Mom hadn’t responded to any of my conversation, so I assumed whatever she was writing had something to do with work. It seemed like every couple of days she would bring her suitcase home and work until bedtime.</p>
+<p id="indent">I grabbed a few chunky potatoes from the sack in the pantry, made sure they were bud-less, and set them down on the counter to hunt for our main course of the night. </p>
+<p id="indent">“Whatcha workin’ on, Mom? Your boss trying to get you to work on your day off, too?” I picked up my apple and took another chunk out of it. Finally, she looked up at me, tears flowing down her cheeks. Her bottom lip quivered in the same way it always does when her heart’s been shattered.</p>
+<p id="indent">I remember assuming she was thinking about Dad again. I was too young to remember him leaving us. It was in this same apartment that Mom found out he had left us to go to the United States. Occasionally, something would trigger a thought or memory, and on especially emotional days, there was no stopping her floodgates from opening. </p>
+<p id="indent">“What’s wrong, Mom?”</p>
+<p id="indent">She beckoned me over with both arms, tilting her head down to the floor. I sat next to her, and she wrapped her arms around me tightly. I remained motionless. Whatever it was, she would get it out of her system soon, and in half an hour we would be laughing and having our dinner of mashed potatoes and… well, something else.</p>
+<p id="indent">Maybe it was gonna be a steak day. We still had a few cheap cuts in </p>
+<p id="page-end">143</p>`
+const ch14p4 = `<p id="page-start"> </p>
+<p id="no-indent">our freezer, hiding under all the TV dinners, and if I thawed it out within the next twenty minutes, they’d be ready enough by the time six o’clock rolled by.</p>
+<p id="indent">I remember thinking the exact words, “As long as she wraps this up, at least.”</p>
+<p id="indent">When she let go of me, her tears didn’t stop. She was shaking. Something was seriously wrong. I was close to crying, too, despite having no idea what was going on. I’m not sure if it was empathy or sympathy, or even somehow understanding that the next words out of her mouth were going to change our lives forever.</p>
+<p id="indent">“Doc says I’ve got cancer.”</p>
+<p id="indent">It took four seconds for her words to process in my head. I stared at her with wide eyes. My grip on the half-eaten apple weakened, and the simple fruit fell to the carpet.</p>
+<p id="indent">“What?” My voice shook.</p>
+<p id="indent">“It was… uh… just a regular checkup, and… and he said, ‘Well, now don’t that look odd,’ and I said, ‘Well, now don’t what look odd, Doc?’ And so he ran a few tests, and… Oh my God, Luna girl, your mom’s got cancer.”</p>
+<p id="indent">The living room around me fell apart, like a freshly completed puzzle going in for some glue that gets flipped too carelessly and slides off the cardboard, fragmenting into the same mess it started out as. </p>
+<p id="indent">“What?” I said again, unable to piece together anything else. “That can’t be right. The doc could be wrong, right? That can’t be right.”</p>
+<p id="indent">“He’s running some more tests, and we’ll find out sure enough by Friday, but there’s no denying the lump he spotted. Said it may be metastatic, whatever that means.”</p>
+<p id="page-end">144</p>`
+const ch14p5 = `<p id="page-start"> </p>
+<p id="indent">We didn’t have a steak-and-potatoes dinner that night. Or the next night. Or the night after that.</p>
+<p id="indent">The results came in early Friday morning. Neither of us had gone to school or work, unable to cope with the looming diagnosis and the anxiety that came with it. Why should we pretend like everything was normal? There was a good chance things would never be again.</p>
+<p id="indent">When the paperboy arrived with his satchel, we were already waiting on the front steps for the delivery. The wind was a little bit stronger that day, threatening to sweep us off the concrete staircase. He handed us our mail and went inside to deliver the rest to the front desk.</p>
+<p id="indent">The tall stairs up to the apartment were an inconvenience. We were both huffing for air at the top, our legs having carried us up the four flights a little too quickly. Then, we sat at the coffee table, nervous. </p>
+<p id="indent">Metastatic Breast Cancer.</p>
+<p id="indent">I suppose not all of those words need capitalized, but that’s how the doctor wrote it, and quite fittingly, I’d say. It’s imposing, it’s interrupting, and it’s terminal. At least, that’s also how the doctor wrote it, unless we tried chemotherapy. And seeing as how it had spread to her brain, it was going to be too expensive for our bare-bones insurance to cover.</p>
+<p id="indent">Metastatic Breast Cancer That Spread To The Brain.</p>
+<p id="indent">Treatment That Costs Ten-Thousand Dollars.</p>
+<p id="indent">I called the school later that morning using our dingy home phone to tell them I would be dropping out of school to work. Mom and I weakly argued, but in the end, we both knew that if she wanted any sort of chance at treatment, we’d both have to be in a full-time job.</p>
+<p id="indent">A weekend of scouring the Commerce District for anyone willing to hire a twelve-year-old illegally later, I landed at the rusty doorsteps of </p>
+<p id="page-end">145</p>`
+const ch14p6 = `<p id="page-start"> </p>
+<p id="no-indent">Cheapskate Chad’s scrapyard. My rate? A dollar a day. Well under minimum wage, but it’s not like I could do a lot about it. I’m not supposed to be working in the first place.</p>
+<p id="indent">We crunched numbers, and by the time October reared its head, we’d have enough money to get her the treatment she needed. Still, April to October was a long time, and we couldn’t afford for anything to go wrong in the meantime. We didn’t even know if we had that long to begin with.</p>
+<p id="indent">April turned to May, and May turned to June. My birthday came and passed, receiving an acknowledgement along the way, but nothing more.</p>
+<p id="indent">The days at work were not good; they were long and taxing. Still, I would walk home, dollar in my pocket, eager to spend the night with Mom. Replacing the radio on the kitchen counter was a jar showing my contributions, a visual marker of our progress.</p>
+<p id="indent">Walking back to the apartment was grueling. It took me a full hour to go back and forth, crossing busy roads and people who wouldn’t look my way if I were royalty. The birds were fighting the oppressive heat as much as I was, and their harmonious tunes rang dull in the vast, light-blue sky. The cobblestone streets of Carmsborough seemed empty. The staircase was no different. The last obstacle in a long day, hoping to drain me of every last breath.</p>
+<p id="indent">One night, Mom surprised me with steak and potatoes, as well as a box of minute-serve rice. With the money we’d earned so far, as well as the sum already in her bank account, we were halfway to our goal. The work was relentless, so the occasion was signified with half of our steak rations, slightly freezer-burned by this point.</p>
+<p id="indent">But we didn’t care. We laughed, we talked, we cried. A lot of that </p>
+<p id="page-end">146</p>`
+const ch14p7 = `<p id="page-start"> </p>
+<p id="no-indent">had been going around, but hope was on the horizon, and although our routine was rough, it was done with purpose. I remember ending the night with a deep talk about the future. I was going to be a poet, and Mom was going to climb the ranks in her menial office job. When I left to head to bed, Mom was putting a stack of envelopes in the bill box hanging over the microwave. </p>
+<p id="indent">The months blurred forward, but the temperature had stayed largely the same. The grass was yellower, and the wind was harsher. The same walk that had been a chore in June was seared into my legs. Air distorted above the cobblestone roads, baking all life that stepped through it.</p>
+<p id="indent">I took heavy bounds up the staircase to our apartment, weighed down by tired feet and aching joints. Nonstop physical labor was taking its toll. A few steps later, I was at our door, ready for another quiet night at home.</p>
+<p id="indent">The day’s snack was going to be the same as it had been for nearly half a year: saltines and tap water. I passed Mom on the couch, laying down for a nap following a hard day of work. Her breathing was deep and slow.</p>
+<p id="indent">I remember thinking I’d wait until dinner to wake her up. I’d get it all prepared and ready, and as long as she hadn’t woken up in the meantime, I would welcome her with something a little nicer than a TV dinner. Maybe I’d crack into one of the cans of green beans we’d bought last week.</p>
+<p id="indent">I left to go to my room for a moment to switch into cleaner clothes, and considered a shower. How long had it been since I’d had one? It wasn’t the day before. I decided it was a good idea, and promptly stepped into the bathroom.</p>
+<p id="page-end">147</p>`
+const ch14p8 = `<p id="page-start"> </p>
+<p id="indent">When I got out of the shower, I threw the dirty clothes into my hamper and made my way out to the kitchen, ready to cook something up. Only three or four minutes into meal prep did I notice Mom wasn’t breathing anymore. </p>
+<p id="indent">Maybe if I hadn’t taken a shower, I would’ve been in the room when it happened. Maybe I could’ve stopped it. Maybe I could’ve shaken her awake. Or helped her somehow.</p>
+<p id="indent">The rest of the day is mostly just a blur. A traumatic ink imprint on the pages of my life, but the secretary accidentally smudged the stamp.</p>
+<p id="indent">I remember shaking her, trying to get her to wake up, but by then it was too late. There was no knowing how long she’d been gone by the time I’d noticed.</p>
+<p id="indent">I remember calling the police, and the paramedics, and the long-untouched sticky note of my dad’s phone number on the fridge. Two of the three answered my call. Neither were my dad.</p>
+<p id="indent">I remember riding with my mom in the back of an ambulance to the hospital. They declared her dead on the couch, but still had to bring her in for paperwork.</p>
+<p id="indent">I remember being forced home later that night by the doctors. It was a fifteen-minute walk, but the road in front of me stretched on for forever. Every building I trudged by felt a mile long. The warm night was a spit in my face.</p>
+<p id="indent">I remember gazing up at the tall steps of the staircase. It was oppressive. </p>
+<p id="indent">I remember breaking down at the front door to our apartment, afraid to open it back up. Would I see her in the living room? Was her imprint still in the couch, sprawled out, unmoving? Did she come back as a ghost </p>
+<p id="page-end">148</p>`
+const ch14p9 = `<p id="page-start"> </p>
+<p id="no-indent">to lament or curse me?</p>
+<p id="indent">None of those things happened. Instead, the first thing I did was count the money in the jar. Roughly 550 one-dollar bills were jam-packed in, with a few random bills added to the mix. Numbers were jotted down on a torn-out page of notebook paper next to it, displaying Mom’s own total: $8763. </p>
+<p id="indent">We were less than a month away.</p>
+<p id="indent">And if I’d made more than a dollar a day, we might’ve made it. If I were making two a day, she would still be here. If I were making minimum wage, we would’ve been there ages ago.</p>
+<p id="indent">I remember waking up the day of the funeral and not wanting to be alive. I remember wanting to fall back asleep and never wake up, like Mom did. We had never been all that religious, but I remember praying to God that the day would never continue. I even remember hoping that my dad would show up at the funeral and take me to the United States with him. That he’d notice the three voicemails I’d sent him—one when she’d died, one when I’d been sent home by the doctors, and one when the date of the funeral had been set.</p>
+<p id="indent">He never did, of course.</p>
+<p id="indent">I was alone at her funeral, aside from the priest. The fact that nobody had shown up to mourn her loss was telling in some way, I suppose. Our exchange was awkward, and when he finished his funeral rites, he gave me a pat on the shoulder and left.</p>
+<p id="indent">I made sure to get her a beautiful gravestone. It was an imposing black obsidian marker, with her name engraved in white. In full, it read, “Felicity Wells: Devoted Mother and Role Model. 1934-1972.”</p>
+<p id="indent">I couldn’t bear to look at it.</p>
+<p id="page-end">149</p>`
+const ch14p10 = `<p id="page-start"> </p>
+<p id="indent">I spent an hour crying quietly in the graveyard. Even reading her name was too much. Eventually, I stepped out and started my way back to the apartment. </p>
+<p id="indent">Living there hadn’t been the same since. And, to be fair, why should it? The sole reason I called it home was gone. I had as much attachment to that fourth-floor blunder as I did my own absent father.</p>
+<p id="indent">But it still hurt to climb all the way up the tall steps only to find out I was in the middle of being evicted.</p>
+<p id="indent">“What are you doing here?” I asked. The party of three stopped moving things to watch the twelve-year-old standing in the doorway.</p>
+<p id="indent">“Ma’am, I hate to say it, but you’re being evicted right now. You haven’t paid rent in months. You’re luck you’ve gotten away with it for this long, but the boss wasn’t having it anymore.”</p>
+<p id="indent">“Wait, what do you mean? Mom’s been paying the rent.”</p>
+<p id="indent">“We found about three months’ worth of rent in a jar on the table, which we are legally allowed to claim, but otherwise, we have to kick you out. Sorry, kid.”</p>
+<p id="indent">“No, you can’t do that! She’s been paying! The statements are right here, in the bill box—”</p>
+<p id="indent">I opened the box and was met with four unopened bills with the word “OVERDUE” stamped in bright red letters on the front of each. She’d been saving more money by not paying the bills. Even if I’d been making minimum wage, if she’d paid the bills, we weren’t ever going to make it.</p>
+<p id="indent">“Mom would never stop paying. Why did she stop paying?”</p>
+<p id="indent">“Your guess is as good as mine, kid, but the two of you need to leave. The contract’s terminated.”</p>
+<p id="page-end">150</p>`
+const ch14p11 = `<p id="page-start"> </p>
+<p id="indent">“Wait. I can pay. I’ll pay the monthly rent. How much is it?”</p>
+<p id="indent">“It’s done, kid. The apartment’s already been leased out to another family. Besides, you’re not even an adult. You can’t provide an income, let alone $150 a month. Now, scram. I don’t want to force you out, but I will.”</p>
+<p id="indent">Tears were threatening my eyelids again, but I kept composure until I made it down to the apartment lobby. I remember people walking by, not caring about the pre-teen having a mental breakdown in the middle of their walking space. I remember the CB Moving Limited truck idling outside the complex entrance and the men that drove it.</p>
+<p id="indent">My next stop was the bank. I was told I had to wait until I was eighteen to inherit my dead mother’s account, but that it would be safe and sound where I left it.</p>
+<p id="indent">That, I think, was the defining moment. Or, rather, the last defining moment.</p>
+<p id="indent">For half a year, one consequence was immediately followed by the next, but being told the money we worked so hard to earn was completely off-limits for six more years was the straw that broke the camel’s back.</p>
+<p id="indent">That was the last day I could run at my problems and fight them head-on. From then on, I’ve always been Luna on the run. Working under S seemed like it was going to break my curse, but being confronted with the same people who got me into this mess to begin with sapped it all out of me.</p>
+<p id="indent">I sit down in the grass in front of the gray building. A brief respite of icy rain trickles in from the ocean, washing the freezing, unforgiving landscape of Carmsborough in December. The streets are empty, and </p>
+<p id="page-end">151</p>`
+const ch14p12 = `<p id="page-start"> </p>
+<p id="no-indent">the sun has disappeared completely under the horizon. A shrouded black sky looms above.</p>
+<p id="indent">My hands idly pick at the bullet lodged in my shoe. These men have wronged me more than once. Bijabers has wronged me more than once. Slaphand has wronged me more than once.</p>
+<p id="indent">“Hey, boss,” I say into the wristwatch. “I know it’s pretty much bedtime, but I’ve got eyes on one of their bases of operations. I figure tonight’s as good as any to drop in and get some work done.”</p>
+<p id="indent">A short moment passes. “Good luck, Luna,” he replies. “Try not to stir things up too much.”</p>
+<p id="indent">“No promises.”</p>
+<p id="indent">I can’t help but feel like Mom’s watching over me right now. I promise I’ll make you proud. These bad men don’t stand a chance.</p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="page-end">152</p>`
+const ch14p13 = ``
+const ch14p14 = ``
+const ch14p15 = ``
+const ch14p16 = ``
+const ch14p17 = ``
+const ch14p18 = ``
 const ch14 = [ch14p1, ch14p2, ch14p3, ch14p4, ch14p5, ch14p6, ch14p7, ch14p8, ch14p9, ch14p10, ch14p11, ch14p12, ch14p13, ch14p14, ch14p15, ch14p16, ch14p17, ch14p18]
 
-const ch15p1 = `1`
-const ch15p2 = `2`
-const ch15p3 = `3`
-const ch15p4 = `4`
-const ch15p5 = `5`
-const ch15p6 = `6`
-const ch15p7 = `7`
-const ch15p8 = `8`
-const ch15p9 = `9`
-const ch15p10 = `10`
-const ch15p11 = `11`
-const ch15p12 = `12`
-const ch15p13 = `13`
-const ch15p14 = `14`
-const ch15p15 = `15`
-const ch15p16 = `16`
-const ch15p17 = `17`
-const ch15p18 = `18`
+const ch15p1 = `<p id="page-start"> </p>
+<p id="chapter-header">Chapter 15</p>
+<p id="chapter-bar">____________________</p>
+<p id="no-indent">It’s well past midnight when I wake up on the ground, and I’m pretty sure it’s only because of how cold and wet it is. I don’t even remember falling asleep, but a glance at my watch tells me it was about seven hours ago. Apparently, I needed it.</p>
+<p id="indent">At first, I wonder why nobody messed with the random woman sprawled out on the damp grass in front of a business, but nobody would mess with me when I was homeless and asleep. Nicer clothes wasn’t going to change that.</p>
+<p id="indent">Even this late at night, the building labeled “CB Moving Limited” is alive with activity. Another cloudship is unloading on the dock up top, and lights are spilling out from windows onto the cobblestone sidewalk </p>
+<p id="page-end">153</p>`
+const ch15p2 = `<p id="page-start"> </p>
+<p id="no-indent">outside. Whatever they’re really doing at CB Moving Limited, it has a third shift.</p>
+<p id="indent">Or the third shift is the sneaky, illegal shift.</p>
+<p id="indent">Wouldn’t surprise me any.</p>
+<p id="indent">“Well, I suppose it’s about time I scout the place and sneak in,” I say, my voice reaching no one’s ears. Why I felt the need to say it out loud, I’ll never know.</p>
+<p id="indent">Above me, in the sky, the moon is big and beautiful. She’s just past full moon and waning into third quarter, or however you say it. My sole audience member for the insane break-in I’m about to attempt.</p>
+<p id="indent">My first move is to tiptoe around the perimeter of the building. I spot a back door that opens up to an alley, but other than that, there’s a whole lot of nothing that can help me.</p>
+<p id="indent">So, like a normal person, I squat out on the end of the alley opposite the back door and stare at it, waiting for someone to emerge. When nothing happens for thirty minutes, I decide it’s time to get moving.</p>
+<p id="indent">The door creaks slightly as I open it, but nobody comes to check out the noise, so I keep moving forward. I eventually slip into the building, which is a lot warmer than the chilly outside air, and close the door as delicately as it was opened.</p>
+<p id="indent">“Now, onto hunting for the big man.”</p>
+<p id="indent">I take one step on the tile flooring of the storage room I’m in, and my shoes squeak from the water I picked up outside. The noise is a lot louder than the door was, and I immediately go to duck behind one of the metal shelves holding large, unmarked cardboard boxes.</p>
+<p id="indent">Once again, nobody comes to investigate, and I use the time to wipe my shoes off as best as I can with my sleeve. It’s not perfect, but a few </p>
+<p id="page-end">154</p>`
+const ch15p3 =`<p id="page-start"> </p>
+<p id="no-indent">test steps prove much quieter.</p>
+<p id="indent">Can’t have a little rain messing this up and getting me in trouble.</p>
+<p id="indent">I go to leave the room, but a nagging feeling in my gut tells me to check out a few of the boxes and their contents, so I run my knife across the tops of a few of them. Three contain nothing but packing peanuts and small metal parts that look like they belong to machinery, but the fourth box contains gears and pipes, all a brassy-coppery color.</p>
+<p id="indent">There’s not a lot of pocket space left in my jacket, but I grab one of the larger gears out of the box and stash it away. Whether it’s because it’s shiny or that I want to find out more about the strange box of stuff is up for debate.</p>
+<p id="indent">With that out of the way, I open the next door, which leads out into the main lobby of CB Moving Limited. The ceiling hangs high, meaning the second floor is a lot smaller, but seeing as the building is four stories total, there’s still plenty of ground to cover.</p>
+<p id="indent">A patrol of three armed guards near the front entrance comes into view, walking along the windows and peering out of each set, almost as if they’re expecting visitors.</p>
+<p id="indent">Expecting me.</p>
+<p id="indent">There’s no doubt word’s gotten out: Luna, the one who destroyed Slaphand’s Plasmarizer twice, escaped the island and is back to causing havoc. They know I’m heading this way. All I’ve gotta do is make it seem like I haven’t already arrived.</p>
+<p id="indent">It’s almost funny realizing this whole mess is for me. I’ve scared and upset this big grown man an unreasonable amount. This “kid” has his guards on high alert.</p>
+<p id="indent">Like earlier, I sit and peek through the crack in the doorway, </p>
+<p id="page-end">155</p>`
+const ch15p4 = `<p id="page-start"> </p>
+<p id="no-indent">watching the patrol make their rounds, figuring out their patterns. About five minutes into scouting, however, a second group of guards arrives, retracing the first group’s path almost exactly the same way. And five minutes after that, a third batch shows up, too.</p>
+<p id="indent">A total of nine guards are out in the main lobby, all patrolling different areas at different times. If I step out, I’m almost definitely gonna be seen. But there are no other doors out of this room, and I doubt if there’s a spare outfit stuffed into any of these boxes.</p>
+<p id="indent">“Now what?”</p>
+<p id="indent">I search for an answer, which comes from above.</p>
+<p id="indent">For whatever reason, there’s a sort of vent in the wall that leads out to the main room, meaning if I unscrew that and fit through, I’ll be high enough that the patrol groups won’t spot me unless they look up. And they’ll have no reason to unless I make too much noise. Then, I’ll walk across the support beams spanning the room over to the stairs, and…</p>
+<p id="indent">And…</p>
+<p id="indent">Well, something, hopefully. The support beam is too high up to make it down to the stairs safely, and even if I could, there’s no way they wouldn’t notice me jump. Not to mention, if a fourth patrol group starts making their rounds, I’d run right into them.</p>
+<p id="indent">But, if I can find something to throw all the way to the opposite side of the room, maybe the noise will distract them all long enough to make the jump and get out of sight.</p>
+<p id="indent">It’s better than nothing, I suppose.</p>
+<p id="indent">The three groups merge into one somewhere near the middle of the room, talking and ignoring their job. None of them even glance this way as I snake out of sight behind the door.</p>
+<p id="page-end">156</p>`
+const ch15p5 = `<p id="page-start"> </p>
+<p id="indent">I climb the metal shelf directly under the vent, which is fortunately clear of any boxes on top, but it’s about four feet from the top of the shelf to the ceiling, so I’m stuck crouching. Then, with one of my knives, I slowly and carefully turn each of the four screws on the gate and gently set it down on top of the shelf.</p>
+<p id="indent">There’s enough space for me to crawl in for sure, though with as much comfort as I have on top of the shelf. I check on the group of nine one last time, making sure they’re still talking and not paying attention, before stepping through the hole in the wall and onto one of the three support beams.</p>
+<p id="indent">The black metal beam slopes up a bit in the center of the room, putting me at about fifteen feet above the floor. It’s wide enough for solid footing, but still a bit of a tightrope act.</p>
+<p id="indent">The circus was never really my thing. I prefer watching movies in theaters. Not that I’ve seen one in years.</p>
+<p id="indent">Heights, coincidentally, are <em>also</em> not my thing.</p>
+<p id="indent">I get myself as close to the stairs as I safely can and peek down below me. They still haven’t noticed, which is strange, considering the amount of dust I’ve kicked up.</p>
+<p id="indent">I fish the gear out of my pocket and give it one last look. It’s solid, but light enough to toss without a problem.</p>
+<p id="indent">“So long, good friend,” I whisper, spotting my reflection in the lustrous material. “You were good while you lasted.”</p>
+<p id="indent">I reel my arm back over my shoulder and throw the gear as hard as I can, watching it arc across the room all the way to the other side. It connects with the wall with a loud metal banging and scraping noise, and as everyone looks for what caused it, I dive off the metal beam and onto </p>
+<p id="page-end">157</p>`
+const ch15p6 = `<p id="page-start"> </p>
+<p id="no-indent">the stairs. It’s a four- or five-foot drop, but I stick the landing without hurting myself too much. </p>
+<p id="indent">Hidden from view by the wall protecting the staircase, I quickly claw my way up, not standing, in fear of poking my head out and being spotted. I climb all the way up the rest of the stairs this way, leading to a balcony on the second floor. </p>
+<p id="indent">Fully exposed on the balcony, I slide into one of the rooms, praying it’s empty, and hide away in a corner. A few minutes pass, and I hear footsteps walk by the room, but they’re not alerted to my spot. I allow myself a peek out the room’s window overlooking the balcony, and spot a crowd of thirteen guards all staring up at the spot where my gear had collided.</p>
+<p id="indent">It was still stuck in the wall.</p>
+<p id="indent">Unlike the storage room, this one was connected to another by a door on the inside, and so I get down on the floor and peer through the crack underneath. The lights are off and there’s no sound or movement inside, so I quietly slip into the next room. This one doesn’t have a window, meaning there’s a little more freedom to move. It also has a door leading to a third room, whenever I’m ready for that.</p>
+<p id="indent">I take the seclusion time as a chance to breathe, seeing as I have a lot more building climbing to do at this point. I’m getting good at this sneaking and infiltrating thing. Maybe I should become some sort of espionage agent. I’m sure there are places hiring.</p>
+<p id="indent">I let a few more minutes pass before walking to the next door and checking it the same way I did the first. This time, the light is on, but there are no signs of life inside. This one has a window similar to the first room, but also stairs to the third floor of the building. </p>
+<p id="page-end">158</p>`
+const ch15p7 =`<p id="page-start"> </p>
+<p id="indent">So far, nothing of interest has been in any of the rooms. If I had to guess, the first and second floors are part of their “moving company” front end, and the third and fourth floors are part of their “mafia syndicate” back end.</p>
+<p id="indent">I follow the staircase up to the third floor, where the mood drastically changes. The walls are a different color, the floor is carpeted, and everything feels drab and secretive.</p>
+<p id="indent">Called it.</p>
+<p id="indent">“Yeah, the boys are completely confused as to what happened,” a voice says down the hall, accompanied by a set of footsteps. “That’s the second gear to get lodged in that wall in a week, and nobody can out the source. Probably one of the guards playing tricks.”</p>
+<p id="indent">I hastily roll into one of the open rooms nearby, hoping the man doesn’t come in here.</p>
+<p id="indent">“No, the cameras still aren’t back up from the outage last month. Boss believes they’ve been sabotaged, but the repairman doesn’t think so. Besides, nobody’s come to steal anything, and that Luna kid certainly didn’t plan any of this.”</p>
+<p id="indent">The man walks by, totally unaware of me, that Luna kid, on the other side of the wall, and goes down the stairs to the second floor. I breathe a short-lived sigh of relief.</p>
+<p id="indent">I can’t believe I didn’t check if there were cameras again. I’ve been screwed over by them twice, and for all I know, it could’ve been three by now if it weren’t for their mysterious outage. Also, the second gear in a week in that wall? What on earth is going on around here?</p>
+<p id="indent">Those are questions for later. I step back out into the hallway, ready to begin my search.</p>
+<p id="page-end">159</p>`
+const ch15p8 = `<p id="page-start"> </p>
+<p id="indent">With most of the welcome party on the first and second floors, there’s not much to worry about in the way of being spotted, but I still take every precaution I can. Most of the rooms are offices of some sort, but two catch my interest: the conference and storage rooms.</p>
+<p id="indent">The conference room has a lot of information about the island and a few of Bijabers’ dealings. There’s a bulletin board talking about some guy in France, as well as a paper at the far end of the table in the center sent from someone calling herself “Cleopatra.” It mentions shipments inside Carmsborough, but not what they’re shipping or to where.</p>
+<p id="indent">If I wanted anymore confirmation that this was one of Slaphand or Bijabers’ dealings, I got it all right here.</p>
+<p id="indent">As for the storage room, it’s mostly cleaning supplies on the inside, but a second box of gears and pipes, like the one in the storage room, sits on a shelf collecting dust. The words “OLD PROTOTYPE PARTS” are written in sharpie on the side. A prototype for what? The Plasmarizer? A steambot?</p>
+<p id="indent">Too many questions in this building. All I need is to find Slaphand’s current location. I pocket two more gears from the box and silently fold the top back up.</p>
+<p id="indent">Thirty minutes of searching later, I climb up to the fourth floor, which, unlike the third, has guards patrolling. Must be the important one.</p>
+<p id="indent">For the most part, it’s more of the same boring offices, but this time with the added flair of hostile men threatening to use their pistols on me. More than once I’m forced to step into an empty room to wait for one of them to pass by, and it’s slow moving through the building.</p>
+<p id="indent">Eventually, I spot a room with barred windows and two guards standing on the outside. Beyond that is a door with a stairway label next </p>
+<p id="page-end">160</p>`
+const ch15p9 = `<p id="page-start"> </p>
+<p id="no-indent">to it. The most protected room is right next to the roof access.</p>
+<p id="indent">That’s clearly the room I wanna be in, but how do I get inside?</p>
+<p id="indent">“All hands on deck downstairs,” one of their radios says, crackling to life on their hip. “One of Cleopatra’s men is coming to do the steroid exchange and we need every last guard down here.”</p>
+<p id="indent">The two guards sigh and head down the hallway. Like clockwork, I hide inside another room until they’re out of sight, and walk down to the barred room. </p>
+<p id="indent">That was easy.</p>
+<p id="indent">I feel like the door should’ve been locked, but it swings open without any resistance. My eyes widen at the sight of what’s on the inside. Lining the walls are expensive-looking paintings and artworks, three statues standing in various spots, and on a bookshelf sit various golden items and a large vase full of gold coins.</p>
+<p id="indent">And, in the center of the room, is a map on a table, which reads, “Slaphand’s Stakes.” Next to that is a large metal bat.</p>
+<p id="indent">A small red X marks the location of his main hideout, under the name of “Hand & Boogie Retail.” There are plenty of additional markings on the map, including a skull over the recently destroyed Blood Moon Island and blue dots for each of the apartment complexes they control.</p>
+<p id="indent">Hand & Boogie Retail. It’s nestled in-between the Commerce and Higher districts. I’ve never had a reason to go that way, but I do now. My first trip to the Higher District will be to find and crush Slaphand.</p>
+<p id="indent">On my way out, I consider the large vase of gold coins taunting me on the shelf. I reach out to grab a handful, but hesitate.</p>
+<p id="indent">“What would you do, Freckles?” I say aloud. “I mean, I always say </p>
+<p id="page-end">161</p>`
+const ch15p10 = `<p id="page-start"> </p>
+<p id="no-indent">it’s moral to steal from the bad guys. They’re the bad guys, after all. But you wouldn’t like it in the first place. Something about stealing making me as bad as them, or whatever. It’s a good thing you’re not here, I guess.”</p>
+<p id="indent">My mind is made up. Sorry Freckles, you’ll have to forgive me later. I grab five or six of the coins and stash them awkwardly in the same pocket as the two gears are in, and turn to leave the room, only to be met with a guard staring at me, confused, terrified, and angry.</p>
+<p id="indent">“How long were you there?” I ask, as if it matters.</p>
+<p id="indent">“Long enough. You’re that Luna kid, aren’t you?”</p>
+<p id="indent">“I thought you were supposed to be down helping Cleopatra.”</p>
+<p id="indent">“Yeah, but something tripped the silent alarm for this room, and that something is you. Put your hands up—”</p>
+<p id="indent">Without hesitation, I reach for the metal bat leaning against the table in the center of the room and swing out at the man. It connects loudly and violently with his head, knocking him to the ground, unconscious.</p>
+<p id="indent">The metal sound reverberates through the hallway. If nobody else knew I was up here, they do now.</p>
+<p id="indent">I swipe the map on the table, which tears at the four corners where it was pinned down, and head up the stairs to the roof. Maybe, if nobody’s up here, I can steal the cloudship and get away without being chased.</p>
+<p id="indent">I climb to the top and am met with snow and two guards, as surprised to see me as I am them.</p>
+<p id="indent">“Well, hello, fellas.”</p>
+<p id="indent">I scan the roof. There’re two goons in the cloudship. I can either take all four of them on or find a different way to escape.</p>
+<p id="page-end">162</p>`
+const ch15p11 = `<p id="page-start"> </p>
+<p id="indent">The building behind me has the same level of roof. If I can jump the distance between the two, I might get a head start and escape.</p>
+<p id="indent">They approach me, spreading out a little to have as much peripheral on me as possible. From below, the door swings open, and two more guards charge up the stairs.</p>
+<p id="indent">Now or never, I suppose.</p>
+<p id="indent">I lob the bat at one of the nearest guards, which smacks him comically, and make a break for the other rooftop. At this speed, I might make it.</p>
+<p id="indent">Or, at least, I would’ve, if I hadn’t looked down at the last second. Looking down gives me an incredible anxiety, and my jump ends up barely two feet short of my target. I try to reach out for the ledge of the building, but I’m a few inches too far away.</p>
+<p id="indent">I fall five feet and land on a metal fire escape, and even almost stick the landing.</p>
+<p id="indent">Almost.</p>
+<p id="indent">I barrel shoulder-first into the brick wall of the building, grinding my teeth with the pain. Up on the rooftop, the guards peer down at me, not wanting to attempt the same thing.</p>
+<p id="indent">“You’re only coming down one way,” one of them says, and they all disappear, probably going to head down to underneath the fire escape. By the time I finish climbing down the four ladders to the alleyway, they’ll have gotten equally as far, and I’ll be toast.</p>
+<p id="indent">I stare at the window right in front of me. Every fire escape has a window to escape from.</p>
+<p id="indent">I don’t know what this building is, or anything about it, but I do know one way to get down without fighting a horde of Slaphand’s goons.</p>
+<p id="page-end">163</p>`
+const ch15p12 = `<p id="page-start"> </p>
+<p id="indent">Within seconds, one of the stolen gears is back in my hands and crashing down upon the glass. It makes quick work of the windowpane, and I step into the building, which is completely dark on the inside except for the faint light pouring in from the streets.</p>
+<p id="indent">I weave through the hallways of this new building and find the roof access, climb my way back up, and face back to the roof of CB Moving Limited. The guards all went to hunt for me downstairs, leaving the cloudship unprotected.</p>
+<p id="indent">These guys are consistently stupid, and honestly, I love it.</p>
+<p id="indent">I step all the way back to the opposite side of this building’s roof, hoping to gain enough speed and momentum to get me across. Just don’t look down, Luna. Take the jump, don’t look down.</p>
+<p id="indent">I break into a full sprint, charging across the roof as fast as I can, and leap over the ledge. I do end up looking down halfway through the air and spot a few of the guards already waiting for me in the alley. It’s a long way down, but I won’t be joining them. My feet land firmly onto the roof of CB Moving Limited, and I break my landing with a roll.</p>
+<p id="indent">No time to relish in that accomplishment. I’ve gotta get the cloudship kicked into motion and get out of here. Luckily for me, the design is the exact same as the first ship I stole, and the key is once again still in the ignition. Hooray for consistency, I suppose.</p>
+<p id="indent">The cloudship starts up and begins moving as soon as two of the guards reappear on the roof. They fire at the balloon, but their pistols aren’t going to do much in stopping me from flying away.</p>
+<p id="indent">I’m free, I’m safe, I know Slaphand’s location, and I stole another one of their dinky little cloudships. It’s hard to not feel cocky. I’ll be back with Freckles in no time.</p>
+<p id="page-end">164</p>`
+const ch15p13 = ``
+const ch15p14 = ``
+const ch15p15 = ``
+const ch15p16 = ``
+const ch15p17 = ``
+const ch15p18 = ``
 const ch15 = [ch15p1, ch15p2, ch15p3, ch15p4, ch15p5, ch15p6, ch15p7, ch15p8, ch15p9, ch15p10, ch15p11, ch15p12, ch15p13, ch15p14, ch15p15, ch15p16, ch15p17, ch15p18]
 
 const ch16p1 = `1`
