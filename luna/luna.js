@@ -562,7 +562,8 @@ const chapterSelection = `  <option value="1" class="dropper">Chapter 1</option>
                         <option value="12" class="dropper">Chapter 12</option>
                         <option value="13" class="dropper">Chapter 13</option>
                         <option value="14" class="dropper">Chapter 14</option>
-                        <option value="15" class="dropper">Chapter 15</option>`
+                        <option value="15" class="dropper">Chapter 15</option>
+                        <option value="16" class="dropper">Chapter 16</option>`
 
 var mobileFlip = false
 
@@ -4044,24 +4045,140 @@ const ch15p17 = ``
 const ch15p18 = ``
 const ch15 = [ch15p1, ch15p2, ch15p3, ch15p4, ch15p5, ch15p6, ch15p7, ch15p8, ch15p9, ch15p10, ch15p11, ch15p12, ch15p13, ch15p14, ch15p15, ch15p16, ch15p17, ch15p18]
 
-const ch16p1 = `1`
-const ch16p2 = `2`
-const ch16p3 = `3`
-const ch16p4 = `4`
-const ch16p5 = `5`
-const ch16p6 = `6`
-const ch16p7 = `7`
-const ch16p8 = `8`
-const ch16p9 = `9`
-const ch16p10 = `10`
-const ch16p11 = `11`
-const ch16p12 = `12`
-const ch16p13 = `13`
-const ch16p14 = `14`
-const ch16p15 = `15`
-const ch16p16 = `16`
-const ch16p17 = `17`
-const ch16p18 = `18`
+const ch16p1 = `<p id="page-start"> </p>
+<p id="chapter-header">Chapter 16</p>
+<p id="chapter-bar">____________________</p>
+<p id="no-indent">Within the first fifteen minutes of my escape flight, the bullet holes in the balloon had leaked enough gas out to stop me from gaining any more altitude. I settled on a quiet spot in the middle of a random road to park the ship. There’s no chance they’ll be able to hunt me down from this far away.</p>
+<p id="indent">Hope whoever has to get the ship out of the road will have fun in the morning, because it sure won’t be me. </p>
+<p id="indent">I walk the rest of the distance to the <em>Constellation</em> on foot. Today was a pretty successful day, all things considered. I used Shady Shane as one of my informants, beat information out of two thugs trying to de-home an old lady, escaped with my life in a crazy car chase scene, </p>
+<p id="page-end">169</p>`
+const ch16p2 = `<p id="page-start"> </p>
+<p id="no-indent">found their base, and snuck through their whole building for the next possible location, all while finding the time for a power nap.</p>
+<p id="indent">Pretty badass, if you ask me.</p>
+<p id="indent">Still, it was a lot. Maybe too much. My bed’s looking as enticing as it had yesterday. Despite being nearly dawn, I curl up in bed and catch some much-needed z’s.</p>
+<p id="story-break"></p>
+<p id="indent">A loud knocking sound wakes me up abruptly. My head is groggy and my body’s sore. Jumping and running into things as much as I did was wearing me out already. How long was I asleep? Judging by how bright it is outside, it had to have been more than a few hours.</p>
+<p id="indent">“Open up!” someone yells. It’s a command, but the tone isn’t necessarily hostile.</p>
+<p id="indent">Either way, I’m not taking any chances. If they’ve spotted me, they won’t have for long.</p>
+<p id="indent">Hand on holster, I step onto the main deck and peek my head out above the rim. A strong sense of déjà vu washes over me, but I ease up a little when I see who it is.</p>
+<p id="indent">“Can I help you, officer?” I remove my hand from the holstered weapon.</p>
+<p id="indent">“Are you the owner of this ship?” the officer asks.</p>
+<p id="indent">“Yes, I am. Why, did I forget something?”</p>
+<p id="indent">“If you mean you forgot to pay to park here, yeah. You have to get a permit. They’re twenty wings a day, but you get an extra ten added as a fine because you don’t have a permit yet.”</p>
+<p id="indent">“Oh, shoot. I got here so late, it totally slipped my mind.” </p>
+<p id="indent">I don’t know why I feel the need to lie. It’s not like I’m in any </p>
+<p id="page-end">170</p>`
+const ch16p3 = `<p id="page-start"> </p>
+<p id="no-indent">serious trouble, and there’s no getting out of paying for the parking permit. Still, I don’t want to incriminate myself in any way in front of the man. </p>
+<p id="indent">“Let me go get some cash real quick.”</p>
+<p id="indent">I stash my weapons away so that he doesn’t notice how much heat I’m packing, and grab out five twenties and a ten, enough to pay for the entire week plus the fine.</p>
+<p id="indent">“You wouldn’t happen to know the fastest way to Hand & Boogie Retail, would you?” I ask, as he punches numbers and fills out some paperwork. “I’ve got some hunting to do in that area for my sister-in-law, and I hear they’re some of the best.”</p>
+<p id="indent">“They’re not bad, but they’re far from the best,” the cop says, inputting something into the parking meter my ship’s at. “Take a left off of Flup Avenue and it’s almost a direct shot, but if you want some super high-quality service, go down to Mary and Macy’s. They’re super nice, and also a lesbian couple, if you’re progressive. Best darn craftwork I’ve ever seen.”</p>
+<p id="indent">I internally wince at the sound of Mary’s name, even though I know it’s not <em>her</em>. </p>
+<p id="indent">“I’ll keep that in mind. Thank you.”</p>
+<p id="indent">“Alright, Miss Luna Wells, don’t forget to renew your permit or get the heck out of here by Sunday night. If you have any complaints regarding our interaction today, you may call the Carmsborough Police Contact Hotline. My name has been Officer Hitch. Peace out.”</p>
+<p id="indent">“Police Contact Hotline?”</p>
+<p id="indent">“Oh, some new initiative the president and Orion are setting up. I have to mention it at the end of every conversation while on duty. It’s a </p>
+<p id="page-end">171</p>`
+const ch16p4 = `<p id="page-start"> </p>
+<p id="no-indent">good idea in theory, but completely annoying in practice.”</p>
+<p id="indent">“Strange, but okay. Peace out, Officer Hitch.”</p>
+<p id="indent">I disappear back into my ship and prepare for another day of sneaking, and probably fighting, too. The knives and pistols go back in their places, my winter coat goes over my arms, and the scarf and hat go on and around my head.</p>
+<p id="indent">“Come in, Luna,” the boss’ voice says from my watch.</p>
+<p id="indent">“Yeah, it’s Luna. Boy, do I have the update of a lifetime for you.”</p>
+<p id="indent">“Let’s hear it, then.”</p>
+<p id="indent">I spend the next ten minutes relaying the story in all its action-packed detail from beginning to end. He patiently waits on his end of the communicator, listening to my over-explained recollection.</p>
+<p id="indent">“Sounds like a dangerous situation. Chances are, they’re on high alert. It might be best if you hold off for a bit, in case they decide to double down within the next week.”</p>
+<p id="indent">“What? No, I can’t stop yet. I’m almost there. I have his location. If we wait any longer, I might not be able to rescue Freckles. It might be too late.”</p>
+<p id="indent">The line goes silent. I assume he’s weighing the situation and trying to decide what’s best. Unfortunately for him, I’m not taking no for an answer. If this is the last time he’s going to sponsor my little shenanigans, so be it. But I’m getting my cat back.</p>
+<p id="indent">“Be careful, Luna. I still haven’t heard anything from informants, which means they’re either being cracked down on or currently in hiding. The last thing I need is you walking into something a lot bigger than you’re expecting.”</p>
+<p id="indent">“Oh, trust me, I’m ready this time. I’m gonna watch for the </p>
+<p id="page-end">172</p>`
+const ch16p5 = `<p id="page-start"> </p>
+<p id="no-indent">cameras, memorize guard patterns, wait for the perfect moment, distract them, use stealth when I can, and repeat the process until my knife is in Slaphand’s heart. Or back. I’m not picky.”</p>
+<p id="indent">“Is that all?”</p>
+<p id="indent">“What do you mean?”</p>
+<p id="indent">“Shouldn’t you have more of a cohesive plan? Do you know anything about the building you’re ready to walk into?”</p>
+<p id="indent">“Well, it’s not like I can just ask for the blueprints. I’m going down as soon as we’re done talking to scout it out a bit, but there isn’t much else I <em>can</em> do.”</p>
+<p id="indent">“Alright, well, be smart, I guess.”</p>
+<p id="indent">“You bet, boss. Peace out.”</p>
+<p id="indent">I hang up and step back out into the open air. My brief respite on board the <em>Constellation</em> is coming to an end again.</p>
+<p id="indent">Seeing as Hand & Boogie Retail is a two-hour walk from my spot on the docks, I do something I’ve never done before: ride the bus. I pay the considerably small fare and grab a seat. Nearly forty minutes later, we stop close enough for me to walk the rest of the distance in ten minutes.</p>
+<p id="indent">The building is a lot larger than I expected. Like, a <em>lot</em> larger. It’s all one floor, but expansive. From what I can make out through the windows, there are sections for pretty much any home appliance or furniture you’d need. I don’t even recognize everything on display, like something called an air fryer. </p>
+<p id="indent">My stomach rumbles at a fridge in the window. When was the last time I ate? I’d snacked a little yesterday, but nothing serious. I spin myself in a circle, searching for somewhere to eat, and my eyes lock </p>
+<p id="page-end">173</p>`
+const ch16p6 = `<p id="page-start"> </p>
+<p id="no-indent">onto a sub sandwich restaurant with outdoor seating. It’s three in the afternoon on a cold Tuesday in December so nobody’s sitting outside, giving me the chance to do some scouting from out front.</p>
+<p id="indent">I order a foot-long sub, prompting a weird glance from the server, but they deliver it, along with a medium lemonade.</p>
+<p id="indent">Lemonade used to be one of my favorites, before I had to struggle to find clean drinking water. Lemonade meant a hot day of fun in the sun with Mom, walking around the city, or playing in a nearby park.</p>
+<p id="indent">Now, lemonade means not dying of thirst two days into my mission. </p>
+<p id="indent">With my meal finished and leaving me rejuvenated, an idea strikes me: if I go in and act like I’m shopping, maybe nobody will recognize me. I could gather intel, like knowing where cameras are and what the layout is, without raising any alarm.</p>
+<p id="indent">Screw it. I’m going in.</p>
+<p id="indent">I bring my empty tray back into the sandwich shop, thank the server, and head across the street to Hand & Boogie Retail. Obviously, I get that the “Hand” is supposed to be Slaphand, but who is the “Boogie” in Hand & Boogie? How many people work for Bijabers, and why do they all have crazy names?</p>
+<p id="indent">The automatic door to Hand & Boogie opens as I approach, welcoming me with a blast of warm air. Already, I spot a camera to my right, doing my best to avoid looking at it straight-on and without seeming suspicious. </p>
+<p id="indent">It’s as massive on the inside as it is on the outside. Aisles of different electronics line half the store, ranging from microwaves to space heaters. I spend some time searching back and forth in the aisles, </p>
+<p id="page-end">174</p>`
+const ch16p7 = `<p id="page-start"> </p>
+<p id="no-indent">hopefully building up my credibility.</p>
+<p id="indent">What really catches my eye, though, is a series of doors along the back wall of the building. Two are the standard restrooms you’d expect in any store, but the other labeled ones are for storage, staff, and authorized personnel. Three are completely unlabeled.</p>
+<p id="indent">“Anything I can help you with today?” someone asks me. I turn and am met with a store worker. They don’t quite match the usual caricature of one of Slaphand’s goons. They’re barely older than I am, and clearly only here for the paycheck.</p>
+<p id="indent">“Yeah, I was hoping you could point me in the direction of your TVs. I’m looking for a new one for my sister-in-law after a minor accident yesterday involving too much wine.”</p>
+<p id="indent">“Oh, of course. Down there in aisle fourteen. We have black and white and also color, if that’s what you want.”</p>
+<p id="indent">“Thank you very much.”</p>
+<p id="indent">I meander over to the aisle, taking my time and soaking things in. When I’m in here later, I’ll want to avoid this room as much as possible. It’s too wide open to stay hidden, and with cameras blanketing the entire area, keeping things secret is bound to fail.</p>
+<p id="indent">So, I need a way in from one of the other rooms. Preferably the room with easiest access to Slaphand, as long as he’s here.</p>
+<p id="indent">The front door dings as it automatically swings open for the next new arrival. In walks a massive, lumbering man, nearing seven feet tall. His frame is distorted, and his face is angry.</p>
+<p id="indent">Slaphand.</p>
+<p id="indent">“Have Lanny meet with me in an hour,” his booming voice says to one of his higher-ups. “There’s a lot to talk about regarding the little </p>
+<p id="page-end">175</p>`
+const ch16p8 = `<p id="page-start"> </p>
+<p id="no-indent">fiasco last night. If we don’t figure out what she wanted with that map, we’ll have to increase security everywhere, and we can’t afford that right now.”</p>
+<p id="indent">“Of course, sir,” the man says.</p>
+<p id="indent">I duck into one of the aisles, pretending to care a lot more about a lamp than I actually do. From the corner of my eye, I see him and his subordinate walk into one of the unmarked rooms. </p>
+<p id="indent">You’ve marked your own grave, Slaphand.</p>
+<p id="indent">“Finding things alright?” another worker asks, scaring me out of my trance.</p>
+<p id="indent">“Uh, yeah,” I reply. “Well, maybe. Do you know of any stores where I might be able to get ahold of some rope?”</p>
+<p id="indent">“Rope? Well, as strange as it is, we sell rope. How much are you thinking?”</p>
+<p id="indent">“Maybe twenty feet, and it’s gotta be pretty thick. My sister-in-law’s car got stuck in a ditch and we’d like to pull it out without a tow truck. You get it.”</p>
+<p id="indent">“Oh, for sure. Let’s get you some of that.”</p>
+<p id="story-break">∙ ◦ ○(        )○ ◦ ∙</p>
+<p id="indent">Hiding in an alley with twenty feet of thick rope for two hours isn’t comfortable, but at half-past six, the last of the workers leaves the store, replaced by a batch of brutes that fit the henchman bill better.</p>
+<p id="indent">I wait an extra half an hour for them to file into position, rehashing my newly constructed plan. </p>
+<p id="indent">There’s no using the front door, and after leaving with my freshly purchased rope, I discovered there’s no back entrance, either, save a </p>
+<p id="page-end">176</p>`
+const ch16p9 = `<p id="page-start"> </p>
+<p id="no-indent">loading dock that is always guarded.</p>
+<p id="indent">So, the rope’s for the roof. I spent a hot minute hunting for something to tie to the other end, so that when I toss it, it can theoretically latch on to something. Eventually, I located some loose rebar, gave it a few test runs, and decided it was good enough.</p>
+<p id="indent">And, most importantly, I made sure Slaphand never left the building.</p>
+<p id="indent">Eight o’clock. Anyone else funneling into the building will be few and far between. It seems Slaphand’s promise to increase security was honest. There’re a lot more guards than a furniture and appliance store should have.</p>
+<p id="indent">I quietly approach the building, making sure no outward-facing security cameras are looking my way. Those wretched machines have messed things up far too many times. When I’m in the clear, I toss the rope up onto the roof, hoping to snag it on a pipe and antenna.</p>
+<p id="indent">My first attempt is unsuccessful, but on my second, the rebar catches, and I give it a hearty tug. As long as I’m careful, this thing isn’t going anywhere. I’ll be climbing this sucker easily.</p>
+<p id="indent">Which is obviously the hard part. I lift myself off the ground, planting both feet on the brick and plaster wall of the store, and pull up, dragging the rest of my body with.</p>
+<p id="indent">It’s a long and scary process, but I manage to snake all the way up without a hitch. And, so long as I timed it right, the camera system still has another forty seconds before it loops back around to where I would’ve been.</p>
+<p id="indent">Success. </p>
+<p id="indent">Well, sort of. I still need in. My entire plan is banking on some sort </p>
+<p id="page-end">177</p>`
+const ch16p10 = `<p id="page-start"> </p>
+<p id="no-indent">of roof access, whether it be a vent or stairs or whatever.</p>
+<p id="indent">My wish comes true. I spot a vent with warm air spilling out and turning into fog as it hits the cold outside breeze. Using the same knife trick as last night, I unscrew the vent gate and stick my hand in. The warm air is just that–warm. No risk of burning myself to death climbing in.</p>
+<p id="indent">With as much caution as I used to scale the building, I slowly descend into the vent. It’s entirely aluminum, and I don’t want to fall through or make too much noise and have a welcome party waiting for me. At that rate, the front door would’ve been easier.</p>
+<p id="indent">It’s a strenuous pace, but I make it to the end. I can’t hardly see anything in the room below me, besides a storage shelf. The vent gate falls victim to my knife trick for a third time, and I quietly set it on top of the shelf. Then, I stick my legs out and use them to scoot the rest of my body out the exit.</p>
+<p id="indent">Mission success.</p>
+<p id="indent">I hop down from the shelf with a louder thud than I would’ve liked and turn to face the rest of the room.</p>
+<p id="indent">A man dressed in all black is staring at me, shocked. He’s not wearing “Slaphand goon” all black, but still all black.</p>
+<p id="indent">“Did you watch me do all that and not say anything?” I ask the man, as surprised as he is.</p>
+<p id="indent">“Who the hell are you?” he says, hiding something behind his back.</p>
+<p id="indent">“I’m Luna. You know, the one that’s been harassing Slaphand. Who the hell are <em>you</em>?”</p>
+<p id="indent">“My name’s Agent Ike. I’m the man here to take Slaphand down.”</p>
+<p id="page-end">178</p>`
+const ch16p11 = ``
+const ch16p12 = ``
+const ch16p13 = ``
+const ch16p14 = ``
+const ch16p15 = ``
+const ch16p16 = ``
+const ch16p17 = ``
+const ch16p18 = ``
 const ch16 = [ch16p1, ch16p2, ch16p3, ch16p4, ch16p5, ch16p6, ch16p7, ch16p8, ch16p9, ch16p10, ch16p11, ch16p12, ch16p13, ch16p14, ch16p15, ch16p16, ch16p17, ch16p18]
 
 const ch17p1 = `1`
