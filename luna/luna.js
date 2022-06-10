@@ -563,7 +563,8 @@ const chapterSelection = `  <option value="1" class="dropper">Chapter 1</option>
                         <option value="13" class="dropper">Chapter 13</option>
                         <option value="14" class="dropper">Chapter 14</option>
                         <option value="15" class="dropper">Chapter 15</option>
-                        <option value="16" class="dropper">Chapter 16</option>`
+                        <option value="16" class="dropper">Chapter 16</option>
+                        <option value="17" class="dropper">Chapter 17</option>`
 
 var mobileFlip = false
 
@@ -4181,24 +4182,157 @@ const ch16p17 = ``
 const ch16p18 = ``
 const ch16 = [ch16p1, ch16p2, ch16p3, ch16p4, ch16p5, ch16p6, ch16p7, ch16p8, ch16p9, ch16p10, ch16p11, ch16p12, ch16p13, ch16p14, ch16p15, ch16p16, ch16p17, ch16p18]
 
-const ch17p1 = `1`
-const ch17p2 = `2`
-const ch17p3 = `3`
-const ch17p4 = `4`
-const ch17p5 = `5`
-const ch17p6 = `6`
-const ch17p7 = `7`
-const ch17p8 = `8`
-const ch17p9 = `9`
-const ch17p10 = `10`
-const ch17p11 = `11`
-const ch17p12 = `12`
-const ch17p13 = `13`
-const ch17p14 = `14`
-const ch17p15 = `15`
-const ch17p16 = `16`
-const ch17p17 = `17`
-const ch17p18 = `18`
+const ch17p1 = `<p id="page-start"> </p>
+<p id="chapter-header">Chapter 17</p>
+<p id="chapter-bar">____________________</p>
+<p id="no-indent">“So, you’re the Luna I keep hearing about on their transmissions.”</p>
+<p id="indent">Agent Ike puts one leg up on a box and stretches. He’s apparently not intimidated by my presence, which either means he’s underestimating me or he’s a good guy. </p>
+<p id="indent">“Yeah, I’m kind of a big deal,” I reply. “I’ve got Slaphand scrambling for help. His goons are as dumb as a bag of rocks.”</p>
+<p id="indent">“I don’t think you’re doing as much as you think you’re doing. It’s not just you. They’re reacting to Orion and the Clockwork as well, on top of the war and the United States government.”</p>
+<p id="indent">“Well, to be fair, Orion and the Clockwork joining the hunt was my </p>
+<p id="page-end">179</p>`
+const ch17p2 =`<p id="page-start"> </p>
+<p id="no-indent">Orion and the Clockwork smashed them into the ground one by one.”</p>
+<p id="indent">“Oh, so you’re partnered with those two?”</p>
+<p id="indent">“No. Far from it, actually. You’re a good guy, then?”</p>
+<p id="indent">“I’d like to think so, yeah. I’ve been working to take Bijabers down for a few years now, and tonight’s the night I finally arrest Slaphand. This raid is going to seriously cripple Bijabers’ stronghold in Carmsborough, probably forever.”</p>
+<p id="indent">“Well, awesome idea, but unfortunately, I’m going after Slaphand, Mr. Agent Ike. He’s got my cat, Freckles, and I need to get him back in one piece.”</p>
+<p id="indent">“No, I don’t think you understand, Luna. This particular plan has been months in the making. Their camera systems have been down for weeks, and I’ve been siphoning information out of his men for just as long. A few nights ago, I was going through one of their shell companies, searching for this very location.”</p>
+<p id="indent">“Wait, you took the cameras down? Did you throw a gear as a distraction, too?”</p>
+<p id="indent">“In CB Moving Limited? Yes.”</p>
+<p id="indent">“I did that too. They said it was the second one in a week.”</p>
+<p id="indent">“Well, it sounds like you’re a grand strategist, kiddo, but I’ve gotta handle him on my own. He’d overpower either of us in a second, and I’m the one with a hell of a lot more training than you.”</p>
+<p id="indent">“Maybe we could work together,” I offer. “You know, fight him two versus one. He wouldn’t stand a chance.”</p>
+<p id="indent">“I can’t let that happen. This is an incredibly dangerous situation, and my boss would never allow a team-up with a minor.”</p>
+<p id="indent">He turns to face the door, revealing a lockpick hidden in his hands. </p>
+<p id="page-end">180</p>`
+const ch17p3 = `<p id="page-start"> </p>
+<p id="no-indent">Good to know it was locked. I might not have gotten out.</p>
+<p id="indent">“Don’t underestimate me, Agent Ike. I—”</p>
+<p id="indent">“Please, call me Ike.” He smiles at me, and even though it seems genuine, I’m upset that he interrupted me.</p>
+<p id="indent">“I’ve been on my own for five years. I can handle myself. A disfigured man with a knack for illegal dealings means nothing. If you want to, maybe we can get our bosses to talk and let us work together.”</p>
+<p id="indent">“Wait, you have a boss?” Ike asks. “Who do you work for?”</p>
+<p id="indent">“I’m not sure I’m allowed to say,” I reply. “He’s more the anonymous type. Who do <em>you</em> work for?”</p>
+<p id="indent">“I hardly see how that’s a fair question, since you won’t even tell me. Trust is important, Luna.”</p>
+<p id="indent">“Don’t talk to me about trust, Agent Ike. I’ve only been able to trust one person in five years, and I let her die on Blood Moon Island not three days ago.”</p>
+<p id="indent">“You were on Blood Moon Island?” He stops picking the lock to face me. “How did you escape?”</p>
+<p id="indent">“Hold on. You know of Blood Moon Island?”</p>
+<p id="indent">“Yes. That’s why I asked how you escaped.”</p>
+<p id="indent">“You <em>knew</em> what was happening on Blood Moon Island, and yet you never did anything to stop it?”</p>
+<p id="indent">“If it were up to me, Luna, I would’ve stopped their operations years ago. However, between my boss and the fact that it would require a literal army incursion, it was never feasible.”</p>
+<p id="indent">“So you waited for Nazis to be the army that did it.”</p>
+<p id="indent">“The Nazis attacked Blood Moon Island? That would explain the lack of airwaves coming out of the area.”</p>
+<p id="page-end">181</p>`
+const ch17p4 = `<p id="page-start"> </p>
+<p id="indent">“We’re getting off topic. I need my Freckles back, and you need Slaphand out of the equation. Let’s team up, and we’ll watch each other’s backs.” I offer my hand in a handshake.</p>
+<p id="indent">He turns back to the door. “I already said, I can’t do it, kid. Go home and get some rest, and tell your boss Agent Ike took care of Slaphand. If he’s anyone important, he’ll have heard of me.”</p>
+<p id="indent">“You know I can’t do that.”</p>
+<p id="indent">I unsheathe one of my knives and lower it down to my side. “Last chance, Ike.”</p>
+<p id="indent">“Oh, come on,” he mutters under his breath, leaving the lockpick in the door. He spins to face me, bringing his fists up, an annoyed look on his face.</p>
+<p id="indent">“I don’t want to do this, Luna.”</p>
+<p id="indent">“Then get out of my way. Slaphand is mine.”</p>
+<p id="indent">He sighs. “I’ve gotta say, when it comes to stubborn kids, you’re pretty high up there, but you’re no Cog.”</p>
+<p id="indent">“I have no idea what that means.”</p>
+<p id="indent">“It means you have one second to put that knife down before I knock you unconscious and leave you in here until I’ve finished my mission.”</p>
+<p id="indent">I charge at the agent, knife in hand. He dodges to my right and sends out a hook, landing his blow on my arm. It hurts, but if I went down every time I took a punch like that, I wouldn’t be alive. I drop to the ground and sweep with my feet, catching his leg and throwing him off balance. Then, I reach up with my weapon, trying to stab him anywhere I can. He catches his footing and moves out of the way. </p>
+<p id="indent">Using his momentum, he swings his whole body and kicks out. His </p>
+<p id="page-end">182</p>`
+const ch17p5 = `<p id="page-start"> </p>
+<p id="no-indent">foot whizzes an inch in front of my face, and I duck back instinctively. He seizes the opportunity to steady himself and sends out a flurry of swings and chops.</p>
+<p id="indent">The man obviously knows what he’s doing, unlike all of Slaphand’s henchmen I’ve fought. My skills, of which I have almost none, are vastly outmatched.</p>
+<p id="indent">I manage to dodge a few of the hits, but my arms and chest bear the brunt of the damage. He sends me stumbling a few steps, giving me enough time to retrieve my second knife. If I can’t beat him with brute force, I’ll psyche him out with too many weapons.</p>
+<p id="indent">“Two knives is a clever trick,” he says, smiling. It’s not even intimidating. Like his first, it feels genuine. He really doesn’t want to do this. So why won’t he let me work with him?</p>
+<p id="indent">This time, I let him charge at me, and dodge out of the way in a similar fashion. His fist connects with one of the metal shelves, reverberating painfully. He shakes it off dramatically, and I take the chance to dive back in at him.</p>
+<p id="indent">Right as I’m in range, he kicks out with his foot, landing square on my chest. All the air in my lungs is knocked out as I flounder backwards, landing back-first into another shelf. It rocks with the force, sending a few loose metal parts clattering to the ground. </p>
+<p id="indent">“I won’t lie, you’re pretty good,” I say, panting. </p>
+<p id="indent">“Years of practice,” he replies. “Too many, I’d say.”</p>
+<p id="indent">“I don’t suppose you have any tips for me?”</p>
+<p id="indent">“Depends. Are you gonna let me go out there and get rid of the big man alone?”</p>
+<p id="indent">“Let me think about it… no.”</p>
+<p id="page-end">183</p>`
+const ch17p6 = `<p id="page-start"> </p>
+<p id="indent">“Then no.”</p>
+<p id="indent">He comes zigzagging at me, probably attempting to throw me off, and swipes at me with his elbow. I duck down, his six-foot frame at a height disadvantage, and stab at his side. It connects, and—</p>
+<p id="indent"><em>Ding</em>.</p>
+<p id="indent">The tip of the knife lodges itself into his jacket but refuses to go further. I stand back, shocked and confused.</p>
+<p id="indent">“I’ve got tricks of my own,” he says, revealing metal armor plating with a smile.</p>
+<p id="indent">Guess knives are out of the equation.</p>
+<p id="indent">I drop the other knife and immediately whip out one of my pistols, aiming it directly at his head. We both back up a bit, half the room in between us again. His face drops a little.</p>
+<p id="indent">“A gun is a little out of character, isn’t it, Luna?”</p>
+<p id="indent">“You don’t know me,” I answer. “You don’t know whether or not I’d use this on you.”</p>
+<p id="indent">“Your hand is shaking. I have a pretty good idea.”</p>
+<p id="indent">Dang it. I am shaking.</p>
+<p id="indent">“Wait, don’t tell me this is your first time firing a gun.”</p>
+<p id="indent">“Second, actually.”</p>
+<p id="indent">“That’s crazy. Have you figured out how to aim when shooting?”</p>
+<p id="indent">“Not exactly, but I have enough shots to make one of them count.”</p>
+<p id="indent">“Fair enough, I suppose. Well, if you’re gonna shoot me, might as well make it fast.”</p>
+<p id="indent">He raises his hands in surrender, but his grin is back. What could he possibly be smirking about right now?</p>
+<p id="page-end">184</p>`
+const ch17p7 =`<p id="page-start"> </p>
+<p id="indent">“I think I heard noises coming from this room,” someone says on the other side of the door. We both turn to look, but my eyes are a lot bigger than his.</p>
+<p id="indent">The sound of keys jingling is followed by the doorknob shaking, and the door eventually opens. A large goon stands in the frame, as wide-eyed as I am. </p>
+<p id="indent">“Hey there, pal,” Ike says, waving. “As you can see, we’re in the middle of something, so if you could pretend you didn’t walk in on this, that’d be–wait Luna don’t!”</p>
+<p id="indent">I switch from aiming at Ike to the goon and blindly fire, a puff of smoke emitting from the business end of the gun. The bullet blasts through his shoulder, and he topples to the ground, yelling. My entire arm goes numb with the force, and the recoil nearly tosses the gun out of my hand. </p>
+<p id="indent">Oh my God. I just shot him.</p>
+<p id="indent">“Oh my God. You just shot him!” Ike says, repeating my thought. He darts over to my victim, crouching down.</p>
+<p id="indent">“I, uh, I wasn’t thinking. I didn’t mean to.”</p>
+<p id="indent">“Kid, we’re in serious trouble now. They know we’re here. Get out while you can. I’m gonna try and stop Slaphand from escaping.”</p>
+<p id="indent">“What? No. I’m going after him.” I level the gun back at him.</p>
+<p id="indent">“Put it down, Luna. Please.”</p>
+<p id="indent">“Why should I?”</p>
+<p id="indent">“Well, for starters…” he trails off, hunched above the wounded man, and quickly rolls over him, out of view of my prying eyes.</p>
+<p id="indent">What a sneaky move.</p>
+<p id="indent">I shouldn’t have shot the man. I can’t believe I did that.</p>
+<p id="page-end">185</p>`
+const ch17p8 = `<p id="page-start"> </p>
+<p id="indent">I pocket the gun, step around him, and chase Ike, who’s sprinting along the wall down to one of the unlabeled doors. </p>
+<p id="indent">Why did I fire the gun? </p>
+<p id="indent">I mean, he probably deserved it. He’s a bad guy. He works for the bad men with bad plans. </p>
+<p id="indent">He’s screaming and in pain. An alarm system sounds off, drowning him out. He’s a blood red siren, writhing on the floor.</p>
+<p id="indent">Ike stops outside one of the doors, desperately shaking the handle. A few men slowly surround him, ready to attack. He gives up on the door and switches to them.</p>
+<p id="indent">It’s a three-on-one battle, and he’s still somehow outperforming them. Watching him with his blinding speed, it almost makes me wonder if he was going easy on me. I barely know the man, but it seems in character.</p>
+<p id="indent">A henchman of my own charges at me, and I bounce out of the way. He stops and swings in a full turn, like some sort of tornado. His fist misses, and while he faces away from me, I kick at his back. He stumbles forward into and over a couch, crashing down on a glass coffee table. </p>
+<p id="indent">If he gets up, I don’t notice, because I continue towards Ike and his entourage. Two of the original three men are down, but three more have joined in, and it looks like Ike might be in for it.</p>
+<p id="indent">Should I help him? </p>
+<p id="indent">One of the four spots me and chooses me as their target instead. The choice has been made for me.</p>
+<p id="indent">He swings out at the level of my head, so I duck and land a hit on his stomach before kicking off the ground and sending my right fist </p>
+<p id="page-end">186</p>`
+const ch17p9 = `<p id="page-start"> </p>
+<p id="no-indent">into his jaw from below. The knock clearly does some damage, and he crumbles to the floor, unconscious.</p>
+<p id="indent">Ike’s taken one of his new friends down, and the other two are a little worse for wear. For what it’s worth, he’s suffering some damage, too. Better to have them wear him down than me.</p>
+<p id="indent">I’m approached by a third man from behind, who wraps his beefy arm around my neck and lifts me into the air. I struggle against his force, pointlessly kicking and scratching.</p>
+<p id="indent">The blackness of oxygen deprivation tickles the corners of my vision dangerously fast. At this rate, I’ll be out within a minute.</p>
+<p id="indent">Ike notices and dips out of his current fight to come blasting at my captor. He sends a blow to the man’s head, and as he’s still reacting, swipes his legs out from under him. The man lets go of me in response, crashing to the ground with a hard thud. </p>
+<p id="indent">I’m mad. With the man still lying on the ground, I pound on him, smashing my fist into his head and chest. Ike pulls me off after a moment, and I whip around to go for him, too.</p>
+<p id="indent">He dodges back, redirecting my swings using his forearms. Then, he sweeps my feet out from under me, and I follow the beefy man down to the floor.</p>
+<p id="indent">“Fighting me isn’t gonna get you anywhere, Luna. Go home. Please.”</p>
+<p id="indent">“I’ve gotta get my cat.” My hostility quivers with my lip. This is all too much. I feel battered and bruised, and my lungs are on fire.</p>
+<p id="indent">Another two minutes pass of Ike tactfully tormenting the opposition before the last of the excessive guard team is disposed of. He breathes heavily, blood smeared in a few places, and stands upright. </p>
+<p id="page-end">187</p>`
+const ch17p10 = `<p id="page-start"> </p>
+<p id="no-indent">“Good teamwork, kid, for what it’s worth,” he says, dramatically wiping his lip with his thumb. “All that’s left is the big guy. If you leave now, I promise to find out what he’s done with your cat.”</p>
+<p id="indent">“I’m not leaving,” I say, standing back up shakily. “This man has caused me too much pain. I’m gonna make sure he gets to feel the same thing he did to me.”</p>
+<p id="indent">The sound of screeching tires fills the room. We watch in horror as some sort of armored vehicle comes barreling through the front entrance of the building and parks in the middle of the store.</p>
+<p id="indent">“Oh, come on,” Ike says, raising his fists again. “I’ll take all y’all on if I have to, you kno—”</p>
+<p id="indent">The unlabeled door behind him crashes off its hinges, smacking directly into him and throwing him ten feet into the air. He hits the ground, unmoving. Slaphand runs out of the room and makes a break for the car.</p>
+<p id="indent">“No!” I yell, running after him.</p>
+<p id="indent">He turns to give me an evil smile as he hops onto the side of the vehicle, and pounds twice on the side. The car instantly kicks into reverse, speeding out of the building as quickly as it appeared.</p>
+<p id="indent">I follow by foot briefly, but there’s no way I’d be able to catch up. They’ve escaped. Slaphand escaped. Again.</p>
+<p id="indent">I pull the two guns out of my pockets. My carelessness has once again gotten the better of me. I can’t believe I let this happen.</p>
+<p id="indent">I throw them both against the wall in anger.</p>
+<p id="indent">I’m my own worst enemy.</p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="page-end">188</p>`
+const ch17p11 = ``
+const ch17p12 = ``
+const ch17p13 = ``
+const ch17p14 = ``
+const ch17p15 = ``
+const ch17p16 = ``
+const ch17p17 = ``
+const ch17p18 = ``
 const ch17 = [ch17p1, ch17p2, ch17p3, ch17p4, ch17p5, ch17p6, ch17p7, ch17p8, ch17p9, ch17p10, ch17p11, ch17p12, ch17p13, ch17p14, ch17p15, ch17p16, ch17p17, ch17p18]
 
 const ch18p1 = `1`
