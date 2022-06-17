@@ -564,7 +564,8 @@ const chapterSelection = `  <option value="1" class="dropper">Chapter 1</option>
                         <option value="14" class="dropper">Chapter 14</option>
                         <option value="15" class="dropper">Chapter 15</option>
                         <option value="16" class="dropper">Chapter 16</option>
-                        <option value="17" class="dropper">Chapter 17</option>`
+                        <option value="17" class="dropper">Chapter 17</option>
+                        <option value="18" class="dropper">Chapter 18</option>`
 
 var mobileFlip = false
 
@@ -4335,24 +4336,153 @@ const ch17p17 = ``
 const ch17p18 = ``
 const ch17 = [ch17p1, ch17p2, ch17p3, ch17p4, ch17p5, ch17p6, ch17p7, ch17p8, ch17p9, ch17p10, ch17p11, ch17p12, ch17p13, ch17p14, ch17p15, ch17p16, ch17p17, ch17p18]
 
-const ch18p1 = `1`
-const ch18p2 = `2`
-const ch18p3 = `3`
-const ch18p4 = `4`
-const ch18p5 = `5`
-const ch18p6 = `6`
-const ch18p7 = `7`
-const ch18p8 = `8`
-const ch18p9 = `9`
-const ch18p10 = `10`
-const ch18p11 = `11`
-const ch18p12 = `12`
-const ch18p13 = `13`
-const ch18p14 = `14`
-const ch18p15 = `15`
-const ch18p16 = `16`
-const ch18p17 = `17`
-const ch18p18 = `18`
+const ch18p1 =`<p id="page-start"> </p>
+<p id="chapter-header">Chapter 18</p>
+<p id="chapter-bar">____________________</p>
+<p id="no-indent">The Dixie cup in my hand slowly fills with water from the dispenser inside of Slaphand’s office. This is my third cup since the man escaped in an armored car. Filling it is a menial task compared to what I was hoping to do tonight. </p>
+<p id="indent">I down the water again, finally quenched, and press the tab to fill it one last time. Then I turn to face Agent Ike. </p>
+<p id="indent">Immediately following the events of the battle, I tied him to a rotating chair with my climbing rope. It wasn’t easy lugging his unconscious body through the building while making sure he didn’t wake back up, but apparently, I didn’t have to worry. He never stirred. </p>
+<p id="indent">I look down at the cup and splash its contents onto the man’s face. </p>
+<p id="page-end">189</p>`
+const ch18p2 = `<p id="page-start"> </p>
+<p id="no-indent">He gasps awake, sputtering and spitting. “What happened?”</p>
+<p id="indent">“I’ll tell you what happened, Mr. Agent Ike,” I say. “I lost Slaphand because of you, and therefore, I lost my cat, too. If you weren’t so busy avoiding being a grown man and teaming up with a seventeen-year-old girl, maybe he wouldn’t have escaped.”</p>
+<p id="indent">“Wait, wait, wait. You’re blaming me for him escaping? I’m not the one who fired the gun off and alerted everyone in a fifteen-mile radius to our position!”</p>
+<p id="indent">He tries to squirm out of the rope, but ends up spinning himself in a circle. </p>
+<p id="indent">“I made this pretty tight,” I say, spinning him some more. “I knew I was no match for you when you woke up, and I desperately need whatever information you have, so I think we’ll cut to the chase. If you don’t tell me where Slaphand’s going next, I’m going to kill you.”</p>
+<p id="indent">For the first time since our meeting, fear flashes across his face. “Let’s think this over a little, Luna. I understand you’re upset about losing your cat. It’s a hard thing to lose someone you love, and from the sounds of it, you’ve had to do that a lot.”</p>
+<p id="indent">“That’d be correct.”</p>
+<p id="indent">“I have people I love, too, and people that love me. I have a daughter and son, a wife, and there’s a girl out there your age hunting Nazis that I plan to adopt soon. I respect your drive and enthusiasm, Luna, and I know you want revenge, but I don’t think you want to do the same thing they’ve done to you.”</p>
+<p id="indent">He’s right, isn’t he? I really wish he wasn’t. But he’s one of the good guys, and they’ve been few and far between lately.</p>
+<p id="indent">“Okay, fine. But you can’t run away or knock me out as soon as I </p>
+<p id="page-end">190</p>`
+const ch18p3 =`<p id="page-start"> </p>
+<p id="no-indent">untie you.”</p>
+<p id="indent">“Sounds fair to me. Tell you what, I’m willing to admit we both sort of screwed this mess up, and I want to offer you a deal. If you’re still on board with it, I’ll work with you and together we can go for Slaphand.”</p>
+<p id="indent">“Yeah, alright.”</p>
+<p id="indent">“You’ve gotta promise me you’ll try to listen if I have something to say, though.”</p>
+<p id="indent">“Don’t push your luck, Agent Ike. You’ve already got your deal. Don’t act like you’re the boss here.”</p>
+<p id="indent">“Understood. And please, just Ike. If you’re gonna add the agent, at least make it ‘Secret Agent Ike.’ I worked hard for that title.”</p>
+<p id="indent">“Who even are you?” I ask, cutting the rope.</p>
+<p id="indent">“Secret Agent Ike, at your service. I work directly for President Jimmy Carter.”</p>
+<p id="indent">“And who is Jimmy Carter?”</p>
+<p id="indent">“Oh, he’s the president of the United States. Yeah, I’m American, if you couldn’t tell.”</p>
+<p id="indent">“I could tell.”</p>
+<p id="indent">“Well, good.”</p>
+<p id="indent">“Why are you here chasing after Bijabers? Aren’t there issues in America and an entire global war going on?”</p>
+<p id="indent">“I’m not gonna lie, I am still very much involved in the war. I’m helping direct a group of kids scouting off in the Pacific Ocean who are enthusiastic about wanting to kill Hitler, and I’m at the top of the feeding order for a lot of the intelligence operations against both the Russian and Nazi armies. As for Bijabers and the crew, they originated </p>
+<p id="page-end">191</p>`
+const ch18p4 = `<p id="page-start"> </p>
+<p id="no-indent">in America, and I’m following where the wind blows.”</p>
+<p id="indent">“How do you have time for all of this?”</p>
+<p id="indent">“Ah, if I told you that, what would be the point of me being a ‘secret’ agent?”</p>
+<p id="indent">He gives me another one of his congenial smiles. The man has a strangely laid-back personality, considering our situation. It makes me irrationally annoyed. “Alright, here’s the deal, kiddo. I want to—”</p>
+<p id="indent">“Actually, first off, don’t call me ‘kiddo’ or ‘kid’ or whatever. I get that I am legally a child, but I’m tired of it. It’s a derogatory term for somebody who’s fended for herself for years.”</p>
+<p id="indent">“Loud and clear. I’ll assume ‘girly’ is off the table, too.”</p>
+<p id="indent">“For sure.”</p>
+<p id="indent">“Okay. Here’s the deal, Luna. I want to get us moving right away, because there’s no telling how far he’s gotten or how long it is before he tries to flee the country. Now that he knows I’m in town, he’ll scurry underground lickety-split.”</p>
+<p id="indent">“So what do we do?”</p>
+<p id="indent">“We should begin with seeing what we can figure out while we’re still here. Search the rooms, and if you spot any addresses, we’ll do a cross-examination with a potential list I have of my own.”</p>
+<p id="indent">“Sounds like a plan.”</p>
+<p id="indent">Having a partner who’s willing to help is… strange. No offense to Mary or Freckles, but Ike has a sense of control and strategizing that I don’t think either of them could’ve had. Freckles is good, no doubt, but nowhere near as tactile.</p>
+<p id="indent">But at least I liked Mary and Freckles. Well, I still like both of them. Even if I am directly responsible for the death of one of them and the </p>
+<p id="page-end">192</p>`
+const ch18p5 = `<p id="page-start"> </p>
+<p id="no-indent">kidnapping of the other.</p>
+<p id="indent">I start the search by walking back to the storage room where we’d originally met. The man I’d shot is gone, meaning he was either carried out when nobody was looking or walked away in the same manner. I might never know if I actually killed him.</p>
+<p id="indent">A shiver runs down my spine. Would I have been able to live with myself if I’d killed someone? Not only that, but if it were a purely heat-of-the-moment shot out of fear?</p>
+<p id="indent">And maybe he did deserve it, and maybe I was justified in doing it, but that doesn’t change the fact that a man could’ve died by my hands tonight. </p>
+<p id="indent">I shake the thought out of my head. I have to focus on finding where Slaphand is going next.</p>
+<p id="indent">Using the same strategy I’d used previously, I swipe one of my knives off the floor and cut into some boxes in the storage room. Unsurprisingly, it’s more of the same-old stuff that the other building had in stock. None of the metal parts make very much sense in a store like this, but I know the store’s a front for their true business, anyway.</p>
+<p id="indent">Next, I sweep the bathrooms, but nothing of note jumps out at me. It’s funny that the bathroom is the sole sense of normalcy.</p>
+<p id="indent">Out in the main area, Ike aggressively kicks against one of the unmarked doors, hoping to break the deadbolt keeping it shut. I stand to watch, counting the blows it takes to send it swinging open.</p>
+<p id="indent">Eleven.</p>
+<p id="indent">The door bursts open, revealing a room much more akin to a massage parlor than a furniture and appliance store. “This is certainly new,” he says, noting the dark red wallpaper.</p>
+<p id="page-end">193</p>`
+const ch18p6 = `<p id="page-start"> </p>
+<p id="indent">“What do you think the room is for?” I ask, stepping inside. There’s a dark mahogany desk with office supplies sitting on top, a few bookshelves, and a globe with thumbtacks sticking out of it.</p>
+<p id="indent">“If I didn’t know any better, I’d say it was a study.”</p>
+<p id="indent">“What if you did know better?”</p>
+<p id="indent">“Then I’d say it was where he kept all of his information.” Ike moves to one of the books on the bookshelf, pulls it out, and opens it. He flips to the end, where a sticky note marks a page. “They’re heading to the Carmsborough National Museum.”</p>
+<p id="indent">“The museum? Why do they want to go there? And also, how did you pick the book that says exactly that?”</p>
+<p id="indent">“Sounds like they’ve been doing a lot of underhanded trading there. Buying and auctioning off stolen artwork and items. Says here lots of art, a bounty of gold coins found on board an old airship when it crashed, and lots of antiquities.”</p>
+<p id="indent">“I don’t know what that last word means, but I’ve definitely seen some of the art and gold coins. So they’re in Carmsborough because they’re laundering money?”</p>
+<p id="indent">He closes the book dramatically with one hand. “I guess. At least, Slaphand is. He’s always been more of a fine-dining kind of guy.”</p>
+<p id="indent">“So why were they building the Plasmarizer?”</p>
+<p id="indent">“The what now?”</p>
+<p id="indent">“The Plasmarizer. It was a weapon on board one of their cloudships that had the power to knock out the <em>Überall</em>, whatever that is. They were mining resources for it on Blood Moon Island.”</p>
+<p id="indent">“Sounds fake to me. Nothing we’ve encountered has been able to penetrate the <em>Überall’s</em> shields, save maybe a nuclear blast. That’s one </p>
+<p id="page-end">194</p>`
+const ch18p7 =`<p id="page-start"> </p>
+<p id="no-indent">big frickin’ ship, pardon my French.”</p>
+<p id="indent">“Hmm. Anyway, I’m gonna go update my boss. I’ll be sure to keep your name out of it, just in case.”</p>
+<p id="indent">“Woah, hold on there, Luna. We don’t have time for formalities like that. We should’ve been moving an hour ago. With situations like this, you have to improvise and be on the move and worry about the paperwork later.”</p>
+<p id="indent">“Okay? So what do we do?”</p>
+<p id="indent">“I’ll pull the ride up real quick. Have you ever ridden on a motorcycle?”</p>
+<p id="indent">“A what?”</p>
+<p id="story-break">∙ ◦ ○(        )○ ◦ ∙</p>
+<p id="indent">I’d be lying if I said I wasn’t totally enamored by the motorcycle. I’ve never seen anything like it. It’s louder than I’ll get out, but the rush of the wind whipping against my body as we cruise through the city makes me forget all the stress weighing me down. It’s freeing, if not a bit dangerous.</p>
+<p id="indent">Luckily for me, he had a spare helmet in a little storage bag, but in order to stay on, I have to loop my arms around his chest. This man that has done nothing but frustrate and contradict me is currently the only thing preventing me from hitting the pavement and cracking my head open.</p>
+<p id="indent">The night air is heavy as we weave across the city, unhindered by what little traffic there is. I’m not sure what time it is, but midnight’s gotta be fairly close.</p>
+<p id="indent">“What are your plans for when Slaphand’s defeated?” I ask Ike. </p>
+<p id="page-end">195</p>`
+const ch18p8 = `<p id="page-start"> </p>
+<p id="no-indent">Between the breeze and the humming of the motorcycle’s engine, I’m half-yelling. </p>
+<p id="indent">“After he’s out of the equation, I’m bringing the heat down on Bijabers if I can. Hopefully the war doesn’t get too messy, but I’m not holding my breath.”</p>
+<p id="indent">“I think I might become some sort of vigilante who helps those in need,” I say. “There’s a lot of people that don’t get help, and Orion and the Clockwork certainly aren’t doing it.”</p>
+<p id="indent">“Sounds a little harsh to me. He’s been busy keeping the Nazis out of mainland Carmsborough. Their ship count these past few days rivals that of entire countries during the original Steam War.”</p>
+<p id="indent">“Nazis aren’t the only problem out there, Ike.”</p>
+<p id="indent">“That’s fair. I don’t know Carmsborough enough to weigh in on this situation. We have enough of our own problems in America.”</p>
+<p id="indent">“I doubt you have Carmsborough problems, though.”</p>
+<p id="indent">“Like what?”</p>
+<p id="indent">“Well, racism, for starters.”</p>
+<p id="indent">Ike bursts out laughing, and doesn’t stop until we park a block away from the museum. </p>
+<p id="indent">“I get you’re not from America, but that’s like the first thing anyone knows. There are plenty of racist old men that don’t go away.”</p>
+<p id="indent">“What about homelessness? Is that a big issue?”</p>
+<p id="indent">“Oh, for sure. You name a European problem, and I guarantee it’s amplified in America.”</p>
+<p id="indent">We remove our helmets in silence. I don’t want to learn any more.</p>
+<p id="indent">The two of us walk to the museum, and stop behind a corner together.</p>
+<p id="page-end">196</p>`
+const ch18p9 = `<p id="page-start"> </p>
+<p id="indent">“Cameras,” we both point out. </p>
+<p id="indent">“I’ve learned that lesson a few too many times,” I say, recalling my previous adventures.</p>
+<p id="indent">“It’s a rookie mistake, but sounds like you’re adapting pretty quickly. I think we should take the lower exit into the maintenance tunnels. They’ll lead into the basement, which will give us the advantage we need to get inside. They won’t have had enough warning by the time we’re beating down on them.”</p>
+<p id="indent">“Won’t they have cameras on the inside, too?”</p>
+<p id="indent">“Yeah, but this is a makeshift plan for both parties. They’ll be watching the cameras, but nobody’s settled down enough to be truly ready for a second attack tonight. His suit count is low enough that we could honestly ignore a good chunk of them.”</p>
+<p id="indent">“Lots of good news. Any bad?”</p>
+<p id="indent">“Neither of us knows the layout or where Slaphand is, so it might be a hot minute before we get to him.”</p>
+<p id="indent">“Good enough for me.”</p>
+<p id="indent">“Cool. I’ll pave a path to the maintenance tunnels. Follow me.”</p>
+<p id="indent">Ike waits for us to be out of sight of the nearest camera before sprinting across the cobblestone clearing on his tiptoes, muting the echoes against the building walls. I chase after him, doing the same, although a lot slower.</p>
+<p id="indent">Two guards step out of the maintenance tunnel entrance, holding heavy-duty rifles of some sort. Ike notices the look on my face and holds out his hands, trying to reassure me. He points to himself and one of the guards, then me and the other. His idea is clear.</p>
+<p id="indent">We sneak over to our respective targets, stand behind them, and, at </p>
+<p id="page-end">197</p>`
+const ch18p10 =`<p id="page-start"> </p>
+<p id="no-indent">the same time, wrap our arms around their necks. It feels weird to be on the giving end of this treatment. Almost dirty.</p>
+<p id="indent">I kind of like it.</p>
+<p id="indent">Neither of them have much of a chance to do anything but struggle, and within a minute, both are up against the wall, unconscious.</p>
+<p id="indent">We enter into the tunnel system, lit scarcely by incandescent bulbs. The air is moist and cold, which is to say uncomfortable.</p>
+<p id="indent">“All we have to do is find a way up to the main floor from here, and we’re golden,” Ike whispers. The two of us search the dim area, discovering doors with heavy locks on the outside. A few of them still have the keys in them.</p>
+<p id="indent">“How about you check this room, and I’ll check the one down the hall,” I suggest, pointing at a room with a key still in the lock. </p>
+<p id="indent">“Don’t get into trouble without me,” he says, stepping inside.</p>
+<p id="indent">“No promises,” I respond.</p>
+<p id="indent">As soon as he steps fully inside, I close the door shut behind him and lock it. His fists pound against the dark wood, rattling the door, but it doesn’t budge.</p>
+<p id="indent">“Let me out, Luna!” he calls out.</p>
+<p id="indent">“Sorry, Ike. I’ll let you out once I’ve rescued Freckles.”</p>
+<p id="indent">I walk away from the door, tossing the key off to the side. It’s time to get rid of Slaphand. For real this time.</p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="page-end">198</p>`
+const ch18p11 = ``
+const ch18p12 = ``
+const ch18p13 = ``
+const ch18p14 = ``
+const ch18p15 = ``
+const ch18p16 = ``
+const ch18p17 = ``
+const ch18p18 = ``
 const ch18 = [ch18p1, ch18p2, ch18p3, ch18p4, ch18p5, ch18p6, ch18p7, ch18p8, ch18p9, ch18p10, ch18p11, ch18p12, ch18p13, ch18p14, ch18p15, ch18p16, ch18p17, ch18p18]
 
 const ch19p1 = `1`
