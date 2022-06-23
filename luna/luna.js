@@ -548,7 +548,7 @@ function checkPagesReverse(mobile) {
 var chapterList = []
 var chapterValue = 1
 
-const chapterSelection = `  <option value="1" class="dropper">Chapter 1</option>
+const chapterSelection = `<option value="1" class="dropper">Chapter 1</option>
                         <option value="2" class="dropper">Chapter 2</option>
                         <option value="3" class="dropper">Chapter 3</option>
                         <option value="4" class="dropper">Chapter 4</option>
@@ -565,7 +565,8 @@ const chapterSelection = `  <option value="1" class="dropper">Chapter 1</option>
                         <option value="15" class="dropper">Chapter 15</option>
                         <option value="16" class="dropper">Chapter 16</option>
                         <option value="17" class="dropper">Chapter 17</option>
-                        <option value="18" class="dropper">Chapter 18</option>`
+                        <option value="18" class="dropper">Chapter 18</option>
+                        <option value="19" class="dropper">Chapter 19</option>`
 
 var mobileFlip = false
 
@@ -4332,24 +4333,160 @@ const ch18p17 = ``
 const ch18p18 = ``
 const ch18 = [ch18p1, ch18p2, ch18p3, ch18p4, ch18p5, ch18p6, ch18p7, ch18p8, ch18p9, ch18p10, ch18p11, ch18p12, ch18p13, ch18p14, ch18p15, ch18p16, ch18p17, ch18p18]
 
-const ch19p1 = `1`
-const ch19p2 = `2`
-const ch19p3 = `3`
-const ch19p4 = `4`
-const ch19p5 = `5`
-const ch19p6 = `6`
-const ch19p7 = `7`
-const ch19p8 = `8`
-const ch19p9 = `9`
-const ch19p10 = `10`
-const ch19p11 = `11`
-const ch19p12 = `12`
-const ch19p13 = `13`
-const ch19p14 = `14`
-const ch19p15 = `15`
-const ch19p16 = `16`
-const ch19p17 = `17`
-const ch19p18 = `18`
+const ch19p1 =`<p id="page-start"> </p>
+<p id="chapter-header">Chapter 19</p>
+<p id="chapter-bar">____________________</p>
+<p id="no-indent">Do I feel guilty leaving Ike locked in the basement of a looming museum all alone, betraying whatever bond we’d been building up to this point?</p>
+<p id="indent">Yeah, a little. But I was never gonna let him be the one to take Slaphand down. Whatever Ike has against him, I’m sure it’s not as powerful as my own personal vendetta. </p>
+<p id="indent">This man has been responsible for so much pain in my life. So much loss, agony, heartbreak, and hardship. Being thrown out onto the street when Mom died was his fault. Suffering on Blood Moon Island was his fault. Having Freckles torn out of my arms was his fault. Mary’s death is as much his fault as my own, seeing as he’s the one that put us </p>
+<p id="page-end">199</p>`
+const ch19p2 = `<p id="page-start"> </p>
+<p id="no-indent">there in the first place.</p>
+<p id="indent">And I intend to make sure he hears my complaints.</p>
+<p id="indent">I haven’t decided how I’m gonna do it yet. I’d re-pocketed both knives and pistols while Ike was bringing the motorcycle up front, but I honestly think I’d accept drowning him in the freezing ocean, like he nearly did to me during our first encounter.</p>
+<p id="indent">But I can’t get cocky. If I’ve learned anything about this man, it’s that he’s strong and he’s slippery. He’d just as quickly crush me like a grape as he would run away.</p>
+<p id="indent">Not this time. Not today.</p>
+<p id="indent">A nearby clock tower chimes its bells, signaling the arrival of midnight. I’m not even sure what day that makes this anymore. The twenty-eighth? The twenty-ninth? Either way, Bijabers and the citizens of Carmsborough will know it as the day Slaphand was brought down.</p>
+<p id="indent">I check a few more doors for the staircase to the main floor, and find it on my third attempt. It isn’t even locked. What’s in the locked rooms that are more important than the rest of the museum? No time to focus on that too hard.</p>
+<p id="indent">The stairs are a short but suspenseful climb up to the granite- and marble-floored lobby of the museum. Let’s hope Ike was right and that we don’t need to worry about the cameras. I’d rather not be shot halfway across the museum because I was spotted on tape.</p>
+<p id="indent">My steps echo against the wide halls of the museum, clacking satisfyingly on the rock flooring. I pass through an Ancient Rome exhibit featuring wax figures with rectangular shields and pointed metal spears. A few empty boxes line the edges of the displays, waiting to be filled.</p>
+<p id="page-end">200</p>`
+const ch19p3 = `<p id="page-start"> </p>
+<p id="indent">Or was recently emptied. I’m not sure.</p>
+<p id="indent">I move on to the next area, and sure enough, there are more boxes, this time in various stages of being loaded or unloaded. If I had to guess, they’re stealing as much out of the museum as they can. It brings an extra eeriness to the already dismal museum in the dead of night. </p>
+<p id="indent">I walk into the third exhibit, but stop immediately, adrenaline sparking at the tips of my fingers. One of Slaphand’s henchmen is staring at me, but not making any notion of attacking. </p>
+<p id="indent">“Why aren’t you coming after me?” I ask, clenching and unclenching my fists.</p>
+<p id="indent">“We have direct orders not to.”</p>
+<p id="indent">“What?”</p>
+<p id="indent">“He wants you to meet him in the Industrial Revolution exhibit.”</p>
+<p id="indent">The man points in the direction I’m headed. I start to move that way, confused, but keep my eyes on him until he’s out of sight. That was the weirdest interaction I think I’ve ever had.</p>
+<p id="indent">I come face to face with two more of his guards in the next exhibit, focused on the dinosaurs of Carmsborough, of which there were very few. They also stare, cross-armed, as I walk past. This is beginning to feel more and more like a trap. Do I care? If I knew I was taking a one-way trip to trap town, would I still keep walking?</p>
+<p id="indent">At last, I arrive at the Industrial Revolution exhibit. Being one of the most impactful events in history for the country, it has its own mini museum inside of the actual museum to showcase the things that happened.</p>
+<p id="indent">There’s lots of train-related memorabilia, but the most prominent thing in the room is Carmsborough’s first airship. Or, rather, parts of </p>
+<p id="page-end">201</p>`
+const ch19p4 = `<p id="page-start"> </p>
+<p id="no-indent">it, since it went up in flames twenty minutes after its second launch. </p>
+<p id="indent">Too bad we’ve never moved on from the era. Imagine the advances we could’ve made in technology. Or humanity.</p>
+<p id="indent">“You know, the first cable car company to pave the way through Carmsborough was my great-great-great-grandfather’s,” Slaphand’s booming voice says from behind one of the displays, featuring a billowing train. “The Slaphand family name has always had deep ties within our country.”</p>
+<p id="indent">Every muscle in my body tenses, and I stop in place. A chill runs up my back. “Oh, that’s cute. Is it story time now?”</p>
+<p id="indent">“Luna, you’ve been a surprising thorn in my side for the past week. At first, I didn’t know what to make of it. A homeless girl somehow gets the key to our Plasmarizer, sets it off on a Commerce District boardwalk, and destroys a second Plasmarizer on Blood Moon Island. I had half a mind to kill you on the spot.”</p>
+<p id="indent">“I was wondering why you hadn’t, to be honest.”</p>
+<p id="indent">“There was something special about you, Luna. I could tell you had potential deep inside you waiting to be unlocked, but I couldn’t tell why or how. Given enough time, I might have figured it out, but our time was cut short by the war, I’m afraid.</p>
+<p id="indent">“Still, I couldn’t get it out of my mind. This Luna kid had bested five of my guards, and I knew nothing about her. So I went digging, and I found some old apartment records. Miss Felicity Wells and her daughter Luna were evicted five years ago for being unwilling and unable to pay their rent.”</p>
+<p id="indent">“You keep my mother’s name out of your stupid, disgusting mouth. I lost my home and my childhood because of you.”</p>
+<p id="page-end">202</p>`
+const ch19p5 = `<p id="page-start"> </p>
+<p id="indent">“Ah, yes, and then you were homeless. But that’s not the end of the story, is it, Luna? You spent five years working for a man named Chad at his scrapyard. How ironic that for five years, you were really working for <em>me</em>.”</p>
+<p id="indent">“What?”</p>
+<p id="indent">“That’s what I said at first, too. A cruel but funny fate. Chad’s scrapyard reports directly back to Blood Moon Island, providing a lot of the raw material we need for the Plasmarizer. If we’re being honest, you were destroying what you’d been helping create for five years.”</p>
+<p id="indent">“You’re lying.”</p>
+<p id="indent">“I’ll admit, I was a little shocked to find out you were still alive and back to disrupting things. When you hit CB Moving, I knew you’d eventually connect the dots. Your rage against me would no doubt increase, seeing as somehow, I’ve been the oppressor of your story in every way. The only time I was concerned, though, was when Agent Ike had shown up and the two of you were working as a team. But I had a hunch that your personalities would clash, and it appears I’m right again.</p>
+<p id="indent">“So, I’m offering you a chance at the thing you crave most. A battle with me, the most fearsome gauntlet of Carmsborough. My men have all been ordered to ignore us, even if you come close to hurting me.”</p>
+<p id="indent">“I’m tired of your monologue, I’m tired of your lies, and I’m tired of your taunting. Where’s my cat, Slaphand?” </p>
+<p id="indent">“Best me in a one-on-one, and maybe I’ll tell.”</p>
+<p id="indent">“Good enough for me.”</p>
+<p id="indent">I rush directly at him, the fire in my eyes burning bright. Both knives end up unsheathed, jutting out from my fists like mantis hands.</p>
+<p id="page-end">203</p>`
+const ch19p6 = `<p id="page-start"> </p>
+<p id="indent">Realistically, I know I can’t brute-force the towering man. He’s much too strong and skilled. His build, however, is his weakness. He moves at a much slower pace than I do, meaning as long as I keep my agility up, he’ll have no chance to defend against short guerilla attacks.</p>
+<p id="indent">I jab out with one of my knives, nearly stabbing him in the side, but he smacks me back with his lumbering arm. It doesn’t do a lot, but for a moment, he gets the upper hand and barrels towards me.</p>
+<p id="indent">With a second left to spare, I lunge out of the way, rolling behind a coal mine display, and rebound to plunge my knives into his back. He also dodges, forcing me to land a lot later than I expect to, my knees hitting the ground hard.</p>
+<p id="indent">Remembering what Freckles did during our first encounter with the mob boss, I hurl one of my knives at the man, nearly connecting with the same shoulder as before, but the blunt end smacks against him, doing no real damage. </p>
+<p id="indent">Now that I have a free hand, I pull one of my guns out and point it at him. He smiles menacingly and runs directly at me, ruining my chances of a clean, unshaking shot. Naturally, I move out of the way.</p>
+<p id="indent">If his goal is to keep me on my toes and frazzled, it’s working. </p>
+<p id="indent">These battles are getting awful repetitive. Let’s say we shake it up.</p>
+<p id="indent">Rather than try the knives or pistols, I dart over to a stand showcasing different buyable merchandise, like a pop-up gift shop, and take inventory. A lot of die-cast metal trains, that’s for sure.</p>
+<p id="indent">I grab three and hurl them at Slaphand, most hitting or coming close to the admittedly large target. They make hefty smacks against his body and floor.</p>
+<p id="indent">He comes my way, angrier with each throw, blocking a few with his </p>
+<p id="page-end">204</p>`
+const ch19p7 = `<p id="page-start"> </p>
+<p id="no-indent">pizza-sized hands along the way. I duck away when he gets within swinging distance, making sure I have a few extra trains to lob, and awkwardly run back to the dinosaur exhibit.</p>
+<p id="indent">“You’re really pissing me off, kid,” he yells, chasing me.</p>
+<p id="indent">“Oh, am I? I’m terribly sorry. It certainly wasn’t my intention.” I throw another train blindly behind me, which smacks him in the face. He joins me in the room, and we have a stare-down in the exhibit on either side of a massive Tyrannosaurus display.</p>
+<p id="indent">He moves to loop around to my side, but I walk the opposite way at the same pace. The two guards are still standing in the room, watching their boss get slowly get more frustrated by my childish counter.</p>
+<p id="indent">Childish. I hate to say it, but that’s what it is. He can’t get to me if I move at the same pace. If everyone thinks I’m a child, I might as well stoop down to their expectations.</p>
+<p id="indent">“What’s the matter, Slappy Boy? Scared of the big bad dinosaur in the middle of the room?”</p>
+<p id="indent">“Those dinosaur bones are expensive!” he replies, infuriated by my taunting game.</p>
+<p id="indent">“Oh, is it?”</p>
+<p id="indent">I reach out and pull on one of the leg bones of the prehistoric monster, and the whole thing shakes. He backs up.</p>
+<p id="indent">“Look out, Handy, it’s gonna eat you up!”</p>
+<p id="indent">“Knock it off!” He jumps up onto the display and breaks one of the tailbones off, revealing a metal rod through the inside, before launching it at me like a javelin. It travels incredibly fast, but lands way off to my left. </p>
+<p id="page-end">205</p>`
+const ch19p8 = `<p id="page-start"> </p>
+<p id="indent">I pull harder on the dinosaur, and the top wobbles dangerously. Slaphand ducks down, and I use the chance to run into an offshoot room, this one showcasing marine life. The only things I could possibly use to my advantage here are stuffed animals. There aren’t even any fish tanks for me to smash open.</p>
+<p id="indent">His heavy footsteps pound on the floor behind me as he runs into the room. Thinking hastily, I knock the cart of stuffed animals down and bound away to the lobby. They do almost nothing to slow him down, and he follows me to the front entrance.</p>
+<p id="indent">Outside, a group of men are walking by the windows, carrying barrels labeled with a bright red band. As much as I would like to question it, there’s no time. I whip my knife back out, ready to swing again, but Slaphand gets his attack out first. He forces the air out of my lungs with a wound-up punch straight to my stomach. I’m launched off the ground and into the Ancient Rome exhibit, sliding along the floor. </p>
+<p id="indent">As I stagger back up to my feet, he lumbers over and grabs me by my neck, lifting me into the air. His hand squeezes a little, but with nowhere near as much force as I know he has in him.</p>
+<p id="indent">“I should’ve done this when I had you down on the docks. I’m going to slowly drain the life out of your snotty little brat body. And then, I’ll watch it explode with the rest of this building.”</p>
+<p id="indent">“Bad idea,” Ike yells, jumping off the floor and landing his foot on Slaphand’s face. The large man lets go of me in shock and pain and swings his gargantuan arm at the secret agent.</p>
+<p id="indent">“Ike?!” Slaphand and I both say, equally surprised by his return.</p>
+<p id="indent">“You’re a truly awful teammate,” he says to me, glaring. </p>
+<p id="indent">“And you need to keep your nose out of my business.”</p>
+<p id="page-end">206</p>`
+const ch19p9 = `<p id="page-start"> </p>
+<p id="indent">“I couldn’t agree more,” Slaphand says. “Guards! Get rid of these two. I want them dead!”</p>
+<p id="indent">Four men immediately spring into action, making advances on the two of us. I’ve got one and Ike has the rest, but they’re no match for either of us. Mine punches out sloppily, and I use the knife still in my hand to cut his upper arm. He winces and cries out, hesitating enough to give me a chance to kick him into the wall. Ike handles his with a little more martial arts and fist-knocking than I do, and we turn to hunt for Slaphand.</p>
+<p id="indent">“He’s getting away again!” I yell. “This wouldn’t have happened if you’d have stayed out of this!”</p>
+<p id="indent">“You would be dead if I’d have stayed out of this! Go find him! I’ll take care of these jack wagons!”</p>
+<p id="indent">I run back into the Ancient Rome exhibit, spot my prey all the way down in industrial, and follow suit.</p>
+<p id="indent">“Get back here, you fumbling lard!”</p>
+<p id="indent">He turns the corner, carrying a pistol of his own, and points it at me. The blood in my hand and cheeks flushes out. Two guards run up behind me as well, ready to do their job. </p>
+<p id="indent">Ike appears in the same doorway as Slaphand and knocks the pistol out of his hands. They begin fighting, and I turn to face the guards. We trade a few blows, and I realize I need the upper hand in a different way. Across the room, I spot the tailbone of the T-Rex laying on the ground.</p>
+<p id="indent">I speed over, pick it up, and use it as a club to ward off the two goons. Six or seven good hits later, they fall to the ground, bloodied and bruised.</p>
+<p id="page-end">207</p>`
+const ch19p10 = `<p id="page-start"> </p>
+<p id="indent">The Ike versus Slaphand fight is in an equally matched stalemate, with both of them lashing out quickly and violently. Part of me almost doesn’t want to interrupt, but this is still my only chance at getting Slaphand. I lob the tailbone at the large man, and it lands halfway between us. The two of them both lock eyes with me for a moment, and then start to run this way. Neither are happy, but at least the one probably won’t attempt to kill me.</p>
+<p id="indent">All three of us are back in the dinosaur exhibit, and Slaphand kicks Ike up against the T-Rex. It rattles dangerously, but the metal rods holding it together seem to be doing their job well. </p>
+<p id="indent">What can I do to help? I scan the area for something worthwhile. There’s nothing left to throw in here, some plush animals that could be used for a very minor distraction in the aquatic exhibit, toy trains back in the industrial direction, and…</p>
+<p id="indent">Spears. The wax models are holding spears back in Ancient Rome.</p>
+<p id="indent">I tug the spear free from the model’s hand and feel its weight in my own. If I get a good running distance, this spear could do some serious damage.</p>
+<p id="indent">But if Slaphand gets ahold of it, it might be game over.</p>
+<p id="indent">But my pistols won’t do any good, and I’m too afraid I’d shoot Ike if I pulled out my pistols.</p>
+<p id="indent">So, spear it is.</p>
+<p id="indent">I peek around the corner, hoping to grab Ike’s attention, and when he notices me, I motion for him to go back to the Industrial Revolution area. He nods slightly and backflips out of Slaphand’s grasp, leading him to the next spot.</p>
+<p id="indent">With both of their backs turned, I charge as fast as I physically can </p>
+<p id="page-end">208</p>`
+const ch19p11 = `<p id="page-start"> </p>
+<p id="no-indent">while carrying an iron-tipped wooden spear a foot longer than me. I yell out, the sound a lot more intimidating than any I’ve ever made. </p>
+<p id="indent">They both swivel to watch me running right at them, but for Slaphand, it’s too late. By the time he’s fully turned, the spear is lodged deep into the same shoulder Freckles had stabbed less than a week ago.</p>
+<p id="indent">He screams out in agony. The tip of the spear is poking out the back of his shirt, and a pool of blood is slowly leaking from the entry and exit points. Ike leaps off the ground and does another midair kick to his back, sending the spear further in. </p>
+<p id="indent">Light this place up!” Slaphand yells. “Now!”</p>
+<p id="indent">“Yes, sir!” a voice calls from somewhere inside the building. Ike perks his head up and goes to hunt for its owner.</p>
+<p id="indent">I let go of the spear and pull out one of my pistols, leveling it with his head. “You have six seconds before I blast your brain out of your noggin. Tell me where my cat is.”</p>
+<p id="indent">He grinds his teeth. “He’ll be in the Agriculture District. But you’ll never get the chance to save him.”</p>
+<p id="indent">A series of earth-shattering blasts fill the room, shaking and cracking the smooth rocky floor beneath us. A loud splitting noise comes from above. I look up to see the ceiling caving in on us.</p>
+<p id="indent">He stands up, breaks the wooden handle off the spear, and swings at my head. It connects with a loud crack, and black spots fill my vision. I lose grip on my pistol as I tumble to the ground, dazed.</p>
+<p id="indent">In my foggy, fuzzy vision, I watch as he dashes away, and I scramble to my feet. We’re not playing this game again. This is my last chance at getting him.</p>
+<p id="indent">I chase after him, trying to keep him in my sights while watching </p>
+<p id="page-end">209</p>`
+const ch19p12 = `<p id="page-start"> </p>
+<p id="no-indent">for falling debris and any of his men that decide to interrupt. A large chunk of the ceiling smacks down in front of me, sending me back with a shockwave. </p>
+<p id="indent">He makes it to the lobby. The glass entrance doors are shattered and off their hinges, allowing for a clean getaway. For the first time since being tossed into the ocean, fear overtakes me. </p>
+<p id="indent">A second round of explosions goes off, kicking up a wave of smoke and dust that engulfs what little I can make out. I hear more crumbling, and the last thing I see is his figure slip out of the now defunct building.</p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="page-end">210</p>`
+const ch19p13 = ``
+const ch19p14 = ``
+const ch19p15 = ``
+const ch19p16 = ``
+const ch19p17 = ``
+const ch19p18 = ``
 const ch19 = [ch19p1, ch19p2, ch19p3, ch19p4, ch19p5, ch19p6, ch19p7, ch19p8, ch19p9, ch19p10, ch19p11, ch19p12, ch19p13, ch19p14, ch19p15, ch19p16, ch19p17, ch19p18]
 
 const ch20p1 = `1`
