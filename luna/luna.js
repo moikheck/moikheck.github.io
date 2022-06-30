@@ -566,7 +566,8 @@ const chapterSelection = `<option value="1" class="dropper">Chapter 1</option>
                         <option value="16" class="dropper">Chapter 16</option>
                         <option value="17" class="dropper">Chapter 17</option>
                         <option value="18" class="dropper">Chapter 18</option>
-                        <option value="19" class="dropper">Chapter 19</option>`
+                        <option value="19" class="dropper">Chapter 19</option>
+                        <option value="20" class="dropper">Chapter 20</option>`
 
 var mobileFlip = false
 
@@ -4489,24 +4490,195 @@ const ch19p17 = ``
 const ch19p18 = ``
 const ch19 = [ch19p1, ch19p2, ch19p3, ch19p4, ch19p5, ch19p6, ch19p7, ch19p8, ch19p9, ch19p10, ch19p11, ch19p12, ch19p13, ch19p14, ch19p15, ch19p16, ch19p17, ch19p18]
 
-const ch20p1 = `1`
-const ch20p2 = `2`
-const ch20p3 = `3`
-const ch20p4 = `4`
-const ch20p5 = `5`
-const ch20p6 = `6`
-const ch20p7 = `7`
-const ch20p8 = `8`
-const ch20p9 = `9`
-const ch20p10 = `10`
-const ch20p11 = `11`
-const ch20p12 = `12`
-const ch20p13 = `13`
-const ch20p14 = `14`
-const ch20p15 = `15`
-const ch20p16 = `16`
-const ch20p17 = `17`
-const ch20p18 = `18`
+const ch20p1 = `<p id="page-start"> </p>
+<p id="chapter-header">Chapter 20</p>
+<p id="chapter-bar">____________________</p>
+<p id="no-indent">I wake up to complete darkness. I try to move, but a crushing pressure prevents the bottom half of my body from doing anything. The pain doesn’t even register until a moment later, which shoots up my spine and tingles the tips of my fingers. The space behind my eyes starts pounding, forcing me to wince.</p>
+<p id="indent">My arms hesitantly reach out to feel the area and are met with heavy concrete. </p>
+<p id="indent">What happened?</p>
+<p id="indent">I was fighting Slaphand, and… and Ike showed up… and then I stabbed Slaphand. </p>
+<p id="indent">And the building blew up. I was caught underneath the collapsing </p>
+<p id="page-end">211</p>`
+const ch20p2 =`<p id="page-start"> </p>
+<p id="no-indent">walls and ceiling.</p>
+<p id="indent">Oh my God. I’m stuck under rubble and he’s escaped. Ike is most likely crushed, too. Now, the mob boss is getting away, and I’m gonna suffocate under a mound of concrete and cobblestone.</p>
+<p id="indent">“Help!” I call out, my voice weak against the sound-dulling rock. “Help, please!”</p>
+<p id="indent">A solemn silence returns my calls. </p>
+<p id="indent">Someone had to have heard the building being blown up and collapsing, right? Maybe the police and fire department are on their way. What would I even say to the police? It’s awful suspicious that me, Ike, and a few straggler goons got caught in the wake of a coordinated attack on the museum during closed hours. </p>
+<p id="indent">“Help!” I yell again. “Ike, help me!”</p>
+<p id="indent">Nothing still.</p>
+<p id="indent">I don’t want to die. I still had so much to do. Beat Slaphand, rescue Freckles, and live our lives peacefully together away from this madness. Maybe we’d move to a different country. Go back to America with Ike and join his group of kids fighting Nazis.</p>
+<p id="indent">I can’t die. Freckles will be taken apart and used as a weapon against Orion and the Clockwork. I never had the chance to give him one last hug.</p>
+<p id="indent">“Help me!”</p>
+<p id="indent">“Luna!” Ike yells back, somewhere outside of my entrapment. </p>
+<p id="indent">“Ike! I’m stuck under a pile!”</p>
+<p id="indent">“I’m coming for you! Don’t move!”</p>
+<p id="indent">I hear the faint crunching of his footsteps moving closer until it’s loud enough to be next to me. They stop, and scrape against the </p>
+<p id="page-end">212</p>`
+const ch20p3 = `<p id="page-start"> </p>
+<p id="no-indent">ground, as if he were spinning in a circle.</p>
+<p id="indent">“In here, Ike!”</p>
+<p id="indent">His feet scrape the ground again.</p>
+<p id="indent">“Listen carefully, Luna. I’m gonna start with the biggest chunk and lift it off the rest. Don’t worry about helping until I tell you to, alright?”</p>
+<p id="indent">“Ike, I can’t move my legs.”</p>
+<p id="indent">“It’s okay. You’ll be alright, I promise. I’m going to lift up.”</p>
+<p id="indent">“I’m scared.”</p>
+<p id="indent">“It’ll all be okay. I swear.”</p>
+<p id="indent">He grunts, lifting the heavy cement chunk as much as he can. Light peeks into my enclosure from the right side, filling my vision with swirling smoke and revealing a blazing fire. </p>
+<p id="indent">With one final heave, Ike sends the chunk falling off of the pile. A little bit of the weight pushing down on my legs disappears.</p>
+<p id="indent">I’ve wronged this man twice–well, three times, depending on how you slice the cake–and he’s still helping me. And I’ve consistently been plotting against him or leaving him for the dust.</p>
+<p id="indent">The same way I did with Mary.</p>
+<p id="indent">He could’ve died the same way Mary did, too, and I’m lucky he didn’t. I’m lucky he’s still giving me another chance.</p>
+<p id="indent">“Okay, I’m ready to lift the one that’s directly on your back. I may need you to push up if you can, that way I don’t crush your legs any more than they already might be. Lift when I say.”</p>
+<p id="indent">He approaches from the crack where light is spilling in, squats down, and straightens his legs, puffing out a lot of air. He looks pretty beaten up, but nothing super serious. I’m willing to bet he avoided most of the dangerous debris.</p>
+<p id="page-end">213</p>`
+const ch20p4 =`<p id="page-start"> </p>
+<p id="indent">“Alright, lift, Luna,” he says through gritted teeth. I do what I can with my position, scooting my legs up underneath my stomach and pushing off with them. Together, we lift the block all the way off the pile, and it falls flat on the ground with a loud thud.</p>
+<p id="indent">“Slowly, now,” he says, offering me his hands. He helps me stand up straight. My lower body feels pretty scraped up, but nowhere near as bad as my lower ribs. It hurts to breathe.</p>
+<p id="indent">“Ike, I think my ribs are broken.” </p>
+<p id="indent">“They might be sore, but I don’t know if they’re broken. You’d be screaming a lot more if they were.”</p>
+<p id="indent">I lightly touch the area in the most pain. It gives away way too easily. “I don’t think you’re right this time.”</p>
+<p id="indent">“We need to get you to a hospital.”</p>
+<p id="indent">“No, we need to go get Slaphand. How long was I unconscious?”</p>
+<p id="indent">“Luna, that was an hour ago. I have no idea where he went, and there’s gonna be one hell of a public relations disaster when the news outlets wake up in the morning. If we get you to a hospital, we can keep you out of the press. They’ll never know you were involved in the destruction of the museum.”</p>
+<p id="indent">“He told me something before the place fell apart,” I say, trying to piece together the thought. “He said something about the Agriculture District. Freckles is in the Agriculture District! That’s where he’s keeping him!”</p>
+<p id="indent">“Slow down, Luna. Are you sure?”</p>
+<p id="indent">“Yes! We have to go get Freckles!”</p>
+<p id="indent">“Even if he wasn’t lying, there are two agriculture districts, and they make up a third of the land in Carmsborough. It tells us nothing.”</p>
+<p id="page-end">214</p>`
+const ch20p5 = `<p id="page-start"> </p>
+<p id="indent">I stare off into the distance. The museum was obliterated by the blasts, turning everything into an unrecognizable ruin covered in smoke and dust. In one section, a collection of large bones is mixed in with the rubble. A few fires are still raging, but a group of firefighters are making their rounds, extinguishing what’s left. There are a few others as well, all dressed in black suits and wearing sunglasses.</p>
+<p id="indent">“Boss, we got word that Slaphand’s in the southeast area of the Commerce docks, right on the border of Commerce and Higher,” one of the suits says, walking up to Ike. “He’s getting into an airship with whatever’s left of his crew.”</p>
+<p id="indent">“Any idea where he’s headed?” Ike asks.</p>
+<p id="indent">“Not yet, sir. I’ll keep you updated.”</p>
+<p id="indent">Ike looks at me. His face is tired. “Go get him, kiddo–er, Luna.”</p>
+<p id="indent">“You’re not gonna join me?”</p>
+<p id="indent">“Well, that depends. Are you gonna backstab me again?”</p>
+<p id="indent">“I’m really sorry. I shouldn’t have, and I know that. The fact that it took a building collapsing on me to realize that is telling, but I swear on my dead mom that I won’t do it again.”</p>
+<p id="indent">He frowns slightly, but nods. “Well, we’d better get moving then. You wouldn’t happen to know where a ship is, would you?”</p>
+<p id="indent">“I would, actually. You wouldn’t happen to have a motorcycle to get us there, would you?”</p>
+<p id="indent">“I would, actually.”</p>
+<p id="story-break"></p>
+<p id="indent">The two of rode in silence to the docks, with me occasionally piping in to lead him to the <em>Constellation</em>. “This is her,” I say, pointing carefully to my cloudship. Lifting my arm too high brings a lot of pain. </p>
+<p id="page-end">215</p>`
+const ch20p6 = `<p id="page-start"> </p>
+<p id="no-indent">As soon as I’m done dealing with the big meathead, I’m going straight to the hospital. I’m glad I never had any broken bones while I was homeless and unable to pay for it.</p>
+<p id="indent">“I was expecting something a little bigger, if I’m being honest,” Ike says, stopping the motorcycle.</p>
+<p id="indent">“Yeah, but she’s quick. You can ride up the ramp and we can take your bike with, if you’d like.”</p>
+<p id="indent">He parks the motorcycle on the small deck of the ship and wheels it into one of the top-level rooms as I get the ship started. I can barely bring my arms to the wheel to get us moving.</p>
+<p id="indent">“Let me handle it,” Ike says. I scoot over, and he sets us off south. The cover of the night sky still hangs above us, and I can see the moon poking out behind the occasional cloud. If I weren’t down a bone or two and in the middle of hunting for a notorious crime boss, the cruise might even be peaceful.</p>
+<p id="indent">“Agent Jake to Agent Ike,” a voice says, coming from a communicator on Ike’s arm, suspiciously similar to my own.</p>
+<p id="indent">“Come in, Agent Jake.”</p>
+<p id="indent">“Slaphand has been spotted heading across the thin end of the Biomed District, most likely down to the southern-most docks of the Upper Agriculture District. He has an entourage of cloudships accompanying his own airship. Sending coords now.”</p>
+<p id="indent">“Thanks, Jake. Keep me in the loop and mobilize whatever we have in Carmsborough. If I’m right, we’re about to get more than just Slaphand.”</p>
+<p id="indent">“What do you mean by that?” I ask.</p>
+<p id="indent">“I have a hunch, mostly. Everywhere he’s gone, he’s had some sort </p>
+<p id="page-end">216</p>`
+const ch20p7 = `<p id="page-start"> </p>
+<p id="no-indent">of base of operations. If he’s got one in Upper Ag, it might be an intermediate stop between Commerce and Blood Moon Island.”</p>
+<p id="indent">“Great thinking. So, there were already a bunch of secret agents in Carmsborough when you got here?”</p>
+<p id="indent">“Oh yeah. We have operations in a lot of countries.”</p>
+<p id="indent">“So then why didn’t you have backup when you went in to take Slaphand down?”</p>
+<p id="indent">“Well, as I’m sure you’re aware by now, that type of mission is very difficult with a partner. You’re doubling the uncontrolled variables in a situation. Sometimes, it’s best to fly fast and fly solo.”</p>
+<p id="indent">Ike kicks the <em>Constellation</em> into high gear, and the engine revs loudly. At its highest, the speedometer reads two hundred miles per hour. “You know, this is far above legal limits,” he says, “but why put it in the vehicle if you’re not allowed to do it?”</p>
+<p id="indent">“That’s a good point.” </p>
+<p id="indent">I sit down next to him in the copilot chair, watching the city below us soar by in the blink of an eye. The buildings slowly transition from the tall cobblestone and brick of the Commerce district to a strange shorter, wooden, brick, and plastic in the Higher. </p>
+<p id="indent">“Why do they look like that?” I ask.</p>
+<p id="indent">“Those houses? Probably because that’s how they’re built in America. We have suburbs of these things. Row after row after row. Pretty bland, in my opinion.”</p>
+<p id="indent">“I’d say so.”</p>
+<p id="indent">Off in the distance, the outlines of five or six ships appear. Ike slows a bit, and we steadily approach our enemy.</p>
+<p id="indent">“Getting ready to engage with Slaphand and company in zone </p>
+<p id="page-end">217</p>`
+const ch20p8 = `<p id="page-start"> </p>
+<p id="no-indent">sixteen of the Housing District,” Ike says into his communicator. </p>
+<p id="indent">“Wait, what do you mean, engage?” I ask.</p>
+<p id="indent">“We’re gonna go board the main airship.”</p>
+<p id="indent">“What?! What about all the others? They’d shoot us down before we have the chance to get close.”</p>
+<p id="indent">“Oh, that’s no worry. Cloudships don’t have any sort of weaponry attached. It’s illegal.”</p>
+<p id="indent">“Ike. They’re bad guys.”</p>
+<p id="indent">“Right, but there’s no way to hide a cannon on a cloudship.”</p>
+<p id="indent">I press one of the big buttons on the dashboard of my cloudship, revealing my front-facing cannon, pointed out towards the enemies. Ike stares, mouth open.</p>
+<p id="indent">“Okay, that’s illegal, first of all.”</p>
+<p id="indent">“It’s not illegal if you don’t get caught.”</p>
+<p id="indent">“Second of all, why on earth do you have a cannon on your ship?”</p>
+<p id="indent">“Just in case something like this happens, I guess.”</p>
+<p id="indent">Ike runs his hands through his messy hair. Residue from the collapsed museum floats out. “Alright, fine. We’ll pretend like I’m okay with this. But you have to make every shot count. We can’t afford to accidentally send a cannonball into any houses down below.”</p>
+<p id="indent">“I’m gonna be attacking?”</p>
+<p id="indent">“Well, yeah. Someone’s gotta steer.”</p>
+<p id="indent">“I’ve never been in an airship battle!”</p>
+<p id="indent">“There’s a first time for everything. Go get down there, snarky. We have a whole entourage to destroy.”</p>
+<p id="indent">I head down the stairs to the cannon’s level, careful not to jostle around too much. I’m not sure how broken ribs work, but I’d rather </p>
+<p id="page-end">218</p>`
+const ch20p9 = `<p id="page-start"> </p>
+<p id="no-indent">not displace it any more than it currently is.</p>
+<p id="indent">Loading and aiming the cannon seems simple enough, and firing it is as simple as a button on the wall. I have no way of measuring how far we are from the ships, but a plaque on the wall says the range of accuracy is roughly a quarter of a mile.</p>
+<p id="indent">I walk up to a nearby speaker and flip a switch, turning on two-way communication. “Range is a quarter of a mile. Would you tell me when we’re that far away?”</p>
+<p id="indent">“That’s how close we need to be? Dang, girl, you have zero reach on that thing.” Ike speeds up a little bit again, and we come uncomfortably close to the cloud of cloudships.</p>
+<p id="indent">Slaphand’s airship points a few cannons of its own in our direction as we sneak in between it and one of the cloudships.</p>
+<p id="indent">“They haven’t put their shields up,” Ike says. “They don’t know about your cannon, either. This first shot has to seriously count. We could do a lot of damage if you aim right.”</p>
+<p id="indent">“Where am I aiming, then?”</p>
+<p id="indent">“Your choice. Aim for either the cockpit or their flag. Their shield generator will be in one of those two spots, most likely.”</p>
+<p id="indent">“Cockpit it is,” I say, turning the heavy cannon as softly as I can without hurting myself too much. When I’m happy with how it’s lined up, I stand back and smack the button on the wall.</p>
+<p id="indent">The cannonball launches out with a loud thump and crashes into the side of Slaphand’s ship. It doesn’t quite reach the cockpit, partially because of the wind and partially because I didn’t aim high enough, but the ship rocks a little.</p>
+<p id="indent">“Not a bad first shot, but not what we wanted. Get loaded as fast </p>
+<p id="page-end">219</p>`
+const ch20p10 = `<p id="page-start"> </p>
+<p id="no-indent">as you—”</p>
+<p id="indent">Their ship sends three cannonballs of their own in our direction, all coming very close to doing some serious damage. </p>
+<p id="indent">“Turn the shield on!” I yell, stumbling to load another cannonball into the weapon.</p>
+<p id="indent">“You have a shield, too?!” Ike yells back. Moments later, a violet hue covers the outside of the <em>Constellation</em>. “They still don’t have theirs up for whatever reason. Now or never, Luna!”</p>
+<p id="indent">“I’m working on it,” I say, having loaded the cannon. I aim it a little higher and to the right, and smack the button with as much urgency as the first. The cannonball careens into the cockpit, but as it reaches the other side, they turn their shields on.</p>
+<p id="indent">“I think they trapped the cannonball inside with them,” I say.</p>
+<p id="indent">“Hold on tight!” Ike says, ignoring my comment. The Constellation rocks as a cloudship to our right smacks into the side. I tumble to the floor, landing on my forearms, and scream out as my broken rib flares up again.</p>
+<p id="indent">“See if you can aim at them!” Ike yells. “They won’t be going away unless we make them!”</p>
+<p id="indent">I stand up slowly, the pain making it hard to do anything, and grab a third cannonball from the container. Lifting it hurts a lot more than earlier, but I still carry it all the way to the cannon and load it.</p>
+<p id="indent">“They’re coming in for another smack!”</p>
+<p id="indent">I grab hold of the cannon, and when the ship lurches, it keeps me steady. As soon as we’re leveled out, I point to the culprit cloudship and fire the weapon.</p>
+<p id="indent">The ball goes right through the center of the hull, and a second </p>
+<p id="page-end">220</p>`
+const ch20p11 = `<p id="page-start"> </p>
+<p id="no-indent">later, the ship violently explodes in a bright flash of light.</p>
+<p id="indent">“Hell yes! Score one for the home team!” Ike lets out a whoop.</p>
+<p id="indent">“Why did it blow up like that?”</p>
+<p id="indent">“You hit the engine. I figured you did that on purpose.”</p>
+<p id="indent">“Nope. Good to know all ships are like that, though.”</p>
+<p id="indent">Ike carefully dodges out of the way of attacks from Slaphand’s airship as they bring out more firepower, this time in the shape of machine guns. The bullets patter against our shield, but don’t go any further.</p>
+<p id="indent">“Machine guns to our left, and a cloudship above us. I think they’re gonna try to board our ship.”</p>
+<p id="indent">“I’m not in much of a fighting condition,” I say, waddling over to our cannon with another projectile. There are seven or eight cannonballs left, but after that, our attacking strategy will be dead in the water. Well, in the air.</p>
+<p id="indent">“If you can, come up and steer clear of their cannonballs for a moment, and I’ll handle anyone that comes on board.”</p>
+<p id="indent">“Roger that.” I climb the stairs as carefully as I descended them and take control of the ship from Ike. Sure enough, four people climb down onto our deck from a ladder, and Ike meets them all out there with a cheery grin. They raise their fists and knives, and Ike pulls out a pistol. I watch in shock as he puts a round in each of their chests before they even have the chance to react. </p>
+<p id="indent">He walks back into the cockpit and relieves me of wheel duty. “Sorry about that. As soon as I saw the four of them drop down, I decided I’ve done enough fist-fighting for the day, and I wasn’t feeling a four-versus-one scenario.”</p>
+<p id="page-end">221</p>`
+const ch20p12 = `<p id="page-start"> </p>
+<p id="indent">“You just killed four people.”</p>
+<p id="indent">“I don’t enjoy doing it, but it has to happen sometimes. Better them than us, Luna. You should try and knock out those machine guns. Weapons are exposed parts of the ship, because you can’t fire through a shield in either direction very well.”</p>
+<p id="indent">I walk back down to my cannon and point at one of the machine guns heckling the <em>Constellation</em>. The cannonball crashes right into it, jumbling the exposed innerworkings of Slaphand’s ship.</p>
+<p id="indent">“Good one,” Ike says.</p>
+<p id="indent">For a moment, the shield of the airship falters, and the whole thing veers to the left a little. Wherever that cannonball went, it must have done some serious damage from the inside. Either that, or having three of them rolling around in there is a little too much for their repair crew.</p>
+<p id="indent">“Another cloudship coming in for a bump,” Ike says as I’m carrying one of the heavy projectiles to the cannon. I immediately drop it, making sure my toes are out of the way, and lunge for a wall to latch onto. The collision rattles us, but still doesn’t do anything serious.</p>
+<p id="indent">Like the first cloudship, I aim for the center, and the cannonball pierces it cleanly. I can see the night sky in the crater, like a porthole window. The ship doesn’t fall victim to a massive fireworks display like its predecessor. Instead, it slowly sinks down below us, out of sight.</p>
+<p id="indent">One more loading session later and four cannonballs are left in the storage bin. I lock on to the second machine gun, which is pitifully tapping against our shield, and daintily push the button to launch the metal ball. It once again connects with its target, and the shields flicker intensely. Their ship loses altitude quickly, and Ike follows suit.</p>
+<p id="indent">“They’re about to crash hard into this field. He might not even </p>
+<p id="page-end">222</p>`
+const ch20p13 = `<p id="page-start"> </p>
+<p id="no-indent">survive the landing.”</p>
+<p id="indent">“We’re gonna go down and make sure he doesn’t, though, right?”</p>
+<p id="indent">“You bet we are. There’s literally no way he’s slipping away from us this time.”</p>
+<p id="indent"> As expected, the mob boss’ airship smashes into the ground, falling apart and bursting into flames. The remaining cloudships also begin descending, but we have the lead. The Constellation lands softly, and together, Ike and I walk down the extending ramp and to the fast-burning remains of the ship.</p>
+<p id="indent">The two of us reach what’s left of the cockpit and find a bloody mess. A few bodies litter the demolished room, but the one we’re hunting for, Slaphand’s, is still alive and leaning against the shattered dashboard.</p>
+<p id="indent">“Well, well, well,” I say, walking up to the wounded man. “If it isn’t our old pal Slappy Boy.”</p>
+<p id="indent">He grunts and grimaces. My right hand reaches for my remaining pistol and levels it with his head. “This is your last chance. Tell me where my cat is.”</p>
+<p id="indent">“Your cat is down at Candlewood Docks on the southern end of the Upper Agriculture District,” Slaphand wheezes. “He’s being loaded up and taken away by Cleopatra. You’ll never get to him in time. They’re probably on their way out of Carmsborough, and you don’t have enough gas in your tank to make it to France.”</p>
+<p id="indent">“Thank you for finally being useful. Was that all that hard?”</p>
+<p id="indent">He lets out another grunt.</p>
+<p id="indent">“No, really, thank you,” I say.</p>
+<p id="indent">And then I pull the trigger.</p>
+<p id="page-end">223</p>`
+const ch20p14 = ``
+const ch20p15 = ``
+const ch20p16 = ``
+const ch20p17 = ``
+const ch20p18 = ``
 const ch20 = [ch20p1, ch20p2, ch20p3, ch20p4, ch20p5, ch20p6, ch20p7, ch20p8, ch20p9, ch20p10, ch20p11, ch20p12, ch20p13, ch20p14, ch20p15, ch20p16, ch20p17, ch20p18]
 
 const ch21p1 = `1`
