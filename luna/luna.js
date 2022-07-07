@@ -567,7 +567,8 @@ const chapterSelection = `<option value="1" class="dropper">Chapter 1</option>
                         <option value="17" class="dropper">Chapter 17</option>
                         <option value="18" class="dropper">Chapter 18</option>
                         <option value="19" class="dropper">Chapter 19</option>
-                        <option value="20" class="dropper">Chapter 20</option>`
+                        <option value="20" class="dropper">Chapter 20</option>
+                        <option value="21" class="dropper">Chapter 21</option>`
 
 var mobileFlip = false
 
@@ -4681,24 +4682,163 @@ const ch20p17 = ``
 const ch20p18 = ``
 const ch20 = [ch20p1, ch20p2, ch20p3, ch20p4, ch20p5, ch20p6, ch20p7, ch20p8, ch20p9, ch20p10, ch20p11, ch20p12, ch20p13, ch20p14, ch20p15, ch20p16, ch20p17, ch20p18]
 
-const ch21p1 = `1`
-const ch21p2 = `2`
-const ch21p3 = `3`
-const ch21p4 = `4`
-const ch21p5 = `5`
-const ch21p6 = `6`
-const ch21p7 = `7`
-const ch21p8 = `8`
-const ch21p9 = `9`
-const ch21p10 = `10`
-const ch21p11 = `11`
-const ch21p12 = `12`
-const ch21p13 = `13`
-const ch21p14 = `14`
-const ch21p15 = `15`
-const ch21p16 = `16`
-const ch21p17 = `17`
-const ch21p18 = `18`
+const ch21p1 = `<p id="page-start"> </p>
+<p id="chapter-header">Chapter 21</p>
+<p id="chapter-bar">____________________</p>
+<p id="no-indent">We walk back to the <em>Constellation</em> in silence, ignoring the hostile cloudships landing next to us. Chances are, they’ll leave us alone and go straight for their boss.</p>
+<p id="indent">Their dead boss.</p>
+<p id="indent">My whole body is shaking. I can’t believe I did that. I can’t believe I shot and killed someone. And I didn’t even think twice about doing it.</p>
+<p id="indent">Maybe because I’ve been thinking about doing it ever since he separated Freckles and I. Ever since he threw me into a work camp and forced me to boss other prisoners around. Ever since he locked me in a cage with Mary and let the structure topple down on top of her. Ever since he escaped justice for the umpteenth time. </p>
+<p id="page-end">224</p>`
+const ch21p2 = `<p id="page-start"> </p>
+<p id="indent">Ever since Ike shot those four men on the main deck.</p>
+<p id="indent">If there was ever a man who deserved to be killed, it was him. But thinking someone deserves to be killed is a totally different ballpark than actually killing them, and yet, I took the dive without hesitation.</p>
+<p id="indent">“Are you alright?” Ike asks, revving the ship up again.</p>
+<p id="indent">“What do you think?” I reply, a little too snappy.</p>
+<p id="indent">He comes to sit down in the pilot’s seat next to me, swiveling the chair to face my way. “I’ll tell you what I think. I think you’re thinking too hard about what you just did. You’re afraid that it’ll somehow define you, or that you’ll get used to it. And the fact that you’re even worried about it tells me you’ll be okay, Luna. Something like that will always stick in your head, and while it’s nothing to be afraid of, you should always have this feeling when confronted with the question.”</p>
+<p id="indent">“Yeah,” is all I manage. I don’t have the heart to tell him I wasn’t afraid of any of that. That I sort of enjoyed doing it.</p>
+<p id="indent">I’ve finished off one of the bad men with bad plans. He will no longer torment my life. I can be free again, unworried.</p>
+<p id="indent">Well, as soon as I rescue Freckles, at least.</p>
+<p id="indent">Ike gets back up and punches in the coordinates for Candlewood Docks. My chest still hurts from the broken rib, but overexposure to the nonstop pain has somewhat dulled the throbbing.</p>
+<p id="indent">“So, you gonna tell me anything about your boss yet?” Ike asks, tidying his hair up using his reflection in the cockpit windows. </p>
+<p id="indent">“I don’t think I can. The last thing I want to do is get in trouble for it. If he wants to stay anonymous, then I should make sure he stays anonymous. Even to you, Ike. I’m sorry.”</p>
+<p id="indent">“You know, I’ve often found those that want to stay anonymous </p>
+<p id="page-end">225</p>`
+const ch21p3 = `<p id="page-start"> </p>
+<p id="no-indent">usually do it because they’re pulling some nefarious strings, not because they’re trying to be the good guys, Luna.”</p>
+<p id="indent">“Yeah, but you haven’t met him. He rescued me off of Blood Moon Island, offered me a job and the resources I needed to do it, and from the sounds of it, he has plenty of ways to help Carmsborough out. He’s even been fighting the Nazis.”</p>
+<p id="indent">“Hmm.”</p>
+<p id="indent">Ike sits in silence, and we stare out the window, watching the low-rolling hills of the horizon and the fields on top of them. It’s dark, but it’s peaceful. Maybe, when I finally settle down, I’ll get a cute little house on a hill. It’ll be me, and Freckles, and…</p>
+<p id="indent">Well, someone, probably. I haven’t had the chance to hit the dating scene all that much, but I’ve got time. Not quite a priority when you’re looting dumpsters for your next meal and hunting an international crime syndicate’s boss.</p>
+<p id="indent">“You said your cat’s name was Freckles?” Ike asks.</p>
+<p id="indent">“Yeah. I found him one day at work. I was sorting one of my basins, but the truck guy who loads the basins put the wrong materials in mine, so I was sorting some electronics stuff, and lo-and-behold, there he was, in the middle of the pile.”</p>
+<p id="indent">“And he survived being under all of that?”</p>
+<p id="indent">“Well, yeah. Though I might’ve forgotten to mention he’s a steambot.”</p>
+<p id="indent">“A steambot? Like the ones the Gearmaster makes?”</p>
+<p id="indent">“Does anyone else make steambots?”</p>
+<p id="indent">“Okay, smarty pants. That’s incredible. What are the odds that two kids in Carmsborough have an inseparable bond with a steambot that </p>
+<p id="page-end">226</p>`
+const ch21p4 = `<p id="page-start"> </p>
+<p id="no-indent">they stumbled upon by accident?”</p>
+<p id="indent">“The Clockwork chose Orion. He didn’t exactly stumble into him or anything.”</p>
+<p id="indent">“Wouldn’t you say Freckles chose you, too? The bots don’t warm up to just anybody.”</p>
+<p id="indent">I think back to the day we met. Did he choose me? I rescued him from the pit. But he could’ve run away when he was freed. Or ran away when we were ambushed by those two men. Or any time since. He has his own free will. If he wanted to be gone, he would’ve been.</p>
+<p id="indent">“I mean, I never thought of it that way. Maybe he really was a gift from Mom.”</p>
+<p id="indent">“From your mom?”</p>
+<p id="indent">“Yeah. He, uh, showed up on the anniversary of her death. Cancer. Since she passed, he’s been the only one to help me without having alternate intentions. Well, until recently, that is. Before you and I ran into each other, there was Mary, and… And she, uh… I let her…”</p>
+<p id="indent">I stop talking. I can’t afford to cry. Not now.</p>
+<p id="indent">“Hey, look at me,” he says. “We’re going to get Freckles home safe and sound, alright? I promise.”</p>
+<p id="indent">“I know we are.” I can feel the high-altitude air stinging my eyes.</p>
+<p id="indent">“But it won’t be without a fight. I know who Cleopatra is, and she always has backup.”</p>
+<p id="indent">“Oh, I’m counting on it. There’re still four more cannonballs downstairs we need to get rid of.”</p>
+<p id="indent">“That’s the spirit. And by the way, if you ever decide you don’t want to work for whoever your current boss is, we’re always hiring at S6. I also happen to know a group your age who are out scouting for </p>
+<p id="page-end">227</p>`
+const ch21p5 = `<p id="page-start"> </p>
+<p id="no-indent">Nazi ships to destroy. They’re a sweet and ambitious crowd. You’d fit right in.”</p>
+<p id="indent">“I’ll keep that in mind,” I say. “In the meantime, is there something we can do for this broken rib? This is getting ridiculous.”</p>
+<p id="indent">“Unless you have a back brace in storage, an ice pack, some pain meds, and some rest is all I can think of. Other than that, there’s not a whole lot that can be done.”</p>
+<p id="indent">“Figures.”</p>
+<p id="indent">I search the ship for supplies and come across a bottle of generic pain relievers, which I put down with some water and stashed food. Ike cracks into the pantry as well, and we share our early breakfast in the cockpit while en route to our final confrontation.</p>
+<p id="indent">All things considered, the two of us are fairly alert by the time five o’clock rolls by. We’re barely under ten miles from the dock when Ike receives a message from his communicator.</p>
+<p id="indent">“Agent Ike, this is Agent Jake again. Copy if you’re awake.”</p>
+<p id="indent">“Yeah, copy, Jake. What’s happening?”</p>
+<p id="indent">“I’ve got two bits of information for you. We’ve partnered with local law enforcement and government officials at the crash site of Slaphand’s ship. I’ve got crews performing sweeps and cleanups at the moment. The big man himself’s got a bullet in his head, and I was wondering if you know anything about that.”</p>
+<p id="indent">“The girl was responsible for that, not me,” he says. “I know we were going to take him back to the states for trial, but we can’t do anything to stop a Carmsborian vigilante. Not our jurisdiction.”</p>
+<p id="indent">“I’m going to assume you weren’t exactly dissuading her from doing it, though.”</p>
+<p id="page-end">228</p>`
+const ch21p6 = `<p id="page-start"> </p>
+<p id="indent">“That’s classified, Agent.”</p>
+<p id="indent">“Second point of information: it seems Cleopatra is in Carmsborough and running her base of operations out of a place called Candlewood Docks. Whatever she’s doing there is pretty big in scope. I’m sending coordinates now.”</p>
+<p id="indent">“No worries, we already figured that one out. Any idea if she’s still there?”</p>
+<p id="indent">“Satellite surveillance from thirty minutes ago says yes, but no promises since then.”</p>
+<p id="indent">“Copy. Anything else to report?”</p>
+<p id="indent">“Your wife and kids say hi, but that’s all. Purity’s a little worried about the mission.”</p>
+<p id="indent">“Tell that kid she has better things to worry about than what her dad’s doing. I’ll be fine.”</p>
+<p id="indent">“Will do. Good luck, sir. Agent Jake out.”</p>
+<p id="indent">“Well, Luna, we might have a bit of an advantage going in, as long as Cleopatra and her crew are still loading up.”</p>
+<p id="indent">“How will we know which ship they’re loading Freckles onto?”</p>
+<p id="indent">“It’ll be whichever one’s the biggest and most decorated. Cleopatra’s a trade guru with deep pockets in a lot of foreign markets, and she loves to flaunt the wealth. Our number one goal is getting Freckles, but goal number two should be capturing her.”</p>
+<p id="indent">“Not killing her.”</p>
+<p id="indent">“Right.”</p>
+<p id="indent">“Sounds good to me. And by the way, thank you, Ike. I don’t deserve your help, and yet you’ve been more than willing to give it.”</p>
+<p id="indent">“Yeah, I realized I was being stubborn and hypocritical by not </p>
+<p id="page-end">229</p>`
+const ch21p7 = `<p id="page-start"> </p>
+<p id="no-indent">working with you. You’ve repeatedly risked everything with one goal in mind, and it took me way too long to understand that if I wasn’t with you, I was against you. I don’t blame you for the mindset, either. If someone stole the ones I love away from me, I can’t say I wouldn’t be acting the same way.”</p>
+<p id="indent">“Okay, but I could’ve been a lot nicer to you.”</p>
+<p id="indent">“Eh, water under the bridge. You’re sorry, and I forgive you. I’m also sorry, and I’m sure you’ll also forgive me eventually.”</p>
+<p id="indent">“I do.”</p>
+<p id="indent">“Well, good.”</p>
+<p id="indent">The <em>Constellation</em> approaches the docks below. A quick count reveals two full-sized ships and five cloudships, but, as Ike expected, one has a lot more luster to it.</p>
+<p id="indent">“If he’s packed away, he’ll be on that one,” Ike reaffirms. </p>
+<p id="indent">“Good. Let’s get this show on the road.”</p>
+<p id="indent">We swoop in low, skating a hundred feet in the air above their grounded ships, On our first pass over, I load the cannon up. When we reach the ocean, Ike loops the ship back around. Two of their cloudships are taking to the sky, ready to greet us. Or ram us. We have no way of telling if they know who we are, but they’ve been expecting Slaphand and his crew, whose ships are notably missing. </p>
+<p id="indent">“Ready?” Ike asks from the speaker.</p>
+<p id="indent">“I’m more than ready.”</p>
+<p id="indent">“The one on the right looks like it wants a deadly bowling ball launched at it, wouldn’t you agree?”</p>
+<p id="indent">“I think I would.”</p>
+<p id="indent">I aim and fire at the cloudship. My shot connects with the front of </p>
+<p id="page-end">230</p>`
+const ch21p8 = `<p id="page-start"> </p>
+<p id="no-indent">the cockpit and travels almost all the way out the other side as the ship explodes outward. Ike turns our shields back on, giving us the enchanted hue of protection.</p>
+<p id="indent">Now they certainly know who we are.</p>
+<p id="indent">I rush to get a second cannonball loaded, my injury slowing me down a little less with pain relievers in my system. The surviving cloudship attempts to swerve away, but I don’t give it the chance, once again landing a shot on their engine. They, too, go out in a burst of flames.</p>
+<p id="indent">“You know, I’ve never actually been bowling before,” I yell.</p>
+<p id="indent">“It’s certainly more an old person or nerd sport,” Ike yells back.</p>
+<p id="indent">The three additional cloudships launch off, and I can faintly make out figures on the ground desperately loading the two larger airships.</p>
+<p id="indent">“We need to land.  They’ll be in the air soon.”</p>
+<p id="indent">“I couldn’t agree more,” Ike says, dropping us closer to the ground. We touch down, and I load one last cannonball into the ship as a precautionary measure, leaving one left in the container. Then, I rejoin Ike on the main level of the ship.</p>
+<p id="indent">“Here’s a little makeshift plan,” he begins. “We’ll cover each other, making sure we get on board that ship, and immediately head for the cargo hold. If he’s not in the main hold, we’ll comb the rest of the place. Keep a weapon in hand at all times, and I understand that you might want to hesitate to shoot, but this is officially kill or be killed.”</p>
+<p id="indent">“Understood. Let’s go.”</p>
+<p id="indent">Ike lowers the ramp and puts a round into two of Cleopatra’s goons waiting for us below. We hug the side of the <em>Constellation</em>, staying as out of sight as possible while we turn to face <em>The Crown Jewel</em>, a gaudy </p>
+<p id="page-end">231</p>`
+const ch21p9 = `<p id="page-start"> </p>
+<p id="no-indent">cargo ship. A little on the nose if you ask me.</p>
+<p id="indent">“Run to the ramp on three,” Ike says, scouting for more of the welcome party. He counts down and we sprint off, although I move a lot slower because, once again, I have a broken rib.</p>
+<p id="indent">When we arrive at the bottom of the ramp, he fires his pistol three more times, taking out a man who was ready to get the jump on us. I step up onto the ramp, prepared for the worst.</p>
+<p id="indent">But the worst doesn’t come.</p>
+<p id="indent">The top deck is completely empty, so we descend the rickety wooden stairs, clinging to either wall. Each of us peers into the room at a different angle. I’m met with an unsuspecting guard and fire twice, one shot hitting him in the shoulder and the second completely missing. He topples over, and Ike finishes the job.</p>
+<p id="indent">We continue on, sweeping the area for any more goons, until Ike finds a second staircase leading further down into the belly of the ship, and we use the same strategy as the first.</p>
+<p id="indent">“This should be the storage level,” Ike says, after we confirm the main area is free of any baddies. “No splitting up. We’ll search together.”</p>
+<p id="indent">“What? Scared I’ll ditch you again?” I ask, mostly joking.</p>
+<p id="indent">“Well, now that you mention it, maybe a little,” he smiles back.</p>
+<p id="indent">The lobby area of the cargo hold doesn’t have a lot in it, including a distinct lack of Freckles, so we go through each room, one of us keeping an eye on the inside and the other watching the outside. </p>
+<p id="indent">I open our sixth door, and it creaks loudly. Inside, a man is standing at a table, facing our way. On top of the table is a shadowy shape. Light pours in from behind the man, illuminating the space </p>
+<p id="page-end">232</p>`
+const ch21p10 = `<p id="page-start"> </p>
+<p id="no-indent">directly surrounding him. When he sees who we are, he reaches for a pistol, but not fast enough. In one shot, I put a hole in his head, just like I did to Slaphand. He falls to the ground, lifeless. With him out of the way, the object on the table is revealed. </p>
+<p id="indent">It’s a cage. </p>
+<p id="indent">A cage with something in it. </p>
+<p id="indent">With some<em>one</em> in it.</p>
+<p id="indent">I flip a light switch on. All I can do is stare.</p>
+<p id="indent">“Freckles?!”</p>
+<p id="indent">“Meow.”</p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="page-end">233</p>`
+const ch21p11 = ``
+const ch21p12 = ``
+const ch21p13 = ``
+const ch21p14 = ``
+const ch21p15 = ``
+const ch21p16 = ``
+const ch21p17 = ``
+const ch21p18 = ``
 const ch21 = [ch21p1, ch21p2, ch21p3, ch21p4, ch21p5, ch21p6, ch21p7, ch21p8, ch21p9, ch21p10, ch21p11, ch21p12, ch21p13, ch21p14, ch21p15, ch21p16, ch21p17, ch21p18]
 
 const ch22p1 = `1`
