@@ -4,7 +4,8 @@
     grid-template-columns: 3fr 1fr 1fr 3fr;
     grid-template-areas:
     "empty cover1 cover2 empty2"
-    "empty cover3 cover4 empty2";
+    "empty cover3 cover4 empty2"
+    "empty cover5 cover6 empty2";
     justify-items: center;
     justify-content: center;
     align-items: center;
@@ -15,7 +16,7 @@
 
 }
 
-.steam, .luna, .dove, .orion {
+.steam, .luna, .dove, .orion, .renegades, .ghost {
     display: flex;
     flex-direction: column;
     width:350px;
@@ -43,12 +44,20 @@
     grid-area:cover2;
 }
 
-.dove {
+.ghost {
     grid-area:cover3;
 }
 
-.orion {
+.dove {
     grid-area:cover4;
+}
+
+.orion {
+    grid-area:cover5;
+}
+
+.renegades {
+    grid-area:cover6;
 }
 
 @media screen and (max-width: 750px) {
@@ -56,12 +65,14 @@
         padding:60px;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-areas:
         "cover1"
         "cover2"
         "cover3"
-        "cover4";
+        "cover4"
+        "cover5"
+        "cover6";
         justify-items: center;
         justify-content: center;
         align-items: center;

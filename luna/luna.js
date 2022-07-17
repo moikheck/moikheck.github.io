@@ -568,7 +568,8 @@ const chapterSelection = `<option value="1" class="dropper">Chapter 1</option>
                         <option value="18" class="dropper">Chapter 18</option>
                         <option value="19" class="dropper">Chapter 19</option>
                         <option value="20" class="dropper">Chapter 20</option>
-                        <option value="21" class="dropper">Chapter 21</option>`
+                        <option value="21" class="dropper">Chapter 21</option>
+                        <option value="22" class="dropper">Chapter 22</option>`
 
 var mobileFlip = false
 
@@ -4841,24 +4842,252 @@ const ch21p17 = ``
 const ch21p18 = ``
 const ch21 = [ch21p1, ch21p2, ch21p3, ch21p4, ch21p5, ch21p6, ch21p7, ch21p8, ch21p9, ch21p10, ch21p11, ch21p12, ch21p13, ch21p14, ch21p15, ch21p16, ch21p17, ch21p18]
 
-const ch22p1 = `1`
-const ch22p2 = `2`
-const ch22p3 = `3`
-const ch22p4 = `4`
-const ch22p5 = `5`
-const ch22p6 = `6`
-const ch22p7 = `7`
-const ch22p8 = `8`
-const ch22p9 = `9`
-const ch22p10 = `10`
-const ch22p11 = `11`
-const ch22p12 = `12`
-const ch22p13 = `13`
-const ch22p14 = `14`
-const ch22p15 = `15`
-const ch22p16 = `16`
-const ch22p17 = `17`
-const ch22p18 = `18`
+const ch22p1 = `<p id="page-start"> </p>
+<p id="chapter-header">Chapter 22</p>
+<p id="chapter-bar">____________________</p>
+<p id="no-indent">It takes everything in me to not crumple to the floor and ugly cry my eyes out.</p>
+<p id="indent">It’s him. I found him. My best friend in the whole wide world is here and unscathed. Untouched, even. Still locked up in the same cage Slaphand had stuffed him in.</p>
+<p id="indent">“Freckles, oh my God! I’ve missed you so much, dude! We’re gonna figure out how to get you out of this cage now. Ike, it’s him!”</p>
+<p id="indent">Ike glances back. “Alright. Grab him, and we’ll bounce. There’s no telling how many people are waiting outside.”</p>
+<p id="indent">“Right. Umm, something to open the cage with…”</p>
+<p id="indent">“Meow.”</p>
+<p id="page-end">234</p>`
+const ch22p2 = `<p id="page-start"> </p>
+<p id="indent">“Yeah, I know, but I don’t see a crowbar or anything.”</p>
+<p id="indent">“Meow.”</p>
+<p id="indent">I look down at my waist. “Well, what do we have here? At least one of us is thinking with our brain.”</p>
+<p id="indent">I pull my knife out from its sheathe and place the tip between the cage and its door before using my pistol to wedge the blade in. It takes a hot moment, but the knife eventually reaches a point where it won’t slip out, so I pull back on its handle with as little force as I can to prevent hurting myself. The cage opens slightly, and Freckles slips one of his paws in the gap.</p>
+<p id="indent">Together, the two of us pop the cage door off, launching it close to the room’s entryway. Ike turns his head again, worried.</p>
+<p id="indent">“Oh, my sweet baby!” </p>
+<p id="indent">I offer him a head bump, but he moves to jump up onto my shoulders. </p>
+<p id="indent">“Hold on, Freckles. I’ve got a broken rib, and I’d rather not suffer any more than I have to.”</p>
+<p id="indent">“Meow.”</p>
+<p id="indent">“You’re telling me. You would not believe my experience the past few days. I’ve been working nonstop to make sure Slaphand pays for separating us.”</p>
+<p id="indent">“Luna, c’mon,” Ike says, a little nervous.</p>
+<p id="indent">“Yeah, sorry. Let’s go, bud.” We do a soft headbutt and follow Ike out of the room.</p>
+<p id="indent">“Hey, Ike,” Agent Jake says through the communicator again, “I’ve got bad news.”</p>
+<p id="indent">“Let’s hear it, Jake.” His face grows decades older with just four </p>
+<p id="page-end">235</p>`
+const ch22p3 = `<p id="page-start"> </p>
+<p id="no-indent">words.</p>
+<p id="indent">“Nobody’s gonna be able to make it your way for the next few hours. We’re held up with everything else happening, and a round of Nazi ships are harassing our men off the coast.”</p>
+<p id="indent">“Of course they are. Okay, we’ll find some other way out of this.”</p>
+<p id="indent">“We can run back to the <em>Constellation</em>,” I suggest.</p>
+<p id="indent">“She probably has her men crawling all over it. We’ve gotta think of something else. Maybe hijacking this ship? It wouldn’t take us very far since we’ll be a crew of two and a cat, but it would be enough.”</p>
+<p id="indent">“I could call my boss and see if he can get us out of here.”</p>
+<p id="indent">“Alright. But unless that happens, we’re stealing the <em>Crowned Jewel</em>.”</p>
+<p id="indent">I power my watch on. “Hey boss, you there? I know it’s pretty early in the morning, but this is sort of important.”</p>
+<p id="indent">The three of us wait in silence for a minute, but he doesn’t answer. I shrug my shoulders, but stop when my ribs flare up. “Alright, time for my third airship hijacking this week.”</p>
+<p id="indent">“That’s the spirit.”</p>
+<p id="indent">We climb the stairs cautiously, weapons in hand. Two henchmen are waiting at the landing and get a few shots in before we do. Ike and I duck down to avoid getting hit.</p>
+<p id="indent">“Meow.”</p>
+<p id="indent">Freckles bounds up the rest of the stairs and attacks the two men. A few gunshots ring out, and one ricochets off of something metal, but the sounds end quickly. We peek back and are met with Freckles standing on top of one of them, claiming his throne.</p>
+<p id="indent">My smile returns. “Have I ever told you I love you, Freckles?” </p>
+<p id="indent">“Meow.”</p>
+<p id="page-end">236</p>`
+const ch22p4 = `<p id="page-start"> </p>
+<p id="indent">“Come in, Luna,” the boss’ voice says, emanating out of my watch. Ike stares, wide-eyed. “What’s so important this early?”</p>
+<p id="indent">“So, Freckles is rescued and Slaphand is dead, but we’re stranded at Candlewood Docks in the Upper Agriculture District. Do you think you could have someone get us out of here?”</p>
+<p id="indent">“Well, lucky for you, we’re reasonably close. I’ll have my men redirect course. Stay safe.”</p>
+<p id="indent">“Thanks, boss. Peace out.”</p>
+<p id="indent">I look at Ike, who is standing slack jawed. </p>
+<p id="indent">“<em>He's</em> your boss, Luna?”</p>
+<p id="indent">“Yeah. Why? Who is he?”</p>
+<p id="indent">“He’s Syndra. The man who tried to kill Orion, steal the Clockwork, and steal control of Carmsborough last year.”</p>
+<p id="indent">“Wait, what?”</p>
+<p id="indent">“You’re working for Syndra, and you didn’t even know?!”</p>
+<p id="indent">“I mean, how could I have known? It’s not like he introduced himself as Syndra, the big bad guy who tried to overthrow the government or something!”</p>
+<p id="indent">“Jesus Christ, Luna. How’d you get yourself into this situation?”</p>
+<p id="indent">Oh, God. Oh, man. Am I pawn to another bad guy with bad plans? Am I as bad as the goons doing Slaphand’s bidding?</p>
+<p id="indent">“That’s a question I’d like to ask both of you,” a woman’s voice says from above us, at the top of the next flight of stairs. Ike stiffens up, and Freckles gets into a pouncing position.</p>
+<p id="indent">“Cleopatra,” Ike says, motioning to me with his finger to be quiet. “I was wondering when we might run into you.”</p>
+<p id="indent">“Please, come join me on the main deck. I’d like to offer a civil </p>
+<p id="page-end">237</p>`
+const ch22p5 = `<p id="page-start"> </p>
+<p id="no-indent">conversation to the two of you.”</p>
+<p id="indent">“I’m sure you would,” he replies, slowly moving up the staircase. Freckles and I follow his lead, hugging the wall along the way.</p>
+<p id="indent">We reach the deck and are met with our second crime boss of the day. The three things that are immediately noticeable about her are her long, bright-blonde hair, her leopard print shirt that has a seventy percent chance of being real, and how tall she is. Certainly taller than average, and maybe an inch or two taller than Ike. Her physical posture, crossed arms and a wide stance, screams power and attention.</p>
+<p id="indent">“Well, aren’t you cute?” she says.</p>
+<p id="indent">“He’s off limits,” I say, moving to stand in front of Freckles.</p>
+<p id="indent">“I was talking to you, dear. I assume you’re the Luna who’s been giving Slaphand hell?”</p>
+<p id="indent">“Gave Slaphand hell. Past tense.”</p>
+<p id="indent">“His brother will be upset to hear that, but it was a tad overdue. Men like him get cocky over time, and for as long as he was in the game, a lot of us were betting against him for you.”</p>
+<p id="indent">“I’m flattered. If you’ll excuse us, we have a ship to catch.”</p>
+<p id="indent">“Not so fast,” she says, raising her left arm and snapping. Ten of her troops climb the airship’s ramp, carrying all sorts of melee weapons. But no guns.</p>
+<p id="indent">“Why wouldn’t you bring any guns?” I yell. “You know for a fact we have some.”</p>
+<p id="indent">To prove my point, Ike pulls his own out and pulls his trigger, aiming at Cleopatra with lightning speed. </p>
+<p id="indent">His gun clicks. He’s out of ammo.</p>
+<p id="indent">“Oh, performance issues are nothing to be embarrassed of, Special </p>
+<p id="page-end">238</p>`
+const ch22p6 = `<p id="page-start"> </p>
+<p id="no-indent">Agent Ike,” she says, smiling.</p>
+<p id="indent">I whip my own out and aim it at her as well, but as soon as I’ve got it leveled in front of me, a chain smacks my hand and wrenches it away. Cleopatra smiles, wielding a claw on a long metal chain, and whips the  pistol off the side of the ship.</p>
+<p id="indent">“What on earth was that?”</p>
+<p id="indent">“This, dear, is my chain claw. It’s how I’m going to finish the three of you off.”</p>
+<p id="indent">She swings it out wide, cutting the air in front of us with a whistle. I step back, looking for another way to get to her without breaking any more bones.</p>
+<p id="indent">Freckles, on the other hand, bounds after her, ready to fight. He gets about halfway to her before she swings the claw again, smacking him on his side. He rolls across the deck but gets up, his eyes glowing intensely.</p>
+<p id="indent">The goons around us spring into action, five moving to Ike and five to me. </p>
+<p id="indent">There’s no way I’m taking five of them on at once. At best, I’d lose a few more ribs. At worst, this whole trip was for nothing.</p>
+<p id="indent">Freckles glances back and decides to join us, plowing into one of my five. Two of the four still standing decide to move to Freckles, leaving me with two.</p>
+<p id="indent">A little more fair, I suppose.</p>
+<p id="indent">I pull my knife out and lunge for the closer of the two. I feel the pain in my chest burn stronger, but it’s not stopping me. The man dodges back, getting dangerously close to the edge of the ship. I reach out again, slicing horizontally, and he leans away. With him off balance, </p>
+<p id="page-end">239</p>`
+const ch22p7 = `<p id="page-start"> </p>
+<p id="no-indent">I kick out, sending him plummeting off the side of the ship to the ground. </p>
+<p id="indent">Now that I’m the one that’s too close to the edge, I run at the other man with an angry yell. He tries to step to the side, but my knife sinks straight into his chest. The force rattles my bones. I pull it out. It’s covered in blood.</p>
+<p id="indent">He falls to his knees, clutching at the wound, but the light leaves his eyes instantly.</p>
+<p id="indent">I’ve just killed two more men. And I didn’t even flinch.</p>
+<p id="indent">Ike and his entourage are in front of me, duking it out. He’s put down two of the men as well, but the rest are giving him a run for his money. Time to even the odds again.</p>
+<p id="indent">I push forward, catching one of them by surprise with a knife to the back. He screams, flailing his arms behind him to reach me. Ike kicks him in the face, and he topples over. I retrieve my knife, and together, we clean up the remaining two.</p>
+<p id="indent">“You’ve taken killing in stride,” Ike comments.</p>
+<p id="indent">“A wise man once told me, ‘it’s us or them,’ and I’ve made my choice.”</p>
+<p id="indent">“Fair enough.”</p>
+<p id="indent">“Meow!”</p>
+<p id="indent">We look to see Freckles being carried by the three men that went after him, each holding him by a paw upside down. They begin moving to the side of the ship, hoping to toss him off the side.</p>
+<p id="indent">“I don’t think so!” Despite the pain it causes, I dash full speed into one of the three men, and Ike knocks another one to the floor. Freckles, now mostly free, pushes against his captor and sends him </p>
+<p id="page-end">240</p>`
+const ch22p8 = `<p id="page-start"> </p>
+<p id="no-indent">butt-first to the grass below. We subdue the last two men and turn to face Cleopatra. </p>
+<p id="indent">“I see how you’ve managed to get this far,” she smiles. “Too bad brute force isn’t going to cut it.”</p>
+<p id="indent">She reveals a second chain, this one with a blade at the end of it, and cracks it like a whip. The tip lashes at Ike, nicking his suit and giving him a fresh wound.</p>
+<p id="indent">“What is that thing?” I ask.</p>
+<p id="indent">“A chain knife,” Ike answers, wiping some of the blood.</p>
+<p id="indent">“Well that’s awful creative naming.”</p>
+<p id="indent">“Listen, I don’t decide these things.”</p>
+<p id="indent">She swings out her long-range weapon, nearly shaving off one of my buns. There’s no easy way to get close to her. </p>
+<p id="indent">“Meow.”</p>
+<p id="indent">“That’s pretty risky, Freckles. I’m not sure I’d try it if I were you.”</p>
+<p id="indent">“Meow.”</p>
+<p id="indent">“What’s he saying?” Ike asks, ducking under the chain knife as it whizzes by.</p>
+<p id="indent">Freckles darts off towards Cleopatra, but as she goes in to swing at him, he adjusts course by a sharp ninety degrees, running slightly ahead of the deadly blade. He runs a circle around her, the knife following close behind, but she realizes what’s happening a little too late.</p>
+<p id="indent">Powerless to stop it, the chain binds her upper arms tightly, providing us with a makeshift rope to keep her in check. I rush over and kick her to the floor, making sure to hook the blade into the chain so it doesn’t unravel.</p>
+<p id="indent">A swooshing noise fills the air, accompanied by the sound of </p>
+<p id="page-end">241</p>`
+const ch22p9 = `<p id="page-start"> </p>
+<p id="no-indent">scattered gunfire. I look up and spot a squad of S-emblazoned ships approaching the docks.</p>
+<p id="indent">“You’re right on time,” I say into my watch, sitting down on Cleopatra’s back. “With Slaphand dead, I figured I might as well try to capture at least one mob boss alive tonight. We’re on the fancy ship, if you’d be so willing as to not blow us up.”</p>
+<p id="indent">“Didn’t plan on it,” Syndra’s voice replies, crackling with static ever so slightly.</p>
+<p id="indent">“What will you do, Ike?” I turn to face him.</p>
+<p id="indent">Or, rather, where he was standing a minute ago.</p>
+<p id="indent">“Ike?”</p>
+<p id="indent">I step into the belly of the ship. He’s disappeared entirely.</p>
+<p id="indent">“Ike!”</p>
+<p id="indent">An airship lands down next to the <em>Crowned Jewel</em>, and Syndra emerges from the top deck. Ten guards join him, all pointed and ready. “It’s good to see you again, Luna,” he yells.</p>
+<p id="story-break">∙ ◦ ○(        )○ ◦ ∙</p>
+<p id="indent">A few of Syndra’s ships stayed to clean the area, but I joined the head honcho himself on a trip back to base. An onboard medical team strapped me down and did what they could for my rib, including forcing me to wear a back brace. They told me it was “only half-cracked,” as if that were somehow a better situation.</p>
+<p id="indent">After, I walked into the cockpit, Freckles by my side. When we arrive, Syndra turns to face me, smiling. “I’m glad you’ve completed the mission without falling apart too much.”</p>
+<p id="indent">“When were you gonna tell me your real name, Syndra?”</p>
+<p id="page-end">242</p>`
+const ch22p10 = `<p id="page-start"> </p>
+<p id="indent">His smile falters. </p>
+<p id="indent">“As you can imagine, my name hasn’t been popular in Carmsborough ever since Orion and the Clockwork defeated me and ran their propaganda. They had me arrested and sent to jail, but some freedom fighters interested in my cause freed me.</p>
+<p id="indent">“I had to start over, in a sense. My goals for Carmsborough are just as I told you. I want the best for our people. But Orion and the Clockwork would never let me do it again if they knew it was me, so I had to use codenames and anonymity. Please forgive me for keeping it a secret from you.”</p>
+<p id="indent">“But… but you’re a bad guy…”</p>
+<p id="indent">“I believe that’s what you’ve been told, but think about it. Think about what I’ve done for you, and the opportunities I’ve given. What I still plan to give. Think about who I’ve targeted. Slaphand was a bad guy. Bijabers is a bad guy. Orion isn’t necessarily bad, but is a complicated person who happens to want something different than I do. If you decide I’m a bad person, then so be it. I’ll let you walk out of here and I won’t contact you again. But if you have any doubt, stick it out. I’ll prove my worth to you.”</p>
+<p id="indent">What he says makes sense, and I almost believe him. But why wouldn’t Ike trust him if he really wasn’t a good person?</p>
+<p id="indent">Either way, he’s right. He’s going for the truly bad guys. Is it so bad that I help him see it out, even if he does have a darker side?</p>
+<p id="indent">I nod my head. “Whatever you say, boss.”</p>
+<p id="indent">He smiles again. “I say off to the base for a bit of rest. You must be exhausted.”</p>
+<p id="indent">“You could say that.”</p>
+<p id="page-end">243</p>`
+const ch22p11 = `<p id="page-start"> </p>
+<p id="story-break">∙ ◦ ○(        )○ ◦ ∙</p>
+<p id="indent">My chest has healed exponentially in the time since the battle, so I’ve started physical therapy and some very basic training. It’s a taxing process, and I’m tired of it, but a promise is a promise, and who knows how much it could help.</p>
+<p id="indent">Halfway through today’s session, Syndra walks in, forcing everyone to drop what they’re doing and stand at attention.</p>
+<p id="indent">“Calm down, everyone. I’m here for Luna. As is.”</p>
+<p id="indent">“What’s up, boss?” I ask, standing up. </p>
+<p id="indent">“As you know, I told you from the beginning that you would be free to go until I needed you again. I intend to stay true to my word. Therefore, I’ve found the old apartment you lived in and bought the complex. You’ll never have to pay rent so long as you live there.”</p>
+<p id="indent">“Thank you, sir. I don’t know what to say.”</p>
+<p id="indent">“You don’t have to say anything. As of right now, you are free to leave and go live whatever life you want to live. Keep your transmitter handy, and try not to be more than a day’s notice away from home base, but I will call you the next time I require your help.”</p>
+<p id="indent">He hands me a set of keys. I look down at Freckles, who has his head tilted. “We’re going home, bud.”</p>
+<p id="indent">I salute at Syndra and walk off, but stop in the doorway of the practice tent. “Oh, I have one more favor. Do you know of any places that sell motorcycles?”</p>
+<p id="story-break"></p>
+<p id="indent">With Freckles in a cute little sidecar, I ride across the countryside, the rocky road no match for my new all-black motorcycle. The wind </p>
+<p id="page-end">244</p>`
+const ch22p12 = `<p id="page-start"> </p>
+<p id="no-indent">feels good on my face. Eventually, we reach the inner city, and even though traffic is slow, I’m as relaxed as ever.</p>
+<p id="indent">Well, almost. There’s a little twang in my chest.</p>
+<p id="indent">We arrive at our destination, a place I’m all too familiar with. I park the motorcycle in a small little lot, and together, we walk past the wrought-iron gate.</p>
+<p id="indent">The dirt under our feet is pretty compact. The path is winding, but I know exactly where we’re headed. It’s a five-minute walk through the graveyard. We stop in front of two markers, one next to the other.</p>
+<p id="indent">On my left, a deep obsidian headstone reads my mom’s name. On the right is Mary’s. I knew nothing but her first name and the day she died, so a good portion of the stone remains empty. At the bottom, I had the maker engrave “There when nobody else was.”</p>
+<p id="indent">I sit in front of their graves. Even Freckles seems somber, despite never having met either of them. After half an hour, I decide it’s time to head out. My hand brushes the tops of each, clearing the dust off.</p>
+<p id="indent">“We’ve got things to do,” I say, turning the motorcycle back on. “I’ve felt like something’s been missing, and I think I just figured out what it is.”</p>
+<p id="indent">“Meow.”</p>
+<p id="indent">“Yeah, it might have a little something to do with him.”</p>
+<p id="indent">An hour later, we’re back on board the <em>Constellation</em>, with the motorcycle parked inside, and making our way to the Commerce District. I have an old friend to visit.</p>
+<p id="indent">My ship hovers slightly above the old scrapyard, which is still busy with work. I push a button on the dashboard for a loudspeaker, hoping to catch their attention.</p>
+<p id="page-end">245</p>`
+const ch22p13 = `<p id="page-start"> </p>
+<p id="indent">“Is Chad at work today?” I call out. Down below, a figure walks out of his little office. It’s all the confirmation I need.</p>
+<p id="indent">“Luna, is that you up there? By God, I thought you were dead!”</p>
+<p id="indent">“Well if it isn’t Cheapskate Chad! The man who, for years, paid me under the legal limit, all while working for a ruthless criminal.”</p>
+<p id="indent">“It was nothing personal, kid.”</p>
+<p id="indent">“It was <em>everything</em> personal, kid. But that’s not why we’re here. Today, you have the honor of being the first victim of Luna Wells, the blood moon pirate. May Carmsborough be healed of people like you.” </p>
+<p id="indent">I aim my cannon in his direction and can’t help but grin.</p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="page-end">246</p>`
+const ch22p14 = `<p id="page-start"> </p>
+<p id="page-end">247</p>`
+const ch22p15 = `<p id="page-start"> </p>
+<p id="page-end">248</p>`
+const ch22p16 = `<p id="page-start"> </p>
+<p id="indent">“Yes, sir, I know. I’m well aware of what it looks like.” </p>
+<p id="indent">Ike was pacing the floor of his private jet, running his hands through his hair. A headset covered his ears, blocking out most of the loud noises of the jet and the air surrounding it. Attached to that was a microphone.</p>
+<p id="indent">“Tell me how that happens, Ike.” </p>
+<p id="indent">“Well, Mr. President, I’m not entirely sure. She had no training, but still bested me.”</p>
+<p id="indent">“Twice, might I mention.”</p>
+<p id="indent">“Yes, sir, twice. But I’ve searched all our files. She doesn’t show up once. I’ve been trying my best to hunt down and persuade as many of these kids to our side as possible. Cog and her friends, Orion, even that kid exploring the <em>Hindenburg</em>. But none of them are as conniving and irrational as her, and she’s not going to be the last.”</p>
+<p id="indent">“The last of what? What do we even do in this situation, Ike? They’re only kids.”</p>
+<p id="indent">“Yeah, they’re kids. But they’re also some of our best assets, and they’ve all partnered with steambots. The Clockwork, the dove, the rabbit, and the cat. Whenever one of these steambots partners with a kid, things happen, and we need to get ahead of it.”</p>
+<p id="indent">“Does this have anything to do with the war?”</p>
+<p id="indent">“I think this is bigger than the war, Mr. President. Syndra picked up on it, and I think Bijabers has, too. They’ll be busting down the doors of every steambot owner in the world in no time. I just can’t figure out why Bijabers and his entourage were moving out of Carmsborough, though. What do they know is going to happen that we don’t?”</p>
+<p id="indent">“We’ll figure this thing out, Ike. Where’s the girl now?”</p>
+<p id="page-end">249</p>`
+const ch22p17 = `<p id="page-start"> </p>
+<p id="indent">“Still hovering around Carmsborough. She’s calling herself the ‘blood moon pirate.’ It won’t be long before the kids clash, so I’m keeping my eye out.”</p>
+<p id="indent">“Why don’t you find and catch her?”</p>
+<p id="indent">“Well, speaking from experience, sir, nobody’s been able to catch Luna on the run.”</p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="indent"></p>
+<p id="page-end">250</p>`
+const ch22p18 = ``
 const ch22 = [ch22p1, ch22p2, ch22p3, ch22p4, ch22p5, ch22p6, ch22p7, ch22p8, ch22p9, ch22p10, ch22p11, ch22p12, ch22p13, ch22p14, ch22p15, ch22p16, ch22p17, ch22p18]
 
 
