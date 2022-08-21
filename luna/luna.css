@@ -358,12 +358,15 @@ i {
     }
     #chapter-header {
         font-size: 28pt;
-        margin-top: 25vh;
+        margin-top: 160t;
     }
     #chapter-bar {
         font-size: 20pt;
-        margin-bottom: 30vh;
+        margin-bottom: 150pt;
         margin-top: 10.4pt;
+    }
+    #page-start {
+        margin-bottom:7.5%;
     }
     #indent, #no-indent, #page-end, #indent-adjustment-more, #indent-adjustment-less {
         margin-left: 7.5%;
@@ -798,11 +801,11 @@ i {
     #indent, #no-indent, #story-break, #page-end, #indent-adjustment-more, #indent-adjustment-less {
         font-size: 10.4pt;
         line-height: 23px;
-        letter-spacing: 0.0175vh;
+        letter-spacing: .05pt;
     }
     #story-break {
         padding-bottom: 10.4pt;
-        width:70vh;
+        width:100%;
     }
 }
 
