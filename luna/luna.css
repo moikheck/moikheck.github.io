@@ -88,7 +88,7 @@ p {
 
 #chapter-header {
     text-indent: 10%;
-    margin-top: 43%;
+    margin-top: 20vh;
     font-family: Garamond;
     font-size: 3.666vh;
     width: 50.375vh;
@@ -96,7 +96,7 @@ p {
 
 #chapter-bar {
     text-indent: 10%;
-    margin-bottom: 44%;
+    margin-bottom: 22.275vh;
     font-family: Helvetica;
     font-size: 3vh;
     width: 50.375vh;
@@ -357,19 +357,22 @@ i {
         width: 100%;
     }
     #chapter-header {
-        margin-left: 7%;
-        margin-top: 18%;
-        font-size: 15px;
+        font-size: 6vh;
+        margin-top: 25vh;
     }
-
     #chapter-bar {
-        margin-left: 7%;
-        margin-bottom: 28%;
-        font-size: 15px;
+        font-size: 4vh;
+        margin-bottom: 30vh;
     }
-    #indent, #no-indent, #page-end {
-        margin-left: 4%;
-        margin-right: 2%;
+    #indent, #no-indent, #page-end, #indent-adjustment-more, #indent-adjustment-less {
+        margin-left: 0;
+        margin-right: 0;
+        width: 70vh;
+    }
+    #page-end {
+        left:10%;
+        top: auto;
+        bottom: 10px;
     }
     .back-mobile {
         display: inherit;
@@ -791,10 +794,14 @@ i {
         transform: scale(.9);
     }
 
-    #indent, #no-indent, #story-break, #page-end {
+    #indent, #no-indent, #story-break, #page-end, #indent-adjustment-more, #indent-adjustment-less {
         font-size: 10.4pt;
         line-height: 23px;
-        letter-spacing: 0;
+        letter-spacing: 0.0175vh;
+    }
+    #story-break {
+        padding-bottom: 10.4pt;
+        width:70vh;
     }
 }
 
