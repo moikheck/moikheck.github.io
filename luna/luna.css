@@ -362,8 +362,11 @@ i {
     }
     #chapter-bar {
         font-size: 20px;
-        margin-bottom: 180px;
+        margin-bottom: 140px;
         margin-top: 10.4pt;
+    }
+    #chapter-bar, #chapter-header {
+        margin-left:25pt;
     }
     #page-start {
         margin-bottom:25pt;
