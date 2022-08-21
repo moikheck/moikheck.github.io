@@ -357,16 +357,16 @@ i {
         width: 100%;
     }
     #chapter-header {
-        font-size: 28pt;
-        margin-top: 160t;
+        font-size: 36px;
+        margin-top: 160px;
     }
     #chapter-bar {
-        font-size: 20pt;
-        margin-bottom: 150pt;
+        font-size: 20px;
+        margin-bottom: 180px;
         margin-top: 10.4pt;
     }
     #page-start {
-        margin-bottom:7.5%;
+        margin-bottom:25pt;
     }
     #indent, #no-indent, #page-end, #indent-adjustment-more, #indent-adjustment-less {
         margin-left: 7.5%;
