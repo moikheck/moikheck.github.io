@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../universal.css">
+<link rel="stylesheet" href="luna.css">
+<link rel="icon" type="image/x-icon" href="../favicon.png">
+
+<title>Luna on the Run | Michael Heckman</title>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://kit.fontawesome.com/b0f29e9bfe.js" crossorigin="anonymous"></script>
+<script src="luna.js"></script>
+
+
+<body>
+    <header class="universal-header">
+        <a href=".." class="header-home">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn" onclick="window.location='../the-steam-war'">The Steam War</button>
+            <div class="dropdown-content">
+              <a href="../the-steam-war#book">Book</a>
+              <a href="../the-steam-war#about-the-author">About the Author</a>
+              <a href="../the-steam-war#reviews">Reviews</a>
+              <a href="../the-steam-war#newsletter">Newsletter</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn" id="unhighlight">Luna on the Run</button>
+            <div class="dropdown-content">
+              <a href="#about">About</a>
+              <a href="#reader">Read</a>
+              <a href="#carmsborough">Carmsborough</a>
+              <a href="#support">Support</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn" onclick="window.location='../portfolio'">Portfolio</button>
+            <div class="dropdown-content">
+              <a href="../computer-science">Computer Science</a>
+              <a href="../music">Music</a>
+              <a href="../books">Books</a>
+              <a href="../poems">Poems</a>
+              <a href="../coming-soon">Coming Soon</a>
+            </div>
+        </div>
+        <a href="../resume" class="header-resume">Résumé</a>
+        <a href="../blog" class="header-blog">Blog</a>
+        <div class="header-socials">
+            <a href="https://amazon.com/dp/B09K21NWNM" target="_blank"><img src="../social-icons/amazon.png"></a>
+            <a href="https://instagram.com/thesteamwar" target="_blank"><img src="../social-icons/instagram.png"></a>
+            <a href="https://tiktok.com/@thesteamwar" target="_blank"><img src="../social-icons/tiktok.png"></a>
+            <a href="https://moikheck.redbubble.com" target="_blank"><img src="../social-icons/redbubble.png"></a>
+            <a href="https://twitter.com/thesteamwar" target="_blank"><img src="../social-icons/twitter.png"></a>
+            <a href="https://facebook.com/TheSteamWar" target="_blank"><img src="../social-icons/facebook.png"></a>
+            <a href="https://thesteamwar.tumblr.com" target="_blank"><img src="../social-icons/tumblr.png"></a>
+            <a href="https://www.royalroad.com/fiction/52684/luna-on-the-run" target="_blank"><img src="../social-icons/royal.png"></a>
+            <a href="https://www.wattpad.com/1208367438" target="_blank"><img src="../social-icons/watt.png"></a>
+        </div>
+    </header>
+    <div class="menu-wrap">
+        <input type="checkbox" class="toggler">
+        <div class="hamburger">
+            <div></div>
+        </div>
+        <!-- There's probably a better way to duplicate this, but for now, this is probably easiest -->
+        <div class="hamburger-menu">
+            <div>
+                <div>
+                    <ul>
+                        <li class="header-home"><a href="..">Home</a></li>
+                        <li class="dropdown"><a href="../the-steam-war">The Steam War</a>
+                            <div class="dropdown-content-hamburger">
+                                <a href="../the-steam-war#book">Book</a>
+                                <a href="../the-steam-war#about-the-author">About the Author</a>
+                                <a href="../the-steam-war#reviews">Reviews</a>
+                                <a href="../the-steam-war#newsletter">Newsletter</a>
+                            </div>
+                        </li>
+                        <li class="dropdown"><a id="unhighlight">Luna on the Run</a>
+                            <div class="dropdown-content-hamburger">
+                                <a href="#about">About</a>
+                                <a href="#reader">Read</a>
+                                <a href="#carmsborough">Carmsborough</a>
+                                <a href="#support">Support</a>
+                            </div>
+                        </li>
+                        <li class="dropdown"><a href="../portfolio">Portfolio</a>
+                            <div class="dropdown-content-hamburger">
+                                <a href="../computer-science">Computer Science</a>
+                                <a href="../music">Music</a>
+                                <a href="../books">Books</a>
+                                <a href="../poems">Poems</a>
+                                <a href="../coming-soon">Coming Soon</a>   
+                            </div>
+                        </li>
+                        <li class="header-home"><a href="../resume">Resume</a></li>
+                        <li class="header-home"><a href="../blog">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="title-display">
+        <img src="sky top.png" class="sky">
+        <img src="stars top.png" alt="stars" class="stars">
+        <h1 class="hindenburg-title">The Ghost of the A.S. Hindenburg</h1>
+    </div>
+
+
+    <div class="strips">
+        <div class="carmsborough-strip" id="carmsborough">
+            <div class="carmsborough-grid">
+                <div id="map">
+                    <object id="map-item" data="map of carmsborough.svg"></object>
+                    <img class="tack" id="red-1" src="red-tack.webp">
+                    <img class="tack" id="red-2" src="red-tack.webp">
+                </div>
+                <div id="flag">
+                    <img id="map-item" src="carmsborough flag.png">
+                    <img class="tack" id="blue-tack" src="blue-tack.webp">
+                </div>
+                <div id="context">
+                    <img id="map-item" src="carmsborough in context.png">
+                    <img class="tape" id="tape" src="tape.png">
+                </div>
+            </div>
+            
+            
+            
+            
+        </div>
+        <div class="about-strip">
+            <img id="cover" src="reunited 1500.png">
+            <h1 id="about">LUNA On the Run</h1>
+            <p id="details">Follow the story of Luna, a homeless teen with skewed morals, as she and her mechanical cat Freckles struggle to live a normal, problem-free life that keeps getting interrupted by bad men with bad plans. Read #lunaontherun completely free online.</p>
+            <div class="about-button">
+                <button id="read" onclick="window.location='#reader'">Read Book</button>
+                <button id="learn" onclick="window.open('../blog/luna-on-the-run-announcement')">Learn More</button>
+            </div>
+        </div>
+        <div class="support-strip">
+            <h1 id="support"> Support LUNA On the Run </h1>
+            <h2 id="subtitle">Want to support <em>Luna on the Run</em> and other projects? </h2>
+            <div id="gray1">
+                <a href="#"><img src="gray-bubble.png"></a>
+                <a href="#"><p>Buy on Amazon*</p></a>
+            </div>
+            <div id="blue">
+                <a href="../books"><img src="blue-bubble.png"></a>
+                <a href="../books"><p>Read more by Michael Heckman</p></a>
+            </div>
+            <div id="gray2">
+                <a href="https://instagram.com/msheckman.writes/"><img src="gray-bubble.png"></a>
+                <a href="https://instagram.com/msheckman.writes/"><p>Follow <em>@msheckman.writes</em> on Instagram</p></a>
+            </div>
+
+            <p id="disclaimer">* <em>Luna on the Run</em> will always be available for free online. If you want an e-book or physical copy, that will be available on Amazon at a later date.</p>
+        </div>
+    </div>
+
+    
+
+
+    <footer class="universal-footer">
+        <div class="footer-copyright">© 2022 Michael Heckman</div>
+        <div class="footer-socials">
+            <a href="https://amazon.com/dp/B09K21NWNM" target="_blank"><img src="../social-icons/amazon-white.png"></a>
+            <a href="https://instagram.com/thesteamwar" target="_blank"><img src="../social-icons/instagram-white.png"></a>
+            <a href="https://tiktok.com/@thesteamwar" target="_blank"><img src="../social-icons/tiktok-white.png"></a>
+            <a href="https://moikheck.redbubble.com" target="_blank"><img src="../social-icons/redbubble-white.png"></a>
+            <a href="https://twitter.com/thesteamwar" target="_blank"><img src="../social-icons/twitter-white.png"></a>
+            <a href="https://facebook.com/TheSteamWar" target="_blank"><img src="../social-icons/facebook-white.png"></a>
+            <a href="https://thesteamwar.tumblr.com" target="_blank"><img src="../social-icons/tumblr-white.png"></a>
+            <a href="https://www.royalroad.com/fiction/52684/luna-on-the-run" target="_blank"><img src="../social-icons/royal-white.png"></a>
+            <a href="https://www.wattpad.com/1208367438" target="_blank"><img src="../social-icons/watt-white.png"></a>
+        </div>
+    </footer>
+</body>
