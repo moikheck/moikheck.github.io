@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="553px" height="337px" viewBox="0 0 553 337" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>me-logo</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M1.06787109,112.526726 C1.06787109,38.0556056 1.06787109,1.03070584 1.06787109,1.45202637 C117.580526,0.916360761 188.968038,0.916360761 215.230408,1.45202637 C237.416952,1.90455859 244.029044,4.71750656 249.502136,6.54803467 C255.899629,8.68773749 269.163486,22.7741325 272,33.6123657 C274.711914,43.9745076 276.067871,56.3706156 276.067871,70.8006897 L276.067871,336.460022 L1.06787109,336.460022 C1.06787109,261.642278 1.06787109,186.997846 1.06787109,112.526726 Z" id="Path" stroke="#9DC7FF" fill="#9DC7FF"></path>
+        <path d="M277.067871,112.526726 C277.067871,38.0556056 277.067871,1.03070584 277.067871,1.45202637 C393.580526,0.916360761 464.968038,0.916360761 491.230408,1.45202637 C513.416952,1.90455859 520.029044,4.71750656 525.502136,6.54803467 C531.899629,8.68773749 545.163486,22.7741325 548,33.6123657 C550.711914,43.9745076 552.067871,56.3706156 552.067871,70.8006897 L552.067871,336.460022 L277.067871,336.460022 C277.067871,261.642278 277.067871,186.997846 277.067871,112.526726 Z" id="Path-Copy" stroke="#F5F5F5" fill="#F5F5F5" transform="translate(414.567871, 168.755150) scale(-1, 1) translate(-414.567871, -168.755150) "></path>
+        <rect id="Rectangle" stroke="#7EB4FF" fill="#7EB4FF" x="1.5" y="224.5" width="274" height="111"></rect>
+        <rect id="Rectangle-Copy" stroke="#8FBEFF" fill="#8FBEFF" x="1.5" y="112.5" width="274" height="111"></rect>
+        <rect id="Rectangle-Copy-3" stroke="#E8E8E8" fill="#E8E8E8" x="277.5" y="224.5" width="274" height="111"></rect>
+        <rect id="Rectangle-Copy-2" stroke="#F0F0F0" fill="#F0F0F0" x="277.5" y="112.5" width="274" height="111"></rect>
+        <text id="M" font-family="Helvetica" font-size="180" font-weight="normal" fill="#F5F5F5">
+            <tspan x="124" y="233">M</tspan>
+        </text>
+        <text id="H" font-family="Helvetica" font-size="180" font-weight="normal" fill="#8FBEFF">
+            <tspan x="276" y="233">H</tspan>
+        </text>
+    </g>
+</svg>
