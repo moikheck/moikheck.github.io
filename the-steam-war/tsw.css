@@ -1,3 +1,11 @@
+:root {
+    --background: rgb(173,131,101);
+    --header-background: rgb(133,164,117);
+    --text: #3A2C3A;
+    --text-highlight: rgba(177,219,156);
+    --text-unclickable: gray;
+}
+  
 .display {
     height:450px;
     display: grid;

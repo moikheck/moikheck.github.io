@@ -1,3 +1,12 @@
+:root {
+    --background: #131419;
+    --header-background: white;
+    --text: #3A2C3A;
+    --text-highlight: #FF5252;
+    --text-unclickable: #FFABAB;
+    --text-selected: gray;
+}
+
 body {
     background-color: #131419;
 }

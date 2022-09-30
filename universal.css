@@ -1,3 +1,12 @@
+:root {
+    --background: rgb(173,131,101);
+    --header-background: #75A8EA;
+    --text: #3A2C3A;
+    --text-highlight: #C1DCFF;
+    --text-unclickable: gray;
+    --text-selected: aliceblue;
+  }
+
 @font-face {
     font-family: goudy;
     src: url("GOUDOS.TTF");
@@ -16,18 +25,18 @@ body {
     margin: 0;
     gap: 0;
     padding: 0;
-    background-color: rgb(173,131,101);
+    background-color: var(--background);
     overscroll-behavior-y: none;
 }
 
 a {
-    color: rgb(58,44,58);
+    color: var(--text);
     text-decoration: none;
     transition: color .5s;
 }
 
 a:hover {
-    color: rgb(177,219,156);
+    color: var(--text-highlight);
 }
 
 .universal-header {
@@ -35,7 +44,7 @@ a:hover {
     width: 100%;
     display: flex;
     text-align: center;
-    background-color: rgb(133,164,117);
+    background-color: var(--header-background);
     align-items: center;
     justify-content: center;
     height: 100px;
@@ -61,7 +70,7 @@ a:hover {
     border: none;
     font-family: goudy;
     font-size: 14pt;
-    color: rgb(58,44,58);
+    color: var(--text);
     text-decoration: none;
     transition: color .5s;
 }
@@ -75,7 +84,7 @@ a:hover {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgb(133,164,117);
+    background-color: var(--header-background);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1000;
@@ -89,7 +98,7 @@ a:hover {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-    color: rgb(177,219,156);
+    color: var(--text-highlight);
 }
 
 /* Show the dropdown menu on hover */
@@ -99,7 +108,7 @@ a:hover {
 
 .dropdown:hover .dropbtn {
     cursor: pointer;
-    color: rgb(177,219,156);
+    color: var(--text-highlight);
 }
 
 .header-socials {
@@ -152,20 +161,20 @@ a:hover {
 }
 
 #unhighlight {
-    color: aliceblue;
+    color: var(--text-selected);
 }
 
 #unhighlight:hover {
-    color: aliceblue;
+    color: var(--text-selected);
 }
 #semi-highlight {
-    color: rgb(177,219,156);
+    color: var(--text-highlight);
 }
 #semi-highlight:hover {
-    color: rgb(177,219,156);
+    color: var(--text-highlight);
 }
 #unclickable {
-    color:gray;
+    color:var(--text-unclickable);
 }
 #header-home {
     width:100px;
