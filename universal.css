@@ -17,6 +17,11 @@
     src: url("CecepsHandwriting-vmpKZ.ttf");
 }
 
+@font-face {
+    font-family: summer;
+    src: url("summer.otf");
+}
+
 h1, h2, h3, h4 {
     font-weight: normal;
 }

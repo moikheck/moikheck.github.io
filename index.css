@@ -32,6 +32,19 @@ body {
     -1px  1px 0 #000,
     -1px  0   0 #000;
 }
+.book3 > h1 > a,
+.book3 > h2 {
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+     0   -1px 0 #000,
+     1px -1px 0 #000,
+     1px  0   0 #000,
+     1px  1px 0 #000,
+     0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000;
+}
 
 .header-home:hover {
     color: black;
@@ -41,10 +54,10 @@ body {
 .display {
     padding-top: 30px;
     display: grid;
-    grid-template-columns: .5fr 1fr 1fr .5fr;
+    grid-template-columns: .5fr 1fr 1fr 1fr .5fr;
     grid-template-rows: 1fr;
     grid-template-areas:
-    "empty book1 book2 empty2";
+    "empty book1 book2 book3 empty2";
     align-items: center;
     justify-items: center;
     justify-content: center;
@@ -71,6 +84,15 @@ body {
     width:75%;
 
 }
+.book1, .book2, .book3 {
+    display:grid;
+    grid-template-rows: 1fr .2fr .2fr;
+    grid-template-columns: 1fr;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+}
 
 .book1 {
     grid-area: book1;
@@ -80,13 +102,8 @@ body {
     grid-area: book2;
 }
 
-.book1 > h1 {
-    font-family: goudy;
-    font-size: 37pt;
-    margin: 0;
-    padding: 5px;
-    height:54.39px;
-    padding-bottom:26px;
+.book3 {
+    grid-area: book3;
 }
 
 .book1 > h2 {
@@ -96,19 +113,17 @@ body {
     height:75px;
 }
 
-.book2 > h1 {
-    position: relative;
-    top: -12px;
+.book2 > h2 {
     font-family: cecep;
-    font-size: 48pt;
+    font-size: 36pt;
     margin: 0;
     padding: 5px;
     height:75px;
 }
 
-.book2 > h2 {
-    font-family: cecep;
-    font-size: 36pt;
+.book3 > h2 {
+    font-family: summer;
+    font-size: 30pt;
     margin: 0;
     padding: 5px;
     height:75px;
@@ -231,33 +246,29 @@ body {
 }
 
 @media screen and (max-width: 1225px) {
-    .book1 h1 {
-        font-size: 30pt;
-    }
-    .book2 h1 {
-        font-size: 36pt;
-        top: -7px;
-    }
     .book1 h2 {
         font-size: 24pt;
     }
     .book2 h2 {
         font-size: 30pt;
+    }
+    .book3 h2 {
+        font-size: 24pt;
     }
 }
 
 @media screen and (max-width: 1000px) {
-    .book1 h1 {
-        font-size: 24pt;
-    }
-    .book2 h1 {
-        font-size: 30pt;
-    }
     .book1 h2 {
         font-size: 18pt;
+        height:30px;
     }
     .book2 h2 {
         font-size: 24pt;
+        height:30px;
+    }
+    .book3 h2 {
+        font-size: 18pt;
+        height:30px;
     }
     .strips > div > h1 {
         font-size: 36pt;
@@ -337,10 +348,12 @@ body {
     .display {
         padding-top: 0;
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         grid-template-areas:
-        "book1 book2";
+        "book1"
+        "book2"
+        "book3";
         justify-content: center;
         align-content: center;
         align-items: center;
@@ -356,22 +369,11 @@ body {
         height: 250px;
         width: auto;
     }
-    
-    .book1 {
-        padding-top:0;
+
+    .book1, .book2, .book3 {
+        padding-top: 30px;
     }
     
-    .book2 {
-        grid-area: book2;
-    }
-    
-    .book1 > h1 {
-        font-family: goudy;
-        font-size: 20pt;
-        margin: 0;
-        padding: 5px;
-        height: 50px;
-    }
     
     .book1 > h2 {
         font-size: 16pt;
@@ -379,17 +381,14 @@ body {
         padding: 5px;
     }
     
-    .book2 > h1 {
-        font-family: cecep;
-        font-size: 21pt;
-        margin: 0;
-        padding: 5px;
-        top: 0;
-        height: 50px;
-    }
-    
     .book2 > h2 {
         font-family: cecep;
+        font-size: 16pt;
+        margin: 0;
+        padding: 5px;
+    }
+    
+    .book3 > h2 {
         font-size: 16pt;
         margin: 0;
         padding: 5px;
@@ -418,6 +417,19 @@ body {
     .book2 > h1 > a,
     .book2 > h2 {
         color: #FF8E24;
+        text-shadow:
+        -.5px -.5px 0 #000,
+        0   -.5px 0 #000,
+        .5px -.5px 0 #000,
+        .5px  0   0 #000,
+        .5px  .5px 0 #000,
+        0    .5px 0 #000,
+        -.5px  .5px 0 #000,
+        -.5px  0   0 #000;
+    }
+    .book3 > h1 > a,
+    .book3 > h2 {
+        color: white;
         text-shadow:
         -.5px -.5px 0 #000,
         0   -.5px 0 #000,
