@@ -1,5 +1,11 @@
+body {
+    background-color: #131419;
+}
 .banner {
     width:90%;
+}
+.banner-mobile {
+    display:none;
 }
 .title-display {
     height: 300px;
@@ -68,10 +74,10 @@
 }
 
 .lotr-goth {
-    height: 600px;
+    height: auto;
     background-color: rgb(36,36,36);
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-columns: .5fr 2fr 2fr .5fr;
     grid-template-rows: .5fr .5fr 1fr .5fr;
     grid-template-areas:
     "empty available available empty2"
@@ -79,6 +85,7 @@
     "empty picture paragraph empty2"
     "empty picture button empty2";
     padding-bottom:50px;
+    column-gap: 4%;
 }
 #also-available {
     color:white;
@@ -141,4 +148,41 @@
 }
 #learn {
     grid-area: learn;
+}
+
+@media screen and (max-width: 800px) {
+    #description {
+        width:85%;
+    }
+    #square-image {
+        width:85%;
+    }
+    .banner-mobile {
+        display:inherit;
+        height:350px;
+        justify-self: center;
+        align-self: center;
+    }
+    .banner {
+        display: none;
+    }
+    .title-display {
+        height:350px;
+    }
+
+    .lotr-goth {
+        height: auto;
+        background-color: rgb(36,36,36);
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: .2fr 1fr .1fr .1fr .3fr;
+        grid-template-areas:
+        "empty available empty2"
+        "empty picture empty2"
+        "empty title empty2"
+        "empty paragraph empty2"
+        "empty button empty2";
+        padding-bottom:50px;
+    }
+
 }
