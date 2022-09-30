@@ -7,6 +7,10 @@
     --text-selected: aliceblue;
   }
 
+html {
+    overscroll-behavior-y: none;
+}
+
 @font-face {
     font-family: goudy;
     src: url("GOUDOS.TTF");
