@@ -2,7 +2,7 @@ body {
     background-color: #131419;
 }
 .banner {
-    width:90%;
+    height:300px;
 }
 .banner-mobile {
     display:none;
@@ -148,6 +148,13 @@ body {
 }
 #learn {
     grid-area: learn;
+}
+
+@media screen and (max-width: 1250px) {
+    .banner {
+        width:90%;
+        height:auto;
+    }
 }
 
 @media screen and (max-width: 800px) {
