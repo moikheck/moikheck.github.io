@@ -2,21 +2,43 @@
     --background: aliceblue;
     --header-background: #a7cdff;
     --text: #663a0e;
-    --text-highlight: rgb(173,131,101);
+    --text-highlight: #367DD9;
     --text-unclickable: gray;
     --text-selected: aliceblue;
 }
+
+body {
+    overflow-x: hidden;
+}
   
 .display {
-    height:450px;
+    height:650px;
     display: grid;
     align-items: center;
     justify-items: center;
     text-align: center;
     justify-content: center;
+    background-image: url(clouds.png);
 }
 .display > img {
     width:600px;
+}
+
+.island-border {
+    height: 240px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-top: 6px solid rgb(48,48,48);
+    border-bottom: 6px solid rgb(48,48,48);
+    background-color: rgb(48,48,48);
+    justify-items: center;
+
+}
+.island-border > img {
+    height: 240px;
+    border-left: 2px solid rgb(48,48,48);
+    border-right: 2px solid rgb(48,48,48);
 }
 
 .scrolldown {
@@ -28,13 +50,10 @@
 
 
 .book {
-    background-image: url("section 1.png");
-    background-color: rgb(48,48,48);
-    background-repeat: no-repeat;
-    background-size: fill;
+    background-color: #367DD9;
     display: grid;
     grid-template-columns: 1fr 1.2fr;
-    grid-template-rows: 15fr 5fr 5fr 40fr 5fr;
+    grid-template-rows: 3fr 1fr 1fr 3fr 1fr;
     grid-template-areas:
     "cover availablenow"
     "cover secrets"
@@ -46,9 +65,10 @@
     justify-content: center;
     align-content: center;
     text-align: center;
-    height: 400px;
+    height: 600px;
     font-family: goudy;
-    padding-top: 475px;
+    padding-bottom:35px;
+    border-bottom: 6px dashed rgb(48,48,48);
 }
 #book {
     width: 55%;
@@ -64,7 +84,7 @@
 }
 #secrets {
     grid-area: secrets;
-    color: #E6AF87;
+    color: aliceblue;
     text-align: left;
     font-size: 16pt;
     margin:0;
@@ -72,7 +92,7 @@
 #book-description {
     width:70%;
     grid-area: description;
-    color: #E6AF87;
+    color: aliceblue;
     font-size: 16pt;
     margin:0;
     text-align: justify;
@@ -112,7 +132,6 @@
 
 
 .about-the-author {
-    background-image: url("section 2.png");
     background-repeat: no-repeat;
     background-size: fill;
     display: grid;
@@ -129,9 +148,10 @@
     text-align: justify;
     text-justify: inter-word;
     column-gap: 5%;
-    height: 300px;
+    height: 500px;
     font-family: goudy;
-    padding-top: 500px;
+    padding-top:35px;
+    padding-bottom:35px;
 }
 #about-title {
     grid-area: about-title;
@@ -150,11 +170,9 @@
 
 
 .reviews {
-    background-image: url("section 3.png");
-    background-repeat: no-repeat;
-    background-size: fill;
+    background-color: #607A95;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 40px 250px;
     grid-template-areas:
     "empty reviews-title empty2"
@@ -166,8 +184,9 @@
     column-gap: 5%;
     height: 450px;
     font-family: goudy;
-    padding-top: 400px;
     row-gap: 20%;
+    padding-top:40px;
+    border-top: 6px dashed rgb(48,48,48);
 }
 #reviews {
     padding-top: 30px;
@@ -193,7 +212,7 @@
     width: 250px;
     align-items: center;
     justify-items: center;
-    background-color: #596C4C;
+    background-color: #576D82;
     border-radius: 6px;
     transition: all .5s;
 }
@@ -288,8 +307,8 @@
         align-content: center;
         height: 500px;
         font-family: goudy;
-        padding-top: 475px;
         column-gap: 0%;
+        padding-top: 75px;
     }
     #book {
         width: 190px;
@@ -342,7 +361,6 @@
         text-justify: inter-word;
         column-gap: 5%;
         font-family: goudy;
-        padding-top: 450px;
     }
     #about-title {
         text-align: left;
