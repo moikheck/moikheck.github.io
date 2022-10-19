@@ -6,10 +6,6 @@
     --text-unclickable: gray;
     --text-selected: aliceblue;
 }
-
-body {
-    overflow-x: hidden;
-}
   
 .display {
     height:650px;
