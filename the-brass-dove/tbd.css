@@ -293,7 +293,7 @@ body {
     .book {
         display: grid;
         grid-template-columns: 43vw 57vw;
-        grid-template-rows: 15fr 5fr 5fr 40fr;
+        grid-template-rows: auto auto auto auto auto;
         grid-template-areas:
         "cover availablenow"
         "cover social"
@@ -305,10 +305,10 @@ body {
         text-align: center;
         justify-content: center;
         align-content: center;
-        height: 500px;
+        height: auto;
         font-family: goudy;
         column-gap: 0%;
-        padding-top: 75px;
+        padding-top:35px;
     }
     #book {
         width: 190px;
@@ -417,6 +417,10 @@ body {
     }
     #email-textbox, #name-textbox {
         width: 95%;
+    }
+
+    #pic3, #pic4, #pic5 {
+        display:none;
     }
 
 }
