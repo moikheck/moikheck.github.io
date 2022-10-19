@@ -419,8 +419,19 @@ body {
         width: 95%;
     }
 
-    #pic3, #pic4, #pic5 {
+    /* #pic3, #pic4, #pic5 {
         display:none;
+    } */
+    #pic5 {
+        display:none;
+    }
+    .island-border {
+        height:100px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-items: center;
+    }
+    .island-border > img {
+        height:100px;
     }
 
 }
