@@ -154,8 +154,8 @@
     
 
     <div class="alternate-readers">
-        <a href="https://www.royalroad.com/fiction/52684/luna-on-the-run"><img src="royal.png"></a>
-        <a href="https://www.wattpad.com/1208367438"><img src="watt.png"></a>
+        <a rel="noopener" href="https://www.royalroad.com/fiction/52684/luna-on-the-run"><img src="royal.png"></a>
+        <a rel="noopener" href="https://www.wattpad.com/1208367438"><img src="watt.png"></a>
     </div>
     <div class="tip-desktop">Tip: you can click the margin of a page to flip back and forth!</div>
     <div class="tip-mobile">Tip: you can click the two halves of a page to flip back and forth!</div>
