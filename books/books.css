@@ -199,7 +199,7 @@
         align-content: center;
         column-gap: 5%;
         row-gap: 2%;
-        margin: 70px 20px 70px 20px;
+        margin: 0 20px 70px 20px;
 
     }
 
@@ -217,6 +217,7 @@
 
     .collection-steam h3 {
         font-size: 24pt;
+        text-align: center;
     }
 
     .collection-vigilantes {
@@ -252,5 +253,6 @@
 
     .collection-tes h3 {
         font-size: 24pt;
+        text-align: center;
     }
 }
