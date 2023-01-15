@@ -88,6 +88,7 @@
 .collection-tes h3 {
     background: linear-gradient(to right, #FFABAB 6%, #FF5252 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
     font-family: summer;
@@ -111,16 +112,16 @@
     color: black;
 }
 
-#cover {
+.cover {
     width: 100%;
     height: 338px;
 }
 
-#shadow {
+.shadow {
     width: 250px;
 }
 
-#display-a {
+.display-a {
     width: 225px;
     height: 338px;
     justify-items: center;

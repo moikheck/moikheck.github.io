@@ -1,4 +1,4 @@
-var page = 0;
+var page = 0
     
 var prevBtn
 var nextBtn
@@ -23,7 +23,7 @@ var pageList
 let currentLocation = 1
 let numOfPapers = 10
 let maxLocation = numOfPapers + 1
-const allowedInnerWidth = 800;
+const allowedInnerWidth = 800
 
 
 $(document).ready(function($) {

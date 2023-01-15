@@ -57,10 +57,10 @@ div > h2 {
 .education > h4 > em {
     font-weight: normal;
 }
-#other-link {
+.other-link {
     text-decoration: underline;
 }
-#other-link:hover {
+.other-link:hover {
     color: black;
 }
 .other > div > h4 {

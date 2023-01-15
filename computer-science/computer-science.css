@@ -95,7 +95,7 @@
     border: 2px solid black;
 }
 
-#solution-link {
+.solution-link {
     grid-area: solutionlink;
     justify-self: center;
     font-size: 24pt;
@@ -105,7 +105,7 @@
     background-color:lightgray;
     transition: all 0.5s;
 }
-#solution-link:hover {
+.solution-link:hover {
     color: black;
     border: 1px solid black;
     background-color: rgb(163, 163, 163);

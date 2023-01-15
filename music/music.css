@@ -23,6 +23,7 @@ iframe {
 }
 #spotify {
     grid-area: spotify;
+    border-radius: 12px;
 }
 
 @media screen and (max-width: 750px) {

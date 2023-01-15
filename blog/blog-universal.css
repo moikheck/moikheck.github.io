@@ -41,10 +41,10 @@
 #indent {
     text-indent: 2.5%;
 }
-#underline {
+.underline {
     text-decoration: underline;
 }
-#underline:hover {
+.underline:hover {
     color:rgb(173,131,101);;
 }
 
