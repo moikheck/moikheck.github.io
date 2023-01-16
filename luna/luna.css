@@ -564,7 +564,7 @@ i {
     "empty picture button empty2";
 }
 
-#cover {
+.cover {
     grid-area: picture;
     height: 500px;
     width: auto;
