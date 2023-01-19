@@ -1,0 +1,270 @@
+:root {
+    --background: aliceblue;
+    --header-background: #281206;
+    --text: #DD6625;
+    --text-highlight: #ffa87a;
+    --text-unclickable: #AA4E1D;
+    --text-selected: #5E2A0E;
+}
+  
+.display, .farm {
+    height: 650px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+    background-image: url(skyline.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.farm {
+    background-image: url(farm.png);
+}
+
+.display > img {
+    width:600px;
+}
+
+.blank-border {
+    height: 150px;
+    background-color: #281206;
+}
+
+.scrolldown {
+    text-align: center;
+    font-size: 16pt;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+.book {
+    background-image: url(moon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+    "cover description1"
+    "cover description2"
+    "cover description3"
+    "cover social";
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    height: 600px;
+    font-family: goudy;
+    padding-bottom:35px;
+}
+#book {
+    width: 55%;
+    grid-area: cover;
+    margin:0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#book-description-1, #book-description-2, #book-description-3 {
+    width:70%;
+    grid-area: description1;
+    color: aliceblue;
+    font-size: 16pt;
+    margin:0;
+    text-align: justify;
+    text-justify: inter-word;
+}
+#book-description-1 {
+    padding-top: 50px;
+}
+#book-description-2 {
+    grid-area: description2;
+}
+#book-description-3 {
+    grid-area: description3;
+}
+.book-socials {
+    display: flex;
+    height: 100%;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    grid-area: social;
+    margin:0;
+    padding-bottom: 50px;
+}
+.book-socials > a {
+    width: 75px;
+}
+.book-socials > a > img {
+    height:24px;
+}
+
+
+.about-the-author {
+    background-repeat: no-repeat;
+    background-size: fill;
+    display: grid;
+    grid-template-columns: 2fr 6fr 6fr 2fr;
+    grid-template-rows: 1fr .5fr 7fr;
+    grid-template-areas:
+    "empty author about-title empty2"
+    "empty author underlinegrid empty2"
+    "empty author aboutabout empty2";
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: justify;
+    text-justify: inter-word;
+    column-gap: 5%;
+    height: 500px;
+    font-family: goudy;
+    padding-top:35px;
+    padding-bottom:35px;
+    background-color: #DD6625;
+    border-top: 5px dashed #281206;
+}
+#about-title {
+    grid-area: about-title;
+    border-bottom: 1px solid black;
+}
+#about {
+    grid-area: aboutabout;
+    line-height: 20pt;
+}
+#about-the-author {
+    grid-area: author;
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.emphasis {
+    padding: 0;
+    margin: 0;
+    
+    text-decoration: none;
+    font-family: goudy;
+    text-shadow:
+    -1px -1px 0 #000,
+     0   -1px 0 #000,
+     1px -1px 0 #000,
+     1px  0   0 #000,
+     1px  1px 0 #000,
+     0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000;
+}
+
+@media screen and (max-width: 1250px) {
+
+    #about {
+        padding-right: 5%;
+        line-height: 14pt;
+        width:90%;
+    }
+    #about-the-author {
+        width: 275px;
+    }
+
+    #book {
+        width: 65%;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    
+    #about-the-author {
+        width: 200px;
+    }
+
+    .book {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-areas:
+        "cover"
+        "description1"
+        "description2"
+        "description3"
+        "social";
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        height: auto;
+        font-family: goudy;
+        column-gap: 0%;
+        padding-top:35px;
+    }
+    #book {
+        width: 190px;
+    }
+    #book-description-1, #book-description-2, #book-description-3 {
+        width:90vw;
+        padding: 15px;
+    }
+    .book-socials {
+        width: 90%;
+    }
+    .emphasis {
+        font-size: 20pt;
+    }
+    .farm {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .display > img {
+        width:80vw;
+    }
+    
+
+
+    .about-the-author {
+        background-image: url("section 2.png");
+        background-repeat: no-repeat;
+        background-size: fill;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: 1fr .5fr 7fr;
+        grid-template-areas:
+        "author author about-title about-title"
+        "author author underlinegrid underlinegrid"
+        "author author aboutabout aboutabout";
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        align-content: center;
+        text-align: justify;
+        text-justify: inter-word;
+        column-gap: 5%;
+        font-family: goudy;
+    }
+    #about-title {
+        text-align: left;
+        align-self: left;
+        justify-self: left;
+    }
+    #about {
+        padding-right: 5%;
+        line-height: 14pt;
+    }
+    #about-the-author {
+        width: 150px;
+        margin-left: 10%;
+    }
+
+
+    .blank-border {
+        height:100px;
+    }
+
+}
