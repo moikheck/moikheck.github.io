@@ -1,0 +1,259 @@
+.display {
+    padding: 60px;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-areas:
+    "empty steamwar empty2"
+    "empty vigilantes empty2"
+    "empty anthology empty2";
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    column-gap: 5%;
+    row-gap: 2%;
+}
+
+.collection-steam, .collection-vigilantes, .collection-tes {
+    height: 440px;
+    width: 120%;
+    border: 1px solid black;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.collection-header {
+    grid-area: title;
+}
+
+.collection-steam {
+    grid-area: steamwar;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "title title title title"
+    "steam dove renegades finale";
+    background-color: rgb(133,164,117);
+}
+
+.collection-steam h3 {
+    font-size: 36pt;
+    color: white;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: goudy;
+    text-shadow:
+    -1px -1px 0 #000,
+     0   -1px 0 #000,
+     1px -1px 0 #000,
+     1px  0   0 #000,
+     1px  1px 0 #000,
+     0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000;
+}
+
+.collection-vigilantes {
+    grid-area: vigilantes;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "title title title title"
+    "luna pirate orion apprentice";
+    background-color: black;
+}
+
+.collection-vigilantes h3 {
+    color: rgb(255,142,36);
+    font-family: cecep;
+    font-size: 42pt;
+    margin: 0;
+}
+
+.collection-tes {
+    height: 800px;
+    grid-area: anthology;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "title title title"
+    "ghost ruins hallowed"
+    "cult king queens";
+    background-color: white;
+}
+
+.collection-tes h3 {
+    background: linear-gradient(to right, #FFABAB 6%, #FF5252 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-family: summer;
+    font-size: 36pt;
+    margin: 0;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    transition: .5s all;
+}
+
+.book:hover {
+    transform: scale(1.05);
+    color: black;
+}
+
+.cover {
+    width: 100%;
+    height: 338px;
+}
+
+.shadow {
+    width: 250px;
+}
+
+.display-a {
+    width: 225px;
+    height: 338px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.steam {
+    grid-area: steam;
+}
+
+.dove {
+    grid-area: dove;
+}
+
+.renegades {
+    grid-area: renegades;
+}
+
+.finale {
+    grid-area: finale;
+}
+
+.luna {
+    grid-area: luna;
+}
+
+.pirate {
+    grid-area: pirate;
+}
+
+.orion {
+    grid-area: orion;
+}
+
+.apprentice {
+    grid-area: apprentice;
+}
+
+.ghost {
+    grid-area: ghost;
+}
+
+.ruins {
+    grid-area: ruins;
+}
+
+.hallowed {
+    grid-area: hallowed;
+}
+
+.cult {
+    grid-area: cult;
+}
+
+.king {
+    grid-area: king;
+}
+
+.queens {
+    grid-area: queens;
+}
+
+@media screen and (max-width: 750px) {
+    .display {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "steamwar"
+        "vigilantes"
+        "anthology";
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        column-gap: 5%;
+        row-gap: 2%;
+        margin: 0 20px 70px 20px;
+
+    }
+
+    .collection-steam {
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: .5fr 1.5fr 1.5fr 1.5fr 1.5fr;
+        grid-template-areas:
+        "title"
+        "steam" 
+        "dove" 
+        "renegades"
+        "finale";
+    }
+
+    .collection-steam h3 {
+        font-size: 24pt;
+        text-align: center;
+    }
+
+    .collection-vigilantes {
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: .5fr 1.5fr 1.5fr 1.5fr 1.5fr;
+        grid-template-areas:
+        "title"
+        "luna" 
+        "pirate" 
+        "orion"
+        "apprentice";
+    }
+
+    .collection-vigilantes h3 {
+        font-size: 24pt;
+        text-align: center;
+    }
+
+    .collection-tes {
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: .5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr;
+        grid-template-areas:
+        "title"
+        "ghost" 
+        "ruins" 
+        "hallowed"
+        "cult"
+        "king"
+        "queens";
+    }
+
+    .collection-tes h3 {
+        font-size: 24pt;
+        text-align: center;
+    }
+}

@@ -22,7 +22,8 @@
       {
         "ignore": [
           "text-justify",
-          "overscroll-behavior-y"
+          "overscroll-behavior-y",
+          "backface-visibility"
         ]
       }
     ]
