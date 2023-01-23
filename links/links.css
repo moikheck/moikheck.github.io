@@ -105,7 +105,7 @@
         width:85%;
         height:150px;
         display:grid;
-        grid-template-columns: 175px 1fr;
+        grid-template-columns: 150px 1fr;
         grid-template-rows: auto auto;
         grid-template-areas:
         "thumbnail title"
@@ -118,11 +118,13 @@
     }
     #blurb {
         top: -15px;
+        padding-left: 5%;
         text-align: justify;
         text-justify: justify;
     }
     #title {
         position: relative;
         top: 15px;
+        padding-left: 5%;
     }
 }
