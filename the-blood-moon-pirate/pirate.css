@@ -554,11 +554,11 @@ i {
 }
 
 .about-strip {
-    height: 600px;
+    height: 900px;
     background-color: rgb(12,6,2);
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 1fr;
-    grid-template-rows: .5fr 1fr .5fr;
+    grid-template-rows: .3fr 2fr .5fr;
     grid-template-areas:
     "empty picture title empty2"
     "empty picture paragraph empty2"
@@ -574,6 +574,7 @@ i {
     grid-area: title;
     color: rgb(255,142,36);
     font-family: cecep;
+    text-align: center;
 }
 #details {
     grid-area: paragraph;
