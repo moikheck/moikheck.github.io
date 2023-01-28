@@ -750,7 +750,7 @@ i {
 @media screen and (max-width: 1000px) {
 
     .about-strip {
-        height: 1000px;
+        height: auto;
         background-color: rgb(12,6,2);
         display: grid;
         grid-template-columns: auto;
@@ -851,7 +851,7 @@ i {
         font-size: 20pt;
     }
     #gray1 > a > p {
-        top: -82px;
+        top: -90px;
     }
     #blue > a > p {
         top: -92px;
