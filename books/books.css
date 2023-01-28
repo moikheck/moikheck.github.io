@@ -112,9 +112,12 @@
     color: black;
 }
 
+.book a {
+    height:341.5px;
+}
+
 .cover {
     width: 100%;
-    height: 338px;
 }
 
 .shadow {
@@ -123,7 +126,7 @@
 
 .display-a {
     width: 225px;
-    height: 338px;
+    height: 341.5px;
     justify-items: center;
     justify-content: center;
     align-items: center;

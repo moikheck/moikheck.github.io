@@ -49,14 +49,13 @@ p {
 
 .paper {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 60vh;
+    height: 90vh;
     top: 0;
     left: 0;
     perspective: 1500px;
-    
-
 }
+
 
 .front,
 .back {
@@ -77,13 +76,14 @@ p {
 
 .back {
     z-index: 0;
+    box-sizing: border-box;
     border-left: 1px solid gray;
 }
 
 .front-content,
 .back-content {
     width: 100%;
-    height: auto;
+    height: 100%;
     display: grid;
     justify-content:center;
     text-align: justify;
@@ -246,12 +246,12 @@ i {
 
 #chapter-cover, #chapter-mobile, #chapter-back {
     position: absolute;
-    top: 38%;
-    right: 15%;
+    top: 30%;
+    right: 12.5%;
     align-self: center;
     background: rgba(12,6,2,.5);
-    color: #FF8E24;
-    width: 125px;
+    color: #C4B6AB;
+    width: 275px;
     height: 5%;
     font-size: 18px;
     transition: .5s;
@@ -554,11 +554,11 @@ i {
 }
 
 .about-strip {
-    height: 900px;
+    height: 600px;
     background-color: rgb(12,6,2);
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr 1fr;
-    grid-template-rows: .3fr 2fr .5fr;
+    grid-template-columns: .5fr 2fr 3fr .5fr;
+    grid-template-rows: .3fr 1fr .5fr;
     grid-template-areas:
     "empty picture title empty2"
     "empty picture paragraph empty2"
@@ -572,7 +572,8 @@ i {
 }
 #about {
     grid-area: title;
-    color: rgb(255,142,36);
+    color: white;
+    /* color: rgb(255,142,36); */
     font-family: cecep;
     text-align: center;
 }
@@ -581,7 +582,7 @@ i {
     color:white;
     font-family: goudy;
     font-size: 18pt;
-    width:380px;
+    width:auto;
     text-align: justify;
     text-justify: inter-word;
 }
@@ -600,7 +601,8 @@ i {
 }
 #read, #learn {
     font-family: cecep;
-    color: rgb(255,142,36);
+    color: white;
+    /* color: rgb(255,142,36); */
     background-color: rgb(36,36,36);
     border-color: rgb(36,36,36);
     font-size: 16pt;
@@ -648,8 +650,8 @@ i {
     color:white;
     position: relative;
     width:67%;
-    left:80px;
-    top:-90px;
+    left:60px;
+    top:-100px;
     text-align: left;
 }
 #blue > a > p {
@@ -668,7 +670,7 @@ i {
     margin:0;
     padding:0;
     grid-area: support;
-    color:#FF8E24;
+    color:white;
     font-family: cecep;
     text-decoration: none;
     font-weight: normal;
@@ -770,6 +772,7 @@ i {
     }
     #details {
         padding-bottom: 15px;
+        width: 90%;
     }
 
     .carmsborough-grid {

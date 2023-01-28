@@ -548,7 +548,7 @@ function checkPagesReverse(mobile) {
 var chapterList = []
 var chapterValue = 1
 
-const chapterSelection = `<option value="1" class="dropper">Chapter 1</option>`
+const chapterSelection = `<option value="1" class="dropper">Part 1: Boogieman</option>`
 
 var mobileFlip = false
 
