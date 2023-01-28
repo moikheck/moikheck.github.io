@@ -72,8 +72,6 @@ function openBook() {
         book.style.transform = "translateX(50%)"
         prevBtn.style.transform = "translateX(-180px)"
         nextBtn.style.transform = "translateX(180px)"
-        chapter.style.transition = "0s"
-        chapter.style.transform = "scale(0)"
     }
     prevBtn.style.display = "inherit"
     nextBtn.style.display = "inherit"
@@ -103,8 +101,6 @@ function closeBook(isAtBeginning) {
     
     prevBtn.style.transform = "translateX(0px)"
     nextBtn.style.transform = "translateX(0px)"
-    chapter.style.transition = "transform .5s"
-    chapter.style.transform = "scale(1)"
 }
 
 function goNextPage() {

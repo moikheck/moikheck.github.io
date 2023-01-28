@@ -73,6 +73,8 @@
             <button type="button" id="prev-btn">
                 <i class="fas fa-arrow-circle-left"></i>
             </button>
+            <select id="chapter-cover" onchange="changeChapter()" name="Front Cover" title="Front Cover">
+            </select>
 
 
             <!-- Book -->
@@ -82,8 +84,7 @@
                 <div class="forward-mobile" onclick="goNextPage()"></div>
                 <div id="p1" class="paper">
                     <div class="front">
-                        <select id="chapter-cover" onchange="changeChapter()" name="Front Cover" title="Front Cover">
-                        </select>
+                        
                         <div id="f1" class="front-content">
                             <img class="reader-cover" src="pirate-cover.jpg" alt="Front Cover">
                         </div>
@@ -196,10 +197,8 @@
                         <div id="page18" class="front-content">
                         </div>
                     </div>
-                    <div class="back">
+                    <div class="back final">
                         <div id="page19" class="back-content">
-                            <select id="chapter-back" onchange="changeChapter()" name="Back Select" title="Back Select">
-                            </select>
                             <img src="back-cover.png" alt="Back Cover">
                         </div>
                         <div class="loadbearing">loadbearing</div>
