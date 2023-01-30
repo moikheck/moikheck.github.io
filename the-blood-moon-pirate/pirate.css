@@ -89,7 +89,7 @@ p {
 .front-content,
 .back-content {
     width: 100%;
-    height: 100%;
+    height: auto;
     display: grid;
     justify-content:center;
     text-align: justify;
