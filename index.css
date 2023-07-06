@@ -2,10 +2,144 @@ body {
     font-family: goudy;
 }
 
+.container {
+    margin: 20px auto;
+    max-width: 910px;
+    background-color: aliceblue;
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  .container h1 {
+    color: rgb(48,48,48);
+    font-size: 48pt;
+    text-align: center;
+    margin: 0;
+  }
+
+  .description {
+    padding-bottom: 15px;
+    text-align: center;
+  }
+  
+  .choose {
+    padding-top: 40px;
+    width: 100%;
+    height: 40px;
+  }
+  .fa {
+    margin-right: 20px;
+    font-size: 30px;
+    color: black;
+    float: right;
+  }
+  /******************************************
+  Book stuff
+  *******************************************/
+  
+  .book {
+    display: inline-block;
+    width: 230px;
+    height: 390px;
+    box-shadow: 0 0 20px #aaa;
+    margin: 25px;
+    padding: 10px 10px 10px 10px;
+    vertical-align: top;
+    transition: height 1s;
+    background-color: white;
+  }
+  /* star button */
+  .new:after {
+    font-family: FontAwesome;
+    content: "(NEW)";
+    font-size: 35px;
+    position: relative;
+    color: black;
+    
+    top: -11cm;
+    float: right;
+    height: 40px;
+    width: 110px;
+    margin-left: -3px;
+    margin-right: -3px;
+    background: #ffd500;
+    transform: rotate(2deg);
+    border-radius: 20% 25% 20% 24%;
+    padding: 0px 3px 3px 10px;
+  }
+  
+  .book {
+    transition: all 0.5s;
+  }
+  .book:hover {
+    transform: scale(1.2);
+  }
+
+  .cover {
+    border: 2px solid white;
+    height: 85%;
+    overflow: hidden;
+  }
+  
+  .cover img {
+    width: 100%;
+  }
+  
+  .book p {
+    margin-top: 12px;
+    font-size: 20px;
+  }
+  
+  .book .author {
+    font-size: 15px;
+  }
+  @media (max-width: 941px) {
+    .container {
+      max-width: 700px;
+    }
+    .book {
+      margin: 49px;
+    }
+  }
+  @media (max-width: 730px) {
+    .book {
+      display: block;
+      margin: 0 auto;
+      margin-top: 50px;
+    }
+  }
+  
+  /**********************************
+  display change
+  ***********************************/
+  /*book height smaller, cover opacity, move text onto cover and star too
+  animate it */
+  #list-th:target .book {
+    height: 100px;
+    padding: 10px;
+  }
+  
+  #list-th:target img {
+    opacity: .1;
+  }
+  
+  #list-th:target p {
+    margin-top: -62px;
+  }
+  /* remove button? */
+  #large-th:target .book {
+    height: 390px;
+  }
+
+  #list-th:target .new:after {
+    top: -0.5cm;
+  }
+
 .title {
     text-decoration: none;
     color: black;
 }
+
 .book1 > h1 > a,
 .book1 > h2 {
     color: white;
