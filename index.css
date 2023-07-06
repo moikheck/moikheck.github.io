@@ -95,7 +95,7 @@ body {
   }
   @media (max-width: 941px) {
     .container {
-      max-width: 700px;
+      width: auto;
     }
     .book {
       margin: 49px;
@@ -185,7 +185,7 @@ body {
 }
 
 
-.display {
+/* .display {
     padding-top: 30px;
     display: grid;
     grid-template-columns: .5fr 1fr 1fr 1fr .5fr;
@@ -270,14 +270,14 @@ body {
     font-size: 24pt;
     padding-top: 25px;
     padding-bottom: 25px;
-}
+} */
 
 
 
 .strips {
     display: flex;
     flex-direction: column;
-
+    width: 100%;
 }
 
 .strips > div > h1 {
