@@ -471,7 +471,7 @@ i {
     background-color: gray;
 }
 
-.carmsborough-grid, .carmsborough-strip, .about-strip, .support-strip {
+.carmsborough-grid, .carmsborough-strip, .about-strip, .sequel-strip, .support-strip {
     align-items: center;
     justify-items: center;
 }
@@ -554,7 +554,7 @@ i {
     top:-330px;
 }
 
-.about-strip {
+.about-strip, .sequel-strip {
     height: 600px;
     background-color: rgb(12,6,2);
     display: grid;
@@ -566,16 +566,30 @@ i {
     "empty picture button empty2";
 }
 
+.sequel-strip {
+    background-color: black;
+    grid-template-areas:
+    "empty title picture empty2"
+    "empty paragraph picture empty2"
+    "empty button picture empty2";
+}
+
 .cover {
     grid-area: picture;
     height: 500px;
     width: auto;
 }
-#about {
+
+#about, #about-sequel {
     grid-area: title;
     color: rgb(255,142,36);
     font-family: cecep;
 }
+
+#about-sequel {
+    color: white;
+}
+
 #details {
     grid-area: paragraph;
     color:white;
@@ -585,7 +599,8 @@ i {
     text-align: justify;
     text-justify: inter-word;
 }
-.about-button {
+
+.about-button, .about-button-sequel {
     width: 100%;
     height: 100%;
     padding:0;
@@ -598,7 +613,14 @@ i {
     align-items:top;
     justify-items: center;
 }
-#read, #learn {
+
+.about-button-sequel {
+    grid-template-areas:
+    "read-sequel"
+    "learn-sequel";
+}
+
+#read, #learn, #read-sequel, #learn-sequel {
     font-family: cecep;
     color: rgb(255,142,36);
     background-color: rgb(36,36,36);
@@ -609,12 +631,25 @@ i {
     padding:0px;
     margin: 0px;
 }
+
+#read-sequel {
+    color: white;
+    grid-area: read-sequel;
+}
+
+#learn-sequel {
+    color: white;
+    grid-area: learn-sequel;
+}
+
 #read:hover,#learn:hover {
     background-color:gray;
 }
+
 #read {
     grid-area: read;
 }
+
 #learn {
     grid-area: learn;
 }
