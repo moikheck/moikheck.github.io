@@ -411,16 +411,9 @@ function changeChapter() {
         loadChapter(parseInt(document.getElementById("chapter-mobile").value))
     }
     else {
-        if (parseInt(document.getElementById("chapter-back").value) == chapterValue) {
             chapterValue = parseInt(document.getElementById("chapter-cover").value)
             loadChapter(parseInt(document.getElementById("chapter-cover").value))
-        }
-        else {
-            chapterValue = parseInt(document.getElementById("chapter-back").value)
-            loadChapter(parseInt(document.getElementById("chapter-back").value))
-        }
     }
-    document.getElementById("chapter-back").value = chapterValue
     document.getElementById("chapter-cover").value = chapterValue
     document.getElementById("chapter-mobile").value = chapterValue
 
@@ -543,7 +536,9 @@ function checkPagesReverse(mobile) {
 var chapterList = []
 var chapterValue = 1
 
-const chapterSelection = `<option value="1" class="dropper">Part 1: Boogieman</option>`
+const chapterSelection = `<option value="1" class="dropper">Part 1: Boogieman</option>
+<option value="2" class="dropper">Part 2: Dancypants</option>
+<option value="3" class="dropper">Part 3: Marrow</option>`
 
 var mobileFlip = false
 
@@ -698,19 +693,19 @@ const ch1p17 = ``
 const ch1p18 = ``
 const ch1 = [ch1p1, ch1p2, ch1p3, ch1p4, ch1p5, ch1p6, ch1p7, ch1p8, ch1p9, ch1p10, ch1p11, ch1p12, ch1p13, ch1p14, ch1p15, ch1p16, ch1p17, ch1p18]
 
-const ch2p1 = ``
-const ch2p2 = ``
-const ch2p3 = ``
-const ch2p4 = ``
-const ch2p5 = ``
-const ch2p6 = ``
-const ch2p7 = ``
-const ch2p8 = ``
-const ch2p9 = ``
-const ch2p10 = ``
-const ch2p11 = ``
-const ch2p12 = ``
-const ch2p13 = ``
+const ch2p1 = `<img src="pages/ch2p1.png">`
+const ch2p2 = `<img src="pages/ch2p2.png">`
+const ch2p3 = `<img src="pages/ch2p3.png">`
+const ch2p4 = `<img src="pages/ch2p4.png">`
+const ch2p5 = `<img src="pages/ch2p5.png">`
+const ch2p6 = `<img src="pages/ch2p6.png">`
+const ch2p7 = `<img src="pages/ch2p7.png">`
+const ch2p8 = `<img src="pages/ch2p8.png">`
+const ch2p9 = `<img src="pages/ch2p9.png">`
+const ch2p10 = `<img src="pages/ch2p10.png">`
+const ch2p11 = `<img src="pages/ch2p11.png">`
+const ch2p12 = `<img src="pages/ch2p12.png">`
+const ch2p13 = `<img src="pages/ch2p13.png">`
 const ch2p14 = ``
 const ch2p15 = ``
 const ch2p16 = ``
@@ -718,19 +713,19 @@ const ch2p17 = ``
 const ch2p18 = ``
 const ch2 = [ch2p1, ch2p2, ch2p3, ch2p4, ch2p5, ch2p6, ch2p7, ch2p8, ch2p9, ch2p10, ch2p11, ch2p12, ch2p13, ch2p14, ch2p15, ch2p16, ch2p17, ch2p18]
 
-const ch3p1 = ``
-const ch3p2 = ``
-const ch3p3 = ``
-const ch3p4 = ``
-const ch3p5 = ``
-const ch3p6 = ``
-const ch3p7 = ``
-const ch3p8 = ``
-const ch3p9 = ``
-const ch3p10 = ``
-const ch3p11 = ``
-const ch3p12 = ``
-const ch3p13 = ``
+const ch3p1 = `<img src="pages/ch3p1.png">`
+const ch3p2 = `<img src="pages/ch3p2.png">`
+const ch3p3 = `<img src="pages/ch3p3.png">`
+const ch3p4 = `<img src="pages/ch3p4.png">`
+const ch3p5 = `<img src="pages/ch3p5.png">`
+const ch3p6 = `<img src="pages/ch3p6.png">`
+const ch3p7 = `<img src="pages/ch3p7.png">`
+const ch3p8 = `<img src="pages/ch3p8.png">`
+const ch3p9 = `<img src="pages/ch3p9.png">`
+const ch3p10 = `<img src="pages/ch3p10.png">`
+const ch3p11 = `<img src="pages/ch3p11.png">`
+const ch3p12 = `<img src="pages/ch3p12.png">`
+const ch3p13 = `<img src="pages/ch3p13.png">`
 const ch3p14 = ``
 const ch3p15 = ``
 const ch3p16 = ``
