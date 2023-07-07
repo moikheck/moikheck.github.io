@@ -746,6 +746,9 @@ i {
     .about-strip {
         grid-template-columns: .5fr 2fr 2fr .5fr;
     }
+    .sequel-strip {
+        grid-template-columns: .5fr 2fr 2fr .5fr;
+    }
     .support-strip {
         grid-template-rows: 100px 50px 170px 170px 170px auto;
     }
@@ -779,9 +782,8 @@ i {
 
 @media screen and (max-width: 1000px) {
 
-    .about-strip {
+    .about-strip, .sequel-strip {
         height: 1000px;
-        background-color: rgb(12,6,2);
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: 550px 1fr 4fr 2fr;
@@ -796,11 +798,11 @@ i {
         align-content: center;
     }
 
-    #about {
+    #about, #about-sequel {
         margin: 10px;
         margin-bottom: 15px;
     }
-    .about-button {
+    .about-button, .about-button-sequel {
         height: 120px;
     }
     #details {
