@@ -538,7 +538,8 @@ var chapterValue = 1
 
 const chapterSelection = `<option value="1" class="dropper">Part 1: Boogieman</option>
 <option value="2" class="dropper">Part 2: Dancypants</option>
-<option value="3" class="dropper">Part 3: Marrow</option>`
+<option value="3" class="dropper">Part 3: Marrow</option>
+<option value="3" class="dropper">Part 4: Ace Arrow</option>`
 
 var mobileFlip = false
 
@@ -733,18 +734,18 @@ const ch3p17 = ``
 const ch3p18 = ``
 const ch3 = [ch3p1, ch3p2, ch3p3, ch3p4, ch3p5, ch3p6, ch3p7, ch3p8, ch3p9, ch3p10, ch3p11, ch3p12, ch3p13, ch3p14, ch3p15, ch3p16, ch3p17, ch3p18]
 
-const ch4p1 = ``
-const ch4p2 = ``
-const ch4p3 = ``
-const ch4p4 = ``
-const ch4p5 = ``
-const ch4p6 = ``
-const ch4p7 = ``
-const ch4p8 = ``
-const ch4p9 = ``
-const ch4p10 = ``
-const ch4p11 = ``
-const ch4p12 = ``
+const ch4p1 = `<img src="pages/ch4p1.png">`
+const ch4p2 = `<img src="pages/ch4p2.png">`
+const ch4p3 = `<img src="pages/ch4p3.png">`
+const ch4p4 = `<img src="pages/ch4p4.png">`
+const ch4p5 = `<img src="pages/ch4p5.png">`
+const ch4p6 = `<img src="pages/ch4p6.png">`
+const ch4p7 = `<img src="pages/ch4p7.png">`
+const ch4p8 = `<img src="pages/ch4p8.png">`
+const ch4p9 = `<img src="pages/ch4p9.png">`
+const ch4p10 = `<img src="pages/ch4p10.png">`
+const ch4p11 = `<img src="pages/ch4p11.png">`
+const ch4p12 = `<img src="pages/ch4p12.png">`
 const ch4p13 = ``
 const ch4p14 = ``
 const ch4p15 = ``
