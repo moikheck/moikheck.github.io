@@ -539,7 +539,7 @@ var chapterValue = 1
 const chapterSelection = `<option value="1" class="dropper">Part 1: Boogieman</option>
 <option value="2" class="dropper">Part 2: Dancypants</option>
 <option value="3" class="dropper">Part 3: Marrow</option>
-<option value="3" class="dropper">Part 4: Ace Arrow</option>`
+<option value="4" class="dropper">Part 4: Ace Arrow</option>`
 
 var mobileFlip = false
 
