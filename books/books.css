@@ -31,10 +31,10 @@
 .collection-steam {
     grid-area: steamwar;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
-    "title title title title"
-    "steam dove renegades finale";
+    "title title title"
+    "steam dove renegades";
     background-color: rgb(133,164,117);
 }
 
@@ -143,10 +143,6 @@
 
 .renegades {
     grid-area: renegades;
-}
-
-.finale {
-    grid-area: finale;
 }
 
 .luna {
