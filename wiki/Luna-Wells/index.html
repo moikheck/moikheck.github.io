@@ -68,10 +68,14 @@
     <div class="spoiler-text">
         <p><strong>Warning:</strong> Pages contain spoilers for later entries in the series! </p>
     </div>
-    <input id="search" type="search" placeholder="&#x1F50D; Search..." list="search-suggestions" autocomplete="off"/>
-      
-      <datalist id="search-suggestions">
-      </datalist>
+    <div class="search-wrapper">
+        <input id="search" type="search" placeholder="&#x1F50D; Search..." list="search-suggestions" autocomplete="off"/>
+        <div class="search-results">
+            <button type="button" class="dropbtn" onclick="window.location='../../books'">Books</button>
+        </div>
+    </div>
+      <!-- <datalist id="search-suggestions">
+      </datalist> -->
 </section>
 
     <main>

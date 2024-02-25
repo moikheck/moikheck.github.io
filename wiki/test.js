@@ -1,6 +1,5 @@
 let postsData = "";
-const postsContainer = document.querySelector(".posts-container");
-const searchDisplay = document.querySelector(".search-display");
+const searchResults = document.querySelector(".search-results");
 
 fetch(
   "../search.json"
@@ -10,26 +9,14 @@ fetch(
 });
 
 const createPost = (postData) => {
-  const { title, link, image, categories } = postData;
+  const { title, link } = postData;
   const post = document.createElement("div");
-  post.className = "post";
   post.innerHTML = `
-      <a class="post-preview" href="${link}" target="_blank">
-        <img class="post-image" src="${image}">
-      </a>
-      <div class="post-content">
-        <p class="post-title">${title}</p>
-        <div class="post-tags">
-          ${categories
-            .map((category) => {
-              return '<span class="post-tag">' + category + "</span>";
-            })
-            .join("")}
-        </div>
+    <button type="button" class="dropbtn" onclick="window.location='${link}'">${title}</button>
       </div>
   `;
 
-  postsContainer.append(post);
+  searchResults.append(post);
 };
 
 const handleSearchPosts = (query) => {
@@ -45,23 +32,13 @@ const handleSearchPosts = (query) => {
       post.categories.some((category) => category.toLowerCase().includes(searchQuery)) ||
       post.title.toLowerCase().includes(searchQuery)
   );
-  
-  if (searchResults.length == 0) {
-    searchDisplay.innerHTML = "No results found"
-  } else if (searchResults.length == 1) {
-    searchDisplay.innerHTML = `1 result found for your query: ${query}`
-  } else {
-    searchDisplay.innerHTML = `${searchResults.length} results found for your query: ${query}`
-  }
 
-  postsContainer.innerHTML = "";
+  searchResults.innerHTML = ""
   searchResults.map((post) => createPost(post));
 };
 
 const resetPosts = () => {
-  searchDisplay.innerHTML = ""
-  postsContainer.innerHTML = "";
-  postsData.map((post) => createPost(post));
+    searchResults.innerHTML = ""
 };
 
 const search = document.getElementById("search");

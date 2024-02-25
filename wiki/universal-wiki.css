@@ -84,6 +84,35 @@ main {
   text-align: center;
 }
 
+/* Dropdown Content (Hidden by Default) */
+.search-results {
+    display: none;
+    position: absolute;
+    background-color: var(--header-background);
+    min-width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.search-results a {
+    padding: 8px 8px;
+    display: block;
+}
+
+
+.search-results a:hover {
+    color: var(--text-highlight);
+}
+
+.search-wrapper:hover .search-results {
+    display: block;
+}
+
+.search-wrapper:hover .dropbtn {
+    cursor: pointer;
+    color: var(--text-highlight);
+}
+
 
 /* Flex Container Styles */
 .flex-container {
