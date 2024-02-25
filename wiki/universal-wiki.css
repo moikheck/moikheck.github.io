@@ -220,6 +220,20 @@ main {
     color: #333;
 }
 
+.wikilink {
+    text-decoration: underline;
+    color: #FF8E24;
+}
+
+.wikilink:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.unlinked {
+    color: red;
+}
+
 @media (max-width: 941px) {
     .spoiler-warning {
         flex-direction: column;
