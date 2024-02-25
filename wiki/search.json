@@ -9,8 +9,43 @@
        ]
     },
     {
-       "title":"Sprocket",
-       "link":"https://msheckman.com/wiki/Sprocket",
+       "title":"Slaphand",
+       "link":"https://msheckman.com/wiki/Slaphand",
+       "categories":[
+          "Slaphand"
+       ]
+    },
+    {
+       "title":"Bijabers",
+       "link":"https://msheckman.com/wiki/Bijabers",
+       "categories":[
+          "Bijabers"
+       ]
+    },
+    {
+       "title":"Cleopatra",
+       "link":"https://msheckman.com/wiki/Cleopatra",
+       "categories":[
+          "Cleopatra"
+       ]
+    },
+    {
+       "title":"Smackpants",
+       "link":"https://msheckman.com/wiki/Smackpants",
+       "categories":[
+          "Smackpants"
+       ]
+    },
+    {
+       "title":"Dancypants",
+       "link":"https://msheckman.com/wiki/Dancypants",
+       "categories":[
+          "Dancypants"
+       ]
+    },
+    {
+       "title":"Herbert Wells (Sprocket)",
+       "link":"https://msheckman.com/wiki/Herbert-Wells",
        "categories":[
           "Sprocket",
           "Herbert",
