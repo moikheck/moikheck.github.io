@@ -117,6 +117,18 @@ main {
     font-size: 12pt;
 }
 
+#search:focus .search-results {
+    display: block;
+    border-bottom: 1px solid white;
+}
+
+#search:focus .dropbtn {
+    cursor: pointer;
+    color: white;
+    padding-left: 10px;
+    font-size: 12pt;
+}
+
 
 /* Flex Container Styles */
 .flex-container {
