@@ -1,34 +1,60 @@
-function searchPages() {
-    const input = document.getElementById("searchInput").value.toLowerCase();
-    
-    // Array of HTML files to search
-    const htmlFiles = ["page1.html", "page2.html", "page3.html"]; // Add more HTML files as needed
-    
-    // Clear previous search results
-    const dropdown = document.getElementById("searchDropdown");
-    dropdown.innerHTML = "";
-    
-    // Iterate through each HTML file
-    htmlFiles.forEach(file => {
-        // Fetch HTML content of the file
-        fetch(file)
-            .then(response => response.text())
-            .then(html => {
-                // Create a temporary div to parse the HTML content
-                const tempDiv = document.createElement("div");
-                tempDiv.innerHTML = html;
-                
-                // Get all text content from the HTML
-                const textContent = tempDiv.textContent.toLowerCase();
-                
-                // Check if input exists in the text content
-                if (textContent.includes(input)) {
-                    // If found, add the file name to the dropdown
-                    const option = document.createElement("option");
-                    option.value = file;
-                    dropdown.appendChild(option);
-                }
-            })
-            .catch(error => console.error("Error fetching HTML:", error));
-    });
-}
+let postsData = "";
+const searchResults = document.querySelector(".search-results");
+
+fetch(
+  "../search.json"
+).then(async (response) => {
+  postsData = await response.json();
+  postsData.map((post) => createPost(post));
+});
+
+const createPost = (postData) => {
+  const { title, link } = postData;
+  const post = document.createElement("div");
+  post.innerHTML = `
+    <button type="button" class="dropbtn" onclick="window.location='${link}'">${title}</button>
+      </div>
+  `;
+
+  searchResults.append(post);
+};
+
+const handleSearchPosts = (query) => {
+    resetPosts();
+  const searchQuery = query.trim().toLowerCase();
+  
+  if (searchQuery.length <= 1) {
+    resetPosts()
+    return
+  }
+  
+  let searchResults = [...postsData].filter(
+    (post) =>
+      post.categories.some((category) => category.toLowerCase().includes(searchQuery)) ||
+      post.title.toLowerCase().includes(searchQuery)
+  );
+
+  searchResults.map((post) => createPost(post));
+};
+
+const resetPosts = () => {
+    searchResults.innerHTML = ""
+};
+
+const search = document.getElementById("search");
+resetPosts();
+
+let debounceTimer;
+const debounce = (callback, time) => {
+  window.clearTimeout(debounceTimer);
+  debounceTimer = window.setTimeout(callback, time);
+};
+
+search.addEventListener(
+  "input",
+  (event) => {
+    const query = event.target.value;
+    debounce(() => handleSearchPosts(query), 500);
+  },
+  false
+);
