@@ -59,20 +59,21 @@ main {
     font-size: 16px;
 } */
 
-.search-bar {
+#search {
   display: flex;
   justify-content: center;
   padding: 24px;
-}
-
-.search-bar input {
-  width: 50%;
-  min-width: 300px;
   padding: 12px 24px;
   border-radius: 24px;
+}
+
+#search input {
+  width: 50%;
+  min-width: 300px;
   font-size: 16px;
   border: 0px;
   outline: none;
+  font-family: goudy;
 }
 
 .search-bar [list]::-webkit-list-button,
@@ -107,10 +108,9 @@ main {
 
 .search-wrapper:hover .search-results {
     display: block;
-    border-bottom: 1px solid white;
 }
 
-.search-wrapper:hover .dropbtn {
+.search-wrapper .dropbtn {
     cursor: pointer;
     color: white;
     padding-left: 10px;
@@ -130,6 +130,7 @@ main {
 
 .search-active {
     display: block;
+    border-bottom: 1px solid white;
 }
 
 

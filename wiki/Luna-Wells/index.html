@@ -68,8 +68,11 @@
         <p><strong>Warning:</strong> Pages contain spoilers for later entries in the series! </p>
     </div>
     <div class="search-wrapper">
-        <input id="search" type="search" placeholder="&#x1F50D; Search..." list="search-suggestions" autocomplete="off"/>
+        <input id="search" type="search" placeholder="Search Wiki..." list="search-suggestions" autocomplete="off"/>
         <div class="search-results">
+            <div>
+                <button type="button" class="dropbtn" onclick="window.location='${link}'">${title}</button>
+            </div>
         </div>
     </div>
       <!-- <datalist id="search-suggestions">
@@ -98,7 +101,7 @@
             <!-- Demographics Section -->
             <section class="flex-item side-section">
                 <ul>
-                    <li><img title="Luna Wells" src="luna.png"/></li>
+                    <li><img title="Luna Wells" src="image.png"/></li>
                     <li><b>Name:</b> <span class="searchable">Luna Wells</span></li>
                     <li><b>Sex:</b> Female</li>
                     <li><b>Sexuality:</b> Unknown</li>
