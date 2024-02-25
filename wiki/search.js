@@ -5,7 +5,6 @@ fetch(
   "../search.json"
 ).then(async (response) => {
   postsData = await response.json();
-  postsData.map((post) => createPost(post));
 });
 
 const createPost = (postData) => {
@@ -42,7 +41,6 @@ const resetPosts = () => {
 };
 
 const search = document.getElementById("search");
-resetPosts();
 
 let debounceTimer;
 const debounce = (callback, time) => {
@@ -58,3 +56,6 @@ search.addEventListener(
   },
   false
 );
+
+
+resetPosts();
