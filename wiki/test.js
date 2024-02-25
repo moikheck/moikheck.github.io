@@ -42,6 +42,7 @@ const resetPosts = () => {
 };
 
 const search = document.getElementById("search");
+console.log(search);
 
 let debounceTimer;
 const debounce = (callback, time) => {
