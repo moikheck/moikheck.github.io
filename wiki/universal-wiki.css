@@ -1,0 +1,202 @@
+/* Body Styles */
+body {
+    font-family: goudy;
+    background-color: #333;
+    color: #333;
+}
+
+/* Main Styles */
+main {
+    margin: 20px auto;
+    max-width: 900px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Spoiler Warning Styles */
+.spoiler-warning {
+    background-color: #FF8E24;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.spoiler-warning p {
+    margin: 0;
+}
+
+/* Search Bar Styles */
+/* .search-bar {
+    display: flex;
+}
+
+.search-input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    margin-right: -1px;
+}
+
+.search-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #555;
+}
+
+.search-icon {
+    font-size: 16px;
+} */
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+
+.search-bar input {
+  width: 50%;
+  min-width: 300px;
+  padding: 12px 24px;
+  border-radius: 24px;
+  font-size: 16px;
+  border: 0px;
+  outline: none;
+}
+
+.search-bar [list]::-webkit-list-button,
+.search-bar [list]::-webkit-calendar-picker-indicator {
+  display: none !important;
+}
+
+.search-display {
+  text-align: center;
+}
+
+
+/* Flex Container Styles */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 5px;
+}
+
+.flex-intermediate {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 65%;
+}
+
+/* Flex Item Styles */
+.flex-item {
+    flex: 1 1 35%;
+    padding: 10px;
+    padding-top: 0px;
+    box-sizing: border-box;
+}
+
+/* Quote Section Styles */
+.quote {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-left: 3px solid #FF8E24;
+}
+
+.quote blockquote {
+    font-style: italic;
+    margin: 16px;
+}
+
+.big-quote {
+    font-style: normal;
+    font-size: 30pt;
+}
+
+/* Demographics Section Styles */
+.side-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 3px solid #FF8E24;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.side-section img {
+    display: block; /* Make sure the image is a block element */
+    margin: 0 auto 20px; /* Center the image horizontally and add space below */
+    width: 150px; /* Adjust the width of the image as needed */
+    height: 150px; /* Adjust the height of the image as needed */
+    border-radius: 50%; /* Make the image round (for square images, this gives a circular appearance) */
+}
+
+.side-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.side-section ul {
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.side-section li {
+    margin-bottom: 5px;
+}
+
+.summary {
+    padding-bottom: 30px;
+}
+
+.summary h2 {
+    margin-top: 0;
+}
+
+/* Content Section Styles */
+.content {
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Navigation Box Styles */
+.navigation-box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-left: 3px solid #FF8E24;
+    margin-bottom: 20px;
+}
+
+.navigation-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav1 {
+    margin-bottom: 10px;
+}
+
+.navigation-box a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+}
+
+.navigation-box a:hover {
+    color: #333;
+}
