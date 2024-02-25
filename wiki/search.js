@@ -15,6 +15,7 @@ const createPost = (postData) => {
       </div>
   `;
 
+  searchResults.classList.add("search-active");
   searchResults.append(post);
 };
 
@@ -37,6 +38,7 @@ const handleSearchPosts = (query) => {
 };
 
 const resetPosts = () => {
+    searchResults.classList.remove("search-active");
     searchResults.innerHTML = ""
 };
 
