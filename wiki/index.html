@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../universal.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="universal-wiki.css">
     <link rel="icon" type="image/x-icon" href="../favicon.png">
     <script src="https://kit.fontawesome.com/b0f29e9bfe.js" crossorigin="anonymous"></script>
     <script src="search.js"></script>
@@ -14,7 +15,7 @@
     <header class="universal-header">
         <a rel="noopener" href=".." class="header-home"><img id="header-home" src="../social-icons/me-logo.png" alt="Website Logo"></a>
         <div class="dropdown">
-            <button type="button" class="dropbtn" id="semi-highlight" onclick="window.location='../books'">Books</button>
+            <button type="button" class="dropbtn" onclick="window.location='../books'">Books</button>
             <div class="dropdown-content">
                 <div class="sub-dropdown">
                     <button type="button" class="sub-dropbtn"onclick="window.location='../the-steam-war-series'" >The Steam War Series</button>
@@ -32,7 +33,7 @@
                     </div>
                 </div>
                 <div class="sub-dropdown">
-                    <button type="button" id="unhighlight" class="sub-dropbtn"onclick="window.location='../the-tes-simms-anthology'" >The Tes Simms Anthology</button>
+                    <button type="button" class="sub-dropbtn"onclick="window.location='../the-tes-simms-anthology'" >The Tes Simms Anthology</button>
                     <div class="sub-dropdown-content">
                         <a rel="noopener" href="../ghost-of-the-hindenburg">The Ghost of the Hindenburg</a>
                         <a rel="noopener" href="../ruins-of-alpha-centauri">The Ruins of Alpha Centauri</a>
@@ -55,13 +56,43 @@
         </div>
     </header>
 
-    <main>
-        <section class="hero">
-            <h2>Welcome to the wiki for my stories/characters.</h2>
-            <p>All information showcased is lore-accurate and non-theory. Use the search functionality to find a page.</p>
-        </section>
-        <section id="searchResults"></section>
-    </main>
+    <section class="spoiler-warning">
+        <div class="spoiler-text">
+            <p><strong>Warning:</strong> Pages contain spoilers for later entries in the series! </p>
+        </div>
+        <div class="search-wrapper">
+            <input id="search" type="search" placeholder="Search Wiki..." list="search-suggestions" autocomplete="off"/>
+            <div class="search-results">
+                <div>
+                </div>
+            </div>
+        </div>
+          <!-- <datalist id="search-suggestions">
+          </datalist> -->
+    </section>
+    
+        <main>
+            <div class="flex-container">
+                <!-- Quote Section -->
+                <section class="flex-item">
+                    <section class="quote">
+                        <blockquote>
+                            "Welcome to the Wiki! Everything here is for my different books/characters, no matter the universe. All information is official, lore accurate, and non-theory. You can use the search bar up top to search based on keywords for different items."<br/><br/>- Michael Heckman
+                        </blockquote>
+                    </section>
+                </section>
+            </div>
+    
+                <!-- Navigation Box -->
+                <section class="navigation-box">
+                    <h2>Under Construction</h2>
+                    Everything is currently under construction. Very few pages are created or finalized at the moment. A post will go out when a majority of all public information has been added to the pages!
+                    <br/><br/>
+                    In the future, this section will showcase recent edits to the wiki. For the moment, this is pointless, and a waste of time on my part, seeing as there is way too much to worry about for this wiki. Come back later!
+                </section>
+    
+                
+        </main>
 
     <footer class="universal-footer">
         <div class="footer-copyright">© 2024 Michael Heckman</div>
