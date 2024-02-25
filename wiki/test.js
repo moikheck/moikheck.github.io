@@ -10,18 +10,17 @@ fetch(
 
 const createPost = (postData) => {
   const { title, link } = postData;
-//   const post = document.createElement("div");
-//   post.innerHTML = `
-//     <button type="button" class="dropbtn" onclick="window.location='${link}'">${title}</button>
-//       </div>
-//   `;
+  const post = document.createElement("div");
+  post.innerHTML = `
+    <button type="button" class="dropbtn" onclick="window.location='${link}'">${title}</button>
+      </div>
+  `;
 
-  searchResults.append(`<button type="button" class="dropbtn" onclick="window.location='${link}'">${title}</button>
-  </div>
-`);
+  searchResults.append(post);
 };
 
 const handleSearchPosts = (query) => {
+    resetPosts();
   const searchQuery = query.trim().toLowerCase();
   
   if (searchQuery.length <= 1) {
@@ -35,7 +34,6 @@ const handleSearchPosts = (query) => {
       post.title.toLowerCase().includes(searchQuery)
   );
 
-  resetPosts();
   searchResults.map((post) => createPost(post));
 };
 
