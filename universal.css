@@ -1,6 +1,7 @@
 :root {
     --background: rgb(173,131,101);
     --header-background: #75A8EA;
+    --header-background-darker: #5f86b9;
     --text: #3A2C3A;
     --text-highlight: #C1DCFF;
     --text-unclickable: gray;

@@ -1,0 +1,129 @@
+.showcase {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.section-header {
+    font-family: goudy;
+    font-size: 36pt;
+}
+
+.featured {
+    margin-top: 5%;
+    padding-top: 5%;
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color: aliceblue;
+}
+
+.all-posts {
+    padding:30px;
+}
+
+.list {
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color: aliceblue;
+}
+
+.post-thumbnail {
+    font-family: goudy;
+    width:90%;
+    height: 250pt;
+    background-color: aliceblue;
+    display:grid;
+    grid-template-columns: 340px 1fr;
+    grid-template-rows: .3fr .3fr .3fr 2fr;
+    grid-template-areas:
+    "thumbnail blank"
+    "thumbnail published"
+    "thumbnail title"
+    "thumbnail blurb";
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+    transition: .5s all;
+}
+
+.post-thumbnail:hover {
+    transform: scale(1.05);
+    color:black;
+}
+
+.first-post {
+    border-top: 1px solid lightgray;
+}
+
+#thumbnail {
+    grid-area: thumbnail;
+    height:300px;
+    width:300px;
+    justify-self: center;
+    justify-self: center;
+}
+
+#published {
+    grid-area: published;
+}
+
+#title {
+    grid-area: title;
+}
+
+#blurb {
+    grid-area: blurb;
+    position: relative;
+    top: -75px;
+    padding-right: 5%;
+}
+
+
+
+@media screen and (max-width: 750px) {
+    .featured, .list {
+        width: 95%;
+    }
+    .post-thumbnail {
+        width:85%;
+        display:grid;
+        grid-template-columns: 175px 1fr;
+        grid-template-rows: .1fr .5fr 1fr;
+        grid-template-areas:
+        "thumbnail published"
+        "thumbnail title"
+        "blurb blurb";
+    }
+
+    #thumbnail {
+        height:150px;
+        width:150px;
+    }
+    #blurb {
+        padding:5%;
+        top: -45px;
+        text-align: justify;
+        text-justify: justify;
+    }
+    #title {
+        position: relative;
+        top: -30px;
+    }
+}
