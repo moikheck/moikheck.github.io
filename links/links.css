@@ -1,3 +1,7 @@
+body {
+    background-color: #333;
+}
+
 .showcase {
     width:100%;
     display: flex;
@@ -14,8 +18,8 @@
 }
 
 .featured {
-    margin-top: 5%;
-    padding-top: 5%;
+    margin: 5% 0;
+    padding: 5% 0;
     width:90%;
     display: flex;
     flex-direction: column;
@@ -24,6 +28,8 @@
     align-items: center;
     justify-items: center;
     background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .all-posts {
@@ -41,6 +47,9 @@
     align-items: center;
     justify-items: center;
     background-color: aliceblue;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .post-thumbnail {
