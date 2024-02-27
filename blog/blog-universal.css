@@ -28,8 +28,13 @@ body {
 
 .post {
     width: 60%;
-    border: 3px double lightgray;
     background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.spacing {
+    padding: 20px;
 }
 
 .title {
