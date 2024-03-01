@@ -6,6 +6,7 @@
     --text-highlight: #C1DCFF;
     --text-unclickable: gray;
     --text-selected: aliceblue;
+    --socials-background-color: none;
   }
 
 html {
@@ -137,9 +138,12 @@ a:hover {
 
 .header-socials {
     display: flex;
-    height: 100%;
+    height: 50%;
     align-items: center;
     justify-content: center;
+    background-color: var(--socials-background-color);
+    border-radius: 10px;
+    padding-top: 5px;
 }
 
 .header-socials > a {

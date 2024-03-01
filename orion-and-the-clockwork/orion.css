@@ -5,6 +5,7 @@
     --text-highlight: #ffa87a;
     --text-unclickable: #AA4E1D;
     --text-selected: #5E2A0E;
+    --socials-background-color: var(--text-highlight);
 }
   
 .display, .farm {

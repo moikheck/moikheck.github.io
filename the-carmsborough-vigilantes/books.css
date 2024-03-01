@@ -5,6 +5,7 @@
     --text-highlight: #FF8E24;
     --text-unclickable: gray;
     --text-selected: #F4BA73;
+    --socials-background-color: var(--text-highlight);
 }
 
 .display {
