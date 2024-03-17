@@ -208,16 +208,14 @@
        "title":"Wesley",
        "link":"https://msheckman.com/wiki/Wesley",
        "categories":[
-          "Sam",
-          "Muldane"
+          "Wesley"
        ]
     },
     {
        "title":"Stacy",
        "link":"https://msheckman.com/wiki/Stacy",
        "categories":[
-          "Sam",
-          "Muldane"
+          "Stacy"
        ]
     },
     {
@@ -266,7 +264,7 @@
     },
     {
        "title":"The Nazi (Phased)",
-       "link":"https://msheckman.com/wiki/Sam-Muldane",
+       "link":"https://msheckman.com/wiki/The-Nazi",
        "categories":[
           "The",
           "Nazi",
@@ -275,11 +273,45 @@
     },
     {
        "title":"The Chef (Phased)",
-       "link":"https://msheckman.com/wiki/Sam-Muldane",
+       "link":"https://msheckman.com/wiki/The-Chef",
        "categories":[
           "The",
           "Chef",
           "Phased"
+       ]
+    },
+    {
+       "title":"Sola Hoku",
+       "link":"https://msheckman.com/wiki/Sola-Hoku",
+       "categories":[
+          "Sola",
+          "Hoku",
+          "Alpha Centauri"
+       ]
+    },
+    {
+       "title":"The Elders",
+       "link":"https://msheckman.com/wiki/The-Elders",
+       "categories":[
+          "The",
+          "Elders",
+          "Alpha Centauri"
+       ]
+    },
+    {
+       "title":"Galvaknight",
+       "link":"https://msheckman.com/wiki/Galvaknight",
+       "categories":[
+          "Galvaknight",
+          "Alpha Centauri"
+       ]
+    },
+    {
+       "title":"Galvanaught",
+       "link":"https://msheckman.com/wiki/Galvanaught",
+       "categories":[
+          "Galvanaught",
+          "Alpha Centauri"
        ]
     }
  ]
