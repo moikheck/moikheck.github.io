@@ -237,12 +237,13 @@
        ]
     },
     {
-       "title":"The Sobber (Phased)",
-       "link":"https://msheckman.com/wiki/The-Sobber",
+       "title":"Julia (Phased)",
+       "link":"https://msheckman.com/wiki/Julia",
        "categories":[
           "The",
           "Sobber",
-          "Phased"
+          "Phased",
+          "Julia"
        ]
     },
     {
@@ -255,11 +256,12 @@
        ]
     },
     {
-       "title":"Mr. Aurora",
-       "link":"https://msheckman.com/wiki/Mr-Aurora",
+       "title":"Alvera-Anderson",
+       "link":"https://msheckman.com/wiki/Alvera-Anderson",
        "categories":[
-          "Mr.",
-          "Aurora"
+          "Amazing Alvera Anderson",
+          "The",
+          "Phased"
        ]
     },
     {
@@ -312,6 +314,14 @@
        "categories":[
           "Galvanaught",
           "Alpha Centauri"
+       ]
+    },
+    {
+       "title":"Aurora",
+       "link":"https://msheckman.com/wiki/Aurora",
+       "categories":[
+          "Aurora",
+          "Steambot"
        ]
     }
  ]
