@@ -216,6 +216,9 @@ a:hover {
     }
 }
 @media screen and (max-width: 750px) {
+    .universal-footer {
+        display: grid;
+    }
     .universal-footer > div {
         width: 250px;
     }
