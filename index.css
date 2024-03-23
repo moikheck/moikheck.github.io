@@ -1,13 +1,16 @@
 body {
     font-family: goudy;
+    background-color: #333;
 }
 
 .container {
-    margin: 20px auto;
-    max-width: 910px;
+    margin: 30px auto;
+    max-width: 900px;
     background-color: aliceblue;
     height: auto;
-    padding-bottom: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px #111;
   }
 
   .container h1 {
@@ -15,105 +18,57 @@ body {
     font-size: 48pt;
     text-align: center;
     margin: 0;
+    padding-top: 50px;
   }
-
-  .description {
-    padding-bottom: 15px;
-    text-align: center;
-  }
+ 
   
-  .choose {
-    padding-top: 40px;
+  .book {
     width: 100%;
-    height: 40px;
-  }
-  .fa {
-    margin-right: 20px;
-    font-size: 30px;
-    color: black;
-    float: right;
-  }
-  /******************************************
-  Book stuff
-  *******************************************/
-  
-  .book {
-    display: inline-block;
-    width: 230px;
-    height: 390px;
-    box-shadow: 0 0 20px #aaa;
-    margin: 25px;
-    padding: 10px 10px 10px 10px;
-    vertical-align: top;
-    transition: height 1s;
-    background-color: white;
-  }
-  /* star button */
-  .new:after {
-    font-family: FontAwesome;
-    content: "(NEW)";
-    font-size: 35px;
-    position: relative;
-    color: black;
-    
-    top: -11cm;
-    float: right;
-    height: 40px;
-    width: 110px;
-    margin-left: -3px;
-    margin-right: -3px;
-    background: #ffd500;
-    transform: rotate(2deg);
-    border-radius: 20% 25% 20% 24%;
-    padding: 0px 3px 3px 10px;
-  }
-  
-  .book {
+    height: 100%;
+    box-shadow: 0 10px 20px #333;
     transition: all 0.5s;
+    background-color: white;
+    border-radius: 10px;
   }
+  
   .book:hover {
     transform: scale(1.2);
   }
 
   .cover {
-    border: 2px solid white;
-    height: 85%;
+    /* border: 2px solid white; */
+    width: 100%;
+    height: 100%;
     overflow: hidden;
+    border-radius: 10px;
   }
   
   .cover img {
     width: 100%;
+    height: 100%;
+    border-radius: 10px;
   }
   
-  .book p {
-    margin-top: 12px;
-    font-size: 20px;
+
+  #list-th {
+    padding: 30px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    column-gap: 25px;
+    row-gap: 25px;
   }
-  
-  .book .author {
-    font-size: 15px;
+
+  .book-clickable {
+    width: 75%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    align-self: center;
   }
-  @media (max-width: 941px) {
-    .container {
-      width: auto;
-    }
-    .book {
-      margin: 49px;
-    }
-  }
-  @media (max-width: 730px) {
-    .book {
-      display: block;
-      margin: 0 auto;
-      margin-top: 50px;
-    }
-  }
-  
-  /**********************************
-  display change
-  ***********************************/
-  /*book height smaller, cover opacity, move text onto cover and star too
-  animate it */
+
   #list-th:target .book {
     height: 100px;
     padding: 10px;
@@ -135,144 +90,25 @@ body {
     top: -0.5cm;
   }
 
-.title {
-    text-decoration: none;
-    color: black;
+  @media (max-width: 700px) {
+    #list-th {
+        grid-template-columns: 1fr;
+    }
+  }
+
+.socials-buffer {
+    padding: 20px 0;
 }
 
-.book1 > h1 > a,
-.book1 > h2 {
-    color: white;
-    text-shadow:
-    -1px -1px 0 #000,
-     0   -1px 0 #000,
-     1px -1px 0 #000,
-     1px  0   0 #000,
-     1px  1px 0 #000,
-     0    1px 0 #000,
-    -1px  1px 0 #000,
-    -1px  0   0 #000;
-}
-.book2 > h1 > a,
-.book2 > h2 {
-    color: #FF8E24;
-    text-shadow:
-    -1px -1px 0 #000,
-     0   -1px 0 #000,
-     1px -1px 0 #000,
-     1px  0   0 #000,
-     1px  1px 0 #000,
-     0    1px 0 #000,
-    -1px  1px 0 #000,
-    -1px  0   0 #000;
-}
-.book3 > h1 > a,
-.book3 > h2 {
-    color: white;
-    text-shadow:
-    -1px -1px 0 #000,
-     0   -1px 0 #000,
-     1px -1px 0 #000,
-     1px  0   0 #000,
-     1px  1px 0 #000,
-     0    1px 0 #000,
-    -1px  1px 0 #000,
-    -1px  0   0 #000;
-}
-
-.header-home:hover {
-    color: black;
-}
-
-
-/* .display {
-    padding-top: 30px;
+.socials-buffer a {
     display: grid;
-    grid-template-columns: .5fr 1fr 1fr 1fr .5fr;
-    grid-template-rows: 1fr;
-    grid-template-areas:
-    "empty book1 book2 book3 empty2";
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
 }
 
-.display > div > button {
-    width: 60%;
-    border-radius: 30px;
-    color: white;
-    background-color: transparent;
-    border: 1px solid gray;
-    transition: all .5s;
-    letter-spacing: 5px;
-    height: 50px;
+.socials-buffer a img {
+    
+    align-self: center;
+    justify-self: center;
 }
-
-.display > div > button:hover {
-    background-color: gray;
-}
-
-.display > div > a > img {
-    width:75%;
-
-}
-.book1, .book2, .book3 {
-    display:grid;
-    grid-template-rows: 1fr .2fr .2fr;
-    grid-template-columns: 1fr;
-    align-items: center;
-    align-content: center;
-    justify-items: center;
-    justify-content: center;
-}
-
-.book1 {
-    grid-area: book1;
-}
-
-.book2 {
-    grid-area: book2;
-}
-
-.book3 {
-    grid-area: book3;
-}
-
-.book1 > h2 {
-    font-size: 36pt;
-    margin: 0;
-    padding: 5px;
-    height:75px;
-}
-
-.book2 > h2 {
-    font-family: cecep;
-    font-size: 36pt;
-    margin: 0;
-    padding: 5px;
-    height:75px;
-}
-
-.book3 > h2 {
-    font-family: summer;
-    font-size: 30pt;
-    margin: 0;
-    padding: 5px;
-    height:75px;
-}
-
-
-
-.scrolldown {
-    text-align: center;
-    font-size: 24pt;
-    padding-top: 25px;
-    padding-bottom: 25px;
-} */
-
-
 
 .strips {
     display: flex;
@@ -316,7 +152,7 @@ body {
 }
 
 .dark-strip {
-    background-color: rgb(48,48,48);
+    background-color: #333;
     height: 450px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -352,7 +188,7 @@ body {
 }
 
 .light-strip > h1, .light-strip > p {
-    color: rgb(48,48,48);
+    color: #333;
 }
 
 .dark-strip > h1, .dark-strip > p, 
@@ -379,31 +215,7 @@ body {
     justify-self: right;
 }
 
-@media screen and (max-width: 1225px) {
-    .book1 h2 {
-        font-size: 24pt;
-    }
-    .book2 h2 {
-        font-size: 30pt;
-    }
-    .book3 h2 {
-        font-size: 24pt;
-    }
-}
-
 @media screen and (max-width: 1000px) {
-    .book1 h2 {
-        font-size: 18pt;
-        height:30px;
-    }
-    .book2 h2 {
-        font-size: 24pt;
-        height:30px;
-    }
-    .book3 h2 {
-        font-size: 18pt;
-        height:30px;
-    }
     .strips > div > h1 {
         font-size: 36pt;
     }
@@ -475,104 +287,6 @@ body {
     .light-strip > button, .dark-strip > button {
         align-self: center;
         justify-self: center;
-    }
-
-    
-
-    .display {
-        padding-top: 0;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-areas:
-        "book1"
-        "book2"
-        "book3";
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-        justify-items: center;
-        text-align: center;
-    }
-    
-    .display > div > button:hover {
-        background-color: gray;
-    }
-    
-    .display > div > a > img {
-        height: 250px;
-        width: auto;
-    }
-
-    .book1, .book2, .book3 {
-        padding-top: 30px;
-    }
-    
-    
-    .book1 > h2 {
-        font-size: 16pt;
-        margin: 0;
-        padding: 5px;
-    }
-    
-    .book2 > h2 {
-        font-family: cecep;
-        font-size: 16pt;
-        margin: 0;
-        padding: 5px;
-    }
-    
-    .book3 > h2 {
-        font-size: 16pt;
-        margin: 0;
-        padding: 5px;
-    }
-    
-    
-    
-    .scrolldown {
-        visibility: hidden;
-    }
-
-
-    .book1 > h1 > a,
-    .book1 > h2 {
-        color: white;
-        text-shadow:
-        -.5px -.5px 0 #000,
-        0   -.5px 0 #000,
-        .5px -.5px 0 #000,
-        .5px  0   0 #000,
-        .5px  .5px 0 #000,
-        0    .5px 0 #000,
-        -.5px  .5px 0 #000,
-        -.5px  0   0 #000;
-    }
-    .book2 > h1 > a,
-    .book2 > h2 {
-        color: #FF8E24;
-        text-shadow:
-        -.5px -.5px 0 #000,
-        0   -.5px 0 #000,
-        .5px -.5px 0 #000,
-        .5px  0   0 #000,
-        .5px  .5px 0 #000,
-        0    .5px 0 #000,
-        -.5px  .5px 0 #000,
-        -.5px  0   0 #000;
-    }
-    .book3 > h1 > a,
-    .book3 > h2 {
-        color: white;
-        text-shadow:
-        -.5px -.5px 0 #000,
-        0   -.5px 0 #000,
-        .5px -.5px 0 #000,
-        .5px  0   0 #000,
-        .5px  .5px 0 #000,
-        0    .5px 0 #000,
-        -.5px  .5px 0 #000,
-        -.5px  0   0 #000;
     }
 
 }
