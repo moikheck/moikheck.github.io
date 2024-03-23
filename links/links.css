@@ -48,6 +48,22 @@ body {
 
 }
 
+
+
+.socials-buffer {
+    padding: 20px 0;
+}
+
+.socials-buffer a {
+    display: grid;
+}
+
+.socials-buffer a img {
+    
+    align-self: center;
+    justify-self: center;
+}
+
 .all-posts {
     padding:30px;
 }
