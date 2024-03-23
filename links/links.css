@@ -18,6 +18,21 @@ body {
 }
 
 .featured {
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.socials {
     margin: 5% 0;
     padding: 5% 0;
     width:90%;
@@ -30,6 +45,7 @@ body {
     background-color: aliceblue;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
 }
 
 .all-posts {
@@ -47,7 +63,6 @@ body {
     align-items: center;
     justify-items: center;
     background-color: aliceblue;
-    background-color: aliceblue;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -56,7 +71,7 @@ body {
     font-family: goudy;
     width:90%;
     height: 250pt;
-    background-color: aliceblue;
+    background-color: white;
     display:grid;
     grid-template-columns: 340px 1fr;
     grid-template-rows: .3fr .3fr .3fr 2fr;
