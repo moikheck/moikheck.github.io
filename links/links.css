@@ -122,7 +122,7 @@ body {
 
 
 @media screen and (max-width: 750px) {
-    .featured, .list {
+    .featured, .list, .socials {
         width: 95%;
     }
     .post-thumbnail {
