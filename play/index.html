@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Customization</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav id="navigation-bar">
+            <a id="htp">How to Play</a>
+            <a id="settings">Settings</a>
+            <a id="credits">Credits</a>
+            <a id="version">Version</a>
+            <a rel="noopener" href="https://patreon.com/" target="_blank">Patreon</a>
+            <a></a>
+            <a></a>
+            <a id="save-game">Save Game</a>
+            <a id="load-game">Load Game</a>
+        </nav>
+    </header>
+
+    <div id="overlay" class="overlay">
+        <div id="overlay-content" class="overlay-content">
+            <span id="close-overlay" class="close-overlay">&times;</span>
+            <h2 id="overlay-header-htp">How to Play</h2>
+            <h2 id="overlay-header-settings">Settings</h2>
+            <h2 id="overlay-header-credits">Credits</h2>
+            <h2 id="overlay-header-version">Version 0.01</h2>
+            <div id="overlay-text-htp"><p>How to play text here.</p></div>
+            <div id="overlay-text-settings"><p>Settings text here.</p></div>
+            <div id="overlay-text-credits"><p>Credits text here.</p></div>
+            <div id="overlay-text-version">
+                <a href="../changelog/index.html" target="_blank" class="link">Version History</a>
+                <p>Game currently unplayable.</p>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div id="left-bar">
+            <div id="character-preview">
+                <div id="preview-header">
+                    <h2 id="preview-name">Player</h2>
+                    <p id="preview-gender">she/her</p>
+                    <p id="preview-size">Medium</p>
+                </div>
+                <div id="character-display">
+                    <div id="preview-stats">
+                        <div class="stat-preview"><p>Str</p> <p id="preview-strength">5</p></div>
+                        <div class="stat-preview"><p>Dex</p> <p id="preview-dexterity">5</p></div>
+                        <div class="stat-preview"><p>Int</p> <p id="preview-intelligence">5</p></div>
+                        <div class="stat-preview"><p>Cha</p> <p id="preview-charisma">5</p></div>
+                        <div class="stat-preview"><p>Wis</p> <p id="preview-wisdom">5</p></div>
+                    </div>
+                    <!-- <p id="preview-skin-tone">Skin Tone: Light</p>
+                    <p id="preview-hair-color">Hair Color: Black</p>
+                    <p id="preview-sided-stat">Sided Stat: Middle</p>
+                    <p id="preview-difficulty">Difficulty: Normal</p> -->
+                </div>
+                <div id="player-handh">
+                    <div id="health-bar">
+                        <div id="health">
+                            <p id="handh-display-bumper">0/0</p>
+                        </div>
+                        <p id="health-display">25/50</p>
+                    </div>
+                    <div id="hunger-bar">
+                        <div id="hunger">
+                            <p id="handh-display-bumper">0/0</p>
+                        </div>
+                        <p id="hunger-display">10/50</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="character-inventory">
+                <h2 id="inventory-name">Inventory</h2>
+                <div id="inventory-display">
+                    <div class="stat-preview inventory-item" id="inventory-slot-1"><img class="item-image" data-item="None" title="Empty Inventory Slot" src="images/inventory/blank.png"/></div>
+                    <div class="stat-preview inventory-item" id="inventory-slot-2"><img class="item-image" data-item="None" title="Empty Inventory Slot" src="images/inventory/blank.png"/></div>
+                    <div class="stat-preview inventory-item" id="inventory-slot-3"><img class="item-image" data-item="None" title="Empty Inventory Slot" src="images/inventory/blank.png"/></div>
+                    <div class="stat-preview inventory-item" id="inventory-slot-4"><img class="item-image" data-item="None" title="Empty Inventory Slot" src="images/inventory/blank.png"/></div>
+                    <div class="stat-preview inventory-item" id="inventory-slot-5"><img class="item-image" data-item="None" title="Empty Inventory Slot" src="images/inventory/blank.png"/></div>
+                </div>
+            </div>
+
+            <div id="map-container">
+                <div id="map-display">
+                    <!-- Row One -->
+                    <div class="map-item" id="11"></div>
+                    <div class="map-item" id="21"></div>
+                    <div class="map-item" id="31"></div>
+                    <div class="map-item" id="41"></div>
+                    <div class="map-item" id="51"></div>
+
+                    <!-- Row Two -->
+                    <div class="map-item" id="12"></div>
+                    <div class="map-item map-click" id="22"></div>
+                    <div class="map-item map-click" id="32"></div>
+                    <div class="map-item map-click" id="42"></div>
+                    <div class="map-item" id="52"></div>
+
+                    <!-- Row Three -->
+                    <div class="map-item" id="13"></div>
+                    <div class="map-item map-click" id="23"></div>
+                    <div class="map-item" id="33"></div>
+                    <div class="map-item map-click" id="43"></div>
+                    <div class="map-item" id="53"></div>
+
+                    <!-- Row Four -->
+                    <div class="map-item" id="14"></div>
+                    <div class="map-item map-click" id="24"></div>
+                    <div class="map-item map-click" id="34"></div>
+                    <div class="map-item map-click" id="44"></div>
+                    <div class="map-item" id="54"></div>
+
+                    <!-- Row Five -->
+                    <div class="map-item" id="15"></div>
+                    <div class="map-item" id="25"></div>
+                    <div class="map-item" id="35"></div>
+                    <div class="map-item" id="45"></div>
+                    <div class="map-item" id="55"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="customization-options">
+            <h2 id="customization-header">Customize Your Character</h2>
+            
+            <div id="character-name-div"><h3>Name</h3>
+            <input type="text" id="character-name" placeholder="Player"></div>
+            
+            <h3>Gender</h3>
+            <div id="gender-toggle">
+                <button class="selected" data-value="she/her">She/Her</button>
+                <button data-value="he/him">He/Him</button>
+                <button data-value="they/them">They/Them</button>
+                <button id="custom-gender">Custom</button>
+            </div>
+            <div id="custom-pronouns" style="display: none;">
+                <input type="text" id="pronoun1" placeholder="she">
+                <input type="text" id="pronoun2" placeholder="her">
+                <input type="text" id="pronoun3" placeholder="hers">
+            </div>
+            
+            <h3 id="skin-tone">Skin Tone</h3>
+            <div id="skin-tone-selection">
+                <div class="color-box selected" data-value="Light" style="background-color: #f1c6c6;"></div>
+                <div class="color-box" data-value="Medium Light" style="background-color: #f5d6c6;"></div>
+                <div class="color-box" data-value="Medium" style="background-color: #e3b6a0;"></div>
+                <div class="color-box" data-value="Medium Dark" style="background-color: #d18e75;"></div>
+                <div class="color-box" data-value="Dark" style="background-color: #a66e51;"></div>
+                <div class="color-box" data-value="Pale" style="background-color: #f2e5d8;"></div>
+                <div class="color-box" data-value="Tan" style="background-color: #d2b78f;"></div>
+                <div class="color-box" data-value="Olive" style="background-color: #9c9e56;"></div>
+                <div class="color-box" data-value="Brown" style="background-color: #7c4d28;"></div>
+                <div class="color-box" data-value="Deep Brown" style="background-color: #4e2a1e;"></div>
+                <div class="color-box" data-value="Black" style="background-color: #1c1c1c;"></div>
+                <div class="color-box" data-value="Blue" style="background-color: #3f9bfc;"></div>
+                <div class="color-box" data-value="Green" style="background-color: #3dbf3d;"></div>
+            </div>
+            
+            <h3 id="hair-color">Hair Color</h3>
+            <div id="hair-color-selection">
+                <div class="color-box selected" data-value="Black" style="background-color: #000000;"></div>
+                <div class="color-box" data-value="Brown" style="background-color: #6f4f28;"></div>
+                <div class="color-box" data-value="Blonde" style="background-color: #f9e67a;"></div>
+                <div class="color-box" data-value="Red" style="background-color: #e03c31;"></div>
+                <div class="color-box" data-value="Gray" style="background-color: #a9a9a9;"></div>
+                <div class="color-box" data-value="White" style="background-color: #ffffff;"></div>
+                <div class="color-box" data-value="Pink" style="background-color: #f48fb1;"></div>
+                <div class="color-box" data-value="Blue" style="background-color: #2196f3;"></div>
+                <div class="color-box" data-value="Purple" style="background-color: #9c27b0;"></div>
+                <div class="color-box" data-value="Green" style="background-color: #4caf50;"></div>
+                <div class="color-box" data-value="Orange" style="background-color: #ff9800;"></div>
+                <div class="color-box" data-value="Rainbow" style="background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #7fff00, #00ff00, #00ff7f, #00ffff, #007fff, #0000ff, #7f00ff, #ff00ff, #ff007f);"></div>
+                <div class="color-box" data-value="Trans Flag" style="background: linear-gradient(90deg, #5BCEFA, #F5A9B8, #fff, #F5A9B8, #5BCEFA);"></div>
+                <div class="color-box" data-value="Pride Flag" style="background: linear-gradient(90deg, #e40303, #ff8c00, #ffed00, #008026, #004dff, #750787, #d50032);"></div>
+                <div class="color-box" data-value="Lesbian Flag" style="background: linear-gradient(90deg, #d62e7d, #ff9a8b, #ffb6c1, #fc90aa, #d62e7d);"></div>
+                <div class="color-box" data-value="Gay Flag" style="background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #8b00ff);"></div>
+                <div class="color-box" data-value="Nonbinary Flag" style="background: linear-gradient(90deg, #fcf434, #fff, #9c4f2f, #fff, #fcf434);"></div>
+                <div class="color-box" data-value="Ace Flag" style="background: linear-gradient(90deg, #000000, #a4a400, #ffffff, #a4a400, #000000);"></div>
+                <div class="color-box" data-value="Pan Flag" style="background: linear-gradient(90deg, #ff2196, #ffcb08, #1c8bff, #76c4f0, #b46c7c);"></div>
+            </div>
+            
+            <h3 id="points-remaining">Stats (10 points available)</h3>
+            <div id="stats">
+                <div class="stat">
+                    <label for="strength"><p data-stat="strength" class="stat-label stat-first">Strength</p></label>
+                    <button class="stat-btn" data-action="decrease" data-stat="strength">-</button>
+                    <input type="number" id="strength" value="5" min="5" max="20" tabindex="-1" >
+                    <p id="strength-display" class="stat-display">5</p>
+                    <button class="stat-btn" data-action="increase" data-stat="strength">+</button>
+                </div>
+                <div class="stat">
+                    <label for="dexterity"><p data-stat="dexterity" class="stat-label">Dexterity</p></label>
+                    <button class="stat-btn" data-action="decrease" data-stat="dexterity">-</button>
+                    <input type="number" id="dexterity" value="5" min="5" max="20" tabindex="-1" >
+                    <p id="dexterity-display" class="stat-display">5</p>
+                    <button class="stat-btn" data-action="increase" data-stat="dexterity">+</button>
+                </div>
+                <div class="stat">
+                    <label for="intelligence"><p data-stat="intelligence" class="stat-label">Intelligence</p></label>
+                    <button class="stat-btn" data-action="decrease" data-stat="intelligence">-</button>
+                    <input type="number" id="intelligence" value="5" min="5" max="20" tabindex="-1" >
+                    <p id="intelligence-display" class="stat-display">5</p>
+                    <button class="stat-btn" data-action="increase" data-stat="intelligence">+</button>
+                </div>
+                <div class="stat">
+                    <label for="charisma"><p data-stat="charisma" class="stat-label">Charisma</p></label>
+                    <button class="stat-btn" data-action="decrease" data-stat="charisma">-</button>
+                    <input type="number" id="charisma" value="5" min="5" max="20" tabindex="-1" >
+                    <p id="charisma-display" class="stat-display">5</p>
+                    <button class="stat-btn" data-action="increase" data-stat="charisma">+</button>
+                </div>
+                <div class="stat">
+                    <label for="wisdom"><p data-stat="wisdom" class="stat-label">Wisdom</p></label>
+                    <button class="stat-btn" data-action="decrease" data-stat="wisdom">-</button>
+                    <input type="number" id="wisdom" value="5" min="5" max="20" tabindex="-1" >
+                    <p id="wisdom-display" class="stat-display">5</p>
+                    <button class="stat-btn" data-action="increase" data-stat="wisdom">+</button>
+                </div>
+            </div>
+            
+            <h3>Sided Stat</h3>
+            <div id="sided-toggle">
+                <button data-value="Left">Left</button>
+                <button data-value="Slightly Left">Slightly Left</button>
+                <button class="selected" data-value="Middle">Middle</button>
+                <button data-value="Slightly Right">Slightly Right</button>
+                <button data-value="Right">Right</button>
+            </div>
+
+            <br/>
+            <h2 id="customization-header">World Settings</h2>
+            
+            <h3>Game Difficulty</h3>
+            <div id="difficulty-toggle">
+                <button data-value="Easy">Easy</button>
+                <button class="selected" data-value="Normal">Normal</button>
+                <button data-value="Hard">Hard</button>
+                <button data-value="Permadeath">Permadeath</button>
+            </div>
+            
+            <h3>Cheats</h3>
+            <div id="cheats">
+                <button data-cheat="cheat1">Cheat 1</button>
+                <button data-cheat="cheat2">Cheat 2</button>
+                <button data-cheat="cheat3">Cheat 3</button>
+                <button data-cheat="cheat4">Cheat 4</button>
+                <button data-cheat="cheat5">Cheat 5</button>
+            </div>
+            
+            <h3>World Generation</h3>
+            <div id="world-presets">
+                <button class="selected" data-value="true">X</button>
+                <p>Use a pre-loaded world (WARNING: unchecking takes a long time to create a new world!)</p>
+            </div>
+            
+            <button id="start-game">Start Game</button>
+        </div>
+
+        <div id="adventure">
+            <h3 id="tile-location">Location</h3>
+            <div id="status">
+                <p id="tile-interaction">You have never seen this place.</p>
+                <p id="tile-encounter">There is nothing interesting here.</p>
+                <p id="player-status">You seem to be fine.</p>
+            </div>
+            <div id="button-bar">
+                <button class="action-button" id="action-1">Option 1</button>
+                <button class="action-button" id="action-2">Option 2</button>
+                <button class="action-button" id="action-3">Option 3</button>
+                <button class="action-button" id="action-4">Option 4</button>
+                <button class="action-button" id="action-5">Use Item</button>
+                <button class="action-button" id="action-none">No Actions Available</button>
+            </div>
+            <div id="story-1" class="story-item"></div>
+            <div id="story-2" class="story-item"></div>
+            <div id="story-3" class="story-item"></div>
+        </div>
+
+        <div id="loading">
+            <h3 id="tile-location">Loading Game</h3>
+            <div id="status">
+                <p id="loading-step">Starting Generation...</p>
+                <p id="player-status"></p>
+                <p id="player-fill">Generating a new map may take some time. Please be patient.</p>
+            </div>
+        </div>
+
+        <div id="right-bar">
+            <div id="npc-container-1" class="npc-neutral">
+                <div id="npc-header-1">
+                    <h2 id="npc-name-1">NPC 1</h2>
+                    <p id="npc-gender-1">she/her</p>
+                    <p id="npc-size-1"></p>
+                </div>
+                <div id="npc-display-1">
+                    <div id="npc-stats-1">
+                        <div class="stat-preview npc-stat"><p>Str</p> <p id="npc-strength-1">5</p></div>
+                        <div class="stat-preview npc-stat"><p>Dex</p> <p id="npc-dexterity-1">5</p></div>
+                        <div class="stat-preview npc-stat"><p>Int</p> <p id="npc-intelligence-1">5</p></div>
+                        <div class="stat-preview npc-stat"><p>Cha</p> <p id="npc-charisma-1">5</p></div>
+                        <div class="stat-preview npc-stat"><p>Wis</p> <p id="npc-wisdom-1">5</p></div>
+                    </div>
+                </div>
+                <div id="npc-handh-1">
+                    <div id="npc-health-bar-1">
+                        <div id="npc-health-1">
+                            <p id="npc-handh-display-bumper-1">0/0</p>
+                        </div>
+                        <p id="npc-health-display-1">25/50</p>
+                    </div>
+                </div>
+            </div>
+            <div id="npc-container-2" class="npc-hostile">
+                <div id="npc-header-2">
+                    <h2 id="npc-name-2">NPC 2</h2>
+                    <p id="npc-gender-2">he/him</p>
+                    <p id="npc-size-2"></p>
+                </div>
+                <div id="npc-display-2">
+                    <div id="npc-stats-2">
+                        <div class="stat-preview npc-stat"><p>Str</p> <p id="npc-strength-2">5</p></div>
+                        <div class="stat-preview npc-stat"><p>Dex</p> <p id="npc-dexterity-2">5</p></div>
+                        <div class="stat-preview npc-stat"><p>Int</p> <p id="npc-intelligence-2">5</p></div>
+                        <div class="stat-preview npc-stat"><p>Cha</p> <p id="npc-charisma-2">5</p></div>
+                        <div class="stat-preview npc-stat"><p>Wis</p> <p id="npc-wisdom-2">5</p></div>
+                    </div>
+                </div>
+                <div id="npc-handh-2">
+                    <div id="npc-health-bar-2">
+                        <div id="npc-health-2">
+                            <p id="npc-handh-display-bumper-2">0/0</p>
+                        </div>
+                        <p id="npc-health-display-2">25/50</p>
+                    </div>
+                </div>
+            </div>
+            <div id="npc-container-3" class="npc-friendly">
+                <div id="npc-header-3">
+                    <h2 id="npc-name-3">NPC 3</h2>
+                    <p id="npc-gender-3">he/him</p>
+                    <p id="npc-size-3"></p>
+                </div>
+                <div id="npc-display-3">
+                    <div id="npc-stats-3">
+                        <div class="stat-preview npc-stat"><p>Str</p> <p id="npc-strength-3">5</p></div>
+                        <div class="stat-preview npc-stat"><p>Dex</p> <p id="npc-dexterity-3">5</p></div>
+                        <div class="stat-preview npc-stat"><p>Int</p> <p id="npc-intelligence-3">5</p></div>
+                        <div class="stat-preview npc-stat"><p>Cha</p> <p id="npc-charisma-3">5</p></div>
+                        <div class="stat-preview npc-stat"><p>Wis</p> <p id="npc-wisdom-3">5</p></div>
+                    </div>
+                </div>
+                <div id="npc-handh-3">
+                    <div id="npc-health-bar-3">
+                        <div id="npc-health-3">
+                            <p id="npc-handh-display-bumper-3">0/0</p>
+                        </div>
+                        <p id="npc-health-display-3">25/50</p>
+                    </div>
+                </div>
+            </div>
+            <div id="npc-container-4" class="npc-active">
+                <div id="npc-header-4">
+                    <h2 id="npc-name-4">NPC 4</h2>
+                    <p id="npc-gender-4">he/him</p>
+                    <p id="npc-size-4"></p>
+                </div>
+                <div id="npc-display-4">
+                    <div id="npc-stats-4">
+                        <div class="stat-preview npc-stat"><p>Str</p> <p id="npc-strength-4">5</p></div>
+                        <div class="stat-preview npc-stat"><p>Dex</p> <p id="npc-dexterity-4">5</p></div>
+                        <div class="stat-preview npc-stat"><p>Int</p> <p id="npc-intelligence-4">5</p></div>
+                        <div class="stat-preview npc-stat"><p>Cha</p> <p id="npc-charisma-4">5</p></div>
+                        <div class="stat-preview npc-stat"><p>Wis</p> <p id="npc-wisdom-4">5</p></div>
+                    </div>
+                </div>
+                <div id="npc-handh-4">
+                    <div id="npc-health-bar-4">
+                        <div id="npc-health-4">
+                            <p id="npc-handh-display-bumper-4">0/0</p>
+                        </div>
+                        <p id="npc-health-display-4">25/50</p>
+                    </div>
+                </div>
+            </div>
+            <div id="npc-container-5" class="npc-boss">
+                <div id="npc-header-5">
+                    <h2 id="npc-name-5">NPC 5</h2>
+                    <p id="npc-gender-5">they/them</p>
+                    <p id="npc-size-5"></p>
+                </div>
+                <div id="npc-display-5">
+                    <div id="npc-stats-5">
+                        <div class="stat-preview npc-stat"><p>Str</p> <p id="npc-strength-5">5</p></div>
+                        <div class="stat-preview npc-stat"><p>Dex</p> <p id="npc-dexterity-5">5</p></div>
+                        <div class="stat-preview npc-stat"><p>Int</p> <p id="npc-intelligence-5">5</p></div>
+                        <div class="stat-preview npc-stat"><p>Cha</p> <p id="npc-charisma-5">5</p></div>
+                        <div class="stat-preview npc-stat"><p>Wis</p> <p id="npc-wisdom-5">5</p></div>
+                    </div>
+                </div>
+                <div id="npc-handh-5">
+                    <div id="npc-health-bar-5">
+                        <div id="npc-health-5">
+                            <p id="npc-handh-display-bumper-5">0/0</p>
+                        </div>
+                        <p id="npc-health-display-5">25/50</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

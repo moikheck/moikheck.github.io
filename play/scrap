@@ -1,0 +1,98 @@
+
+
+function getNextBiomeType(currentBiome) {
+    const weather = currentBiome.weather;
+    const probabilities = getTransitionProbabilities(currentBiome, weather);
+    
+    const biomes = Object.keys(probabilities);
+    const random = Math.random();
+    let cumulative = 0;
+
+    for (const biome of biomes) {
+        cumulative += probabilities[biome];
+        if (random < cumulative) {
+            return biome;
+        }
+    }
+
+    return biomes[0]; // Default to first biome in case of an error
+}
+
+// Ensure the town fits in the grid with a buffer for walls
+    // if (!isWithinGrid(x - (townWidth + 2) / 2 - wallThickness, y - (townHeight + 2) / 2 - wallThickness, grid.length) ||
+    //     !isWithinGrid(x + (townWidth + 2) / 2 + wallThickness, y + (townHeight + 2) / 2 + wallThickness, grid.length)) {
+    //         console.log("BAD TOWN: ", x, y);
+    //     return false; // Not enough space to create a town
+    // }
+
+    function chooseNextBiome(currentBiome, completedBiomeList) {
+        const candidates = remainingBiomes.filter(biomeKey => {
+            var biome = "";
+            if (biomeConfigs[currentBiome].transition[biomeKey] && !completedBiomeList.includes(biomeKey)) {
+                biome = biomeConfigs[currentBiome].transition[biomeKey];
+                return biome;
+            }
+        });
+        return candidates[Math.floor(Math.random() * candidates.length)];
+    }
+
+    
+function getTransitionProbabilities(currentBiome, weather) {
+    const transitionProbabilities = currentBiome.transition;
+    const adjustedProbabilities = {};
+
+    for (const [biome, prob] of Object.entries(transitionProbabilities)) {
+        adjustedProbabilities[biome] = prob;
+
+        // Adjust probabilities based on weather
+        if (biomeConfigs[biome].weather === weather) {
+            adjustedProbabilities[biome] *= 1.2; // Increase probability for matching weather
+        } else {
+            adjustedProbabilities[biome] *= 0.8; // Decrease probability for differing weather
+        }
+    }
+
+    const total = Object.values(adjustedProbabilities).reduce((sum, prob) => sum + prob, 0);
+    for (const biome in adjustedProbabilities) {
+        adjustedProbabilities[biome] /= total;
+    }
+
+    return adjustedProbabilities;
+}
+
+
+
+function getValidTownNeighbors(x, y, grid) {
+    return getNeighbors(x, y).filter(([nx, ny]) => {
+        return (
+            isWithinGrid(nx, ny, grid.length)
+        );
+    });
+}
+
+
+        // for (let x = 0; x < gridSize; x++) {
+        //     for (let y = 0; y < gridSize; y++) {
+        //         if (getTileByCoordinates(x, y) == null) {
+        //             let neighbors = [
+        //                 grid[x + 1]?.[y], grid[x - 1]?.[y],
+        //                 grid[x]?.[y + 1], grid[x]?.[y - 1],
+        //                 grid[x + 1]?.[y+1], grid[x + 1]?.[y-1],
+        //                 grid[x - 1]?.[y+1], grid[x - 1]?.[y-1]
+        //             ].filter(Boolean);
+
+        //             let neighborBiomes = neighbors.map(neighbor => neighbor.biome);
+        //             let mostCommonBiome = neighborBiomes.sort((a, b) =>
+        //                 neighborBiomes.filter(biome => biome === a).length -
+        //                 neighborBiomes.filter(biome => biome === b).length
+        //             ).pop();
+
+        //             if (mostCommonBiome) {
+        //                 console.log("RECURSIVE");
+        //                 var newTile = new Tile(x, y, mostCommonBiome, mostCommonBiome);
+        //                 grid[x][y] = newTile;
+        //                 tileset.push(newTile);
+        //             }
+        //         }
+        //     }
+        // }

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biome Grid Display</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        #grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(10px, 10px));
+            gap: 0px;
+            border: 1px solid #ccc;
+            background-color: #f0f0f0;
+        }
+        .tile {
+            width: 10px;
+            height: 10px;
+            border: 0px solid #aaa;
+        }
+        .glitchTile {
+            background: linear-gradient(321deg, #843333, #8b3476, #371a30, #371a30);
+            background-size: 800% 800%;
+
+            -webkit-animation: glitchTileAnimation 13s ease infinite;
+            -moz-animation: glitchTileAnimation 13s ease infinite;
+            -o-animation: glitchTileAnimation 13s ease infinite;
+            animation: glitchTileAnimation 13s ease infinite;
+        }
+
+        @-webkit-keyframes glitchTileAnimation {
+            0%{background-position:15% 0%}
+            50%{background-position:86% 100%}
+            100%{background-position:15% 0%}
+        }
+        @-moz-keyframes glitchTileAnimation {
+            0%{background-position:15% 0%}
+            50%{background-position:86% 100%}
+            100%{background-position:15% 0%}
+        }
+        @-o-keyframes glitchTileAnimation {
+            0%{background-position:15% 0%}
+            50%{background-position:86% 100%}
+            100%{background-position:15% 0%}
+        }
+        @keyframes glitchTileAnimation {
+            0%{background-position:15% 0%}
+            50%{background-position:86% 100%}
+            100%{background-position:15% 0%}
+        }
+    </style>
+</head>
+<body>
+    <div id="grid"></div>
+    <script src="generation.js"></script>
+    <script>
+
+    </script>
+</body>
+</html>
