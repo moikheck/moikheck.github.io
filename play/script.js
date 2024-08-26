@@ -422,9 +422,9 @@ document.getElementById('start-game').addEventListener('click', function () {
                 gameInfo.preloadedTilesets.push(preload7);
             })
         })
-        setTimeout(1000);
-        console.log(gameInfo.preloadedTilesets);
-        tileset = gameInfo.preloadedTilesets[Math.floor(Math.random() * gameInfo.preloadedTilesets.length)];
+        setTimeout(5000);
+        setTimeout(() => console.log(gameInfo.preloadedTilesets), 0);
+        setTimeout(() => tileset = gameInfo.preloadedTilesets[Math.floor(Math.random() * gameInfo.preloadedTilesets.length)], 0);
     } else {
     
         setTimeout(1000);
