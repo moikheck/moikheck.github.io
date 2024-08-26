@@ -387,44 +387,15 @@ document.getElementById('start-game').addEventListener('click', function () {
     loading.style.display = "flex";
 
     if (gameInfo.usePreloaded) {
-        $.getScript("preloaded/preload1.js", function() {
+        let chosenPreload = Math.ceil(Math.random() * 7);
+        $.getScript("preloaded/preload" + chosenPreload + ".js", function() {
             $(document).ready(function() {
                 gameInfo.preloadedTilesets.push(preload1);
             })
-        })
-        $.getScript("preloaded/preload2.js", function() {
-            $(document).ready(function() {
-                gameInfo.preloadedTilesets.push(preload2);
-            })
-        })
-        $.getScript("preloaded/preload3.js", function() {
-            $(document).ready(function() {
-                gameInfo.preloadedTilesets.push(preload3);
-            })
-        })
-        $.getScript("preloaded/preload4.js", function() {
-            $(document).ready(function() {
-                gameInfo.preloadedTilesets.push(preload4);
-            })
-        })
-        $.getScript("preloaded/preload5.js", function() {
-            $(document).ready(function() {
-                gameInfo.preloadedTilesets.push(preload5);
-            })
-        })
-        $.getScript("preloaded/preload6.js", function() {
-            $(document).ready(function() {
-                gameInfo.preloadedTilesets.push(preload6);
-            })
-        })
-        $.getScript("preloaded/preload7.js", function() {
-            $(document).ready(function() {
-                gameInfo.preloadedTilesets.push(preload7);
-            })
-        })
+        });
         setTimeout(5000);
-        setTimeout(() => console.log(gameInfo.preloadedTilesets), 0);
-        setTimeout(() => tileset = gameInfo.preloadedTilesets[Math.floor(Math.random() * gameInfo.preloadedTilesets.length)], 0);
+        setTimeout(() => console.log(gameInfo.preloadedTilesets), 5200);
+        setTimeout(() => tileset = gameInfo.preloadedTilesets[Math.floor(Math.random() * gameInfo.preloadedTilesets.length)], 5300);
     } else {
     
         setTimeout(1000);
