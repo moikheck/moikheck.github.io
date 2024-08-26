@@ -389,35 +389,39 @@ document.getElementById('start-game').addEventListener('click', function () {
     if (gameInfo.usePreloaded) {
         $.getScript("preloaded/preload1.js", function() {
             $(document).ready(function() {
-                gameInfo.preloadedTilesets.push(preload);
+                gameInfo.preloadedTilesets.push(preload1);
             })
         })
         $.getScript("preloaded/preload2.js", function() {
             $(document).ready(function() {
-                gameInfo.preloadedTilesets.push(preload);
+                gameInfo.preloadedTilesets.push(preload2);
             })
         })
         $.getScript("preloaded/preload3.js", function() {
             $(document).ready(function() {
-                gameInfo.preloadedTilesets.push(preload);
+                gameInfo.preloadedTilesets.push(preload3);
             })
         })
         $.getScript("preloaded/preload4.js", function() {
             $(document).ready(function() {
-                gameInfo.preloadedTilesets.push(preload);
+                gameInfo.preloadedTilesets.push(preload4);
             })
         })
         $.getScript("preloaded/preload5.js", function() {
             $(document).ready(function() {
-                gameInfo.preloadedTilesets.push(preload);
+                gameInfo.preloadedTilesets.push(preload5);
             })
         })
         $.getScript("preloaded/preload6.js", function() {
             $(document).ready(function() {
-                gameInfo.preloadedTilesets.push(preload);
+                gameInfo.preloadedTilesets.push(preload6);
             })
         })
-        gameInfo.preloadedTilesets.push(preload1);
+        $.getScript("preloaded/preload7.js", function() {
+            $(document).ready(function() {
+                gameInfo.preloadedTilesets.push(preload7);
+            })
+        })
         tileset = gameInfo.preloadedTilesets[Math.floor(Math.random() * gameInfo.preloadedTilesets.length)];
     } else {
     
