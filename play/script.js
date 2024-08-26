@@ -390,23 +390,28 @@ document.getElementById('start-game').addEventListener('click', function () {
         let chosenPreload = Math.ceil(Math.random() * 7);
         $.getScript("preloaded/preload" + chosenPreload + ".js", function() {
             $(document).ready(function() {
-                gameInfo.preloadedTilesets.push(preload1);
+                gameInfo.preloadedTilesets.push(preload);
             })
         });
         setTimeout(5000);
         setTimeout(() => console.log(gameInfo.preloadedTilesets), 5200);
         setTimeout(() => tileset = gameInfo.preloadedTilesets[Math.floor(Math.random() * gameInfo.preloadedTilesets.length)], 5300);
+
+        gameInfo.gameStarted = true;
+        setTimeout(() => movePlayer("33"), 5400);
+        setTimeout(() => loading.style.display = "none", 5400);
+        setTimeout(() => adventure.style.display = "flex", 5400);
+        setTimeout(() => saveButton.style.visibility = "visible", 5400);
     } else {
-    
         setTimeout(1000);
         setTimeout(() => gridSet = generateBiomes(emptyGrid), 0);
-    }
 
-    gameInfo.gameStarted = true;
-    setTimeout(() => movePlayer("33"), 0 );
-    setTimeout(() => loading.style.display = "none");
-    setTimeout(() => adventure.style.display = "flex");
-    setTimeout(() => saveButton.style.visibility = "visible");
+        gameInfo.gameStarted = true;
+        setTimeout(() => movePlayer("33"), 0 );
+        setTimeout(() => loading.style.display = "none");
+        setTimeout(() => adventure.style.display = "flex");
+        setTimeout(() => saveButton.style.visibility = "visible");
+    }
 });
 
 function showOverlay(type) {
