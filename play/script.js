@@ -422,6 +422,8 @@ document.getElementById('start-game').addEventListener('click', function () {
                 gameInfo.preloadedTilesets.push(preload7);
             })
         })
+        console.log(gameInfo.preloadedTilesets);
+        setTimeout(500);
         tileset = gameInfo.preloadedTilesets[Math.floor(Math.random() * gameInfo.preloadedTilesets.length)];
     } else {
     
