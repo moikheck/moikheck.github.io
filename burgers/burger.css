@@ -1,0 +1,192 @@
+.display {
+    height:450px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.display > img {
+    width:600px;
+}
+
+
+.strips > div > h1 {
+    grid-area: title;
+    font-size: 30pt;
+}
+
+.strips > div > img {
+    height: 375px;
+    grid-area: picture;
+}
+
+.strips > div > p {
+    grid-area: description;
+    font-size: 20pt;
+    width: 325px;
+    position: relative;
+    top: -30px;
+
+}
+
+.strips > div > button {
+    grid-area: button;
+    width: 200px;
+    border-radius: 30px;
+    height: 50px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid gray;
+    transition: all .5s;
+    letter-spacing: 5px;
+}
+
+.strips > div > button:hover {
+    background-color: gray;
+}
+
+.dark-strip {
+    background-color: rgb(48,48,48);
+    height: 450px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas:
+    "title picture"
+    "description picture"
+    "button picture";
+    align-items: center;
+    justify-items: center;
+    text-align: right;
+    column-gap: 5%;
+}
+
+.dark-strip > h1, .dark-strip > p {
+    color: rgb(160,160,160);
+}
+
+.light-strip {
+    background-color: rgb(160,160,160);
+    height: 450px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas:
+    "picture title" 
+    "picture description" 
+    "picture button";
+    align-items: center;
+    justify-items: center;
+    text-align: left;
+    column-gap: 5%;
+}
+
+.light-strip > h1, .light-strip > p {
+    color: rgb(48,48,48);
+}
+
+.dark-strip > h1, .dark-strip > p, 
+.light-strip > img {
+    text-align: right;
+    align-self: right;
+    justify-self: right;
+}
+
+.light-strip > h1, .light-strip > p, 
+.dark-strip > img{
+    text-align: left;
+    align-self: left;
+    justify-self: left;
+}
+
+.light-strip > button {
+    align-self: left;
+    justify-self: left;
+}
+
+.dark-strip > button {
+    align-self: right;
+    justify-self: right;
+}
+
+@media screen and (max-width: 1000px) {
+    .strips > div > h1 {
+        font-size: 36pt;
+    }
+    .strips > div > img {
+        height: 325px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .display > img {
+        width:80vw;
+    }
+
+    .strips > div > img {
+        height: 200px;
+        padding-top: 6%;
+    }
+
+    .strips > div > h1 {
+        font-size: 24pt;
+    }
+
+
+    .dark-strip {
+        background-color: rgb(48,48,48);
+        height: 300px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+        "title picture"
+        "description picture"
+        "button button";
+        align-items: center;
+        justify-items: center;
+        text-align: right;
+    }
+
+    .light-strip {
+        background-color: rgb(160,160,160);
+        height: 300px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+        "picture title" 
+        "picture description" 
+        "button button";
+        align-items: center;
+        justify-items: center;
+        text-align: left;
+    }
+
+    .strips > div > p {
+        grid-area: description;
+        font-size: 14pt;
+        width: 90%;
+    
+    }
+
+    .dark-strip > h1, .dark-strip > p {
+        text-align: right;
+        align-self: right;
+        justify-self: right;
+    }
+
+    .light-strip > h1, .light-strip > p {
+        text-align: left;
+        align-self: left;
+        justify-self: left;
+    }
+
+    .light-strip > button, .dark-strip > button {
+        align-self: center;
+        justify-self: center;
+    }
+
+}
